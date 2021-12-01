@@ -24,4 +24,4 @@ The results for each term are grouped by source year and then the scores for eac
 * (year) parnell_vader_strong_non_compound_scores_sentiment_high
 * (year) parnell_vader_strong_non_compound_scores_sentiment_low
 
-These grouped results are used to create four visualisations of the top high sentiment terms for each year, with a limitation of the top 50 terms for each visualisation.
+These grouped results are used to create four visualisations of the top high sentiment terms for each year as additional outputs, with a limitation of the top 50 terms for each visualisation.
