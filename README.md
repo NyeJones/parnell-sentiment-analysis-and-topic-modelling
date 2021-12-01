@@ -1,4 +1,4 @@
-# Parnell-Speeches
+# Parnell Speeches: Sentiment Analysis and Topic Modelling
 A repository for a Cambridge Humanities Research Grant funded sentiment analysis and topic modelling project relating to the speeches of Charles Stewart Parnell, using the transcribed speeches of Parnell, from various sources, as a dataset. The focus of the project is on finding high sentiment  areas of text in general, rather than positive or negative sentiment.
 
 ## Data
