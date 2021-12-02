@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Another Stormy Meeting, The Nation, Saturday 27 November 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Another Stormy Meeting</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315667409" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">4</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-11-27">27 November 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00028"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">           
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://archive.irishnewsarchive.com/Olive/APA/INA.Edu/Default.aspx#panel=document"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Dwyer said he had the greatest possible respect for the honourable member for Meath, and he was sorry that he had allowed himself to be dragged into these proceedings.</p>
+         <p>Mr. Parnell - The member for Meath has not been dragged (a laugh).</p>
+         <p>Mr. Dwyer objected to Mr. Parnell taking any part in that meeting, as he was not a member of the committee (laughter).</p>
+         <p>...</p>
+         <p>Mr. Parnell said he had come to that meeting anxious to carry out those principles of harmony which the reverend gentleman had recommended (hear, hear). His lordship had lately assigned two reasons against the validity of his (Mr. Parnell's) election to the chair on the last day of meeting, and which he was sure his lordship would on reflection admit to be entirely unfounded. The first objection urged against him was that he had not subscribed to the funds of the association. It was true he had not been a contributor to the funds of the committee, and for reasons which, for the sake of harmony, he should prefer not to specify. He should, however, say that he was prepared to defend his conduct in that respect before any public body in Ireland (hear, hear). But although he did not subscribe to the funds of the committee, he did subscribe to other funds connected with the movement (hear, hear). He subscribed to the expenses incurred, and necessarily incurred, in worthily carrying the celebration to a success (hear, hear). He had subscribed to the funds of two public bodies of his constituents in Meath to assist them in taking part in the procession (hear, hear).</p>
+         <p>Chairman - Name them, if you have no objection.</p>
+         <p>Mr. Parnell said he had not the least objection to name them. He had subscribed to the bakers of Meath and the Drogheda band, to assist them in forming part of the procession, and the Amnesty Association. And he submitted that a good deal of the success and credit of the procession was owing to the contingents which came in from the outlying parts of the country to swell it and add to its imposing appearance (hear, hear). He (Mr. Parnell) could not believe the Lord Mayor really desired to rule out as not to be recognised the thousands which had been subscribed in various ways that never reached the hands of the General Committee, or appeared on their list, but which, nevertheless, contributed no less effectually towards celebrating the memory of O'Connell (hear, hear). With regard to the second objection, that a circular was sent him by the committee, requesting his co-operation on the condition of being added to the list of honorary members, he had never received such a circular. He had before stated that he had not received that circular.</p>
+         <p>Mr. Keegan - I saw the circular directed to Mr. Parnell's Wicklow address; it was a few days subsequent to the resolution of Mr. T. D. Sullivan.</p>
+         <p>Mr. Parnell - A circular informing me that, as a member of parliament [italics], if I co-operated with the committee, I should be an honorary member of the committee?</p>
+         <p>Mr. Keegan - Yes [italics].</p>
+         <p>Mr. Parnell - A few days subsequent to the passing of the resolution to that effect?</p>
+         <p>Mr. Keegan - Yes [italics].</p>
+         <p>Mr. Parnell - Well, I was not a member of parliament for a month after [italics] (laughter).</p>
+         <p>...</p>
+         <p>Mr. Parnell - I leave it to the meeting to consider what sort of recollection Mr. Keegan must have of the matter (laughter). I entirely deny your lordship's right to alter the constitution of this committee as it was defined at the national Conference (hear, hear). You have no more right to alter it than has the President of the United States, or the Queen of England, or any other potentate, to alter the constitution of the country over which he or she presides (hear, hear). Your lordship did not act upon the principle on which this committee is and should be governed - namely, by the voice of the majority - when you left the chair on the last occasion, and refused to put Mr. A. M. Sullivan's motion as being unworthy of your lordship's dignity (hear, hear). You then deprived the meeting of your support, and left us to get along as best we could. It would be well, I think, if you had put that resolution, and taken the sense of the meeting on it, without raising the question of the status of members of that committee for the first time (hear, hear). I attended here, and spoke on two previous occasions; but on no occasion was I objected to; and it is only now, when you find a resolution proposed that you do not approve, that you object to me (hear, hear).</p>
+      </body>
+  </text>
+</TEI>

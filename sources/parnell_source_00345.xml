@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Ireland and her Parliaments, The Weekly Freeman's Journal, Saturday 31 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Ireland and her Parliaments</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="176484528" level="j">The Weekly Freeman's Journal</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">7</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-31">31 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00090"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>police report; newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="NAI/CSO/INL 7"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, said - Mr. President, gentlemen of the Cork Young Ireland Society, ladies and gentlemen - It was only in consultation yesterday with some of the leading members of this society that I decided upon</p>
+         <p>THE CHOICE OF SUBJECT</p>
+         <p>which I have been announced to speak to you about this evening, namely - Ireland and her Parliaments (cheers). I have consequently had in the bustle and hurry of the numerous public engagements of the last day or two, but little time to devote to adequate preparation of so important a subject as this. I am, therefore, obliged to appeal to you in the commencement on account of my shortcomings, and if I treat this great subject very inadequately, as I know I shall be obliged to do, you will, I am sure, excuse me, and you will take the will for the deed. I have thought it right to speak to you upon this question as the most suitable one, because I think it is most desirable in the present aspect and with the present prospect of public affairs, that the youth, the young men, and the young Ireland of to-day should have their minds directed to </p>
+         <p>THE PARLIAMENTARY HISTORY AND INSTITUTIONS OF OUR COUNTRY,</p>
+         <p>that by reference to this subject they should understand that Ireland has had a Parliamentary history - that she has had many Parliaments of different kinds, some bad, some indifferent, and some good; that consequently our claims to Parliamentary Government are ancient and well founded. I have to say say [sic] to you this evening should induce any number of you to read the history of our country, or turn your attention to the study of those books of reference to which you have access, and of the doings of the constitution of the Parliaments of Ireland, I shall at last have done some good service to the National cause (applause). The Parliamentary system in Ireland appears to have been introduced into Ireland after the conquest of the country for English purposes. Under that system, as it originally stood, the power of granting supplies to the English King, who also ruled Ireland, was vested in those Parliaments. They had also the power to make laws for the country. It is remarkable that the occasions upon which the Parliaments were summoned together in Ireland were very few and far between - in other words, the English Crown did without their supplies, and contented themselves with the spoliation of the country and with the robbery of the land from her people and its settlement upon the English garrison, and with attacks and confiscations, and the obstruction of the privileges of the Catholic clergy of this country. The first Parliament, such as I have noticed, appears to have been called in the reign of the Henry VIII, on the 12th June, 1541, during the course of the  attempt at the conquest of the country for which that Monarch's reign was so remarkable. This Parliament was remarkable for the fact that a large number of Irish chieftains for the first time recognised its position by sending representatives to its Council Chambers. Its proceedings, however, were of no advantage to the country - it only aided the Crown in its attempts at the conquest of the land. The next Irish Parliament was called in the reign of Elizabeth, on the 12 January, 1560, and ten Irish counties only were represented in it, the remaining members being made up of those returned from boroughs created for the purpose, and which were chiefly occupied by the English garrison. They would observe, however, the Crown was anxious to procure a Parliament subservient to its purposes. Nine years later another Parliament was summoned by Sir Henry Sidney, one of Queen Elizabeth's deputies, and this Parliament was memorable above the others that preceded it for the unconstitutional and unscrupulous methods resorted to by the Crown to obtain its subserviency. This Parliament, in fact, was a mere English faction. The third Elizabethan Parliament was called by Sir John Perrott on the 26th April, 1585.</p>
+         <p>A STRONG IRISH PARTY.</p>
+         <p>This appears to have been the first Assembly to which a strong Irish party was returned, and it was remarkable for the strenuous opposition offered by that party against the English constitutional party. In the reign of James 1. another Parliament was summoned in 1613, twenty-seven years later. You will see that the intervals between these Parliament called in the way I have described, composed of the English party, the Court party, and returned by constituents in which the great majority of the people consisted of the English garrison. The Crown could not even trust that Parliament called together to remain in session for a long period, neither could they venture to call it together very often. In order to secure that these Parliaments should be subservient to England forty new boroughs were created right off. A great contention them took place. The Irish party was very strong in this assembly, and the great contention took place with regard to the election of a Speaker. The Irish party were so strong that they succeeded in returning a Speaker, whereupon the English minority took the Speaker of their own choice, who had been beaten in the vote, and voluntarily, and by foce, placed him in the lap of the Speaker who had been elected to the chair by the Irish party (laughter). In 1661, 48 years later, we hear of another Parliament being summoned, in which the Court party were in a great majority.</p>
+         <p>THE SIEGE OF DERRY.</p>
+         <p>Now, all the Legislative Assemblies, all the Parliaments which I have enumerated up to the present time, were Parliaments which had joined the English Crown in persecuting the people. Acts of spoliation and confiscation were going on during all this period, and, so far as these Parliaments did anything, their acts consisted in the oppression and robbery of our people. It was not until an English King - James II. - in 1689, driven out of his own kingdom by William of Orange and his rebellious subjects, sought refuge here, that a free and independent and truly representative party was summoned, owing to the exigencies of James, for the first time. It was during this Parliament that the memorable Siege of Derry took place. That Parliament repealed the Act of Settlement, which had been passed in the previous reign. But James himself was thoroughly averse to the proceedings of the Parliament on account of its freedom and its desire to undo the misdeeds of its predecessors (applause).</p>
+         <p>IRELAND LOST HER INDEPENDENCE.</p>
+         <p>In the reign of Geo I. Ireland lost its independence owing to a dispute which arose between the Irish House of Lords - of course the Irish Parliament consisted of a House of Lords and a House of Commons - between the Irish House of Lords and the English House of Lords on a question of appellate jurisdiction. The Irish House of Lords was totally opposed to change, and were undoubtedly right in their contention, but the English House resolved not to allow itself to be beaten, and they enacted a measure declaring that the King of England had power, with the consent of the English Parliament, to make laws binding upon Ireland, and that the Irish Parliament had practically no representation whatever; and so the Irish Parliament continued with power to do nothing except to vote supplies to the Crown, without power, practically speaking, to make laws for their own country without the previous consent of the English Parliament.</p>
+         <p>RESURGENT - 1782!</p>
+         <p>So it continued until the reign of George III, when, on the 27th of May 1782, (applause), the independence of the Parliament of Ireland was regained by the exertions of Grattan and the Volunteers of that period. The Parliament of Grattan, although there were many defects in its action and in its franchises, yet undoubtedly had a constitution of a very sufficient character. It had a constitution which would have enabled it to remedy all its own inherent defects - in fact, it had power over itself, over its own formation and future, as well as over the future of Ireland - it had power to vote or refuse to vote supplies to the English Crown, and it had power to make laws for Ireland - it had power to claim, although it did not exert the power to claim, that the Ministers of the Crown should be representative of the majority of the Irish people. Taking all in all, the history of that assembly, consisting as it did only of a very small minority of the people, namely, the Protestants of Ireland, was a noble and remarkable one (hear, hear).</p>
+         <p>THE BRIEF PERIOD OF PROSPERITY.</p>
+         <p>During the 18 years of its existence Ireland prospered, and prospered by leaps and bounds, and we have it on the testimony of Lord Clare that the progress of Ireland in every material respect was most remarkable; and there can be no doubt that if the destinies of the country had been left with that assembly - if the constitution of 1782 had been maintained - Catholic Emancipation would have been gained long before it was subsequently from the English Parliament by O'Connell (applause). It would have been also better for both the people and the owners of the land - the landowners in Ireland. They would have been taught to conciliate the people towards them; they would have learned to govern the people justly and uprightly, and to give them by degrees those larger privileges, the extension of the franchise to the masses of the people, the right for all sections and religions to vote and take their places as members for constituencies, which it has taken eighty-four years of struggling to obtain (hear, hear). I cannot doubt that much mischief would have been spared, and that instead of occupying the humiliating position which the landlord class now do, they would have a better and a happier one; and as for the people, their sufferings would have been largely mitigated. Our material resources would have been developed and increased, our population would not have been banished from the country, and we would be in a different position now from what we are in to-day (applause).</p>
+         <p>THE GREEN-EYED MONSTER.</p>
+         <p>But the great powers of the Irish Parliament of 1782 aroused the alarm of English statesmen, and a determined attempt was set on foot to destroy its independence and rob Ireland of her constitution and her parliamentary institutions by sapping the integrity of its members. The means resorted to are a matter of history, and you are all well acquainted with them, namely, the bribery and corruption amongst members representing the borough constituencies in the Government.</p>
+         <p>THE UNION.</p>
+         <p>In 1800 the Legislative Union between Great Britain and Ireland was enacted by a vote of 158 to 115 members, 27 being absent. It is very much to the credit of the minority of 115 that they should have remained faithful, but the discredit is great that must always attach to the representatives who basely surrendered the birthright of their country. The Legislative Union, as I say, was enacted in 1800, and it has taken 84 years to convince England that after all she has not made such a good bargain as she thought she would have made out of it (applause). She has disgraced herself in the eyes of the world by her misgovernment of this country (hear, hear, and applause.) She has bungled and blundered beyond belief. She has been cruel and vindictive to a point that would be incredible were it not a sad reality (applause).</p>
+         <p>ENGLAND'S FAILURE.</p>
+         <p>But having every means and all means, having tried the quarterings of the yeomanry and the pitch caps and triangles, and the gibbets in 1798 (cheers); having tried her transportations and her penal servitude in 1848 (cheers); having tried her imprisonment and her penal servitude in 1865 (loud cheers); having tried her coercion in 1880 (hisses), she finds our people still unbroken (cheers), still presenting an united front to her misgovernment (hear, hear), still determined, and now in a position of more unconquerable force than ever to win back our lost rights (cheers). We stand on unapproachable ground.</p>
+         <p>NO MORE AND NO LESS.</p>
+         <p>We are entitled to ask that that which has been stolen from us by means which nobody now seeks to defend for a moment shall be restored to us (applause). We might, perhaps, be unwise if we went further than that demand - we should certainly be foolish if we asked for anything less (loud cheers). Coming, as I do, amongst you in this year 1885, I can see no sign of a diminution in the determination of the people of Cork to help in this great struggle (applause). On the contrary, I find everywhere amongst all ranks and classes of society a great confidence, belief, and conviction in the success of our cause. By remaining united, by bearing with one another's differences of opinion, by refraining from straining at gnats, and, above all, by the exercise of that courage and determination which has been the birthright of Irishmen in all ages, I believe that in the future we shall win our battle (applause).</p>
+         <p>THE NEW FRANCHISE.</p>
+         <p>The admission of the masses of the people to the franchise is a most important help. It will be possible for them to say now for the first time beyond yea or nay what the real opinion of the Irish people is upon this question (cheers). Up to now there has been a fictitious representation of Ireland. The representatives of the people were in a minority, and the representatives of the oligarchy were in the great majority. The latter have had, therefore, an importance attached to their representations and claims which did not really belong to them, and which they will be unable to find henceforward. [Underlined] When Whigs and Tories are practically stamped out; when we have a united representation from Ireland amounting to eighty-five members, it will be impossible for any people, for any Parliament - even so intolerant and haughty an assembly as the English Parliament and people - long to withstand our claims. [Underlined]</p>
+         <p>THE GREATER IRELAND.</p>
+         <p>We have got helps; we have a race greater than our own across the Atlantic (loud and prolonged applause). It is no disparagement to you to say that there is a greater Ireland in America; we have a growing and an influential population in Australia (applause), we have large contingents in England and in Scotland - with all these aids and all these helps, surveying our position, [Underlined] I know that England has already in her own heart given upon the contest (loud and continued applause) [Underlined], and that it only remains for you to be as determined and as true as your brothers and sisters in other parts of the world (hear, hear) to enable us and you to gain that restitution which is our right, and less than which we shall never accept (great cheering, amid which the lecturer resumed his seat).</p>
+         <p></p>
+         <p></p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

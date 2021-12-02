@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Peace Preservation (Ireland) Bill, Hansard's Parliamentary Debates, Monday 26 April 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Peace Preservation (Ireland) Bill</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-04-26">26 April 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00005"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">         
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL, in supporting the Motion of the hon. Member for Cavan, observed, that no arguments had been advanced against the Amendment of his hon. Friend. The hon. Member for Derry (Mr. R. Smyth), although he agreed with the principle of the Bill, said he should vote in favour of the Amendment as being a just and proper one. The Chief Secretary for Ireland, as an open foe, had, of course, opposed it, and so also had the noble Marquess who was supposed to lead the Opposition in that House. What reason had the hon. Member for Derry given for approving [1644] the principle of the Bill? It was this, that some coercion was necessary in his district to prevent Catholics and Protestants flying at each other's throats. But was that any reason why 30 other Irish counties should be placed under Coercion Laws? It had been said that some half dozen Irish landlords had given it as their opinion that without coercion they could not exercise the rights of property. What did they mean by the rights of property? He always noticed that when a Coercion Bill was to be passed through the House, they heard a great deal about the rights of property, but very little about its duties. Their views as to the rights of property were sometimes a little curious. He had seen Irish landlords sitting in polling-booths as agents for the Conservative candidate, hearing illiterate voters record their votes, and their tenants trembling when they came to vote against that candidate. That was an exercise of the rights of property of which he did not think Englishmen would approve. There had not been threatening letter writing of late, or shooting, or agrarian crime, and was that, he asked, a time to bring in a Coercion Bill? Was that a proper time to stop all discussion on the measure, when Irish Members were telling the House what the wishes of their constituents with regard to it were? The hon. Member for Derry had told the House that the Irish tenant-farmers of the North were convinced that some remedial measures were necessary for the restoration of tranquillity in that part of their country, and had said that if a promise of a Land Bill was held out, whereby small holders would be secured in their holdings, Ireland, instead of being a source of weakness, would be a source of strength to England. He (Mr. Parnell) did not profess to speak on behalf of the Irish tenant-farmers, but he did not believe that Irish tenant-farmers, even those living in the Black North, were so locked up in self-interest as to be inclined to give up the interest of their country to serve that of their class. When the proper time came, perhaps it would be found that he was as true a friend to the tenant-farmer as even the hon. Member for Derry, and he said this, knowing well the importance of securing the tenant in his holding, but knowing also that in the neglect [1645] of the principles of self-government lay the root of all Irish trouble. The Chief Secretary for Ireland had found fault with the language which had been used by the hon. Member for Derry; but he (Mr. Parnell) did not know who had appointed the right hon. Gentleman the censor of the language used in that House by hon. Members. He thought that the facts of the hon. Gentleman were well put, and he only wished he was with them on their (the Home Rule) benches of the House. Perhaps the Chief Secretary for Ireland detected a sort of terror arising in the hon. Member's mind, that the time-honoured and ancient Whig hack would no longer be able to carry matters with a high hand in Derry County, and was holding out to him a helping hand in the event of his thinking of changing his side of the House. For his own part, however, he did not think that the hon. Member was likely to turn his coat, and he was convinced that he would always be found where he believed that the interest of his country required him. He trusted that the time would arrive when the history of the past would be forgotten, so far as it reminded England that she was not entitled to Ireland's confidence, and when she would give to Irishmen the rights which they claimed—the right of self-government. Why should Ireland be treated as a geographical fragment of England, as he had heard an ex-Chancellor of the Exchequer call it some time ago. Ireland was not a geographical fragment, but a nation. He asked the House to regard Ireland as anxious to defend England when her hour of trial came; and he trusted the day might come when England might see that her strength lay in a truly independent, a truly free, and a truly self-supporting Irish nation.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

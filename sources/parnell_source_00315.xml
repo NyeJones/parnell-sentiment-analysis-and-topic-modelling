@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell and his Constituents, The Cork Constitution, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell and his Constituents</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315945048" level="j">The Cork Constitution</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22">22 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7007168">Cork, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0001648/18850122/046/0003"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, on rising, was enthusiastically cheered, and handkerchiefs and hats were waved from all parts of the house. When order was restored, he said - Mr. Mayor, ladies and gentlemen - The Mayor has kindly claimed for me your indulgence, and, indeed, last night when I set out upon the journey which he has described to you, I felt a sinking at my heart lest when I reached Dublin I should find myself unable to go any further, or to keep my engagement with you this evening, but as I approached Ireland I found myself getting better and better (cheers), and when I landed and reached Dublin and came near your beautiful city the change became increasingly [marked; [sic] so when I reached your city, I found myself quite restored and strong as if nothing had been the matter with me. (Cheers.) but, at the same time, I do intend to claim your indulgence this evening, and to make my remarks very much shorter and fewer than they would have been under other circumstances. The previous speaker, Mr. Mahony, has reminded you and me that it wants a month or two of five years since the constituency of Cork honoured me by making me its representative. (Cheers.) [A voice - And you killed Whiggery.] My victory was a very remarkable one - (hear, hear) - coming as I did amongst you, and representing the principles which I did represent - it was most extraordinary that in the limited constituency of this city at that time and with the ideas that then prevailed amongst that constituency - that you should have selected such a politician as me. ('No, no," and applause.) Your member, your late respected member, Joseph Ronayne (cheers), had often told me that it would be impossible for Cork to return two Nationalists, and my return was the first occasion upon which two members of my way of thinking sat for and represented your city. But great as was the advance marked by my return by a very narrow majority, it was as nothing to the change which has since taken place - altogether leaving aside the great extension of the constituency which the Franchise Act has made - in the election of my able colleague, Mr. Deasy (cheers), and it is now no trouble to you to elect any number of Nationalists. (Cheers.) The present constituency of Cork, under the Franchise Act, will leave you in a position free from care, so far as the choice of your representative goes. I do not suppose that the will of Cork will ever again be contested by the oligarchy in the city. (Cheers.) At the election in 1880, I laid certain principles before you. You accepted them. I said and I pledged myself to act in opposition to every English Government that refused to concede the just rights of Ireland - (cheers) - and the longer the time which has gone by since then the more I am convinced that that is the true policy to pursue so far as Parliamentary policy is concerned, and that it will be impossible for either or both of the English parties to contend for any length of time against any body of Irish members acting on those principles and backed by the Irish people. (Cheers.) But we have had not alone that object in view. We have always been very careful not to fetter the people at home in any way; not to prevent them doing anything by their own strength, which it is possible for them to do. Sometimes, in our anxiety in this direction, we have asked them to do that which was beyond their strength; but I hold that it is better to encourage you to try and do that which is sometimes beyond your strength, than to teach you to be subservient and unreliant. (Cheers.) You have been encouraged to organise yourselves, and to depend upon the rectitude of your characters for your justification, and to depend upon the determination which has helped Irishmen through many centuries retain the name and the nationhood of Ireland. (Cheers.) Nobody can point to any single action of justice in the House of Commons or out of it, that was not based upon the knowledge that behind us existed a strong and a brave people, that without the help of that people our exertions would be as nothing, and with the help we shall prove to be in the near future invincible and unconquerable. (Cheers.) It was not until we showed by a great many proofs, that we could do without the enlargement of the franchise, and that with the old restricted franchise we could do all that was necessary in the way of Parliamentary representation - it was only then that the opposition to the admission of the Irish masses disappeared. (Cheers.) I am convinced that the 500,000 or 600,000 Irishmen who within a year must vote for the men of their choice will be as true, even truer to Ireland, than those who have gone before them, and that we may safely trust to them the great and important privilege - unequalled in the history of any nation - which will shortly be placed on them. (Cheers.) I am convinced that when the reckoning comes after the general election of 1886 that we in Ireland will have cause to congratulate ourselves on having a strong party, capable of bearing down all opposition, and which aided by the organisations in our country, believe us, will enable us to gain for our country its rights, which were stolen from us. (Cheers.) We shall struggle, as we have been struggling, for the great and important interests of the tenant-farmer. We shall ask that his industry shall not be fettered by rent. We shall ask also from the tenant-farmer in return that he shall do what in him lies to encourage the struggling manufactures of Ireland, and that he shall not consider it too great a sacrifice to be called upon when he wants anything to think how he can get it of Irish manufacture and material, even if he has to pay a little more for it. (Cheers.) I am sorry that the agricultural community has shown itself somewhat deficient in its duty in this respect, but I am sure that the matter has only to be mentioned to be remedied, and that we shall have markets opened up throughout the country, and the Exhibitions in Dublin and Cork have done a great deal of good in this direction. (Cheers.) We shall endeavour to secure for the labourer some recognition and some right in the land of his own country. (Hear, hear.) We don't care whether it is the prejudice of the farmer or landlord that stands in his way, what ever class obstructs the labourer in the possession of those rights, then that class shall be put down and coerced, if you like, into doing justice for the labourer. (Cheers.) We have shown our desire to benefit the labourer and although the Labourers' Act was mutilated before it passed, it is based on correct lines and principles, and will secure for the labouring classes a portion of that which we are trying to secure for them. (Cheers.) But, gentlemen, I come back from the consideration of the Land Question, in which the Labourer's Question is also involved, and the Manufacturers' Question, and I come to what the attention of every Irish politician must be forced - the great question of the National Self-Government of Ireland. (Loud cheers.) I don't know how this great question will be eventually settled; I don't know whether England will be wise in time and concede to constitutional arguments and methods, the restitution of that which was stolen from us towards the close of the last century. (Cheers.) It is given to none of us to forecast the future, and just as it is impossible for us to show in what way or by what means the National Question will be settled; in what way full justice will be done to Ireland, so it is impossible for us to say to what extent that full justice will be done. We cannot, under the British Constitution, ask for more than the restitution of Grattan's Parliament, but no man has a right to fix the boundary to the march of a nation. (Loud cheers.) No man has a right to say to his country, "Thus far shalt thou go and no further" (cheers), and we have never attempted to fix the ne plus ultra [italics] of the progress of Ireland's nationhood. We never shall, but while we leave these things to time, circumstances and the future, we must each one of us resolve in our own hearts that we shall at all times do everything which within us lies to obtain for Ireland the fullest measure of her rights. In this way we shall avoid difficulties and contentions amongst one another; in this way we shall not give up anything which the accidents or the acts of the future may put in favour of our country, and whilst we struggle to-day for that which it may seem possible for us with our limited sight and short vision to gain to-day, we may struggle for it with the consciousness that, at least, we are doing nothing to hinder or prevent better men from gaining better things than those we now seek. (Loud applause, amidst which Mr. Parnell resumed his seat.)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

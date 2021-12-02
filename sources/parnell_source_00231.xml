@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Laws as to the Regulation and Inclosure of Commons., Hansard's Parliamentary Debates, Monday 29 May 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Laws as to the Regulation and Inclosure of Commons.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-05-29">29 May 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00048"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1876/may/29/law-as-to-the-regulation-and-inclosure#S3V0229P0_18760529_HOC_149"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, notwithstanding the result of the division, and recollecting that two hours of the valuable time of the House had been wasted the other night—["Oh, oh!"] He said "Yes" —two hours of their valuable time had been wasted the other night.—[Renewed cries of "Oh!"] He said "wasted."—[Laughter, and loud cries of "Oh!"] Notwithstanding that two hours of their valuable time had been "wasted" the other night by hon. Gentlemen on the Ministerial side of the House in opposing a Motion of the hon. Member for Hackney, and notwithstanding the interest taken in the measure, he would now move that the Chairman report Progress, and ask leave to sit again.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, the hon. Member for Dundalk (Mr. Callan) was wrong in one point. He (Mr. Parnell) should not feel the least afraid of impugning the decision of the Chairman if he thought it was the wrong one; but on the present occasion he thought nobody was in fault but himself. He owned he had not been sufficiently attentive in challenging the Chairman's decision on the one or two occasions when he put the Question. He knew not whether the Chairman was right or not in his ruling; but there was a larger question involved—namely, as to the practice on the part of hon. Members who had not attended the discussion during the evening, but who came down to the House at a late hour and voted without knowing the merits of the question at issue.</p>
+         <p>...</p>
+         <p>MR. PARNELL , who spoke amid considerable interruption, said, he considered he was perfectly in Order, the question being the propriety of proceeding with legislation at that late hour of the night; and that hon. Members who had not heard the discussion should leave their conscience at the disposal of the Whip and do as he directed them.</p>
+      </body>
+  </text>
+</TEI>

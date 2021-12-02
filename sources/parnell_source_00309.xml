@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parnell, The Irish World and American Industrial Liberator, Saturday 6 March 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key="">J.W.F.</author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parnell</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="48159818683913812012" level="j">The Irish World and American Industrial Liberator</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">7</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-03-06">6 March 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7007567">New York, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00072"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">          
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr President - [(indecipherable) applause] - and Ladies and Gentlemen - It gives me the greatest possible pleasure to see this magnificent meeting, and, of course, I recognize to the fullest extent that you have not assembled here to-night to do me honor, but you have come rather as a token of that appreciation for the cause which I represent in America - [Applause] - and to show your practical sympathy for the struggling oppressed, and suffering people of Ireland. [Applause.]</p>
+         <p>I am happy to think that your help is saving the lives of many hundreds, yes, thousands, of persons; and your sympathy and the force of public opinion of this country has been even more service than the money which you have sent so plentifully to Ireland. {Loud applause, and a voice, "Shut the Herald [italics] down; shut the Herald [italics] down."] It has compelled the British Government, at all events, to pretend to do its duty in coming to the aid of the famished in Ireland. </p>
+         <p>Don't let me be misunderstood, if you please. The Government of England has as yet done nothing, but it is beginning to recognize that the public opinion of America and the world will not permit the Irish people to be starved to death as they were starved. [Applause.]</p>
+         <p>Plenty of Food in Ireland.</p>
+         <p>We do not desire to embroil your Government with that of England by no means; but we think that a people like the American people is entitled to it if it wishes to express its opinion upon this question, and more especially when you have been appealed to in the way you have been, and since you have answered that appeal in the magnificent way in which you have.</p>
+         <p>And now let us consider what the causes of the Irish famine and distress are; and recollect that there is plenty of food in Ireland. There has always been plenty of food in Ireland during those famines. Our Irish famines of food are famines of the means with which to buy food. The peasantry in their attempts to pay impossible rents have spent all their money. That money has gone to the Absentee Landlords - left the country. They now find themselves - those of them who have not taken our advice to pay only a fair rent in this season of scarcity - they now find themselves without one single penny with which to satisfy the cravings of their starving wives and children; and hence this is </p>
+         <p>An Artificial Famine.</p>
+         <p>It is a famine produced, and deliberately produced, by bad law and by Government neglect of the interests of Ireland. What is the situation there? I find that there are in Ireland a little over twenty million acres of land, and about two hundred and ninety-two persons owning one-third of this land. Just reflect for a moment upon these figures. One-third of all the land in Ireland is owned by about as many people as are sitting in that gallery opposite. Well, then, if you take both of these galleries put together you will have, perhaps, four or five hundred people, and four or five hundred people more own about the one-fifth part of the rest of the land in that country; and altogether about ten thousand persons, or about as many as could comfortably sit down inside this hall, own all the lands of Ireland. Few, if any, of them have ever been in that country or ever intended to go there. the money that they receive in the shape of rent is taken away and spent in London, in Paris, in Berlin, in every place except Ireland, and it is as hopelessly lost to that country as if it were thrown into the sea. [Applause.] The condition of the Irish people can only be bettered by abolishing this system which will carry away with it periodical famines. This the people known, and hence the agitation. Now, many people suppose that Ireland is a poor country, but Ireland is not naturally poor.</p>
+         <p>The Lands of Ireland are Exceedingly Rich</p>
+         <p>- unequaled in richness by any lands I have seen in this country. A few days back I visited the Blue Grass region of Kentucky, which is held up to us as one of the more remarkable examples of American fertility. But the Blue Grass regions of Kentucky in point of fertility can not reach the grazing pasture of the great central plains of Ireland. [Applause.] it is true you do not have famines in the Blue Grass regions of Kentucky, while we have famines in our rich plains of Ireland. But the reason is that your farmers in Kentucky are allowed to own land, and to live on it, while the farmers in Ireland are driven off these fertile lands, and compelled to subsist on the barren and rocky hill-sides, which have not as yet tempted the stupidity of the Landlords. If the people were to live on the rich lands and to cultivate them, there would be thirty acres of good land for each of the 600,000 tenant farmers in Ireland, and I believe thirty acres of good land in Ireland are far better than 150 acres of the wild land in this Western region. [Applause.]</p>
+         <p>Mr. Parnell then referred to Mr Froude's testimony as to the English Land system in Ireland and private ownership of land, after which he paid his respects to the New York Herald [italics].</p>
+         <p>Lashing the "Herald."</p>
+         <p>I now come, continued the speaker, to the special relief fund which has been established by the New York Herald [italics] [hisses and groans], and in dealing with this question you must not forget that the New York Herald for several months has been noted for its advocacy of the Landlords' side of the question. [Hisses.] It has thrown its shield over the Irish Landlord, and it is not the fault of the New York Herald [italics] if we have been able to penetrate that shield. I wished to give the New York Herald a fair trial, and when this fund was formed I called upon the Herald [italics] to name its Committee, and I pledged myself that if it appointed it mostly composed of men possessing the confidence of the Irish people I could support it in its appeal to America. The Herald [italics] came out with a show of fairness, and it published the names of the gentlemen whom it wished to take office on its Committee. One of these was myself, and if some person in whom I have confidence could have acted upon this Committee I believe that the Landlord and Government element in it might have been compelled to do what was right, and, although I was exceedingly unwilling to have anything to do with such a journal as the New York Herald [italics], </p>
+         <p>Or Touch Pitch Lest I Might be Defiled [???], </p>
+         <p>Yet, yielding to the anxious request of my friends, I so far consented as to say that if the New York Herald [italics] would allow me a proxy to act for me in Ireland pending my return there I would serve on the committee. The New York Herald [italics] gives its answer to-day, and in giving that answer it shows the real character of its appeal for aid - that is, neither more [indecipherable line] and that the [indecipherable] of charity is being prostituted for the purpose of [indecipherable] the infamous landlord system [italics]. [Continued applause.] I have a telegram just arrived from New York. It says:- "Cannot accept my proposition to appoint a proxy while I am in America. It gives the Cardinal the privilege of naming proxies, but does not concede that to Parnell, nor recognize Parnell's rights to prescribe conditions. The Cardinal's duties would not allow him to go to Ireland to distribute relief. Why should not Parnell go at once, and leave off preaching treason against the Government of his country." [Loud laughter and applause.] It would have desired to have me work on its committee. Yes, work in America where my vote, and voice, and influence would have been of no use as regards the practical work of its committee. And it dismisses me from its thoughts. Well, if the New York Herald dismisses me from its thoughts, I can assure it that I do not intend to dismiss it [Applause and laughter]; that I shall keep pretty close upon its doings and its committee whether I am in America or Ireland. [Renewed applause.]</p>
+         <p>The Herald's Rascally Dodge.</p>
+         <p>One thing the New York Herald clearly shows is that it does not desire me on its committee. It only wishes to have my name in order that it may impose in that way upon my countrymen in America. I stipulated that if I went upon the committee my work was to be done in Ireland by somebody who possesses the confidence of the people of Ireland [applause] and that my service should not be a nominal one. I have been accustomed to be a worker all my life, and I will never consent to give my name to any works in which I cannot work with all my heart and with all my might and with all my strength. [Great applause.] I am very sorry that this should have happened. It would have pleased me very much better if the different committees could have worked in harmony; but knowing as I do the position of things in Ireland, knowing what a deadly blow would be struck against the Irish tenant-farmer if he is compelled to apply to the landowners for his daily bread. I have felt myself unable to take any other position in this context [contest?] than the one explained. That position I shall continue to hold, if I have not another man to stand by me. [Loud cheering.] We are engaged in a great work in Ireland, and</p>
+         <p>That Work is Going to Succeed.</p>
+         <p>Justice and the many against injustice and the few must win. [Applause.] With your help in keeping our people alive this winter, I feel confident we shall kill the Irish landlord system. [Applause.] And when we have give Ireland to the people of Ireland, we shall have laid the foundation upon which to build up our Irish Nation. [Loud applause.] The feudal tenure and the rule of the minority have been the corner-stone of English misrule. Pull out that corner-stone, break it up, destroy it, and you undermine English misgovernment. [Applause.] When we have undermined English misgovernment, we have paved the way for Ireland to take her place among the nations of the earth. [Applause.] And let us not forget that that is the ultimate goal at which all us Irishmen aim. None of us - whether we are in America or in Ireland; or wherever we may be - will be satisfied until we have destroyed the last link which keeps Ireland bound to England. [Applause.]</p>
+      </body>
+  </text>
+</TEI>

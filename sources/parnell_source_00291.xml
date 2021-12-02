@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>[Bill 244.] Second Reading, Hansard's Parliamentary Debates, Thursday 24 June 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">[Bill 244.] Second Reading</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-24">24 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00061"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/24/bill-244-second-reading#S3V0253P0_18800624_HOC_182, 18800624 Commons Relief of Distress (Ireland) Bill 800-802.tif"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL, in moving that the Bill be now read a second time, said, he hoped the House would allow him to take that stage of it on the present occasion. He should not have moved the second reading at so late an hour, but for the pressing emergency of the case, and because if he now neglected the opportunity of not obtaining the opinion of the House concerning the measure such an opportunity would not again arise owing to the difficulty which private Members found in obtaining consideration for their Bills. The provisions of his Bill were of a very simple character. In the first place, he proposed to appoint a Commission which should be charged with the relief of distress in Ireland, the Commission to consist of the Chairman and two honorary Secretaries of the principal organization which had been engaged in distributing the sums subscribed in relief of distress in Ireland during the past half year. The Commission would have the usual power of appointing a Chairman; and he proposed that there should be set aside for the purposes of relief of distress in Ireland £200,000 of the Surplus Funds of the Irish Church, which should be used as the Commissioners might think fit in relief of distress in Ireland. It was, of course, dangerous—to use the saying of President Lincoln—to swap horses when crossing a stream; but this seemed to be the process which was being pursued by the Chief Secretary to the Lord Lieutenant of Ireland in reference to this question of relieving distress in Ireland. For six months the Relief Committees had afforded assistance to the distressed districts with but little assistance from the Poor Law Boards or the relief works. The subscriptions which these bodies had collected and distributed had now, however, almost come to an end; and they were face to face with the position that during the next month or six weeks some 500,000 people, who had been fed through the agency of the Committees to which he had referred, would have no one to look to for their daily bread. The right hon. Gentleman the Chief Secretary to the Lord Lieutenant said he relied upon out-door relief as a means of meeting the difficulty; but this system of relief was dependent upon the Boards of Guardians, which in Ireland had never been employed for this purpose. He was of opinion that he spoke the sentiments of those best able to judge when he said that he viewed with the utmost apprehension the result of trying such, an experiment as was suggested by the right hon. Gentleman, who had informed the House that in consequence of certain Boards of Guardians having failed to do their work he had decided upon dissolving them and appointing officials to do their work. This was all very well; but he doubted whether such officials would be able to cope with the existing distress. The Chief Secretary had, of course, the utmost desire to do all that was possible; but it was to be feared that the right hon. Gentleman did not know to the full the nature of the difficulties which were before him, and the magnitude of the crisis which was impending. It would be difficult to retrace any steps that might be taken after the mischief had happened and the people had died in large numbers of the famine fever which had broken out in many districts of the country. In these circumstances, he hoped that the House would accept the proposal which was embodied in his Bill, and would enable the Relief Committees which had, up to the present time, done so much good, to continue their work with the assistance of a grant of public money until the present crisis had been passed, and happily, with the blessing of a good harvest, the existing distress had been tided over. The system of out-door relief in Ireland was not managed in the same way as it was in England. It was in Ireland looked on by every Poor Law Guardian with the utmost repugnance and aversion as a plan opposed to all their most cherished convictions, and one which, in the present instance, would necessitate the borrowing of money that would have to be repaid by ratepayers, farmers, and others, who were reduced to great straits by the same circumstances which caused the poorer classes to be very poor indeed. He was afraid that the Chief Secretary would recognize the dislike to the system of out-door relief too late either to save his reputation as a Minister, or to save the lives of many of the Irish people. He believed that his proposal would prevent much suffering and save many lives within the next six or seven weeks; and he therefore asked the House to read it a second time, promising that when the Committee stage was reached he would carefully consider any proposal that might be made for its amendment. The hon. Gentleman concluded by moving the second reading of the Bill.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he had no desire to do anything other than to relieve Irish distress; and if it was objected that the Land League should not be intrusted with part of the work of distribution, he should be perfectly willing to omit it from the Bill.</p>
+         <p>...</p>
+         <p>MR. PARNELL agreed to the adjournment of the debate, and said he would put the Bill on the Paper for the following Monday on the understanding that no unfair advantage should be taken of the adjournment to block the further progress of the measure.</p>
+      </body>
+  </text>
+</TEI>

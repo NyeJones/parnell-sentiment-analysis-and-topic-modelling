@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parliamentary Intelligence, The Coercion Debate, The Dundalk Democrat, Saturday 1 May 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parliamentary Intelligence, The Coercion Debate</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315628043" level="j">The Dundalk Democrat</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">7</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-05-01">1 May 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7006958">Dundalk, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00005"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://archive.irishnewsarchive.com/Olive/APA/INA.Edu/Default.aspx#panel=document"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr Parnell, in supporting the amendment, said he felt somewhat under a difficulty in addressing the House, because nothing worthy of the name had been said on Thursday evening against the amendment. (Hear, hear). The speech of the hon member for Derry, while admitting the principle of the bill, supported the amendment, while that of the Right Hon. the Chief Secretary for Ireland in opposition to the amendment did not, in his opinion, bring forward one single argument against it, and the observation of the noble marquis who was supposed to direct the Opposition in this house - (a laugh) - did not indicate that he had formed any very clear opinion upon the subject at all (hear, hear). The argument of the member for Derry, while supporting the amendment as under the circumstances a proper and just one, endorsed the principle of the bill because he considered that in his constituency some coercion was necessary to prevent Catholics and Protestants from flying at each other's throats. Now, was this a reason why coercion should be extended to thirty other Irish counties where the "Boyne Water" was never played, and where it was a matter of perfect indifference whether the Apprentice Boys of Derry defended the city forty times a year instead of twice - (laughter). But other reasons have been given for this wonderful patchwork Peace Preservation Bill (hear, hear). Some half dozen landlords in Ireland had privately warned the Chief Secretary that they could not exercise what they considered to be the rights of property without such legislation. Now he (Mr. Parnell) did not know what the precise rights of property were that these landlords wished to exercise, and he remarked that whenever a coercion bill was to be forced through the house they heard a good deal of the rights of property, but very little of its duties (hear, hear). He had known of other landlords who considered they were exercising their rights by acting as agents for Conservative candidates in those polling booths where they knew that their tenantry - men whose futures they held in the hollow of their hand, and who were, in many cases, illiterate - were to vote (hear, hear). He had known of other landlords, and these not a few in number, who considered that they were attending to their duty and their rights by clearing the land of honest and hardworking men, and supplying their places with improved breeds of cattle and sheep. He did not think that these were the rights that English landlords - that Englishmen - would think it necessary to protect and defend in Ireland; but even if they were of a contrary opinion, he denied that there was at present the slightest necessity to protect the landlord in the exercise of any right or wrong in any part of Ireland (cheers). At this time, when rents were daily being raised, when evictions were steadily increasing, there was, perhaps, less agrarian crime than there had been for years in the history of the country, and this without the slightest protection worthy of the name being offered by the law to three-fourths of the land occupiers. The hon. member for Derry while advocating coercion had thought that it should be accompanied by some remediary measure, and he had instanced an improved land act, as, in his opinion, all that was necessary, and had held out a sort of promise that if a bill securing the tenant in his interest were given that Ireland would henceforth be England's strength instead of her weakness (hear, hear). Now he (Mr. Parnell), unlike the member for Derry, did not profess to speak for the tenant-farmers of Ireland, but he thought that when the time came he should show himself as true to their interests and as firm a supporter of a just land bill as the hon. member (hear, hear). At the same time he wished to state his belief that the tenant farmers even of the Black North were not sunk in self interest so as to give up the cause of their country for the cause of their class - that the men who at all times had proved themselves willing to forget every interest, to give up hearth and home when their country required it of them, were not the men to endorse the statement or adopt the suggestion of the member for Derry (hear, hear). He said this knowing well the importance of securing the tenant beyond peradventure in his holding, but knowing also that in the neglect of the principles of self-government lay the root of every trouble in Ireland (cheers). He said that the Chief Secretary had offered no argument worthy of the name against the amendment, unless indeed they could consider as such his paternal admonition to the member for Derry that his language was more suited for a troublesome Home Ruler than for a member of that respectable and ancient Whig Opposition which had so long ruled the destinies of Ireland. Perhaps he saw an apprehension gaining ground in the mind of the member for Derry that the old Whig hack would not always bear him to victory even in that city, and wished to give him an intimation that his talents when rightly directed would always find friendly Conservative recognition (laughter). He (Mr. Parnell) was much mistaken if the respect which was doubtless entertained for her Majesty's government would be increased in England, as certainly the confidence of Ireland in the ability of that government to make her laws, or listen to reason, would not be augmented by their demeanour in opposing the amendment. The noble marquis, the leader of the Opposition, had complained of the dark conspiracy that had been entered into by the Home Rule party, individually, and collectively, with the member for Cavan as to the length of his speech, and although the former had afterwards explained that he did not mean what he said, yet it was evident that he was not yet quite reassured, and that he considered his offer to give up an hour or two of the early morning to the cause of Ireland as, under the circumstances, a magnanimous and generous one (A laugh). Now he, Mr Parnell, wished to tell those that he did not share the opinion as to the proper length of speech, and that he did not intend to imitate him to-night in that respect, that he had not been in collusion with him, either as a member of the Home Rule party, or in any other capacity, and that he had not heard of any conspiracy entered into by his party with the hon member for Cavan; though as regards this last, his knowledge might be limited, since it might not be thought right to entrust a new member with important secrets (laughter). He hoped the day would soon come when England would see the mistake in her method of governing Ireland, when she would learn that the only safe way was to rule by the free will and would be no longer Ireland's opportunity, and when England in her hour of need might rely upon the strong arms and faithful hearts of a contented and prosperous Irish nation, truly independent and free (cheers)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

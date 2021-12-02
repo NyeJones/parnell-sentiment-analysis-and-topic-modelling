@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Autumn Campaign, Mr. Parnell, M.P., in Meath, The Nation, Saturday 16 October 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Autumn Campaign, Mr. Parnell, M.P., in Meath</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315667409" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-10-16">16 October 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">The Nation</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00024"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">         
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18751015 Nation Autumn Campaign 001.tif, 18751015 Nation Autumn Campaign 002.tif"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell then came forward and was received with loud cheers. He thanked them for the very warm reception they had given him. Many people might think they were not working because the results were not yet to be seen, but they would become known at the right time (applause). They were working hard, though they might be working silently. He regretted very much that he had not the advantage of the support of his colleague, Mr. Ennis, who was unavoidably absent; but this he would say of him, that he was an honest and true man (cheers, and a voice, "You are as good as two of him yourself"). Meath had done well when she selected such a man as honest John Martin and honest Nicholas Ennis (applause). If they had fifty men like Mr. Ennis in the House of Commons they would be lucky. They did not want great speakers, but men who would always vote right, and Ennis was such a man. When he last had the honour of addressing them, the government had brought forward a most infamous measure for this country. Unable to give them anything that could be called administration, England tried coercion - the method she had been adopting and sticking to for 700 years. The only thing Disraeli ever gave them was the Coercion Bill - a short cut for governing Ireland. He had heard of a royal road to learning, but the short cut to governing Ireland beat all he had ever heard (applause). The had 34 divisions since he went to parliament, and it was his duty and his pleasure to be present at every one of them. If he was not present at the 35th, it was neither his fault nor theirs. They had there in Meath a great interest in the Coercion Bill, particularly in one portion of it, which was more infamous than the rest, or rather which was more famous, as he could not call it infamous now, since it had become law - to deprive one county - Westmeath - and portions of two other counties - Meath and King's County - of the rights of English subjects; but then they were only Irish (laughter and applause). It was said that this was simply and solely because there were Ribbonmen in these three counties. There had been a great effort made by Liberal ministers in 1871 - the Peter Paul McSwiney Whigs (groans) - to show that there was Ribbonism in the three counties, but they had undoubtedly failed to do so. The present Tory government brought up a renewal of the Coercion Act, and simply said it was the will of Sir Michael Hicks Beach, and must therefore be passed without any consideration for the truth, or show of reason for its enactment. On the other hand, there was everything to show that there never had been any Ribbonism in these counties (never, never). Was this not a reason for Home Rule? But then, without listening to anything, Sir Michael Hicks Beach was the representative of Ireland, and therefore the bill must be passed (groans). The time might come when they would have something else to tell the English Government (cheers). They had the satisfaction of knowing that the subject of Home Rule would be brought forward next year, but while they were pressing forward taht  project they had not neglected utilitarian measures for the benefit of Ireland. It had been suggested that they should have a royal commission to inquire into the working of the Land Act; but what was the use of leaving such commissions in the hands of men who were profoundly ignorant of such subjects? The only thing for the Irish people to do was to collect evidence of their own and hold a commission themselves. He would be very glad if any man would supply him with evidence of any acts of oppression or harshness on the part of landlords; because such information would be most valuable to them next year (applause). He thought that when the Liberals came into office again they would be able to get a tenant right bill for the north, and fixity of tenure at fair rents for the south, east, and west (applause, and a voice: "Make all equal"). Mr. Crawford had brought in a bill for the north last year, but in the south he did not see how they could define tenant right, because no tenant right existed. So Mr. Butt had promised rights to draw up a bill and present it next year, embodying the principles of fixity of tenure at fair rents for the south, west, and east of Ireland(applause). There were some people who said that the north would not help them in obtaining their bill, and that they merely wanted the support of the Home Rule party to obtain their own. He did not believe they would do so; and, what was more, if they tried they could not do it (applause). The subject of education was one which he was scarcely qualified to speak about with due and proper justice. They knew there was no distinct motion about it last session. The wishes of the Irish people were undoubtedly in favour of religious education (hear, hear). The wishes of the English government were in favour of it for England, but they would not like to give it to Ireland (applause). The most of the Protestants of Ireland were in favour of religious education, but they would not like to bring it forward because they would have to allow the Catholics to be religiously educated also, and they did not seem to like that. He thought the demand of the Irish people would probably be acceded to, and perhaps it would not take such a long time either (hear, hear). Referring to the present position of the national system of education, he said it had been accepted on the principle that half a loaf was better than no bread (laughter). No active opposition was made against it, but the time had now come when England tired of paying for this so-called national system of education. England paid 13s 6d in the pound for education, but the system of education in England was what they liked, but here they did not like it, and he for one protested against it. And yet they wanted them to pay for it! Education in England was under local control, and consequently there was no wrong in local taxation; but there was no local control of any kind in this country. He meant as to the principle, for of course the schools were, to a great extent, under local management. The system was given to them, and they had administered it in the best way they could. He thought it was very wrong and unfair to ask the Irish people to adopt a system that they not only disliked but that they had no control over whatever (applause). A bill had been brought forward to put a tax upon them, and it had been done in a very mild kind of way at first - a very small tax of one-halfpenny or three-farthings in the pound . Surely tenant-farmers in Ireland would not object to a halfpenny or three-farthings in the pound to keep the National teachers from starving; but it was the duty of the Imperial parliament, not only to keep them from starving, but to pay them proper salaries. If Ireland was given a system of education that was not controlled by England, she was willing to pay for it; but she was not willing to pay for it if she had no control over it. Some boards of guardians had declared themselves contributory, and they were going to tax the ratepayers for the purpose of helping the National school teachers. Well, that was a very laudable thing to do; but it might lead to mischief, and probably the next year the government might introduce a measure to make the payment compulsory all over Ireland, and instead of a halfpenny or three farthings in the pound, they might have to pay a rate of 1s or 1s 4d in the pound. That would be done by degrees, and by degrees it would be done in the end if the government could do it. He did not believe they could. They must oppose the measure tooth and nail. Mr. Parnell concluded by referring to the Butt testimonial, and said Mr. Butt had done more for Ireland than any man in recent days. From the time of Lucas and Duffy, and some of the great men of '52, who had done anything for Ireland but Mr. Butt? He hoped the people of Meath would join heart and soul in placing their great leader in an independent position (cheers).</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

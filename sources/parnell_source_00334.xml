@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parnell's Supporters, New York Herald, Sunday 4 January 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parnell's Supporters</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="4477149108578368780007" level="j">New York Herald</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-01-04">4 January 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7007567">New York, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00080"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18800104 New York Herald Parnell's Supporters Men of Meath 001.tiff"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Boyle O'Reilly, Mr. Nolan and gentlemen - I thank you for your kindness and consideration in specially welcoming us to this country. It is undoubtedly fitting that the exiles from Meath should take especial part in the present great movement. You have touched upon the ancient history of Meath. I may, perhaps, be permitted to draw your attention to the part which Meath has taken in more recent politics. When other counties in Ireland have gone wrong, Meath has always been remarkable by the steadfastness with which she has stood by the true political faith. When the priests and electors of Athlone condoned the treachery of Judge Keogh, and by that condonation assisted the English government to wake up the independent opposition movement of 1852, the priests and people of Meath united assisted Lucas and Duffy in their great work. It has always been so with Meath, and Meath, as I have said, presents a remarkable spectacle among the Irish constituencies.</p>
+         <p>It may, perhaps, be of interest to some of the native inhabitants of this country who recommend emigration as a remedy for all Irish troubles to learn that Meath, the richest county in Ireland, has been swept of its inhabitants; that the fertility, the almost unexcelled fertility, with which nature has endowed her, instead of proving the support and sustenance of the people of that county has proved their destruction by exciting the cupidity of the landlords to make extensive clearances. Although Meath is admittedly the most fertile county in Ireland, although rents of £6 per acre have been commonly given for the privilege of grazing bullocks there for six months, yet you may drive for miles and miles through that county without meeting a single human being or seeing a single house. This may appear a statement scarcely to be credited, but it is a statement which you, as former inhabitants of Meath, will bear me out in. I should like to see the next emigration in Ireland take place from the rocky coast of Connemara to the fertile plains of Meath, and when Meath has a population which she cannot support, then we may, perhaps, talk about emigration to America.</p>
+         <p>IRISH RENTS AND AMERICAN LAND GRANTS.</p>
+         <p>In this address you have made a comparison between the land system in Ireland and the system which has been adopted in America in granting large quantities of lands to the great railroad corporations in the West. Without attempting to judge as to whether such a course has been right or wrong, I may be permitted, perhaps, to point out that the way in which the system has been worked in America is not similar to that in Ireland. In Ireland the land monopolists have adopted a system of rent. In America your railroad corporations have adopted the system of sale. And even supposing, or even admitting that the action in granting these large areas of land to the American railroad corporations was injudicious, yet the railroads, by their action and by working the system in the way I have pointed out, have done very much to alleviate the evil which some people might suppose spread from the original action of the State authorities or the United States government in the matter. I will conclude, gentlemen, by again thanking you for coming here to meet us. I am proud to represent a county like Meath. I came among the people of Meath as a stranger five years ago, and they trusted me with the greatest trust that any Irish constituency can confide. I have the satisfaction of believing that my conduct has been approved of by them, and my highest duty in the future will be to try and retain that confidence which I now believe myself to possess.</p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

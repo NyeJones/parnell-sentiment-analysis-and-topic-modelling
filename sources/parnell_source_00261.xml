@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Galway Elections, St. Louis Daily Globe-Democrat, Thursday, 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Galway Elections</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="305042367" level="j">St. Louis Daily Globe-Democrat</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7014444">St. Louis, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>London, February 10. - In the address to the Parliamentary electors of Galway yesterday, Mr. Parnell made no reference to the order of preference in treating the land and home rule questions, but intimated that home rule is to be considered the vital question, particularly in view of the fact that Mr. Gladstone, he said, had undertaken to defer consideration of home rule, pending his negotiations with the Earl of Cork, whom the Premier was trying to induce to accept the position of Master of the Horse.</p>
+         <p>Although Mr. Parnell scored a masterful success in suppressing the mutiny of Messrs. Healy, Biggar, Lynch and others without impairing the usefulness of the mutineers for active duty, perfect peace by no means reigns among the Galway electors. Scores of them have openly avowed their intention to vote for Mr. Lynch, despite his withdrawal from candidacy, while others are sullen, disappointed and angry and will not vote at all. Mr. Parnell is moving heaven and earth to secure the election of Mr. O'Shea, and will, of course, succeed, in spite of the defection in the ranks of the voters.</p>
+         <p>...</p>
+         <p>Parnell's Address to the Electors of Galway.</p>
+         <p>Dublin, February 10. - A few malcontents aided by the Tory electors, are preparing to run Mr. Lynch, anyhow, for Galway. Mr. Parnell has been all day canvassing the district for Capt. O'Shea. He has been addressing small gatherings at Castlebar and Barna, small hamlets on the shores of Galway Bay, but later in the day he addressed an immense meeting in the city, in Eyre square, opposite the Railway Hotel, using the steps of the building for a platform. He was supported by Mr. O'Kelly, M.P., and many others. After explaining the misunderstanding, he passed a long eulogy on Capt. O'Shea. Mr. Parnell concluded with a most impassioned and eloquent speech, saying: "Fellow-countrymen: During the eleven years since my entry into public life I have never led the Irish people astray, and never led them into any crooked path. When courage was required and was necessary for the interests of the Irish nation, I have shown it; and when moderation was necessary, and when temperate judgment for the nation was necessary, I have had had courage to show it, and I shall never lead the party nor the nation astray. I will not cease my labors until we have gained for you the right to lead and govern yourselves.</p>
+         <p>"Now, fellow-countrymen, there are several gentlemen here who desire to address you. I think I have said everything that is necessary for me to say with regard to Capt. O'Shea. I need only add this, that you must not think that because Mr. Lynch has retired it is not necessary for you to go to the poll to-morrow and to vote. All of you who have votes must go and vote for Capt. O'Shea, for otherwise the Tories will take advantage of the situation and go and poll for Mr. Lynch, in order, if possible, to run him over Capt. O'Shea. This is not Mr. Lynch's fault. He has acted honorably toward me and the party. His name can not now be withdrawn from the pasture. It must be on the ballot paper, and therefore the Tories have an opportunity for trying to play this dirty trick, but you will defeat them and their purpose by showing you have voted for me and for Ireland.</p>
+         <p>For Ireland's Sake.</p>
+         <p>"I should have desired to have addressed you also apart from this election, upon the great question of the day, but I think that as Father Sheehy will address you, I shall not longer detain you. I will only add my conviction that the day is very near when we shall have gained for Ireland the right to make her own laws on Irish soil. When that day comes I shall regard my mission fulfilled. I have not entered on this great struggle with any motive of personal ambition, but it is my duty to stand by you till these measures are gained for you. I have come down to Galway to stand by you in your cause, for any appearance of division in our party for the weakening of my authority would have been fatal to the cause, and that is the reason why I am here, and I confidently leave the result in your hands. After many a month you will look back to proceedings of this day with satisfaction, for the results will have proved that you have to-day struck a great and successful blow for Ireland."</p>
+         <p>During the whole time Mr. Lynch was present, nodding assent. The meeting broke up with most uproarious Irish cheers.</p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell in Cork, The Belfast News-Letter, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell in Cork</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315638072" level="j">The Belfast News-Letter</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">8</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22">22 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7007168">Cork, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">          
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0000038/18850122/030/0008"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>A numb of resolutions pledging the meeting to support Mr. Parnell, the Irish parliamentary party, and the National League having been passed, Mr. Parnell said he claimed their indulgence, as he was not very well. He had been afraid that he would not be able to address them; but as he approached Ireland and their beautiful city, he felt getting better and better, and when he appeared before them, he felt as if nothing had been wrong with him. He would, however, claim their indulgence and made his remarks much shorter than he had intended. It wanted about a month of five years since they had elected him as their representative. That victory was a remarkable one. It had been said that two Nationalists could not be elected for Cork, but the electors had since proved that it was an erroneous idea by electing Mr. Deasy as his (Mr. Parnell's) colleague. They had proved that it would give them no trouble to elect any number of Nationalists to represent them, and he did not think that Cork would ever be contested by the oligarchy. At the time of his election he pledged himself to form one of the determined Irish party - to work in opposition to any Government who denied to the Irish people their just rights. (Cheers.) He considered that that was the true and proper policy to pursue as far as the House of Commons was concerned, and it would be impossible for either of the parties in that House to defeat a determined band of Irishmen with the Irish people at their back. He felt convinced that at the general election of 1866 [1886?] the Irish people would return to the new House of Commons such a strong party of men as would bear down all opposition and gain for Ireland the right which had been stolen from her. The Irish parliamentary party would in future struggle for the important and great interests of tenant farmers; and all they would ask in return was that the farmers should encourage the struggling manufacturers of Ireland by purchasing only Irish manufacture, even if they had to pay more for it. They would also strive to gain for the labourer some recognition and right in the land of his country. The party did not care whether it was the prejudice of the farmer or the landlord that stood in the way of the labourer. They should be coerced into doing justice to the labourer. With reference to Irish self-government he (Mr. Parnell) could not say to what extent justice would be done to them. They could not ask less than the restoration of Grattan's Parliament, with all its privileges and its wide far-reaching constitution. (Cheers.) Under the British constitution they could not ask for more, but no man had a right to fix the boundary to the march of a nation; no man had a right to say to a nation - "Thus far shall you go and no further." He (Mr. Parnell) had never attempted to do so, and never would. They should resolve to do everything that in them lay to obtain for Ireland the fullest measure of her rights.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

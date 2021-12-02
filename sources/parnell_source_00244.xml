@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Occasional Notes, Pall Mall Gazette, Thursday 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Occasional Notes</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="206871391" level="j">Pall Mall Gazette</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">        
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0000098/18860211/004/0003"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Strong men never show their strength more clearly than in the moderation with which they use their victories. Mr. Parnell's speech at Galway yesterday was an instance of this fact. Those who know most of the ins and outs (especially the secret "ins") of the O'Shea dispute will best appreciate Mr. Parnell's frank statement that "under all the circumstances it is one of the most remarkable facts in Irish history that the unity of our cause has been maintained." But the Irish leader is not the man to be elated by victory, any more than he has shown himself the man to be depressed by apparent defeat. He has won the day, but he is not disinclined to conciliation on that account. On the contrary, having carried his point he is the first to admit that he may have been mistaken - that had he known in time of Mr. Lynch's readiness to stand he would not have nominated Captain O'Shea, and that he is bound to repair his mistake in Mr. Lynch's favour at the first opportunity.</p>
+         <p>Another passage in Mr. Parnell's speech is of much interest and significance for the light it seems to throw upon his personal intentions in the future:-</p>
+         <p>During the eleven years (he said) since my entering into public life I have never led the Irish people astray - never led them into any crooked path. When courage was required and was necessary for the interests of the Irish nation, I have shown it, and when moderation was necessary, and when temperate judgment for the nation was necessary, I have had the courage to show it; and I shall never lead the party or the nation astray until we have gained for you the right to lead and govern yourselves.</p>
+         <p>This last clause, by the way, is not doubt not to be taken to mean what it says, but should be interpreted Hibernicè. Mr. Parnell does not mean that he is going to lead the Irish people into a ditch as soon as he has won Home Rule for them. His intentions are quite different, as will be seen from these following sentences, which may one day become historical:- "I will only add, in conclusion, my conviction that the day is very near at hand when we shall have gained for Ireland the right to make her own laws on Irish soil. When that day comes, I shall regard my mission as fulfilled."</p>
+      </body>
+  </text>
+</TEI>

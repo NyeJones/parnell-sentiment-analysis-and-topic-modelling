@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The New Nationalist Manifesto, St. James Gazette, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The New Nationalist Manifesto</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="83159818563713810450" level="j">St. James's Gazette</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3-4</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22">22 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/BL/0001485/18850122/034/0003?browse=true"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>When the Prime Minister passionately declared in the debates upon the Franchise Bill that he never never would consent to divide the population of Ireland into a minority of loyalists and a disloyal majority, he must have been perfectly conscious that the separation in question was already accomplished, and that none had contributed to its accomplishment more potently than himself. He wanted, however, the support of the Parnellites to swell his majority; and, with reckless disregard for the acknowledged facts of the situation, he proceeded, for party and personal ends, to give the Irish Nationalists the powers which Lord Hartington had just pronounced it "madness" to bestow. Yesterday the man whom Mr. Gladstone's law officers described as "steeped in treason to the lips," and whom Mr. Gladstone himself fist imprisoned and then admitted to his confidence in the framing of Ministerial measures for the government of Ireland, stated, with his customary clearness and precision, the use he intends to make of the overwhelming majority permanently secured to him by the tactics of the Prime Minister. The existence of that majority has been recognized by all parties in Ireland, since the fatal decision to include that country in the Franchise Bill. Its absolute submissiveness to the dictates of the chief has been strikingly shown by the circumstances of the late election in Tipperary. It will accept, without question or demur, whatever programme its leader lays before it and whatever means he thinks proper for accomplishing his ends. Whether we wrong the members of such a party by calling them disloyal, we are satisfied to decide by the contents of yesterday's manifesto.</p>
+         <p>Two clear lines of action are indicated by Mr. Parnell. The Irish Parliamentary party, strongly reinforced after the general election, will continue to pursue the "constitutional arguments and methods" which have already achieved such great results in the Legislature. Behind them will stand the Land League under the new name it has received in deference to Mr. Trevelyan. The Irish members could do little, did they not feel themselves supported by "the organization of the country behind them." Even obstruction and the traffic in votes are feeble instruments compared to the "coercion" of recalcitrant classes, which can only be brought about by the terrible sanctions, that crushed out opposition three years ago. Such is the machinery on which Mr. Parnell himself relies; but he is careful not to discourage "the better men who may come after him," and who, in other times and other circumstances, may work out by other means that complete separation from England, to which the Irish leader at least believes the vast majority of his countrymen aspire.</p>
+         <p>The immediate policy of the Separatists is, as usual, well conceived for the attainment of the ulterior aims they have avowed. They will ask that "the industry of the Irish farmer shall no longer be fettered by rent." He will be expected in return to encourage Irish manufactures, by boycotting English and foreign goods, even when they are cheaper and better than the similar articles produced at home. And, above all, the farmers must make up their minds to fulfil their long-neglected duties to the labourers. "We consider," says the president of the National League, in words of significant menace, "that whatever class tries to obstruct the labourer in the possession of those fair and just rights to which he is entitled, that class should be put down, and coerced, if you will, into doing justice to the labourer." For the labourer has now a vote, and it may be a preponderant vote, and his allegiance must at all risks be secured. The policy and tactics of 1880-82 are to be revived with their old thoroughness and vigour. The classes politically strong are to be bribed by the spoils of those who are politically weak. Terrorism is to be employed unsparingly in the country, and obstruction in the House of Commons. With the improved means placed at his disposal by the party necessities of the Government, the Separatist champion can well "look forward to the future with a light heart." But he does not discern the end. "We cannot," he indeed declares, "ask for less than the restitution of Grattan's Parliament. We cannot under the British Constitution ask for more. But no man has the right to fix the boundary to the march of a nation. No man has a right to say to his country, "Thus far shalt thou go and no further." We have never attempted to fix the ne plus ultra [italics] to the progress of Ireland's nationhood, and we never shall." Such are the stirring words of the man who exercises boundless power over Irish democracy - the democracy which Mr. Gladstone refuses to call disloyal. Such is the policy of the men whom certain English politicians profess to consider as constitutional defenders of their country. Dismemberment is their all but avowed end.</p>
+      </body>
+  </text>
+</TEI>

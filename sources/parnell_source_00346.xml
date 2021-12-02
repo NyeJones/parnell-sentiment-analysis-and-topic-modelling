@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Grand Banquet at the Mansion House, The Weekly Freeman's Journal, Saturday 5 September 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Grand Banquet at the Mansion House</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="176484528" level="j">The Weekly Freeman's Journal</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">2</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-09-05">5 September 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00091"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>police report; newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="NAI/CSO/INL 7"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, M.P., on rising to respond, was received with loud and prolonged cheers. He said - My Lord Mayor, ladies and gentlemen, I shall leave to other and abler hands the duty and the pleasure of thanking you for the honour which you have done my colleagues and myself in inviting us to meet this goodly company, and I shall proceed, though with some reluctance and great diffidence, to face the consideration of the important toast which you have placed in my hands (cheers) - the toast, my Lord Mayor, ladies and gentlemen, of "Ireland a Nation" (loud cheers). It is one which recalls to our minds many recollections - recollections of great men - of a long and enduring struggle - of many sufferings on the part of our people, and of a survival to-day of what is an Irish nation (cheers) - the survival of a people who have forced upon an unwilling opponent the recognition of an actual fact - that Ireland still lives (cheers). Scotland has lost her nationality, and has practically become merged in England; but Ireland has never done this (cheers). </p>
+         <p>A Voice - And never will.</p>
+         <p>Mr. Parnell - And she never will (cheers). There are many reasons for this result - reasons into which I do not propose to enter to-night. It is with facts - with some accomplished facts - we have to deal (hear, hear) and with facts which we hope soon to see accomplished (hear, hear).</p>
+         <p>OUR RIGHT TO NATIONHOOD.</p>
+         <p>Our right to nationhood to-day is practically undisputed (hear, hear). in order that our people may be enabled to watch round the footsteps of our nation what is necessary? It is necessary that we should exchange the dark, terrible, and suffering history of the past for a future of freedom and prosperity (hear, hear), when it may be possible for the freely elected representatives of the nation to shape the future of our country (hear, hear). I do not know any other condition under which it is possible for a nation to shape her course with justice to herself, and without injury or harm to other countries, save under the fostering guidance and care of a freely elected Parliament (hear, hear), and it is to such an assembly that we have to look for the development of our nation (hear, hear).</p>
+         <p>A CHALLENGE.</p>
+         <p>We are told, my Lord Mayor, upon high authority that this is an impossibility, that it is impossible for Ireland to obtain the right of Self-Government (no, no). I believe that if it be sought to make it impossible for our country to obtain the right of administering her own affairs, that we will make all other things impossible for those [who?] so seek (prolonged cheering, during which a large body of those present rose to their feet and waved handkerchiefs). And who is it that tells us these things are impossible? It is the same man who said that local government for Ireland was impossible without ample declarations on our part - these statements come from the same lips as those that told us that equal electoral privileges, that the concession of equal electoral privileges by England to Ireland would be madness, and we see that what was considered madness in the eyes of the man who now tells us that Ireland's right to Self-government is an impossibility has been now conceded without opposition, and that Self-government which was then also denied to us from the same source, is now offered to us. The local self-government then denied us from the same source is now offered to us by the same person with an humble entreaty that we may take it in order that we may educate ourselves for better things and further powers. I do not propose, however, to dwell longer on this seeming impossibility. There is nothing impossible to a united and determined country, and for an honest representation of that country (renewed applause). Of course Lord Hartington (hisses) doesn’t enter into a consideration of the question with an evenly balanced mind. He invites the other factions of which his party is composed - the Radicals, the Bradlaughites, the Local Optionists.</p>
+         <p>Mr. Healy, M.P. - The Deceased Wives' Sisters. </p>
+         <p>Mr. Parnell - The Deceased Wives' Sisters (great laughter and cheering) - the Freelanders, and the nundred and one atoms of which the great Liberal party is composed, to stop and put aside all those agreeable views of theirs, while he stops to wrestle with the young Irish giant. The shall be no legislation for England.</p>
+         <p>THE LION AND THE LAMB.</p>
+         <p>There is to be a kind of lion lying down with the lamb (loud laughter). There is to be absolute union between all English parties upon great and important home and Imperial questions, which will always engross their minds until they have squelshed [sic] us out (laughter). Well, gentlemen, I am not much given to boasting (hear, hear, and applause); and I should be very unwilling to assume to myself the role [italics] of the prophet; but I am obliged, I suppose, to-night to give you my candid opinion upon this matter, and it is this - that if they have not succeeded in squelshing [sic] us during the last five years, they are not likely to do it during the next five (great cheering), unless they brace themselves up to adopt one of two alternatives, under the adoption of either one of which we should ultimately win, and perhaps win a larger and greater share than we otherwise should.</p>
+         <p>THE ALTERNATIVE.</p>
+         <p>[Underlined] They will either have to grant to Ireland the complete right to rule herself, or they will have to take away from us the share - the sham share - in the English Constitutional system which they extended to us at the Union, and govern us as a Crown colony, without any Parliamentary representation whatever [Underlined] (applause). The government of Ireland, suppose they adopt the second alternative, will practically lead to the same thing as the adoption of the first one. The government of Ireland as a Crown colony - and it would be the government of a very large Crown colony - a much larger one than they possess or have attempted to govern from London up to the present - would simply lead to the concession of a Constitution similar to that which is enjoyed with the good will of England by each and all of the larger colonies: and that is practically what we have been asking for Ireland. So that, whether they chose directly to give us the right of self-government in its fullest sense - the right of National self-government - or whether they chose to govern us as a Crown colony, it will come to the same thing in the long run (hear, hear).</p>
+         <p>ON THE BRINK OF VICTORY.</p>
+         <p>I desire now to express my fullest conviction that the Irish people are on the brink of victory in this struggle (cheers). There is nothing in the world, humanly speaking, that could prevent their success save immoderation on their own part (hear, hear). I would entreat everybody, every honest Irishman, to show that he and our country are worthy of self-government (hear). We are far more likely to lose by attempting to do too much in the near future than we are likely to win by adopting such a course.</p>
+         <p>[Underlined] OUTRAGE [Underlined].</p>
+         <p>I don't scarcely like to attach much importance to some recent events which have occurred down in the county of Kerry, and I will explain why I don't attach much importance to these events. We have heard of houses being broken into - one or two houses broken into, and a recurrence of what was known in times past as moonlighting (hear, hear). I don't attach too much importance to those occurrences for several reasons. In the first place, because the county of Kerry has unhappily never at any time, even during the height of the Coercion Act, been free from such occurrences. That kind of thing was always going on in that locality. It is an especially impoverished district. It is a district where the evils of landlordism, magnified and intensified as they may have been in other parts of Ireland, have been reproduced to a most extraordinary extent. It is a locality where it is scarcely possible for the people to live where they drag out a miserable existence, and where, practically speaking, nothing but desperation and the impossibility of living drives them to such courses as these (hear, hear). Bad as has been the history of landlordism in these eastern districts of Ireland, it has been ten thousand times worse in such counties as Kerry (hear, hear). But I am bound, my Lord Mayor and gentlemen, in my position, to express my conviction that such occurrences as these which have taken place in Kerry recently are producing an enormous evil and mischief to the cause of Irish nationality (hear, hear, and applause). Transient as they may be confined to one particular locality as they may be, I would ask the young men or the old men who may be taking part in such things, if they be men within the reach of my voice, if they be not the product of police management in Ireland (cheers), if these actions be really undertaken by honest Irishmen with the view to benefit their country, I would ask them to pause - to hearken to my voice (applause), to [Underlined] such thought as those which spurred them into such actions - are destructive so far as they can be destructive, to the interest of our country and the life of our nation (loud cheers) [Underlined].</p>
+         <p>THE OTHER SIDE.</p>
+         <p>And having said so much on one side I desire also to say something on the other side (cheers). This will be a very sore and cruel winter for the agricultural community. It is a certainty that the land has undoubtedly not produced in any part of the country the rent which landlords are now seeking to exact (hear, hear). There are many tenants who are able to pay their rents, but they are able to pay their rents not out of any return of the soil during the last year, but out of their frugal savings (hear, hear). There are many others who are unable to pay their rents and who must lose their homes and the little property which they and their predecessors in title have created during many long struggles and years of toil if landlords are allowed by the Government to assert their full right, and if those full rights are asserted, and if the tenants are not able to pay (hear, hear). That was the leading principle of the old Land League fight (hear, hear). We pointed out that unless the tenants acted in a body, unless those who were rich stood by those who were poor (hear, hear) all in the long run must go down, and the result was the Land Act of 1881, and the Land Purchase Act of 1885 (hear, hear). But we are now face to face with a situation in which forbearance is required, and not alone upon one side but upon the other (hear, hear and applause). If we are to urge moderation upon our people, ought not the other side to set us an example (applause); or if they won't set us the example, ought not they to follow our example? (hear, hear and applause). Irish landlordism would appear to be almost an irretrievable plant. It has had many chances, but it has never been willing to take one. The Government have large forces of police and military at their disposal, maintained at the cost of the British taxpayer to a very large extent. Are those forces to be used for the eviction of tenants during the coming winter months who are not able to pay their rents, as well as for the eviction of those who are? (Hear, hear, and "no.") It is not now any longer a question of conspiracy or combination to refuse to pay rents (hear, hear). That cannot be alleged as an excuse - it is very easy to separate the wheat from the chaff - it is very easy for those in authority to decide who are able to pay and who are not (hear, hear). All we ask is that our people shall not be banished from their country (applause).</p>
+         <p>THE PEOPLE MUST BE KEPT AT HOME.</p>
+         <p>We cannot hope to maintain a nation without maintaining our people, and if the slow and silent process of extermination is to go on, we are bound to take our stand by the side of our people (loud cheers). So, then, while I preach and while I hope all of you, coming as you do from many different localities in Ireland, will each in your own station preach moderation, so I think that we ought to expect moderation from the other side (hear, hear). Discrimination is easy under the present circumstances. But we should be untrue to our suffering fellow countrymen, if we did not endeavour to do what in us lay to shield the helpless tiller of the soil from extermination and from banishment during the coming winter (hear and cheers). The outlook in all other respects is hopeful for Ireland; but undoubtedly the great depression of prices, the agricultural depression, introduces a new and very great difficulty. It will be for Irish landlordism to show of what it is made during the coming winter (hear, hear), and if it exacts its full pound of flesh, I am confident that the result will be that landlordism will be left with very little flesh to exact in the future (cheers). And for the rest, gentlemen, outside the land question, which is the real question of Ireland at present, outside that great question let us hope - and I am sure you all hope with me, and, that you feel the same confidence that I do - that our nation, surviving her long trial and her terrible sufferings, will join the other nations of the earth in that march towards prosperity and towards freedom which we all hope for her, and are determined to secure for her (enthusiastic plaudits again and again renewed).</p>
+         <p>...</p>
+         <p>MR. PARNELL.</p>
+         <p>Mr. Parnell said he desired now to trespass somewhat on the order of the proceedings, to ask them to drink the health of the Lord Mayor (applause). They had been reminded that night of the time when the Corporation of Dublin had refused the freedom of the city to Mr. John Dillon and himself, and they had also been reminded that the freedom was refused by the casting vote of the Lord Mayor. It was a great and an enormous change which had enabled them to meet there to-night after a short interval of four years, on the invitation of the Lord Mayor, to witness, as they hoped and believed, under such auspices the commencement of a new era for Ireland. They had gone through in these five years, suffering, danger, doubt, and uncertainty. The citizens of Dublin had chased from their midst every element of unsoundness, and the Lord Mayor was enabled to-night for the first time to entertain himself and his colleagues, the Irish Party of 1880 and 1885 (applause). He hoped he did not claim too much when he said that this occasion would be a historic one. He might rest the fame of his colleagues upon what had already happened (applause) if they did not even anticipate a near and a greater future. It was only he who worked amongst that party in times of difficulty and trouble, who had seen the energy and the belief with which they had attacked every angle and knot and cord which enchained their nation, it was only a man who could feel what he could not express what a debt was due from Ireland to that Parliamentary Party (applause); and he was glad that, standing there that night on the second place of dignity in the country, the highest and the first being worthily filled by the Lord Mayor, it had fallen to his lost under such auspices to express his sense of what the country owed and what he owed to that party in his task of aiding his country in her work of regeneration (applause). He had to thank the Lord Mayor for inviting his colleagues and himself to the magnificent banquet to meet the wealth, the talent, and the courage of the country (applause). He begged to give them "The health of the Lord Mayor."</p>
+         <p></p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

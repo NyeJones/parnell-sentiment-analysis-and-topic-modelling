@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>[Bill 144.] Second Reading., Hansard's Parliamentary Debates, Wednesday 30 June 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">[Bill 144.] Second Reading.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-30">30 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00062"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/30/bill-144-second-reading#S3V0253P0_18800630_HOC_46"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL Sir, I trust the hon. Member for the County Tyrone (Mr. Litton), who has charge of the Bill, will excuse me if I venture to speak after he has addressed the House; but I wish to say a few words in explanation of my reasons for not being able to vote in favour of a Bill which he has brought forward. I agree that the Government is entitled to some sympathy in the attitude which they have taken up. The Bill pretends to be a final settlement of the Irish Land Question, and it seems to have been brought forward as such by the hon. Member who is in charge of it without a sufficient idea of the exigencies of the moment. It differs in that respect from the Bill for compensation for disturbance of the Government, which, as I take it, does not profess to be even a temporary settlement of the Land Question, but only an alleviation of the tension and pressure in that system. Is there any hon. Gentleman in this House who will say that a Government which has just come into Office is not entitled to time for consideration of a tangled and difficult question, such as the Irish Land Question, before it endorses a principle about which there is great difference of opinion in Ireland, and which has not been unanimously accepted in that country as a final settlement of the Land Question. I have listened with great interest to the remarks of my hon. Friend the Member for Meath (Mr. Metge), who stated his belief that this measure would only touch the case of large tenants in Ireland. For myself, I think that if the machinery proposed by the Bill was workable, and could be properly put into operation, it would be of advantage to the tenants in the North as well as in the South, and would include those who occupy farms of a large size as well as those of more moderate dimensions. I deny, however, entirely that it would be of the slightest use to the 300,000 small tenants, who have really made the Irish land what it is, and whose sufferings have placed the Irish Land Question in its position before the British public. I do not wish to throw any obstacle in the way of the final settlement of the Land Question; but I have in times past voted on more than one occasion for the Bill of Mr. Butt—a Bill similar to the one before the House; but I consider that Mr. Butt's Bill was a considerable improvement on this one in many working points, and one of them was that it threw the onus on the landlord to bring the tenant into court. I think, however, that one of the real difficulties, next to insecurity of tenure, in respect of the Irish Land Question, is that the land is badly distributed. What happened after the Irish Famine? During that Famine the landlords took the opportunity of making extensive clearances, especially in the County Meath and other districts in which there were large tracts of land devoted to grazing. The residue of the people went to the hillsides and bogs of Connaught, where their descendants are now living on land consisting of bog and mountain, which they have redeemed. There are in Ireland 250,000 small tenants who can hardly pay any rent at all; and it would be purely mockery to go to these men with this Bill. In order to remedy the state of things in the West of Ireland we require either emigration or migration. There are in Ireland 4,500,000 acres light grazing land occupied by graziers in farms of 1,000 or 2,000 acres. These lands, which were formerly in cultivation, are not suitable to be permanently laid down in pasture. They require to be broken up and cropped; and what I propose is that the tenants on the poor lands in the West of Ireland should be given an opportunity of migrating to those grazing lands. I believe the better settlement of the Land Question lies in giving the tenants of Ireland an opportunity of becoming the owners of the land. I wish to enable this to be done by the issue of debentures at 3½ per cent guaranteed by the State. I believe that after this year many landlords will be willing and anxious to sell their lands on easy terms. The present Bill will be of no use to more than a minority of Irish tenants who have an interest in the soil and are undoubtedly deserving, but who have not made the Land Question in Ireland what it now is. I think that the Government are entitled to have an opportunity of considering the question as a whole, and of seeing whether they could not enlarge the Land Act of 1870, so as to enable it to meet the objects of the promoters of this Bill, and also to provide some means by which tenants could purchase their holdings on fair and reasonable terms. I believe that the existing Irish land system cannot possibly continue; and if the House passes this Bill it will only be prolonging a system which has worked, and is still working, incalculable evil to Ireland. In England, tenants are comparatively pros-perous and contented, because, owing to the remembrance of the feudal system, the landlords, while insisting on their rights, do not altogether forget their duties; in Ireland, where the feudal system does not survive, the landlords claim their rights but forget their duties. The Irish system has failed in every European country where it has been tried; and I must add that it has been attended in Ireland with more evil than in any other country in which it has been in operation. I believe that the agitation now going on in Ireland will make the farmers see that the only way of settling the Land Question is by their acquiring the ownership of their holdings. I must again express my opinion that the Government is now entitled to an opportunity of considering the whole subject; and that, under the circumstances, it would be better not to press the second reading of this Bill; and if next Session they do not bring forward satisfactory proposals we shall know how to proceed.   
+         </p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

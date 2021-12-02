@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr Parnell and his Constituents, The Irish Times, Thursday 7 October 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr Parnell and his Constituents</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="144709869" level="j">The Irish Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-10-07">7 October 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00024"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://search-proquest-com.ucd.idm.oclc.org/hnpirishtimes/docview/508848978/pageviewPDF/534322DBEB3B4138PQ/2?accountid=14507"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>This evening Mr Parnell, MP, addressed his constituents in the Young Men's Society Rooms in this town. Not withstanding the fact that the announcement of the holding of the meeting had not been placarded through the town, the room was crowded...</p>
+         <p>Mr Parnell, on coming forward, was received with loud applause. He thanked those present for the very warm reception they had accorded him, and said that many people might think the National party in the House of Commons were not working hard because the results were not yet to be seen; but they would become known at the right time - (applause) - for they were working hard, though they might be working silently. He regretted much that he had not the advantage of the support of his colleague Mr. Ennis, who was unavoidably absent of the present occasion: but this he would say of him, that he was an honest and true man. (Applause.) When he last had the honour of addressing them the Government had brought forward a most infamous coercion measure for Ireland. There had been a great effort made by Liberal Ministers in 1871 - Peter Paul McSwiney's Whigs - (groans) - show that there was ribbonism in these three counties, but they had undoubtedly failed to do so. On the other hand, there was everything to show that there never had been any ribbonism in these counties. (Cheers). They had the gratification of knowing that the subject of Home Rule would be brought forward next year, but while pressing forward that project they had not neglected the utilitarian measures for the benefit of Ireland. He would be very glad if any man would supply him with evidence of any acts of oppression or harshness on the part of landlords, because such imputation would be most valuable to them next year. (Applause). He thought that when the Liberals came into office again they would be able to get a tenant right bill for the North, and a fixity of tenure at fair rents for the South, East, and West. The national system of education had been accepted in Ireland on the principle that "half a loaf was better than no bread." (Laughter). No active opposition had been made against it, but the time was now come when England was tired of paying for the so called national system 3s 6d in the pound. The system of education in England was wholly what they liked there, but here they did not like it, and had protested against it, and yet they wanted them to pay for it. Education in England was under local control, and consequently there was no wrong in taxation, but there was no local control in this country of any kind. He meant as to the principle, for of course the schools were to a great extent under local management and the system was given to them, and they had administered it the best way they could. He thought it was very wrong and unfair to ask the Irish people to adopt a system that they had not only disliked, but that they had no control over whatever. (Applause.) A bill had been brought forward to put a tax upon them, and it had been done in a mild kind of way at first - a very small tax of 1/2d or 3/4d in the pound. Surely tenant farmers in Ireland would not object to a halfpenny or three-farthings in the pound to keep the national teachers from starving; but it was the duty of the Imperial Parliament not only to keep them from starving but to pay them proper salaries. Ireland had never been unwilling to pay her fair share for educational purposes. If Ireland was given a system of education that was not controlled by England, she was willing to pay for it, but she was not willing to pay for it if she had no control over it. Some of the Boards of Guardians had declared themselves contributory, and they were going to tax the ratepayers for the purpose of helping the National school teachers. Well, that was a very laudable thing to do, but it might lead to mischief, and probably next year the Government might bring forward a measure to make the bill compulsory all over Ireland, and instead of a halfpenny or three farthings in the pound, they might have to pay a rate of a shilling or a shilling and fourpence in the pound. That would be done by degrees if the Government could do it. He did not believe they could, they must oppose the measure tooth and nail. Mr Parnell concluded by urging those present to support the Butt testimonial, and said that Mr Butt had done more for Ireland than any man in recent days. (Loud cheers.)</p>
+      </body>
+  </text>
+</TEI>

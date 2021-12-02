@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Motion for a Select Committee, Hansard's Parliamentary Debates, Tuesday 4 April 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Motion for a Select Committee</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-04-04">4 April 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00044"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1876/apr/04/motion-for-a-select-committee#S3V0228P0_18760404_HOC_46"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, there were two questions which might fairly be asked in this debate—first, why Government permitted the blending of Irish whiskies in their bonded stores; and second, why Scotch whiskies were brought over to Ireland and blended? He was sorry to find that the Chancellor of the Exchequer had no satisfactory reply to give to the first question. It appeared to him (Mr. Parnell) that the right hon. Gentleman took a narrow and restricted view of his duty when he said it was only the province of the Revenue Department to look after the Revenue. But when they found, as had been proved that evening, that the authority of the Chancellor of the Exchequer was used to adulterate and disseminate a poisonous liquid amongst the people of Ireland, they must admit that the functions of the Chancellor of the Exchequer and of the Revenue Department were used to very bad purpose. Then as to the second question, the hon. Member for Glasgow (Mr. Anderson) appeared to put it on this basis—that according to the principle of free trade whiskey or other goods might be sent to any part of the United Kingdom, and that therefore there was no reason why Scotch whiskey should not be sent to Ireland and sold there. No doubt there was no good reason why it should not be sent to Ireland and sold there; but there was great reason why it should not be sent to Ireland and mixed with and sold as Irish whiskey, and brought into competition with Irish whiskey. What they complained of was that this inferior and poisonous Scotch silent spirit was brought over to Ireland, mixed with Irish whiskey, and was then taken to all parts of the world, and back again to Scotland, and sold as Irish whiskey. The issue before the House was a very plain one. He did not complain of Scotch whiskey going over to Ireland; but he complained that Government sanction and protection was extended to Scotch silent spirit, which, at the price of 2s. per gallon, was used to destroy Irish whiskey, and not only the whiskey itself but the people who drank it. He believed that as much would be done to prevent drunkenness and crime in Ireland by improving the quality of the whiskey as by the Sunday Closing Bill, for which he intended to vote. He asked the House to look at this question dispassionately. If the regulations of the Government were such as to render it necessary that good Irish whiskey should be mixed with the wretched Scotch stuff, and that the Irish people should be poisoned by it, then he thought that every Irishman, whatever might be his politics, would admit that the sooner they had their own Customs House under the control of an Irish Parliament, and their own Irish Chancellor of the Exchequer, the better.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

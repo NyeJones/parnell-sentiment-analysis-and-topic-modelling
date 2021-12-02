@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Captain Barton and the Northern Orangemen., The Irish Times, Friday 18 February 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Captain Barton and the Northern Orangemen.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="144709869" level="j">The Irish Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">5</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-02-18">18 February 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00034"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www-proquest-com.ucd.idm.oclc.org/hnpirishtimes/docview/508948247/A5F44DD379E646BEPQ/10?accountid=14507"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr Parnell, for Mr Fay, gave notice that on Monday he would ask the Chief Secretary whether any inquiry had been directed or any action taken, or was intended to be taken by the Lord Lieutenant of Ireland, in respect of a speech delivered by Captain Barton, J P, O L, at a public meeting in the city of Derry, in which, as reported in the public journals on the 9th December, 1875, he said - "If the men that his brother Johnston represented were like the other men in the North, they would make short work of their opponents. (Cheers.) These men did not wear a scapular round their necks, and were not frightened by powder. (Laughter.) He had heard of a certain Home Rule meeting in Cavan. There were not 15 Orangemen there. The Home Rulers began, under the guidance of a priest, to pelt these Orangemen, and the latter commenced firing powder at them, but there was one young Orangeman who put a ball into his gun. (Applause and a voice - "Serves them right.") The people were flying in all directions, and though the young man fired in the air, the priest, too, got a cushion off a car close by, blessed it, and put it on his back. (Laughter and Kentish fire.) Now, as he (Captain Barton) heard the story - and he heard it so often that he believed it - it was lucky the priest had done so, for the cover of the cushion was cut up into scapulars and sold throughout the country. (Great laughter and Kentish fire.) The money received paid for the law there was about the business." He would further ask whether that speech was not followed by a letter under the signature of the same gentleman, which appeared in a Belfast journal of the 20th December, containing observations of the same character as the reported speech, and whether the Chief Secretary considered it to be conducive to the fair and impartial administration of justice that a gentleman who appeared to have thus spoken and written in reference to the circumstances attending a most atrocious and unpunished murder, committed at Drumalow, in the county Cavan, which excited the greatest indignation and alarm amongst the Catholic population of the counties Cavan and Fermanagh, should continue to act in the commission of the peace.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

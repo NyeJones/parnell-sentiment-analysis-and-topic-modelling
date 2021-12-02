@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Criminal Law - Release of Political Prisoners. - Question, Hansard's Parliamentary Debates, Monday 22 May 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Criminal Law - Release of Political Prisoners. - Question</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-05-22">22 May 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00047"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">       
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="http://viaf.org/viaf/81159818807513812830/#Hansard's_parliamentary_debates."></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, the right hon. Gentleman the Prime Minister had spoken of two of the prisoners as being murderers, meaning those who had been convicted at Manchester. He had also spoken of soldiers subject to imprisonment in Western Australia. He had also spoken of those military prisoners who were in prison in England, and whose military crime he was disposed to consider a greater one than that of those in Western Australia. He (Mr. Parnell) was speaking of Davitt and Wilson, found guilty of selling arms. With regard to the Manchester affair, he held in his hand a book called The Rights of American Citizens, which could be seen by any Member, as it was ordered by the United States Congress as a Return. It gave a report of the trial of Condon and Maloney at Manchester. If any hon. Member would take the trouble to read the evidence—if the right hon. Gentleman himself would take the trouble to read the book, he would see that the evidence against Condon was given in full, and he would find that there was not a particle of evidence to connect him with that murder. At the very outside his name was mentioned by three or four witnesses as having been in the crowd around the van. He was not mentioned as being near the van, except by one man who said a stone fell on Condon's head from the van; but he was attended by a surgeon who said the wound was not caused by a stone, but more likely by a policeman's bludgeon. As regarded Maloney, he was apprehended in London after the three men in Manchester were hanged. He was convicted upon his own statement to a fellow-workmen that he had been present at the attack on the van; but there were many men who knew that Maloney was no more at Manchester on the day of that business than he (Mr. Parnell) was. He was put on his trial and found guilty of murder, and sentenced to be hanged, but the sentence was afterwards commuted to penal servitude for life. There were many men who believed in their own hearts that neither Condon nor Maloney was guilty of that affair. He was sorry that the hon. Gentleman the junior Member for Tipperary (Mr. Stephen Moore) was not in his place that evening to stand up and say he believed that Condon was perfectly innocent of the crime of killing Sergeant Brett at Manchester. With regard to the military prisoners who were confined in Australia, he thought the right hon. Gentleman was under a misapprehension when he represented to the House that they were in a better position in Australia than they would be in this country. He (Mr. Parnell) remembered that the late Mr. Ronayne, before he left London to go to Cork—and he was a man with special information on the subject—told him it was supposed that the convict establishments in Western Australia were about to be given up, and, as a consequence, the prisoners, if not released, would be sent to penal servitude in England, so that it would be additionally hard to those men, who had been enjoying some absence from penal restraints, should they be brought back and put in such convict prisons as Chatham or Dartmoor, and subjected to the rigour of English penal servitude. He threw out those hints in order that the right hon. Gentleman might inquire into the matter. With regard to the three prisoners who were now in prison in England, M'Carthy, Chambers, and another, M'Carthy was a brave soldier, who had fought, and fought well, for England in many parts of the world. Was it fair, after that man had had 10 years in penal servitude—10 years of discipline, which was given in order to effect reformation in the minds of thieves, murderers, and the worst of criminals—was it fair to keep the man in imprisonment any longer? With regard to Davitt, who was sentenced to 15 years'penal servitude by a Judge, he might say that the man who only got seven years was an Englishman; and he did not know how much effect Davitt's being an Irishman might have had with the Judge. ["No, no!"] Hon. Gentlemen might say "no, no,"but it was very hard to be superior to prejudices on all occasions; and he had little doubt that when this man was sentenced to 15 years' penal servitude, the fact of his being an Irishman, and the fact of this occurring just after the Clerkenwell Explosion, and after the murder of Sergeant Brett, which created a great deal of feeling in the minds of the middle and upper classes of this country, had some influence in determining the sentence passed on him.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Galway Election, The Bristol Times and Mirror, Thursday 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Galway Election</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="" level="j">The Bristol Times and Mirror</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011198">Bristol, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0000984/18860211/110/0006"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell addressed several meetings in Galway yesterday, in support of the candidature of Captain O'Shea for the city. In addressing a large meeting in Eyre-square, from the steps of the Railway hotel, he said the circumstances of the present contest had been well calculated to try the devotion and spirit of union of the people of Galway, and it was a remarkable fact that they should have stood the test. He admired the spirit with which Mr. Lynch had entered into his candidature, and the feelings of temper he had exhibited in withdrawing. Had he known a few days sooner of Mr. Lynch's desire to represent the constituency he would have cheerfully yielded; but he had been informed Mr. Lynch would not come forward, and he therefore chose Capt. O'Shea, whom he could not now reject, as he had supported him (Mr. Parnell) in his claims to the Irish leadership in 1880. He had since condemned Mr. O'Shea publicly for not sitting with the Irish party, but Mr. O'Shea had now given his promise to sit on their side of the House. He (Mr. Parnell, [sic] had never misled the Irish people, and would never do so.</p>
+         <p>A special correspondent telegraphs from Galway:- "The retirement of Mr. M. A. Lynch from the contest has rendered the result of Thursday's polling a foregone conclusion, but in order to guard against possible surprises Mr. Parnell and the supporters of Mr. O'Shea are using all efforts to bring the Nationalist electors to the polling booths. The Conservatives, it is expected, will avail themselves of the fact that the name of Mr. Lynch will remain on the ballot papers, and will poll for him, while there are still a few Nationalists outstanding who may also vote for Mr. Lynch. Even by Mr. Parnell's personal canvas to-day it has not been possible to convince the country people living in remote parts of the city of the necessity for obedience to Mr. Parnell's wishes by voting against the popular candidate, especially as the name of the latter must still appear on the ballot paper; nor has it been easy to efface from the mind of the people the effects of the speeches made by Mr. Healy and Mr. Biggar on Sunday and Monday last in support of Mr. Lynch. Mr. Healy, it may be stated, acted in the matter with perfectly disinterested motives, and in opposing Mr. O'Shea, was expressing a conviction that Mr. Lynch was the better man for the vacancy. He, however, gave way in deference to Mr. Parnell; and rather than mar the discipline of the party, he left the scene of the election on Tuesday evening. It is now expected that the contest - such as it is - will pass of without further incident, and that Mr. O'Shea will obtain a substantial majority of the votes polled. There will be three polling places - one at the Courthouse, and the others at Barna and Castelgar in the Liberties, and the result will be declared the same night."</p>
+      </body>
+  </text>
+</TEI>

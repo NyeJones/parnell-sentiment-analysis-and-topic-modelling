@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parliamentary, The Nenagh Guardian, Wednesday 29 March 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parliamentary</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="15158306970606401193" level="j">The Nenagh Guardian</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-03-29">29 March 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="1042949">Nenagh, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00042"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">       
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://archive-irishnewsarchive-com.ezp.lib.cam.ac.uk/Olive/APA/INA.Edu/Default.aspx#panel=document"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. R. [sic] Parnell wished to call attention to a matter which would not occupy much time. On Friday last, when this vote was passing, he asked the Chief Secretary a question respecting the appointment of Mr. Sheridan as Clerk of Petty Sessions for the County of Meath, which was annulled by the authorities at Dublin Castle. Mr. Sheridan was elected by five votes to three on the part of Mr. Darling, his opponent. The return was forwarded to the Castle, and an objection was taken to the appointment of Mr. Sheridan by the defeated candidate. After the Castle had inquired into the matter, a delay of six or seven weeks occurred, and they came to the conclusion to annul the election of Mr. Sheridan, and to appoint Mr. Darling in his place. He found by the Act that only magistrates residing in the district or attending petty sessions were entitled to vote at such elections; but on this occasion one stipendiary magistrate voted, which was to be regretted, for he was glad to say the stipendiary magistrates were not in the habit of voting at these elections. He could not find any section in any of the Acts bearing on the subject allowing the Castle to appoint candidates to these situations, although he had always understood that the power was vested in the magistrates and the Lord Lieutenant jointly of dismissing a man. He thought a great hardship had been done in this case to an individual, a great slight put upon the gentry of the locality, and an obnoxious precedent set to parties in Meath who sought to make religious questions of these appointments. It was matter of regret that a stipendiary magistrate should have lent himself to religious controversies of this kind, and it was still more to be regretted that the underlings of Dublin Castle should have allowed themselves to be influenced by underhand representatives. He hoped the Chief Secretary would institute an inquiry into all the circumstances of the case, and have evidence adduced on both sides. Mr. Darling had been allowed to bring forward an affidavit, which had its due weight in the Castle. He moved the reduction of the vote.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

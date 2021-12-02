@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The O'Connell Centenary Committee., More Extraordinary Scenes, The Irish Times, Wednesday 24 November 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The O'Connell Centenary Committee., More Extraordinary Scenes</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="144709869" level="j">The Irish Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-11-24">24 November 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00028"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://search-proquest-com.ucd.idm.oclc.org/hnpirishtimes/docview/508887133/pageviewPDF/AC3572EBBCC94936PQ/10?accountid=14507"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr Parnell assured them that he came there anxious and determined if possible to act in the spirit indicated by the very rev gentleman, but at the outset they found themselves, he regretted to say, in a difficulty, about the minutes. They were imperfect, inasmuch as they did not contain a report of the proceedings that took place after his lordship left the chair.</p>
+         <p>...</p>
+         <p>Mr Parnell - Your lordship, in your letter to the papers gave as one of the reasons that I was not qualified to act as chairman, that I was not a subscriber.</p>
+         <p>The Lord Mayor said he believed he stated that he had not seen in any of the printed lists the name of Mr Parnell.</p>
+         <p>Mr Parnell - I understood your lordship correctly. Now, I did not subscribe to the Mansion House fund. I did intend to do so, but circumstances arose which prevented me. To these circumstances I shall not refer unless called upon. I did not subscribe to your Lordship's fund; but I did subscribe to two public bodies in Meath -</p>
+         <p>...</p>
+         <p>Mr Parnell - Who took part in the procession? I subscribed to another - </p>
+         <p>The Lord Mayor - Have you any objection to state what these bodies were?</p>
+         <p>Mr Parnell - Not the least. I subscribed to the bakers of Navan, and I subscribed to the Drogheda band for uniforms to enable them to appear respectably in the procession; and I subscribed to the Amnesty Association in Dublin. (Hear, hear.) I subscribed to these three bodies. I looked upon the procession as the great feature of the celebration. (Hear, hear.) Even the English press were compelled to admit that the Irish were a people who could govern themselves. There were no policemen, no soldiers - every man his own governor and his own ruler. As to the circular all I can say is that I never got it, and under these circumstances I may assume it was never sent. (Hear, hear.)</p>
+         <p>...</p>
+         <p>Mr Parnell - May I ask when Mr Keegan saw this circular addressed to me?</p>
+         <p>...</p>
+         <p>Mr Parnell - And I was not a member of Parliament for more than a month after that. (Laughter). I never got the circular. I utterly deny that you can alter the constitution of the committee as defined by the Conference, any more than the President of the United States could alter the constitution of that amnesty or Queen Victoria could alter the British Constitution. (Hear, hear.) Mr Parnell condemned the conduct of the Lord Mayor on leaving the chair, and as to his own eligibility, said he had attended there without being objected to on two previous occasions, and had then exercised the privilege of speaking. They wanted to settle these matters quietly, but they had a duty to perform. They must see that the money was spent legally and properly, and in accordance with the wishes of the country. (Hear, hear.)</p>
+         <p>...</p>
+      </body>
+  </text>
+</TEI>

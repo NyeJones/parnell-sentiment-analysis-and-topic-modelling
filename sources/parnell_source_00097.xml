@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell, M.P. and his Constituents, The Irish Times, Monday 18 October 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell, M.P. and his Constituents</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="144709869" level="j">The Irish Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-10-18">18 October 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00025"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">       
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://search-proquest-com.ucd.idm.oclc.org/hnpirishtimes/docview/508854391/fulltextPDF/FB4EBEDC63A14F51PQ/6?accountid=14507"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Shortly after two o'clock to-day Mr. Charles Stuart [sic] Parnell, M.P., accompanied by Mr. C. J. Fay, M.P., arrived here by car from Navan, and on entering the village met with a warm reception from a large assemblage of persons belonging to this part of the county and who for some hours had anxiously awaited his arrival. As the honourable gentleman subsequently stated in his speech, the object of his visit was that he might see his friends of Lower Meath, and that they might see him, as, during his candidature for the representation of the county, he had not had any opportunity of visiting that part of it. After an interval spent in Martin's Hotel, a temporary platform was erected and around it assembled a large body of people who were anxious to hear an address from one of the members of their county.</p>
+         <p>...</p>
+         <p>Mr Parnell, MP, who was received with loud applause, stated that he wished to address his constituents in that part of the county, and then proposed a resolution declaring their continued and unalterable adhesion to the caause of Home Rule, religious education, fixity of tenure with fair rents, and amnesty to the political prisoners. This resolution embraced some very important matters. In the first place Home Rule, which the representatives of the Irish people should struggle for night and day, and never desist till they attained it, and they should with equal determination, preserve till they obtained fixity of tenure for the Irish tenantry, religious education for the Irish people, and Amnesty for the political prisoners. (Applause). It might have been supposed that as they were beaten last Session they had been badly beaten, but they were not - they were gaining ground every day. (Applause). The Irish people, at all events, had in their own hands the power of obtaining Home Rule, and if they used it they would do so not merely in their own interest but in the interest of England. They had got their hand on England's throat, and they should keep it there. (Cheers.) What did Wendell Phillips say when he was chosen by the Irishmen of America to speak in eulogy of the career of the immortal O'Connell? (Cheers.) What did he say in that address which put to shame the English pensionary who feared to deliver his address before the Irish people? He said that Ireland had been raised from the weak and powerless position which she formerly occupied to that position which rendered her arbiter of the destinies of England. (Cheers.) The Irish people did not want to interfere with England - they only wished to manage their owwn affairs. Would it not then be well that England should in time purchase peace with Ireland, and ask forgiveness for the cruel wrongs which she had done this country in the past? She should accept the compromise which the Irish people offered her. If she waited too long she might be too late. The Irish representatives should attend to their duty by day and by night as long as they had the Irish people at their back, and any attempt to dissuade them should be put down with a strong hand. There were persons foolish enough recently to think that, because the attention of the Irish people had been occupied when they were doing honour to the memory of O'Connell, they would not be quick enough to detect insidious attempts to reinstate English power in this country, but they now found themselves baffled and destroyed, without a political future before them in this country. The honourable gentleman then spoke of the way in which the Irish members attended to their duties in the House of Commons, and said he could give his time entirely to them because he had nothing else to do; but there were others who made greater sacrifices than he did, who went over to every important division and then returned to attend to their business at home. To those men who made such sacrifices constituents should be lenient. Speaking on the question of Home Rule he said they were told that there was a great difference between Home Rule and Repeal. He, however, could never see the difference, because before they got Home Rule the Act of Union should be repealed. Nobody ever doubted that. Then they heard talk about the Constitution of 1782. That constitution contained some good points, but it also contained some bad ones. What would they think if the whole Catholic people of Ireland were to be excluded from the franchise, and if they were to be deprived of the right to elect a Catholic representative? Under that constitution the Irish people could not elect a responsible minister. Every minister in this country at that period was paid by England, and his duty was to carry out the policy of England which was just the same now as it was then. They were told that they ought not to ask for anything less than Repeal, that Repeal was their right, and that other things were not their rights, but the man who asked for Home Rule asked just for those things which would make Repeal workable. As far as he could see the only difference was a difference in name. When it came to a question of details and of arrangement between England and Ireland the Irish people should have what they wanted. The representatives of Ireland dare not act contrary to the wishes of the Irish people, who would have at the proper time an opportunity of determining what they should have. (Cheers). Mr Parnell then discussed the question of Tenant-Right, and said that Mr Butt had promised to bring into Parliament next year a bill embodying the principle of Fixity of Tenure at fair rents. (Cheers for Mr Butt.) Mr Butt had done as much as any man for the Irish tenants, and the bill which he would introduce would preserve their interests. They might not be able to pass the bill next session, but they would do so in a very short time. They should be able to do so when the Whigs came back to power, and he said this, not because he was fond of the Whigs, but because he knew that whatever power the Whigs should have it would be given to them by the Home Rule representatives of the Irish people, and they should do what the representatives of the people to them to do. (Cheers.) This would not be a case of being beaten by big majorities, it would be a case of one party out and the other in. They would take all they could get, and all they had a right to get. The subject of education was one of the most important of the day. Unless their children were educated, how could it be expected that they would grow up Christian men and Christian women - honest, industrious, and God-serving people? The people should be educated under a system which they could cordially accept. The Irish people never cordially accepted the national system, which had never succeeded, and which would never succeed unless it was supported by the people. The present Government of England were in favour of religious education in England, but they did not wish to give it to Ireland, because the majority of the people of this country were Catholics, and they did not wish because they were bigoted, to give to Catholics the same advantages that they would give to English Protestants. He was sorry to have to tell them that, but it was the fact. As far as he had been able to learn the Protestants of Ireland had always demanded religious schools and colleges till they found that if they got them they would also have to give a religious education to Catholics, who formed the majority. But as soon as they found out, they said they had better not agitate the question further. However, he believed that, if the matter were properly put before the Protestants of Ireland, they would not insist on this dog in the manger policy. Mr Parnell then spoke in favour of improving the condition of the labouring classes in Ireland. He spoke strongly in favour of amnesty for the political prisoners, whose sufferings in English prisons de described. He declared he could not see what advantage England could have in detaining them in prison any longer. In conclusion he urged that Irishmen should unite and work together till they obtained self-government for their country.</p>
+      </body>
+  </text>
+</TEI>

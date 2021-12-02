@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Second Reading. [Adjourned Debate.], Hansard's Parliamentary Debates, Thursday 1 July 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Second Reading. [Adjourned Debate.]</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-07-01">1 July 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00064"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jul/01/second-reading-adjourned-debate#S3V0253P0_18800701_HOC_191"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, that he should ask the House to allow him to occupy it a few minutes, while he stated the course which hon. Members from Ireland wished to take with regard to the Bill. It would be in the recollection of the House that the debate was adjourned when the matter was under consideration on a previous occasion, in order that the right hon. Gentleman the Chief Secretary for Ireland might consult his Colleagues as to the course he should take. The result of that consultation was that the right hon. Gentleman gave Notice of a certain new clause to the Government Belief of Distress Bill, with the view of meeting the objections of the Irish Members. Irish Members thought that it was of the utmost importance that some grant should be given—if they pleased—to the Poor Law Boards in Ireland, for the purpose of enabling them to meet quickly any pressing emergency which might arise. In their opinion, the advance of money at 1 per cent to the Poor Law Boards would not be sufficient to enable those bodies to adopt a quick and speedy action for the relief of distress. In other words, they considered that the power of granting out-door relief given by the Act of last Session would not be of use unless some means were adopted to enable Boards to take speedy action. They thought that if a grant of £200,000 were given out of the Church Surplus to the Poor Law Boards—that was, to the Poor Law machinery of the Government—there would be a desire on the part of those Boards to put into operation the Act of last Session, and they would at once commence to distribute out-door relief, and would co-operate with the right hon. Gentleman the Chief Secretary in putting the machinery of the Act into operation. What was the position of these Unions? Many of them were practically bankrupt. They had exhibited the greatest repugnance to borrowing money from the Government, and they would continue to exhibit that repugnance so long as no further means were provided for them.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, that he did not wish to trouble the House at any length; but was only exercising his right to reply to the observations which had been made on the second reading. He would merely say, in conclusion, that it was of the utmost importance that the machinery for the distribution of out-door relief should be set to work at once; therefore, they advocated the grant, in order to insure the speedy action of the Poor Law Guardians.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he proposed to proceed with the Motion for the second reading, unless some proposition were made by the Government.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, they were in this position. They thought it absolutely necessary that there should be some grant in aid of the distress in Ireland, and they were perfectly willing to allow the Government to choose the machinery to administer the fund. They had expressed their preference for bodies which had already successfully administered money in Ireland up to the present time; but if the Government desired to administer the money through the Poor Law machinery they were willing to agree to that arrangement. But the difficulty in regard to the Bill of the Chief Secretary for Ireland was that it was complicated with so many collateral questions, that it was utterly impossible to say when the particular part of the Bill connected with the present subject would be reached. They knew that the time of the Government was exceedingly limited; but they knew also that there was a great emergency in Ireland which required immediate action. The Government had presented a Bill of cumbrous size for the purpose of repairing the errors of their Predecessors. If he (Mr. Parnell) agreed to the adjournment of the debate he did not know when his Bill could come on; while the Notice on the Paper that it be read a second time that day three months would remain. If the Government would allow him to put his Bill down for Saturday, the proposal might be made the subject of consideration in the meantime, and perhaps some satisfactory arrangement might be arrived at. He asked the Government to consider their position. A grave responsibility had been cast upon them by their constituents to do all they could for them. He thought the right hon. Gentleman was making a grave miscalculation in relying on the Poor Law machinery, and that he might find himself in the midst of a state of affairs which he had not contemplated.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he agreed with his hon. Friend the Member for Mayo (Mr. O'Connor Power) that the debate might be now adjourned. But it should be remembered that he had proposed that plan at the beginning, although he feared he had been misunderstood by the Chief Secretary for Ireland. He had proposed that the right hon. Gentleman should adopt the principle of a grant reserving to himself the right of administration by the Poor Law Board, and it was only at that moment that the Chief Secretary for Ireland had pointed out how it could be done.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he wished to see the block Motion taken off the Paper for Saturday, and would move that the Bill be read a second time on that day.</p>
+      </body>
+  </text>
+</TEI>

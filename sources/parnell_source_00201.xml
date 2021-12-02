@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Imperial Parliament, The Weekly Irish Times, Saturday 27 May 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Imperial Parliament</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="203982024" level="j">The Weekly Irish Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">5</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-05-27">27 May 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00047"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www-proquest-com.ucd.idm.oclc.org/hnpirishtimes/docview/850949449/pageviewPDF/66A5CC8F43254921PQ/2?accountid=14507"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell said that the Prime Minister had spoken of some of the political prisoners as being murderers, meaning those who had been convicted at Manchester. He had also spoken of the soldiers who had been found guilty of brekaing their oaths of allegiance. He expressed his regret at the conduct of the Prime Minister, and said that much misunderstanding prevails with reference to the persons who still remained in prison. With regard to the case of the Manchester men he referred hon. members to a book which they would find in the library of the House consisting of returns ordered by the United States Congress of the proceedings during the Fenian trouble in connection with their citizenship. It gave at full extent the trial of Condon and Molony at Manchester, most of which report was taken from the Times [italics] newspaper. If the Prime Minister took the trouble to read the evidence given against Condon he would find there was not a particule of evidence to connect him with that murder. His name was mentioned by some witnesses as being in the crowd surrounding the van. He was not mentioned as being near the van, except by one witnes, who stated that a stone fell from the top of the van, and hit Condon on the head; but he was contradicted by the doctor who examined Condon's wound, and who stated that it was caused not by a stone, but by a policeman's baton. As regards Maloney he was taken up in the streets of London some time after the three men were hanged at manchester. He was arrested on his own boast to a fellow-workman that he had been at the attack on the van. He was about 17 or 18 years of age, and there were many men who knew perfectly well that he was not in Manchester on that occasion. Yet that young man, who was taken up on his own baost, was tried, convicted, and sentenced to be hanged for murder, and his sentence was afterwards commuted to one of penal servitude. He regretted that the junior member for Tipperary was not there that evening to state the belief which he knew he entertained that neither Condon nor Maloney was guilty of any participation in the affair. With regard to the military prisoners who were confined in Australia, he thought the Prime Minister was under some misapprehension when he informed the House that those prisoners were in a better position in Australia than those in this country. A short time before the late Mr Ronayne left London to return to Ireland - and he was a man of truth and honour, and had special information on this subject - he told him that it was supposed all convict establishments in Western Australia were about to be given up, and, as a consequence, if these persons were not released they would be sent home to England and placed in penal servitude, so that it would be an additional hardship on these unfortunate men who had been enjoying a partial amount of freedom, or at all events an absence of personal restraint, if they were sent back to England and put into such convict prisons as Chatham, Dartmoor, and other places, and subjected to all the rigours of penal servitude. He threw that out for the consideration of the right hon. gentleman, and hoped he would make further inquiry into the matter. With regard to McCarthy, Chambers, and another, the three military prisoners, he had to urge that McCarthy was a brave soldier, who had fought well for England in many parts of the world, and he put it to hon members was it fair that after that man had ten years of penal servitude, ten years of the discipline intended to bring about a reformation in the minds and habits of thieves, murderers, and the worst of criminals, that he should be kept any longer in confinement. (Hear, hear.) With reference to the other prisoner, Devitt [sic], who was sentenced to 15 years, penal servitude; the Prime Minister had omitted to tell the House that he was an Irishman, whilst Wilson who only got seven years was an Englishman. He did not know how much the fact of his having been an Irishman might have influenced the judge. (No, no.) Hon. members said "no," but they all knew what prejudice was, and how hard it was to rise superior to it on all occasions. He had very little doubt that when Devitt [sic] was sentenced to fifteen years' penal servitude the fact that he was an Irishman had some influence in determining the severity of the sentence, considering that it occurred after the Clerkenwell outrage and the shooting of Brett, which created a great deal of excitement and indignation among the middle and upper classes of this country.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Untitled, The Newry Telegraph, Thursday 2 March 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Untitled</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315614217" level="j">The Newry Telegraph</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-03-02">2 March 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="1048398">Newry, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00038"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">          
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/BL/0000998/18760302/029/0003?browse=true"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Amnesty demonstrations, the frothing oratory of platform patriots and the clamour and "tramp of marching thousands," having failed to scare the Executive into enlargement of incarcerated felons, foreign intervention is proposed to be brought to bear. Action in the matter seems to be actually imminent, on the side of an official delegation instructed by the United States House of Representatives. By way of encouraging such intermeddling, in contempt of international obligations, one of the Home Rule patriots has bestirred himself, in the House of Commons, in the interest of one Condon, alleged to be an American citizen, and who had been supposed to be undergoing not only penal servitude but all sorts of barbarous usage in Spike Island Convict Prison. Mr. Parnell's interrogatories failed of their immediate object of demonstrating that Condon is a martyr, and availed only to bring out the information that the handcuffing and chaining in Spike Island had only been dreamed of, the felon in question never having been confined in that prison nor ever subjected to rigorous treatment where he is incarcerated.</p>
+         <p>But it is quite manifest an ulterior purpose was had in view. Mr. Parnell had an eye to effect, not on our side of the Atlantic, but on the other. Fenianism is a noxious plant which only flowers in America, and would not flourish to any great extent even there unless it were carefully cultivated and nursed - though, it must be said, not for its beauty, but for the irritating poison to be extracted out of its roots and flowers. Nobody who intelligently reflects on the matter can be at a loss to account for the anomalous proceedings on the side of the American Legislature. The reason is plain as a pike-staff. The disturbing element in American politics is the Irish vote, and to the continually recurring necessity of conciliating the Irish citizens is ascribable to the propensity of the politicians of the Republic to comport themselves in the manner the House of Representatives has presumed to do in reference to the convict about whom Mr. Parnell has so chivalrously concerned himself.</p>
+      </body>
+  </text>
+</TEI>

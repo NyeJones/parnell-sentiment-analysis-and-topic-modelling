@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parnell, The Cincinnati Commercial, Saturday 21 February 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parnell</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="186296775" level="j">The Cincinnati Commercial</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-02-21">21 February 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7013604">Cincinnati, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00072"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. President, [renewed applause], and Ladies and Gentlemen - It gives me the greatest possible pleasure to see this magnificent meeting, and, of course, I recognize to the fullest extent that you have not assembled here to-night to do me honor, but you have come rather as a token of that appreciation for the cause which I represent in America, [applause], and to show your practical sympathy for the struggling, oppressed and suffering people of Ireland. [Applause.]</p>
+         <p>Our people at home are passing through a crisis which has not been equaled [sic] in severity for thirty years. A great famine is upon us, and had it not been for the help which you have been sending over in such bountiful amount, many of my poor countrymen and countrywomen would have been under the sod - but thanks to your generous assistance there has not been much loss of life from famine up to now - and although there has been a great deal of bitter and severe suffering, and although many of our people are daily becoming enfeebled through slow starvation, yet I am happy to think that your help is saving the lives of many hundreds, yes, thousands, of persons and your sympathy and the force of public opinion of this country has been of even more service than the money which you have sent so plentifully to Ireland. [Loud applause. Voice in the gallery: "Shut the Herald down; shut the Herald down."] It has compelled the British Government, at all events, to pretend to do its duty in coming to the aid of the famished in Ireland.</p>
+         <p>Don't let me be misunderstood, if you please. The Government of England has as yet done nothing, but it is beginning to recognize that the public opinion of America and the world will not permit the Irish people to be starved to death as they were starved. [Applause.]</p>
+         <p>When we landed in this country six weeks ago, we pointed out that even the magnificent charity of the Nation such as yours, could not always prevent famine in Ireland; that at the best could only stave it off for a while, until your public opinion had compelled the Government of England to move, and as I have just said that Government is now showing us that it is commencing to feel the force of this public opinion - and more, you have generously helped us, and have saved hundred and perhaps thousands of people from death during the last month. You have also done us far greater service by setting in motion the only power which can effectually stay the terrible famine which is now upon us; and we think that as the Government of England, while it does nothing itself, as there is a semi-official appeal on the part of the tenantry of Ireland to America for assistance, you have acquired on your part a right to inquire into the causes of this Irish famine, and to express your opinion as the opinion of a free Nation, as to the remedy that should be applied to remove these causes. [Applause.]</p>
+         <p>We do not desire to embroil your Government with that of England, by any means; but we think that a people like the American people is entitled, if it wishes, to assert its influence upon this question, and more especially when you have been appealed to in the way you have been for help for Ireland, and since you have answered that appeal in the magnificent way you have. Now let us consider</p>
+         <p>THE CAUSES OF THE IRISH FAMINE</p>
+         <p>And distress there. and recollect that there is plenty of food in Ireland; there is always plenty of food in Ireland during these famines. Our Irish famines are not famines of food, they are famines of means with which to buy food.</p>
+         <p>The peasantry, in their attempts to pay impossible rents, have spent all their money already. That money has gone to the "absentee landlords," and left the country. They now find themselves - those of them who have not taken our advice to pay only a fair rent in this season of scarcity - they now find themselves without one single penny with which to satisfy the cravings of their starving wives and children. Hence this artificial famine, produced - deliberately produced by bad laws, by governmental neglect of the interests of Ireland. What is the situation there? I find that there are in Ireland a little over twenty million acres of land and about 292 persons owning one-third of all this land. Just reflect for a moment upon these figures - one-third of all the land in Ireland is owned by about as many people as are now sitting in that gallery opposite to me. Well, then, if you take both of these galleries together you will have perhaps four or five hundred people, and that number own about one-fifth of the rest of the land in that country, and altogether about 10,000 persons, or as many as could comfortably sit inside of this hall, own all the lands of Ireland. Now, of these 292 people who own one-third of the land, nearly all live out of Ireland. Few, if any, of them ever have been in that country, or ever intend to go there. the money that they receive in the shape of rents is taken away and spent in London, in Berlin and in Paris - in every place excepting Ireland, and it is as hopelessly lost to that country as if it were thrown into the sea. [Applause.] And how about </p>
+         <p>THE TENANT FARMERS?</p>
+         <p>There are six million tenant farmers standing face to face with these ten thousand landlords, and these six million tenant farmers say to-day that if the Irish landlords don't give up the Irish land system which has produced these results, that they will give the landlords up. [Applause.] and the way that they propose to give them up is by stopping their supplies, or at all events some of the very bountiful supplies they have been receiving up to the present moment. We recommended the tenantry of Ireland about six months ago - I wish we had commenced to give this advice twelve months ago, if we had, there would be no famine to-day in Ireland - we recommended the tenantry to pay only a fair rent to their landlords, and those who have taken our advice are not to-day suffering from famine. Those, on the other hand, who through fear, or for some other reason, refused to take our advice, are starving. But the tenantry of Ireland see that their only safety against these constantly recurring famines is to demand the abolition of the feudal system of land tenure, and, pending its abolition, only to pay a fair rent to the landlord. [Applause.]</p>
+         <p>The condition of Ireland at all times is one of constant poverty. In the best of seasons the people are not very far removed from starvation, hence, it only requires a partial failure of the crops to cause a famine. Now, many people suppose that Ireland is a poor country, but Ireland is not naturally poor. The lands of Ireland are exceedingly rich - unequaled [sic] in richness by any lands I have seen in this country. A few days back I visited the Blue Grass regions of Kentucky, which is held up to us as one of the most remarkable examples of American fertility. But the Blue Grass regions of Kentucky in point of fertility can not reach the grazing pastures of the great central plains of Ireland. [Applause.] It is true you do not have famines in the Blue Grass regions of Kentucky, while we have famines in our rich plains of Ireland. But the reason is that your farmers in Kentucky are allowed to own land, and to live on it.</p>
+         <p>Furthermore, farmers in Ireland are driven off of these fertile lands, and compelled to subsist on the barren and rocky hill-sides, places which have not as yet tempted the cupidity of the landlord. If the people were to live on these rich lands and to cultivate them, there would be thirty acres of good land for each of these 600,000 tenant farmers in Ireland, and I believe thirty acres of good land in Ireland are far better than 150 acres of the wild land in this Western region. [Applause.] Then we are told</p>
+         <p>THAT IRELAND IS VERY CROWDED,</p>
+         <p>And that the remedy for Irish distress is emigration. Well, now, the population of Ireland is about 5,500,000; that gives 200 inhabitants to the square mile. The number of Inhabitants in Belgium and Holland to the square mile is just 420 - more than double that in Ireland, and yet I never hear that Belgium and Holland are very crowded, and that they require the constant blood-letting of emigration to keep them healthy. But they have no landlords in Belgium and Holland. The land of that country belongs to the people of that country. [Applause.] But the island of Guernsey presents a still more remarkable incidence. The island of Guernsey shows 30,000 inhabitants to an area of 10,000 acres. Ireland, if as densely peopled as Guernsey would support in comfort a population of 45,000,000 instead of only five and a half million, [applause], and Guernsey, with its large and crowded population, is one of the richest little islands in the world. Its soil and climate are not superior to that of Ireland. She is not near the great markets, but in Guernsey every man owns his own land and the law facilitates the obtaining of land by every poor man upon easy terms. There are no landlords there, and there are no famines in Guernsey. [Applause.] But I don't wish you to take my word only as to the cause or causes of these Irish famines. I will give you the testimony of a man who can not be accused of being prejudiced in favor of Ireland - I refer to James Anthony Froude, the English historian:</p>
+         <p>"But, of all the fatal gifts which we bestowed on our unhappy possession, was the English system of owning land. Land, properly speaking, can not be owned by any man. It belongs to all the human race. Laws have been made to secure the profits of their industry to those who cultivate it, but, the private property of this or that person which is entitled to deal with as he pleases, land never ought to be and never strictly is. In Ireland, as in all primitive civilizations, the soil was divided among the tribes. Each tribe collectively owned its own district. Under the feudal system the proprietor was the crown as representing the nation; while the subordinate tenures were held with duties attached to them, and were liable on non-fulfilment to forfeiture."</p>
+         <p>Mr. Froude tells us that landlords who have not fulfilled the duties of landlords deserve to have their lands forfeited. If we were to go as far as he goes with the claim that the lands of Ireland ought to be forfeited to the people, this would be nothing more than restitution, because you must recollect the Irish landlords obtained their original title all by confiscation [applause], and that much of the land there has been confiscated three times over. But we don't go as far as that; we say we are willing to give landlords very much better compensation for their interest than they deserve. I do not very much care about settling this question to-day. I think the Irish can afford to wait, and, the longer they wait the better will be the settlement that will be obtained. But if I were interested in behalf of Irish landlords I would recommend them to settle as quickly as they possibly can. [Loud applause.] They could have obtained very much better terms from the tenants last year than they are likely to obtain to-day, and they can obtain to-day very much better terms than they are likely to get in a year's time [applause], and if it were my business to give advice to the landlords of Ireland, these 10,000 men, who are face to face with 600,000, I should say to them, "Remember that in the long run the minority which attempts unjustly to tyrannize the majority always goes to the walls. [Loud and prolonged applause.] But I wish to give </p>
+         <p>ONE MORE QUOTATION FROM MR. FROUDE.</p>
+         <p>We are told that it is the idleness and the religion of the Irish people which make them poor in Ireland. It is a strange thing that they bring their religion to other countries [applause], and it is also a remarkable fact that these are Catholic Nations, enjoying a good system of land tenure [applause], but Mr. Froude admits my case, in a still more remarkable manner; he says, "if we had been more faithful in our stewardship, Ireland would have been as wealthy and prosperous as the sister island, and not at the mercy of a potato blight. We did what we could, we subscribed money." That is a lie, anyhow. [Laughter and applause.] The English always left the subscriptions for the Irish to be made by other Nations, just as they do to-day. [Applause.] "We laid a poor law on the land, but it was to no purpose. The emigrants went away with rage in their hearts and a longing hope of revenge hereafter, with America's help." I will pass from the consideration of the causes that have produced this Irish famine to another question - the practical extent of </p>
+         <p>RELIEF FOR THE STARVING,</p>
+         <p>And in the way which that relief is to be distributed. Now this is to me a very disagreeable subject; it seems invidious, to say the least of it, to find fault with any committee or body which may act or is formed for the purpose of alleviating the distress in Ireland. That may seem practically so to the people of this country who do not understand the situation which exists at present there. but we have felt it our duty to Americans to enlighten them in reference to some of the channels which are presenting themselves for distributing the relief which you are sending over. Although this is a disagreeable task to me, I could not with the commonest and most ordinary regard for my duty have refrained from undertaking it. There are four separate bodies appealing for aid to America at the present moment. There is the </p>
+         <p>RELIEF COMMITTEE OF THE IRISH NATIONAL LAND LEAGUE,</p>
+         <p>Of which I have the honor to be the President and which I represent in this country. [Applause.] That body was the first to appeal to America for help, just as it was the first to predict that there must be a famine, and to call upon the Government of England for assistance, and to force upon the attention of this Government the fact that a famine was upon us. And I am glad to say that the relief committee of the Irish National Land League was the first body to receive help from America, and to distribute it on Christmas Eve, amongst the starving peasantry in twenty-five districts in the west of Ireland. [Applause.] Next came the appeal of the </p>
+         <p>DUCHESS OF MARLBOROUGH.</p>
+         <p>And, although I do not like to say anything against a woman, especially a woman who represents herself as relieving the distress of her fellow-women in Ireland, yet, as undoubtedly this appeal of the Duchess of Marlborough was dictated by the political exigencies of her husband's government, [et]c., the money that she gets will undoubtedly be used for political purposes. It is necessary for me, however disagreeable it may be, to tell the truth in reference even to this lady - [applause] - for we can not in this matter separate husband from wife. And it must be borne in mind that that the Duke of Marlborough, Lord Lieutenant of Ireland, is the husband of the lady, and up to the present moment no steps have been taken by the Government, of which he is the responsible head, to relieve the distress in Ireland, save the sending of troops into Connemara to steal from the poor people the little food they had remaining, in satisfaction, or in partial satisfaction of the claims of the landlords for rent, and the hounding on of the troops to bayonet the unfortunate men, women, and children of Connemara. Hence we find the real head of this Relief Committee actively engaged in driving these poor people from their homes into the snow, to perish of cold and hunger; these poor people whom he pretends to relieve, and asks you for your money to assist him in doing it. Such a pretense, such a monstrous fraud and hypocrisy would be possible in no place but in Ireland. [Applause.] Information has also reached us from many reliable sources, both lay and clerical, of the direct misappropriation of the funds intrusted to the Duchess of Marlborough for distribution. Complaints are numerous that the charity sent from America is being used as a political engine to assist the landlords in their nefarious work.</p>
+         <p>Next comes the </p>
+         <p>DUBLIN MANSION HOUSE</p>
+         <p>Relief Committee, and Irish. I could say a good word for that body.</p>
+         <p>Several members of that committee have appealed to you for help, their hands reeking at the present moment with the blood of these poor women in Conamara, who were bayoneted to death.</p>
+         <p>I now come to the subject of the relief fund which has been established by the New York Herald. [Hisses and groans.] And in dealing with the question you must not forget that the New York Herald for several months has been noted for its advocacy of the landlord side. I wished to give the Herald a fair trial, and when this fund was formed I called upon the Herald to name its committee. And I pledged myself that if it appointed a committee mainly composed of men possessing the confidence and respect of the Irish people, I would support it in its appeal to America. Well, the Herald came out with a show of fairness. It published the names of five gentlemen it wished to serve on the committee. One of these was myself, and if I, or some person in whom I have confidence, could have acted on the committee, I believe that the landlord and the Government element in it might have been compelled to do what was right; and although I was exceedingly unwilling to have anything to do with such a journal as the New York Herald, or to touch pitch lest I might be deflied [sic], yet yielding to the anxious requests of my friends from all parts of the Union, I so far consented as to say that if the Herald would allow me a proxy to act for me in Ireland pending my return there I would serve on the committee and act with the gentlemen named by it. And the Herald gives its answer to-day, and in it it shows you what the character of its appeal for aid for the Irish people really is. It shows that that appeal is neither more or less than a masked attack upon the tenantry of Ireland; that the name of charity is being prostituted for the purpose of assisting the infamous landlord system. I have a telegram just received from New York. It says it "can not accept my proposition in America;" it says "it gives the Cardinal the privilege of naming a proxy, but it does not concede that to Parnell, nor recognize Parnell's right to prescribe conditions. The Cardinal's duties will not allow him to go to Ireland to distribute relief. Why should not Parnell go at once, and leave off preaching treason against the Government of his country" [Laughter.] It would have desired me to work on its committee. Yes, work in America, where my vote and work and influence would have been of no use as regards practical work on its committee, and it dismisses me from its thought. I can assure it that I do not dismiss it from my thought [applause]; that I shall keep a pretty close eye upon it and its doings, and its committee. It only wishes to have my name in order that it may impose it that way upon my countrymen in America.</p>
+         <p>I stipulated that if I went on the committee my work was to be done in Ireland by somebody who possesses the confidence of the people of Ireland, [applause] and that my service should not be a nominal one. I have been accustomed to be a worker all my life, and I will never consent to give my name to any works in which I can not work with all my heart, and with all my might, and with all my strength. [Great applause.]</p>
+         <p>I have felt myself unable to take up any other position with reference to these committees than the one which I have explained to you to-night. That position I shall continue to hold if I have not a man to stand by me.</p>
+         <p>CONCLUSION.</p>
+         <p>We are engaged in a great work in Ireland, and that work is going to succeed. Six hundred thousand tenant farmers are going to win in this country. [Applause.]</p>
+         <p>With your help in keeping our people alive this winter, I feel confident we shall kill the Irish landlord system. [Applause.] And when we have given Ireland to the people of Ireland, we shall have laid the foundation upon which to build up our Irish Nation. [Loud applause.]</p>
+         <p>The feudal tenure and the rule of the minority have been the corner-stone of English misrule. Pull out that corner-stone, break it up, destroy it, and you undermine English misgovernment. When we have undermined English misgovernment we have paved the way for Ireland to take her place among the nations of the earth. [Applause.]</p>
+         <p>And let us not forget that is the ultimate goal at which all we Irishmen aim. None of us - whether we are in America or in Ireland; or wherever we may be - will be satisfied until we have destroyed the last link which keeps Ireland bound to England. [Applause.]</p>
+         <p>It is the duty of us all to do everything we can, by whatever means may be most available and suitable for the time being, to prepare the way for Ireland's return to prosperity. Help us then to kill this famine. WE promise you that it shall be the last famine, and that the day will not be far distant when the Irish men and Irish women of America may look with pride upon the part they have taken in bringing about this great work, and may be able to say that you have a country, a home, a free country, which is no longer enslaved, a country in every way worthy of the brilliant history of our people.</p>
+      </body>
+  </text>
+</TEI>

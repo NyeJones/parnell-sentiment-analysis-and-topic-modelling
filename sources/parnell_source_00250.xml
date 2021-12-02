@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr Parnell in Galway, The Daily Express, Thursday 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr Parnell in Galway</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="38159818557513810505" level="j">The Daily Express</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0001384/18860211/065/0006"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>To-day Mr Parnell addressed a crowd of several thousand people from the steps of the Railway Hotel. He was accompanied by a large number of Roman Catholic clergy.</p>
+         <p>...</p>
+         <p>Mr Parnell, who was enthusiastically received, said he felt very proud and very happy in being able to address such a magnificent and such a vast meeting of the people of Galway. The present contest gave him strength and encouragement in the national movement beyond any event which had happened in the country for a lengthened period. It was a contest forced on under very peculiar circumstances, and under circumstances well calculated to try their devotion to the popular movement and to the interests of union (cheers). It was a remarkable fact that they stood the test - a very remarkable fact. He fully admitted, and had observed within the past few days, the sacrifice which this constituency had made in order to present the spectacle of discipline to the enemies of their cause, and set an example to the Irish nation; and it was the most remarkable instance of unity which Irish politics have presented for a long time. He would now pass on to say a few words in regard to the candidature of Mr Lynch, now withdrawn. If he had known, when he found it his duty to make the selection for Galway, that Mr Lynch intended to seek the representation of the town, Mr Lynch was the man he would have recommended (hear, hear); but it was represented to him that under no circumstances could he accept the position. Then it was his duty to name a man outside Galway for the place. He admired and appreciated the conduct he exhibited in withdrawing his candidature to allow the gentleman publicly named by him to become the member for Galway. Mr Lynch had stated that he could not allow himself to become the candidate, and if any different intimation had been conveyed to him he would have him with him to-morrow night from Galway as his colleague (cheers), as he hoped he very soon would be (hear, hear). When he took to considering this question the very first thing that was before his mind was that Mr Lynch was not available, and he came to the conclusion, after full and careful consideration, to recommend Captain O'Shea for the borough. The candidature of that gentleman had been accepted, the other having withdrawn in his favour, and the record of the intervening affair was, to his mind, a closed book (cheers). They would permit him to say a few words upon the personal merits of the man who to-morrow night will be their representative. In doing so he would also point out faults which he had observed in him, and for which he had privately condemned him (applause). Mr O'Shea was returned in 1880, not as a member of his party. He was returned on different pledges, and, as far as he could gather, he always kept those pledges. Immediately after that general election a meeting of the Irish members was held in Dublin for the purpose of electing a sessional chairman. Mr Shaw was nominated for the position, and so was he (Mr Parnell) also proposed. Twenty members voted for Mr Shaw and twenty-two for him. Mr O'Shea was one of the members who voted for him (Mr Parnell), and if he had declined to do so, with one other member, he (Mr Parnell) would have been defeated, and then the country would not have obtained the many measures since passed on behalf of various interests. Some gentlemen who are members of the present Irish party voted against him (Mr Parnell) on that occasion. He was examining the public conduct of Captain O'Shea step by step, and they would agree with him that, when others were admitted members of the present Irish party, it would have been very unfair to prevent him (Captain O'Shea) from getting a seat in Parliament (hear, hear), when he voted for the leadership of him (Mr Parnell). But an isolated turn of that kind would not have justified him in recommending him to the constituency of Galway. As far as he (Mr Parnell) was aware, the votes given in Parliament by Mr O'Shea were irreproachable. The only thing for which he (Mr Parnell) found fault with him - and he did find fault with him and condemn him for it publicly - was that he refused to sit in Opposition with the Irish party. He repeatedly told Captain O'Shea that would prevent him being recommended in an Irish constituency, and that was the reason why he had not been recommended for the County Clare at the Convention held there to select its representatives. He was selected, as he told them, when Mr Lynch had declined to stand, and when he (Mr Parnell) named him he was bound to stick to him, and to fight for him, to the bitter end (loud cheers), and carry him through. He knew the people of Galway would obey him, and that Ireland would stand by him. When, during the eleven long years since he had entered Irish politics, did he advise them wrongly? When, since he had accepted leadership, did he lead them astray? When did he lead them on a crooked path? (Cheers and a Voice - "Never"). He believed he showed courage when courage was required, and he showed, too, that he could be moderate when moderation was necessary (cheers). It was not at all the personnel [italics] of the two candidates. He would not stoop to such a question, for both would soon be valued members of the Irish Party (cheers). He desired to say a great deal more on the present aspect of their movement, but considered it unnecessary, as the patriotic Father Sheehy was to follow him (cheers). He might promise them, however, that they were about to obtain an Irish Parliament, and that until that was obtained he would continue to lead them (cheers). When that great question was settled he considered his mission fulfilled (cheers). Mr Parnell further exhorted the voters to come to the polls in their full strength, and vote for O'Shea, lest the enemy should create a difficulty by voting for Lynch.</p>
+      </body>
+  </text>
+</TEI>

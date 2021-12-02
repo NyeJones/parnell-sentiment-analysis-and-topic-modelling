@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Who Made John Bull Listen, The Boston Daily Globe, Tuesday 13 January 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Who Made John Bull Listen</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="122146331937518692150" level="j">The Boston Daily Globe</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-01-13">13 January 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7013445">Boston, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00084"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18800113 Boston Daily Globe John Bull 001.tiff, 18800113 Boston Daily Globe John Bull 002.tiff"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>...</p>
+         <p>Ladies and Gentlemen: As our worthy president has truly said, while you in this country give help to Ireland to meet the present emergency you also, I feel sure, after having investigated the causes which brought about that necessity bestow upon us your sympathy and assistance in removing those causes. From time to time Ireland has been in the position of being compelled to come before the nations of the world as a mendicant. We have a fertile soil, a good climate and an industrious people, and yet every ten or twenty years famine sweeps our land, and we are obliged to appeal to the charity of you and others to keep our people from starvation. It has been very well pointed out that America has always responded to your call most nobly. (Cheers.) In fact, the relatives of those who live in Ireland assist them annually with large sums of money. From statistics that I have been enabled to collect, since I have been in this country, I find that at least one-sixth part of the rent which has been paid to landlords of Ireland has been paid by Irishmen and women living in America. (Cheers.) You will see, then, that you also have an interest in trying to put an end to the system which cripples the resources of our country. The land system in Ireland puzzles many Americans. They cannot understand how it is that there should be such an uproar every now and then about a few million acres of land over in Ireland when there is so much of it in this country for everybody to have at a very small price, and they invite our people over here. The say: "Give up your own lands, and find a home in our Western states. We shall be very glad to have you." Now, I think that this is a very great compliment to the Irish people. (Applause.) I think that the anxiety that has been shown by the newspaper press of the country during the last few weeks to persuade our people to emigrate instead of maintaining</p>
+         <p>A FIRM GRIP ON THEIR HOMESTEADS,</p>
+         <p>as we recommend him to do, is most complimentary to our people; and it is a very remarkable fact that the land system of Ireland should be such as to make the upper classes of that country desirous that the people should quit it and that the land system in America should be such as to make the Americans desirous that our people should come over here. I think such a statement by itself would be sufficient to condemn the Irish land system. The Irish land system, in common with that of England, is the feudal system of land tenure, and England and Ireland alone, of all the countries in Europe that originally started with this system have persisted in maintaining it in its full vigor. Germany has abolished it in great part. France has entirely done away with it, and all the other nations of the continent have broken in and broken down this feudal system, more or less, because they have found that it throttles the industries of their country.</p>
+         <p>We have, in speaking in America up to the present time, [][] chiefly to explaining the results of this system. We have pointed out that, although, as I have said before, Ireland is fertile and her climate good, yet the lands of Ireland, are, for the most part, only half or one-third cultivated; that several millions of acres of that country is left entirely to waste, without any attempt at cultivation whatever; that the people engaged in agriculture are impoverished and discontented, and that every now and again famines sweep across the face of the country and carry away multitudes of starved wretches.</p>
+         <p>I propose tonight to go a little further, and to show to you some ways, some special methods - more than one method - which might be adopted in order to bring about the result we aim at, namely the transfer of the land of Ireland to the people who cultivate it. (Prolonged applause.) Now, I dare say, many of my hearers are aware that this programme of ours has been […]. We have been called […] and we have been told that we desire to plunder the landlords by […] In fact, […] that they have been robbing their tenants for the last four or five hundred years. [Great laughter and applause.] In fact, our programme has been […]</p>
+         <p>AS IF THERE WERE NO […].</p>
+         <p>And as if the ownership of the soil by the people was a thing unheard of in the history of political [community???] that when I tell you that already the legislatures of other countries have mentioned the forcible […] of the soil from the landlords and its transfer to the tenants when I point out to you some of the details by which this has been effected, and when I read to you some of the  [laws???] and edicts which have sanctioned its transfer, you will, I think, see that there is nothing which need press unduly upon any vested interests in Ireland.</p>
+         <p>[…] just now that Germany had already partially abolished the feudal system of land tenure, the feudal system being one which gives the ownership of the soil to princes who generally live elsewhere, who do not occupy themselves in cultivating it, and gives to those who cultivate it only the right of paying as much rent as landowners may choose to demand from them from time to time. (Laughter.) Well, in Prussia this feudal system has been entirely abolished, and under these circumstances. In 1811, at the dawn of peace, when Prussia had just emerged from a disastrous and costly war, the king took counsel with his ministers as to how he might best ensure the prosperity and the contentment of his subjects; and the result of it was that an edict was issued by the king of Prussia for the regulation of the relations between landlord and tenant. When I read this edict I almost think that I am reading the preamble to some of the bills that have been uselessly brought forward during the last few sessions of parliament for the settlement of this important question. Now,</p>
+         <p>IS A VERY REMARKABLE ONE,</p>
+         <p>And I should be glad if I may venture to trespass upon your time for a few seconds while I read the preamble to you. The preamble to the edict for the regulation of the relations between landlord and tenant recites as follows: "We, Frederick William, by the grace of God king of Prussia, having convinced ourselves by personal experience in our own domains, and by that of many lords of manors, of the great advantages which have secured, both to the lord and to the peasant by the transformation of peasant-holdings into proprietaries, and of the ameliorated condition of our subjects thereby on the basis of a fair indemnity, and having consulted in regard to this weighty matter, experienced farmers and skilled persons of all kinds belonging to our province, and to the ranks of our subjects, ordain and decree as follows, among other things, that all tenants of holdings, whatever, the size of the holdings, shall, by the present edict, become the proprietors of such holdings after paying to the landlord the indemnity affixed to this edict." Lower down comes a section in the following terms: "We desire that landlords and tenants should of themselves come to terms of agreement, and give them two years from the date of this edict to do so, and if within that time the work is not done the state will undertake it." Well, then, I will now describe to you the way in which the state subsequently undertook to carry out the terms of this edict, upon the failure of the landlords and the tenants to come to any agreement upon the subject. By subsequent legislation a law was passed for the establishment of rent-banks. This law provided a method for </p>
+         <p>THE WHOLESALE TRANSFER OF THE LANDS</p>
+         <p>held by the tenants, but belonging to the landlords, and, by the instrumentality of these rent-banks, the state constituted itself a broker between the peasants, by whom the rents had to be paid, and the landlords who had to receive them. Now, this was the course adopted. The bank established in such district advanced to the landlords debentures or bods paying four per cent interest on a capital sum equal to twenty years purchase of what the state considered, through the valuation of its proper officers, to be a fair rent. The peasant paid into the hands of the district tax-collector monthly a sum equal to one-twelfth […] compelled to continue these payments for forty-one years, and at the expiration of that time both the principal and interest was discharged by three monthly payments. The landlord, on the other hand, as I have shown, received the debentures instead of the rent, amounting to twenty years purchase of the fair value of the rent paid by the tenant, and, as you will see, he received nothing in cash. He simply received the obligation of the state in the shape of the debentures, and the state paid him four per cent per annum in interest and received from the tenants five per cent per annum for forty-one years.</p>
+         <p>NOW, THE REASON THAT NO MONEY WAS PAID</p>
+         <p>by the Prussian state to the landlords was that it was a poor one; that it had no money to pay, and that it was not able to borrow any; but it did not allow its impecuniosity and bankrupt […] to stand in the way of the welfare of its people or reduce them to starvation. (Prolonged applause.) Nor did it allow any supposed superiority or rights of one class to stand in the way of the progress of the country at large and the contentment and prosperity of the subjects of the crown. (Cheers.) Now, there is a system which has been practically carried into operation in the great country of Prussia, now the leading government of the continent; and, for my part, I see no reason why the same system should not be adopted as regards Ireland. (Cheers.) We have to contend against the prejudices of the classes in that country who desire to maintain a social influence and prestige by the power of position which the absolute ownership of land, and of the tenants in that land, confers both in England and in Ireland; but I think that, as in other countries, when agitation has become sufficiently strong, when the situation has been made sufficiently difficult, the government of England will step in, and will see, like the king of Prussia, that the time has come for it to make its Irish subjects contented and prosperous. (Loud and long cheers.)</p>
+         <p>But there is another method which might be adopted in Ireland in order to bring about the same result, and which, perhaps, might be considered more desirous, although it necessitates the handing over of a large sum of money from the state to the landlords in the way of interest.</p>
+         <p>THIS PRINCIPLE HAS BEEN ALREADY PARTIALLY SANCTIONED</p>
+         <p>by the legislation of Great Britain under the Bright clauses (cheers) of the land act of 1870. Mr. John Bright (cheers upon cheers), the eminent reformer, asked, when Gladstone's land act was being passed, that a trial might be given and some opportunity afforded the Irish tenants to become the owners of their farms, and these Bright clauses (cheers) were inserted in the act in order to afford that opportunity. Owing to the imperfections of these clauses, and the obstruction that the working of them has received from the Irish landlords who do not wish to see a peasant ownership or proprietorship established in Ireland, who do not wish to afford the working of such a scheme the slightest chance, they have remained a dead letter up to the present moment. I will shortly describe to you what these clauses are, in order that you may compare them with those ordained by the king of Prussia. Under the Bright clauses of the land act the state or government was empowered to advance to the tenants of proprietaries voluntarily sold by their landlords a sum equal to two-thirds of the purchase money paid by such tenants for their holdings, and the repayment by the tenant of the principal and interest of this advance was extended over a period of thirty-five years. Five per cent. per annum on the purchase price advanced by the government to the tenant was to be annually paid by the tenant to the government, and at the expiration of thirty-five years the tenant would have nothing more to pay, would have the land for himself, free from all charge or incumbrance. (Prolonged cheers.) Now, the tenants on the various estates that have come into the market since 1870</p>
+         <p>MAY HAVE BEEN EXCEEDINGLY ANXIOUS</p>
+         <p>in every case to purchase; but in no single instance have they been permitted to do so. The landlord, when selling, has always preferred to sell his estate to a single person rather than take the trouble to divide it into small lots and selling to it to his tenants, and he has in other ways obstructed the workings of these very beneficial clauses; but the clauses themselves are, to a very great extent, deficient in detail. They require to be considerably extended, and they only apply to estates which are voluntarily sold. Now, it is very evident that if we wait for the landlords of Ireland, all of them, to voluntarily sell their estates, and if the Irish tenants continue paying them, in an uncomplaining and patient way, rack-rents, why a very large number of landlords will never sell their estates at all (cries of "That's so"); but no doubt we can compel, by indirect methods, landlords to sell their estates, and then they should be furnished to the Irish tenant.</p>
+         <p>But we require something more than that. We require to follow the example of the king of Prussia, and give the Irish landlords two years in which to transfer the land to the tenants (cheers and cries of "hear! hear!"), and if they do not attend to it in that time then </p>
+         <p>THE GOVERNMENT SHOULD STEP IN</p>
+         <p>and attend to the matter itself. (Prolonged applause and cheers.) You will see, ladies and gentlemen, that I do not propose any very radical method of settling the Irish land question. I have simply made an offer, a good offer, to the landlords, and I regret to see that they should be so foolish and so blind as to stand in their own light. (Great applause and "Hear, hear.")</p>
+         <p>I feel convinced that unless some method of this kind be adopted, and that very shortly (cheers) that the time is fast coming when the Irish landlord will have to go very much before this (prolonged cheers, and cries of "That's so"); but, being one of the number myself (cheers) I am naturally anxious to get as good a bargain as I can for them. (Cheers.) In France the [SEVERAL LINES ARE TOO DARK TO READ] … - a voice "I like that") I hope the government and the leaders</p>
+         <p>MAY SEE THEIR ADVANTAGE</p>
+         <p>when it is not too late. A millions of money would be nothing for the English government to advance in settlement of this question, and they receive every penny of it back with interest without the slightest degree of risk. To a government that does not hesitate to spend ten or twenty millions a year in childish and cruel wars in all parts of the world, it would be surely a grand change if they would devote their attention to domestic affairs and to securing the happiness and prosperity of their own people at home instead of destroying that of other people abroad. (Cries of Hear, hear, and cheers.) Now, I have one word to say as to the advice that has been offered to the American people by some of the newspapers. (Hisses.) Now, I don't wish to be hard on the newspapers, or on that section of the press of New York (hisses) which has given what I can only characterise as most degrading advice, but I have no fear that the people of this free land will listen to the recommendations that have been extended to them from that section. (Hisses.)</p>
+         <p>You have been told that it is none of your business to interfere in the concerns of a foreign country, and I quite agree with that - that is none of the business of your government; but I also agree that it is not only the business but the duty of you to sympathise and assist us in our endeavour to redress a wrong which has been inflicted upon us by the government of England. (A voice, "Give us some more, go ahead" - cheers.) One would think that the freedom of the press was suspended in this country as it is in England. (A voice, "It looks like it.") You are not even to discuss this question. Why? Lest it might offend the British government. (Cries of "Oh," laughter and cheers.)</p>
+         <p>I CAN SCARCELY BELIEVE THAT I STAND</p>
+         <p>in a country which looks back to Bunker Hill and Lexington. (Cheers.) You were not afraid to offend the British government, although you had just begun your career of freedom; and it struck me that this advice has not always been acted upon by England. (Cheers.) I think I recollect at one time when you had an institution called slavery in operation in the United States of America that you received a great deal of good advice from England upon the question. (Applause.) She was not afraid to tell you how sinful and wicked you were; and is it not also a fact that many of your distinguished men went over to England and lectured throughout the length and breadth of that land upon the institution over here? And I also think that I can remember that when your civil war took place you received a great deal of advice and something much more unpleasant than advice. ("Hear! hear!") I think that privateers were fitted out amid the applause of the governing classes of England to run the blockade. (A voice - "The Alabama," and laughter.)</p>
+         <p>In saying au revoir, ladies and gentlemen, I think it unnecessary for me to tell the present audience that it is </p>
+         <p>THEIR DUTY TO SYMPATHIZE WITH IRELAND.</p>
+         <p>I am confident that we have your sympathy. I believe that the public sympathy of this country is in our favor. Coming here as I do, and boasting American blood in my veins (cries of "Hear, hear!" and applause), I am proud of the success that has been recorded. I believe the heart of America is sound towards us, and that we shall receive both practical and sympathetic assistance in solving this question. I believe that you will give us money to keep our people from starving, and that you will give us the strength of that public opinion which will compel our rulers to do us justice. (Prolonged cheers.) There are symptoms that this result has already been partially attained. (Cheers.) Our government, up to the time that we had left Ireland, had persistently denied all along the existence or the imminence of famine in that country. Now, scarcely a week after our arrival in America, it feels itself compelled to come forward and to announce that it is going to recommend parliament to appropriate a quarter of a million of pounds of sterling </p>
+         <p>TO RELIEVE THE FAMINE.</p>
+         <p>Already the duchess of Marlborough, the wife of the lord lieutenant of Ireland, an official who had strongly denied to the last moment that there was any distress which the ordinary material of the poor laws could not relieve - she has appealed for assistance, in which she distinctly states that there is famine in Ireland, and that a great increase of it must be expected. Now, I say all this is directly due to public opinion that has been created in this country. (A voice, "That's so.") The British government cannot afford to have its doings in Ireland exposed. It shrinks from the publicity which has attended, and must attend, our mission over here, and it is showing itself, although too late in my mind to get rid of the responsibility of the situation. I make a mistake when I say it is showing itself. It is pretending to show interest. If it had been mindful of its responsibility it would have called parliament together so as to have relieved Ireland at once. (Cheers.) They would have endeavoured instantly to have reformed the wrongs of the landlords which have led to </p>
+         <p>THESE HORRIBLE SCENES AND TERRIBLE SUFFERINGS;</p>
+         <p>but they have done nothing of the kind. They say in two months' time they will send over £250,000 to relieve the distress. What is to happen in the interval? We have information from certain sure sources, today, all along the western shores of Kerry and northern Mayo that thousands of persons will die of starvation in the next two months, unless they are immediately relieved. We are told that in some districts of Sligo and Galway the deaths will be in about the same ratio they were in 1847-8.</p>
+         <p>We must continue this agitation; we must continue to tell the truth about the relations between England and Ireland, until we force England still further - to do its duty and get some measure for the relief of the distress that has come upon us.</p>
+         <p>...</p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell and the Irish Vote, The Times, Monday 23 November 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell and the Irish Vote</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="184285835" level="j">The Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">11</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-11-23">23 November 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00074"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>An overcrowded meeting of the Irish electors of Liverpool was held in the Concert-hall in that city yesterday afternoon to hear an address from Mr. Parnell. As great numbers of people were unable to obtain admission, Mr. Parnell subsequently addressed a crowd of about 10,000 in the open air in front of St. George's-hall. Dr. A. M. Bligh, C.C., presided in the Concert-hall, and on Mr. Parnell making his appearance he was greeted with deafening cheers, which were again and again renewed, the packed audience displaying the wildest enthusiasm and waving hats and handkerchiefs…</p>
+         <p>Mr. Parnell, whose rising was the signal for a renewal of the vehement cheering and waving of hats, said, - Irishmen of Liverpool, you have honoured me by adopting a resolution inviting me to come forward (here the speaker was interrupted for some time by a noisy demonstration in the body of the hall) and contest the Exchange Division of Liverpool. (Cheers.) I have given this matter, since I last had the opportunity of addressing a Liverpool audience, the most careful and mature consideration. I have felt, on the one hand, that I ought not to undertake a hopeless contest (hear, hear); on the other hand, I have felt that if there was some chance, however small, of carrying the Exchange Division I ought not to shirk a contest. (Loud cheers.) What is the position under the Constitution of my fellow-countrymen in England and Scotland? There are two millions, or very nearly two millions, of Irish people either by birth or descent in this country, and to these two millions of people the Franchise Act only provided, as far as was apparent, representation in a single constituency - the Scotland Division of Liverpool. What has the franchise done for Ireland? It has provided for the two English parties in Ireland - numbering under one million of persons - it has endeavoured to provide by gerrymandering a representation of 25 members, and it has probably actually provided, as the result of the elections will show, a representation of about from 14 to 16 members. So we see, on the one side, that the Irish people in England are only allowed a representation of one member in Parliament, although they number nearly two million persons, and, on the other side, the English people in Ireland are allowed a representation of 16 members. ("Shame.") My fellow-countrymen, you will admit that that is a very glaring injustice, and that both the political parties in Liverpool might reasonably have been called upon to give us the two seats of Scotland Division and the Exchange Division without a contest. (Loud cheers.) There are 16,000 Irish voters in this city, and they are certainly entitled to a representation of more than one member. (Hear, hear.) These considerations influenced me very largely in deciding to accept, as I do to-night, your invitation to contest the Exchange Division (loud cheers), and we mean to win. The contest will be a very difficult one (a voice, "Never mind, you will win"), but I believe that, favoured by fortunate circumstances and by the energetic help of the Irish people of Liverpool, it is just possible for me to win. (Loud cheers.) Mr. T. P. O'Connor was adopted at the last meeting that we held in a neighbouring hall, and we shall now have two Irish candidates coming forward for two divisions of Liverpool. As regards the other divisions, these matters are still under consideration (hear, hear); but I think that it is probable - that we shall also put forward candidates from among well-known members of the late Irish Parliamentary party for the divisions of Kirkdale (loud cheers), West Toxteth (cheers), Abercromby (cheers), and the Bootle Division of Lancashire. (Loud cheers.) These matters have not as yet been definitely decided; they are still under consideration, and we have, of course, from this time until close upon 2 o'clock to-morrow to make up our minds. (Cheers.) We now have to consider our situation, not only in Liverpool, but throughout the whole country. An important manifesto was drawn up in consultation with me on Saturday and issued to the Irish electors of Great Britain. That manifesto recommends the Irish electors everywhere to vote for the Conservative candidates against either the Liberals or the Radicals. (Loud cheers.) I fully and cordially approve every word of that recommendation, and I recognize in your faithful adherence to the terms of that recommendation the only safety for Ireland and her people. We considered the matter long and carefully, and it was absolutely impossible for us, in the face of facts and of past occurrences and future probabilities, to give you any other recommendation. (Cheers.) I trust that the Irish electors of England and Scotland will not be found wanting; that they will cast aside every local consideration, regardless of personal interests or predilections, and that they will go solid. We hope it will be the last time that we shall be obliged to call upon you for your help, and that you will this time go solid against the oppressors of your country. (Loud and prolonged cheers.) The manifesto that I have alluded to made some reference to exceptions. I do not think there will be any exception in Liverpool. I do not think there will be ("No, no,") and I know that there will be few, if any, exceptions throughout the whole country. I think the exceptions in favour of any Radicals might be counted in two figures throughout the whole of England and Scotland. (Cheers.) But if there should be any exception in Liverpool, the fact will be communicated to you before the polling-day. I do not know of any myself at the present moment. Let me remind you of the reasons which weighed upon us in coming to this decision. We had, on the one hand, the fact that Ireland during the last five years has been scourged in an unexampled fashion by the leaders of the Liberal party. ("Hear, hear" and a voice,- "Bad luck to them.") For some two years, under the first Coercion Act, no man's liberty in Ireland was safe. I and a thousand other respectable men in Ireland were imprisoned without trial ("Shame"), and while we were there, when our mouths were shut and we were unable to defend ourselves, our characters were taken away in Parliament by the leaders of the Liberal party. (Hooting.) But they did not stop at the imprisonment of men; they even ventured upon imprisoning ladies. ("Shame.") At one time a hundred cells had been prepared in a prison in Dublin for the reception of the ladies of Ireland ("Shame") who were carrying on the work - the national work - of the Land League during the imprisonment of the men (a voice.- "Bravo, ladies - three cheers for the ladies"), and in several instances they did not hesitate to arrest, under an old and obsolete Act of Parliament, ladies of the Land League who were sustaining evicted tenants throughout the country - doing, in fact, the work of charity. However, they were not satisfied with the Coercion Act. Immediately on or even before the expiration of the Act they pressed Parliament for further powers, and they got them. They got what they called the Prevention of Crimes Act, but which was commonly known afterwards as the Crimes Act. I believe that there were more judicial murders, more false imprisonment, more crimes committed against the people under that Act than all the crimes together which the people in their extremity committed during the whole of the Land League movement. (Cheers.) Throughout the duration of that Crimes Act no man's life was safe; every man's liberty was at stake. Many persons were arrested, received the mockery of a trial, and were condemned to death. Many other innocent persons (a voice.- "Miles Joyce") were condemned to penal servitude, and are still suffering that ("Shame," and a voice.- "We will have them out"), and when the present Government agreed to an inquiry into the misdeeds of their predecessors, what was the action of the Liberal party? They rose up, and attempted to intimidate Lord Carnarvon from carrying out his duty as a Christian and as a ruler of the country. They attempted to double lock the doors upon those innocent persons, and at the very moment that we succeeded in hurling the late Government from power (loud and prolonged cheers) by what I can only regard as a dispensation of Providence or fortune, so happy for Ireland is in its results - at that very moment, fellow-countrymen, they were planning among themselves how they could best renew the worst features of the Coercion Act - the jury packing clauses and the intimidation clauses. (A voice.- "What did the Conservative Government do?") I do not care what any Government does for Ireland; I want liberty for Ireland. (Loud and prolonged cheers.) Our liberty was taken away by the Liberals, and it was partially restored to us by the Tories, and I am bound to say that I believe that the Irishman in this election who votes for a Liberal or Radical candidate will be voting as much as lies in his power to hand us back into chains, imprisonment, and death. (Loud cheers.) I will put the case before you at as much length as I think it well to do to-night considering the terribly crowded state of this hall. I ask you to disregard every terrible consideration that the particular trade to which you may belong may be benefited by the return of a particular candidate or that a particular candidate is a popular man. I ask you to disregard every personal and local consideration except the one that it is our duty to weaken the Liberal party at the present moment. (Cheers.) I have every confidence that you will do this, and that, however much it may be against the grain of many of you to vote for the Conservative, for the Tory, that you will do it upon this occasion because I believe you have that confidence in us. (Loud cheers.) I believe that too. (Cheers.) It is no longer a question as to how much Home Rule or self-government we shall get. It is no longer a question whether we shall get Home Rule or the right of ruling ourselves; the question is how much of it they will be able to cheat us out of. (A voice.- "They won't cheat you out of much, that is one consolation.") (Laughter). Mr. Gladstone (hooting and hisses) has plainly intimated that if he succeeds in getting into power with a big majority he will try and cheat us out of a good deal of it (a voice,- "It won't be done"); but nothing in the world would induce me to accept on behalf of the Irish people anything but the fullest and completest control over our own affairs. (Loud cheers.) I believe that a halting and inefficient measure would be fatal to the interests of both England and Ireland. It would leave room for further agitation. England would be continually embroiled in our own disputes over there. (A voice.- "She likes it.") But I believe that if advantage is taken of the present movement Ireland will have it virtually in her power for the first time to return her own representatives, men representing her feeling really and truly and able to offer a great settlement of the Irish national question. I believe that the result of that settlement will be to terminate the interminable strife of centuries, and to bring prosperity and contentment to our country.  (Loud and prolonged cheers.)</p>
+         <p>...</p>
+         <p>At the meeting in front of St. George's-hall,</p>
+         <p>Mr. Parnell, who spoke from a lorry, said, - People of Liverpool, I cannot attempt to deliver an address to this vast assembly, but I will take this opportunity of thanking you for your kindness in coming without notice in such vast numbers to welcome me at the commencement of my candidature. (Cheers.) It is now just six years since I stood on this very spot and addressed a similar meeting at a time of great crisis in the affairs of our country. (Cheers.) At that time I was just on the eve of my expedition to the great United States of America with John Dillon, where we laid the foundation of the great League movement which has done so much for Ireland. (Cheers.) That movement is continued to-day in the organization of the National League. I am here as the representative of that movement to ask the suffrages of the Irish people in the Exchange Division. (Cheers.) There will be a difficult and a tedious battle before us, but with pluck, energy, and determination I believe that it is just possible to win it. (Cheers.) And now I will say a word upon the general questions of the day. You know that a manifesto has been issued by the leaders of the Irish movement in England asking the Irish electors everywhere to vote against the Liberals and the Radicals (cheers) and in favour of the Tories. (Loud cheers.) With that manifesto I heartily concur. (Cheers.) It was drawn up with my approval and my sanction (cheers); and I will only say this with regard to it, that I trust every Irishman, no matter what his personal interests may be, will cast his vote against the Liberal party. (Cheers.) The Liberals gave us chains, imprisonment, and death, and the Tories, for the first time after five years, when they came into power, gave us some little measure of freedom. I do not care what measures the Liberal party passed. What we want for Ireland is that she shall have control over her own destinies. What we want is that Ireland shall have the power to make her own laws (cheers) without the bungling and fumbling and obstruction of the Imperial Parliament, and that to our people at home shall be handed over the right of attending to their own concerns and managing their own business. (Cheers.) Believe me, fellow-countrymen, if you at this momentous crisis in the affairs of Ireland do what we have asked you to do you will be doing a most important service to us and an incalculable service to yourselves in obtaining a restitution of her national rights for Ireland. (Cheers.) I believe that if you do this service it will be the last time that we shall be obliged to call upon you to lay aside your own interests. I am confident you will stand true to us, and that by this, the final service, as we believe, that we shall have to ask at your hands, you will deliver a complete and crushing blow against the enemies of our country.</p>
+      </body>
+  </text>
+</TEI>

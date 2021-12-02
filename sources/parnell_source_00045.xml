@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>House of Commons - Yesterday, The Irish Times, Wednesday 16 June 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">House of Commons - Yesterday</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="144709869" level="j">The Irish Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">2</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-06-16">16 June 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00012"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">       
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://search-proquest-com.ucd.idm.oclc.org/hnpirishtimes/docview/508780500/5D71669DA2ED44EFPQ/1?accountid=14507"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr Parnell had the following notice upon the paper:- To ask the Chief Secretary of State for War if he has any objection to say whether the letter from the Rev H Behan to Sir J Dillon, to which he referred in answer to a previous question, as containing a demand that Sir J Dillon would send the Meath militia regiment to Mass on the 6th and 27th of May was in existence, and if not, when and under what circumstances it ceased to exist? Whether there was not a subsequent letter from the Rev H Behan to Sir J Dillon containing a request that he would allow the men to attend Mass on the 27th of May, and whether he has any objection to lay copies of this letter and of the reply to it upon the table of the House, and whether it is a fact that the Tipperary and Westmeath regiments of Militia are allowed by their commanding officers to attend Mass on holidays, and whether he will direct that some facilities should be given in future by the commanding officer of the Meath militia, to enable his men to do the same. The hon member said he would postpone the question until Friday, as he intended to ask further of the right hon gentleman whether he was aware that the Meath Militia were not allowed out of barracks between the hours of first and second parade on the 6th and 27th May, and if so what military duties they were discharging during that time.</p>
+         <p>Mr Hardy - I should prefer to answer the questions of the hon member now, especially as one of them involves the imputation upon me of having quoted a letter which the hon member seems to insinuate has in a mysterious way ceased to exist. Now, I certainly did quote from the letter referred to by the hon member. He now wants to know if the letter is in existence, and if not under what circumstances it ceased to exist. That is a question which involves the imputation upon me of having dealt unfairly with the letter. I hold the letter in my hand at this moment. I should not state that it contained a demand, but I expressly said a request, and was anxious to answer the question at once, in order to show that, having quoted the letter, I am prepared, if necessary, to produce it at once. With respect to the other questions, I may say that there was another letter, not to the effect stated by the hon member, but a request that the men would be allowed to attend at a different hour on three several Sundays, which request was complied with. I have not other correspondence. The hon member does seem to me to place undue stress upon this matter, and I cannot imagine that he is at all aware of the trouble which it involves in order to obtain the information necessary to answer his questions.</p>
+         <p>Mr Parnell - May I ask the right hon gentleman if he proposes to take any further steps in reference to the matter.</p>
+         <p>Mr. Hardy - Every commanding officer has full power to allow the men under his command to attend their religious services. Those facilities are, I believe, perfectly ample, and it is not my intention to enlarge them. If any abuse of power is brought to the notice of the War Department it would be dealt with, but unless there is an abuse specially mentioned, I should certainly not interfere with their discretion.</p>
+         <p>Mr. Parnell again rose, amid cries of "order." He said - I wish to make a personal explanation. The right hon. gentleman seems to be under the impression that by my question, of which I gave him due notice, I wished to convey some imputation upon him. I wish to disclaim any such wish; or that I desired to cast any imputation of any kind whatever upon the right hon gentleman; but, at the same time, the hon gentleman will observe that if I don't wish to make any imputation upon him, he appeared to me, by his answer to my question, to cast imputation on the Rev Mr Behan. (Cries of "order!")</p>
+      </body>
+  </text>
+</TEI>

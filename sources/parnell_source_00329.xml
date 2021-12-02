@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell and his Constituents, Great Speech in Cork, The Future of the National Question, Justice for the Labourers, The Nation, Saturday 24 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell and his Constituents</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315667409" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-24">24 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr Parnell, MP, visited Cork on Wednesday and met with a magnificent welcome from his constituents. He addressed a public meeting in the Opera House, which was crowded in every part. The Mayor of Cork presided, and amongst those on the platform were Father Eugene Sheehy, Mr John Deasy, MP, and Mr John O'Connor, MP.</p>
+         <p>Mr Parnell when he rose to speak was received with deafening cheers again and again repeated. When silence was restored he proceeded to say that, although he felt very unwell when leaving London on the previous evening to attend the meeting, he was quite restored and strong by contact with his native land.</p>
+         <p>THE TRUE PARLIAMENTARY POLICY.</p>
+         <p>Speaking of his election for Cork in 1880, Mr Parnell referred to the principles he then put before the constituency, and proceeded:- I said, and I pledged myself, that I should form one of an independent Irish party to act in opposition to every English Government which refused to concede the just rights of Ireland (applause). And the longer time which has gone by since then, the more I am convinced that that is the true policy to pursue so far as Parliamentary policy is concerned, and that it will be impossible for either or both of the English parties to contend for any long time against a determined band of Irishmen acting honestly upon these principles, and back by the Irish people (cheers).</p>
+         <p>ENCOURAGE IRISH INDUSTRIES.</p>
+         <p>Having stated his belief that the vast electorate that would be brought into the constitution by the Franchise Act would prove as true to Ireland as those who went before, he said, in outlining the intentions of the Irish party:- We shall struggle, as we have been struggling, for the great and important interests of the Irish tenant-farmer. We shall ask that his industry shall not be fettered by rent. We shall ask also from the farmer in return that he shall do what in him lies to encourage the struggling manufactures of Ireland, and that he shall not think it too great a sacrifice to be called upon when he wants anything - when he has to purchase anything - to consider how he may get it of Irish material and manufacture (hear, hear), even suppose he has to pay a little more for it (cheers). I am sorry if the agricultural population has shown itself somewhat deficient in its sense of its duty in this respect up to the present time; but I feel convinced that the matter has only to be put before them to secure the opening up of most important markets in this country for those manufactures which have always existed, and for those which have been reopened anew, as a consequence of the recent exhibitions, the great exhibition in Dublin, and the other equally great one in Cork, which have recently been held (cheers).</p>
+         <p>THE LABOURERS MUST BE JUSTLY TREATED.</p>
+         <p>We shall also endeavour to secure for the labourer some recognition and some right in the land of his country (applause). We don't care whether it be the prejudices of the farmer or of the landlord that stand in his way (hear, hear). We consider that whatever class tries to obstruct the labourer in the possession of those fair and just rights to which he is entitled, that class should be put down, and coerced if you will, into doing justice to the labourer. We have shown our desire to benefit the Labourer by the passage of the Labourers Act, which, if maimed and mutilated in many of its provisions, undoubtedly is based upon correct lines and principles, which undoubtedly will secure for the labouring classes a portion of what we have been striving to secure for them.</p>
+         <p>NOTHING LESS THAN GRATTAN'S PARLIAMENT.</p>
+         <p>Well, but gentlemen, I go back from the consideration of these questions to the land question, in which the labourers question is also involved, and the manufacturers question. I come back, and ever Irish politician must be forcibly driven back, to the consideration of the great question of national self-government for Ireland (cheers). I do not know how this great question will be eventually settled. I do not know whether England will be wise in time and concede to constitutional arguments and methods the restitution of that which was stolen from us towards the close of the last century (cheers). It is given to none of us to forecast the future, and just as it is impossible for us to say in what way or by what means the national question may be settled, in what way full justice may be done to Ireland, as it is impossible for us to say to what extent that justice should be done. We cannot ask for less than restitution of Grattan's Parliament (loud cheers), with its important privileges and wide and far-reaching constitution. We cannot under the British constitution ask for more than the restitution of Grattan's Parliament (renewed cheers), but no man has the right to fix the boundary to the march of a nation (great cheers). No man has a right to say to his country, "Thus far shalt thou go and no further," and we have never attempted to fix the ne plus ultra [italics] to the progress of Ireland's nationhood, and we never shall (cheers). But, gentlemen, while we leave these things to time, circumstances, and the future, we must each one of us resolve in our own hearts that we shall at all times do everything that within us lies to obtain for Ireland the fullest measure of her rights (applause). In this way we shall avoid difficulties and contentions amongst each other. In this way we shall not give up anything which the future may put in favour of our country; and while we struggle to-day for that which may seem possible for us with our combination, we must struggle for it with the proud consciousness that we shall not do anything to hinder or prevent better men who may come after us from gaining better things than those for which we now content (prolonged applause).</p>
+      </body>
+  </text>
+</TEI>

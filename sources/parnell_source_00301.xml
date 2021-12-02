@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Poor Law (Ireland) - Belfast Workhouse. - Resolution, Hansard's Parliamentary Debates, Wednesday 1 September 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Poor Law (Ireland) - Belfast Workhouse. - Resolution</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-09-01">1 September 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00071"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/sep/01/poor-law-ireland-belfast-workhouse#S3V0256P0_18800901_HOC_75"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, that in view of the action taken in "another place" in regard to a certain Bill, he wished to suggest to the Government that they might take a course on the Appropriation Bill which would have the effect of showing what the feelings and sympathies of the Government really were in regard to the administration of affairs in Ireland, and also of showing that the Government did not intend to allow the proceedings of that House in regard to Ireland to be set at nought, and made the subject of ridicule. He wished to suggest to the Government that they had two courses open to them. He thought it would be possible to prove that these courses were open to them by precedents of long standing. The Government could agree to tack the 8th clause of the Bill in question on to the Appropriation Bill, and limit the operation of that clause to two years; or they could introduce a new Bill, consisting of the 8th clause,  for a similar period of duration. There were several direct precedents as to the first course, as was evidenced by a Re-solution of the House of Lords, passed on the 9th December, 1702, and referred to by Sir Erskine May in his work. On that date it was ordered and declared by the Lords that the annexation of any clause to a Bill of aid or supply was unparliamentary and tended to the destruction of the Constitution. There was a Resolution passed by the Lords in reference to special Acts from the Commons in the paragraph he had described, and referring to the precedents which he desired the Government to consider. He found also that in 1872 a conference took place between the two Houses in reference to the clause introduced by the Commons in a Money Bill creating an incapacity in the Commissioners or Assessors of the Excise to sit in Parliament. Against this action the Lords protested; but at the conference which was held they gave way, and they passed the Bill with these clauses in it. On that occasion the Commons successfully vindicated their right to attach to a Money Bill a matter which was foreign to the subject matter of the Bill in question. Now, with reference to the second course, it was open to the Government to introduce a new Bill consisting of the 8th clause, and limiting the duration of the Bill, say to two years. He found that he had a precedent upon that in 1827, when Mr. Canning re-introduced a Bill with reference to the duties on foreign corn which had been seriously modified by the Lords. He re-introduced it and limited its duration for two years, and it was passed by the Commons and subsequently passed by the Lords. There was a further course for a precedent of of [sic] a different kind. In 1874 a Bill, consisting of two clauses, came to the Committee stage, and was saved from the interference of the Lords by an Instruction being given to the Committee to deal with the clauses on the Appropriation Bill being considered, so that the Appropriation Bill was tacked to the other Bill. The two courses which he recommended to Her Majesty's Government were the two which he had mentioned—namely, that they should either tack the 8th clause to the Bill, or they should introduce a fresh Bill, and move to suspend the Standing Orders, in order to carry it at one sitting; but if consent were given that was not necessary. He thought they were fairly entitled to ask the Government to show their bona fides. He wished to point out what had been the course of attempted legislation with regard to Ireland, that every Bill sent up from the House of Commons making any real change in the law had been ignominiously rejected by the House of Lords upon the second reading. That happened with regard to the Limitation of Costs Bill introduced by the hon. Member for Longford (Mr. Errington).</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he had referred to the Bill introduced by the hon. Member for Longford, because he had been informed that on several occasions opportunities had been taken on the stages of the Appropriation Bill to call the attention of the House to the course of legislation during the Session, and consequently he supposed himself in Order in referring to that measure. However, it was not absolutely necessary for him in order to argue his point to refer to matters patent, and in the mind of hon. Members, and which constituted a ground for the application he made to the Government and to the House—namely, that the Government should mark their sense of passing events, and of the determination in the future to carry out the authority of the House of Commons by that legitimate action which he had pointed out, based upon precedents of unimpeachable authority, and securing that the Registration of Voters (Ireland) Bill might come before Her Majesty for Her good will and pleasure.</p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Resolution., Hansard's Parliamentary Debates, Saturday 26 February 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Resolution.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-02-26">26 February 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00037"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">        
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1876/feb/26/resoltuion#S3V0227P0_18760226_HOC_36"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, the right hon. Gentleman the Secretary of State for War had endorsed the view that in the course of two months' training some regiments of Militia would be fit for active service. He (Mr. Parnell) wished to know if any of those efficient regiments referred to by General Herbert were in Ireland? He believed that, as a matter of fact, many of the men there were thoroughly unfriendly to, and wanting in confidence in, their officers, and otherwise dissatisfied. The year 1798 had been referred to, when English Militia regiments were of so much use to England. If he referred to Irish regiments of the same period, he would find that Lord Cornwallis said they could not be trusted. Could they be trusted to-day? In anything he (Mr. Parnell) had now to say he did not wish to be understood as reflecting in the slightest degree on the good intentions of the right hon. Gentleman (Mr. Hardy). Like many other English statesmen who had acted with the best intentions as regarded Ireland, he might be disappointed. He (Mr. Parnell) wished to refer to a reply sent from the War Office to a request from the Catholic Union of Ireland that Roman Catholic soldiers might be allowed to attend mass on certain holidays. The right hon. Gentleman gave a very proper reply, that the commanding officer should afford every facility for the attendance of soldiers at Divine service on the holidays referred to. But what was the result? Owing to ignorance on the part of the commanding officers of the intentions of the Secretary for War, hardly any Militiamen were allowed to attend Divine service on those days. The Rev. Mr. Behan, of the parish of Navan, and chaplain of the Meath Militia, having complained of this, he was met by the excuse that the rules of the service did not permit of such attendance. He (Mr. Parnell) should be sorry to say anything to arouse religious animosities, or make a handle of religion for political purposes; but he thought that Militia regiments consisting of Irish Catholics ought to be allowed by their commanding officers to fulfil their religious duties as their conscience dictated. In the present day, however, no Militia regiment was allowed to do so. Employers in Ireland did not prevent their employés from attending mass on holidays, and why should this permission be denied to Militiamen? As a Protestant he threw out these remarks, in the hope that Irish Catholics in future would be permitted to attend mass on holidays.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

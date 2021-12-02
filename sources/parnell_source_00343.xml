@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parnell, Lowell Weekly Sun, Saturday 17 January 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parnell</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="" level="j">Lowell Weekly Sun</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-01-17">17 January 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7013975">Lowell, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00085"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18800117 Lowell Weekly Rousing Reception 001.tiff"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>...</p>
+         <p>Mr. Parnell received the harp, and expressing his sincere thanks, added, "I will carry it back to my native county of Wicklow, where your ancestors the O'Byrnes, many years ago, nobly fought for the freedom which was theirs by right. I will cherish it as a harbinger of the success which is to attend the present efforts to ameliorate the condition of Ireland."</p>
+         <p>...</p>
+         <p>ADDRESS OF MR. PARNELL. </p>
+         <p>In opening, the speaker expressed regret at the unavoidable absence of his colleague, Mr. Dillon, who had been summoned to New York on business connected with their visit to this country, and asked the generous indulgence of the audience for any of his shortcomings. Our mission to this country, he said, is two-fold. The appalling calamity of starvation is staring a quarter of a million of our people in the face, and we are here to ask the people of America to assist in averting the danger; and we also ask you to help break down that terrible system which has brought about this misery. When we left England the government were unwilling to admit that there was famine, either present or imminent, in Ireland; but soon after our arrival in this country they awoke to a sense of the fact, and began to acknowledge it.</p>
+         <p>Of course, you will send your contributions to relieve this distress, for you began to send your offerings before we came. But for the liberal aid sent by people in this country to their relatives abroad, the distress would have been much greater. It would be difficult for us to tell how far it will extend; but we do not believe that it will be equal to the famine of 1845. In seven of the Irish counties, it will probably be equal to the famine of that year. These counties represent a quarter of a million people in need of help, and who will in a few weeks be without bread, and there is much suffering among the small farmers all over the country. We cannot assist them all, but our desire is to send aid at once where it is most needed. We have predicted this distress for eight months, and have warned the tenant farmers to ward it of by withholding unjust rents from the landlords. We have authority for believing that in seven counties in Ireland half a million of people will suffer from a famine equal in severity to that of 1845 and the succeeding years. In a month or six weeks they will be without bread, or any means of subsistence. In all Ireland, except in the extreme north, great depression prevails, but outside of these seven counties people will be able to exist; they can procure one meal a day, of coarse food. America cannot relieve the whole of Ireland; let us, then, devote our charitable efforts to these particularly afflicted districts.</p>
+         <p>If we can hold out for a month, we can perhaps we can do something towards shaming the English government into its duties. If you will send what you can, you will have done a good work for Ireland, and you can prevent much loss of life by sending help promptly. The ten millions of Irish people in this country will not let their fellow countrymen die of hunger. There is plenty of food, and cheap food in Ireland, but the people have no money to buy. In former times much time had been lost in sending food, but now, money to purchase food can be cabled and reach Mayo, Sligo or Tipperary in five seconds. Arrangements have been made to have relief tickets honored by merchants in the needy districts, and the most necessitous can be relieved at once.</p>
+         <p>It is unnecessary for me to explain the Irish land question to an audience of Irishmen, or to say that the distress in that country is caused by the bad system of land tenure. The landlords say it is not the fault of the system or its administration, but the people are lazy, there are too many of them and they ought to emigrate. Well, if that is so and emigration is a cure, Ireland should to-day be one of the most prosperous of countries. Mr. Parnell next read extracts from a letter by Lord Dunraven, which was published a week previously in the New York Herald, each mention of which journal elicited hisses and groans. In dissecting the letter, the speaker figuratively handled the English lord without gloves, and his comments on the different sentences were humorously sarcastic, and provoked much laughter, at the expense of the titled gentleman in question. The speaker also made a few scathing allusions to a Mr. Kavanagh, who had got a letter into print on the subject, as seen from the landlord's side, previous to the publication of Lord Dunraven's.</p>
+         <p>Continuing, the speaker referred to the case of Prussia, where in 1811 the King decreed that all tenants should be allowed to take as their own the land they occupied by paying an indemnity: that landlords and tenants should have two years to agree upon terms, and if it was not amicably settled by that time, the state should do it. He explained the system adopted, and pointed out how a similar system would benefit Ireland. It is practically the taking by the government of all the land at a valuation, and paying for it bonds or cash, and allowing the tenants to repay the government by instalments extending over a period of thirty-five years. He said he would prefer to see the freedom of the tenants accomplished at once, but, except by violent revolutions, this was impossible. The change must be gradual. It would be cheaper than a revolution, and England could better afford to pay £1[]0,000,000 in settling the land question than in quelling an insurrection. I am confident, said he, that the suffering people will receive your sympathy. I believe the public sympathy of this country is in our favor, and I am proud of the success already recorded. I believe the heart of America is sound towards us, and that we shall receive both moral and material aid in settling this great question. Although you cannot give us your physical aid, you can give us money and strengthened public opinion, which will compel England to do us justice (applause). I appeal to you, ladies and gentlemen, to do all in your power to aid this worthy and suffering people. Your ancestors here in America were prompt in assisting Ireland in the hour of her need, and you have that comforting reflection; now, I feel that it is not asking too much of you to do the same, and you can have the proud privilege when our aim is accomplished to say that you contributed towards its realization.</p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>[Bill 196.] Second Reading., Hansard's Parliamentary Debates, Friday 4 June 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">[Bill 196.] Second Reading.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-04">4 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00054"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/04/bill-196-second-reading#S3V0252P0_18800604_HOC_133"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL asked the Prime Minister to consider the position in which Irish Members would be placed if the matter were left in this indefinite way. Let him try and place himself in the position of an Irish Member representing a constituency to whom this question was a matter of vital importance. They were utterly unable, and dare not try the risk of leaving this matter unsettled. They had already done their best to find a day, and there was none possibly available for this purpose earlier than the 21st of July. If the Bill were postponed till then it would be utterly impossible to pass it into law this year, even with all the assistance that Her Majesty's Government might desire to give it, both in that House and "elsewhere." Therefore, if they lost their present opportunity of taking the opinion of the House of Commons they might never get another. The Prime Minister promised that there should be no delay in announcing the intentions of the Government. That was not a very large promise. The House was entitled to have, not merely the opinion of the Government on the merits of the Bill, but also an opportunity for fully and fairly discussing the question. That was all they asked. Could not the Prime Minister say he would give them a few hours upon some Government night after some other Business had been dealt with? The position of the right hon. Gentleman entitled him to the excuse that he had not had time to make himself acquainted with the provisions of this very short, one-clause Bill; but the engagements of the two Irish Law Officers were not of such a nature as to justify the excuse that they had not had time fully to examine the effect of the Bill on the Land Act of 1870, and to advise the responsible Minister of the Crown as to the course to be adopted. The Prime Minister seemed to think that they might do more. [Mr. GLADSTONE: I expressed no opinion.] He thought he heard from the Ministerial Bench a suggestion that they might do more than they had done. It was very necessary that the House should understand the exact scope of the Bill. It did not pretend to be a settlement of the Irish Land Question, or to forestall in any way the right of the Government to consider this question in all its branches, and to bring forward their views in a future Session according to their promise. It simply proposed to remove a matter which was pressing with intense severity upon at least 150,000 out of the 600,000 tenant farmers of Ireland, and it also supplied a valuable addition to the Irish Land Act. That Act permitted the chairman to award compensation in cases of disturbance under Section 3. Section 9 limited that discretion in respect of evictions for non-payment of rent, and provided that such evictions should not be treated as disturbances, unless he could certify that the rent was exorbitant. They now desired to deal with a large number of intermediate cases between the case of an exorbitant rent and what anybody might consider to be a fair rent, cases which were brought into especial prominence from the stringency of the present times, and to give the chairman a discretionary power to award compensation where he thought fit. Nothing more than that was contemplated by the Bill, and nothing more than that could be found by anybody in it. The discretionary power of the chairman under the 18th section was left in the fullest extent, and they did not interfere with it in the slightest degree. He would ask the House to notice the latter part of that 18th section, which provided that if it should appear to the Court— That the landlord has been and is willing to permit the tenant to continue in the occupation of his holding upon just and reasonable terms that the tenant's claim for compensation shall then be dissolved. This Bill would not fine a landlord who ejected his tenant for non-payment of a fair and reasonable rent; it only sought to complete the discretionary power in the hands of the Court, and which was actually originally intended to be given by this very Land Act. The Bill sought to supply a most valuable method of peace preservation; and he really would ask the Government to consider whether they could not, in addition to what they had already said, promise that they would afford the House an early opportunity of expressing its opinion on the principle of this measure?</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

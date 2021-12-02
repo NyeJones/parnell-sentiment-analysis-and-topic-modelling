@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parnell's Noisy Hearers, New York Times, Monday 5 January 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parnell's Noisy Hearers</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="192149064" level="j">New York Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">5</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-01-05">5 January 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7007567">New York, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00081"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18800105 New York Times Parnell's Noisy Hearers 001.tiff"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell turned to Judge Gildersleeve and said, "Judge, and ladies and gentlemen, I have to thank you, in the first place, for the cordiality of your reception, and, in the second place, to regret that the grand cause which I stand here to plead for to-night was no intrusted to better hands. But, ladies and gentlemen, I fear not for this cause. It is so great in itself that it can safely be entrusted even to so feeble hands as my own." At this point the audience cheered the speaker, and "Hear! hear!" was shouted in all parts of the great building. The American people, Mr. Parnell said, occupy to-day a proud position. They are virtually the arbiters of this Irish question. The American nation has been made so by the common consent of all nations. "I rejoice," said Mr. Parnell, "that an influential paper of this City has taken up the cause of the land-owners of Ireland." A storm of hisses, which lasted fully five minutes, greeted this statement. "There is no occasion to hiss the paper in question," said Mr. Parnell, when the excitement had subsided. "It has done our cause more good than it could have done by advocating it openly. I rejoice that a man of the great ability of Mr. Kavanagh has been put forward to make the best defense possible for the Irish land-owners, and that the British aristocracy was forced to come to democratic America to find a paper to advocate its claims to the life-blood of Ireland's peasantry." The object of Mr. Parnell in visiting this country, was, he said, twofold. Originally he proposed only to address Americans on the subject of the political organization which he represented, and to solicit money for the purpose of furthering the aims of that organization. But before he was ready to sail the famine came in Ireland, and he determined to ask for relief for the suffering poor, as well as to apply for funds to sustain the political organization, which, it is hoped, will ultimately effect the regeneration of Ireland. The funds for these purposes will be kept distinct, and each person contributing can designate to which fund he wishes his money applied. It had been suggested by the paper before referred to that the speaker should devote himself entirely to collected funds for the relief of the starving peasantry of Ireland, but the cause of the present distress was in the unequal and artificial tenure of land which prevails. "We want," said Mr. Parnell, "to relieve the people, but we also want to sweep away the bad system which has led to the distress. America has always come forward with unexampled liberality to relieve distress in Ireland, but all the charity of America cannot permanently relieve us. We must shame the British Government into doing us justice. We don't want to come to you in the guise of mendicants every year. The American people must not forget that our great point is to reach the British Government by means of an open discussion of the Irish land question before the nations of the earth. The Irish people now present a remarkable spectacle. With death literally staring them in the face, they stand within the law and the Constitution of Great Britain. We have saved lives of the landlords, and we have saved the lives of the people."</p>
+         <p>The speaker continued that it would be impossible for him, in the face of this numerous multitude, to go into many details on this occasion. He could only speak very generally in reference to many branches of this great question. If asked "What do you propose?" he would say, generally, that he proposed to make the cultivators of the soil its owners. [Cheers.] He wished to do this, he said, with as little injury to what might be considered the vested interests as possible. No physical violence, no unconstitutional action was contemplated, or was, in his judgment, necessary. [Renewed cheers.] As he had repeatedly said, American public opinion was one of their greatest weapons, [more cheers.] and the landlords themselves, by invoking that public opinion had shown the very high value that they placed upon it. [Cheers.] He felt that it was a great compliment to the American people that the proud British aristocracy should humble itself and appear as a suppliant before this great democracy. [Loud cheers.] And, he continued, they have put forward a gentleman - Mr. Kavanagh - a man of signal ability, to plead, their cause. He would do him the justice to say that he had been the very best advocate that circumstances admitted. That gentleman had a variety of objections to their plans. He had told the public that the system of ownership would entail subdivision and sub-letting. He had pointed to the old history of Ireland, before the famine, where subdivision and subletting did proceed to a very great, and, the speaker thought to an evil extent, as the proof of the justness of his assertion. But the condition of affairs which they sought to establish was very different from that which obtained before the famine. Before the famine the system of renting the system of renting the land was usually in force. That system necessitated subdivision and subletting. Now they contemplated replacing that system by one of sale. They desired to make land free, so that everybody who had money to buy might buy as much as he needed of it. [Loud cheers.] Under the system of renting it was impossible to sell. The difficulty of proving title was so great, under the present laws, that in the case of small holdings the cost of proving title exceeded very frequently the purchase value of the holding itself. Then, as now, the laws of entail and settlement were in full force. They desired to abolish the laws of entail and settlement , [cheers and cries of "hear," "hear,"] which prevented the natural crumbling of their properties, which a wise nature had ordained to prevent the property of the world from passing into a few hands. They wanted a local registration of land title, such as they had here in America, so as to make it as easy to sell and buy land as to sell a hay-stack or a bale of cotton. [Cheers.] Then, as regards subdivision, that was also produced by the system of letting. He contended that no injurious subdivision would take place if they had a free system of selling land in Ireland. He believed that under such a system the size of the farms would be regulated by natural causes; that a man would not care to buy a farm which was too large for profitable cultivation, and in that way the size of Irish farms, by natural causes, would immediately become suited to the method of cultivation and the crops grown. Mr. Parnell then remarked that he was told by Mr. Kavanagh of the example of the lease in perpetuity of their farms to 50 tenants, with the result that they would pass into the hands of lot-men. If you select an estate in Ireland and sell the farms to tenants to-morrow; if you leave the laws of entail and settlement as they now are; if you render it impossible for a man to sell a small bit of land except at a cost which exceeds the purchase price, then in the course of a generation or two you would undoubtedly have the farms all back in the hands of lot-men and landlords. They desired to have the laws changed so as to be suitable to the condition they contemplated. He pointed to the laws of France and Belgium for the very best examples of the truth of his reasoning, and of the proposition he laid before them. [Cheers.] This gentlemen [sic] [Kavanagh] then proceeds to make certain statements, or rather misstatements, of a rather barefaced character. It was a common saying in legal circles, over in Ireland, If you have a bad cause abuse the plaintiff's attorney; and so he supposed Mr. Kavanagh thought that the best thing he could do was to abuse him, since he knew his cause was hopeless. [Cheers.] He did not intend to follow Mr. Kavanagh's bad example in that respect. He intended to treat him with the utmost courtesy and consideration, and he hoped, if possible, to induce him to come before them again, to give him an opportunity of replying to him again. "Kavanagh tells us," he said, "that I proposed to apply the money raised in America to buying out landlords." He [Kavanagh] need not be in the slightest degree uneasy, for he could assure him that not one cent of their money would every go into his pockets. [Laughter and cheers.] Then Kavanagh went on to say that none of it would go to the relief of the distressed Irish, and that he [Parnell] proposed to organize an armed rebellion. [Renewed laughter and cheers.] He said that he had no doubt that many of his fellow-countrymen in America would like to organize an armed rebellion, [cheers,] but he regretted to disappoint them also, [cheers,] because he must honestly tell them, however unpopular such a statement might be, that not one cent of the money contributed and handed to him would ever go to organize any armed rebellion in Ireland. [Great applause.] Kavanagh goes on to say that a large majority of the land was let at a fair value, and he cited himself and his estate as an example of this fact. He had remarked that he did not intend to abuse Mr. Kavanagh, but he was bound to admit that during the high prices of the last few years Kavanagh's estate was let at a fair value, although he regretted to say that he, like some other Irish landlords, had refused to grant the reasonable reduction of rents necessary to be in proportion to the extraordinary fall in prices, caused in part by American competition. [Cheers.] The fact that Mr. Kavanagh's land was rented out at a fair value during the last few years would not excuse the many rack-renting Irish landlords, who had taken the last pound of flesh and the last drop of blood. [Loud cheers.] He knew too well that a majority of Irish land was rented high, and that a very large proportion of it was rack-rented. Until Mr. Kavanagh proved, by statistics, that this was not the case, they could not be expected to believe a negative under such evidence.</p>
+         <p>There was another point where he wished to put one landlord's testimony against another. He would choose the estate of an absentee landlord of a class, as a rule, who did not rack-rent their lands. He wished to adduce the testimony of a man of Mr. Kavanagh's own class and proclivities. Mr. Parnell then cited the testimony of Mr. Stewart Trench, of an estate in County Monaghan, which in 1769 brought in a rental of £250 per annum. To-day that same estate brought in an annual rental of £80,000 per annum. The added value, he claimed, had been all the work of the tenants, and not at all the work of the landlord. Nothing that the landlord has done has added one penny to the value of this property. The landlord was now in receipt of £90,000 per annum for a property which 100 years ago brought £250, which had all been brought about by the exertions of those poor people who worked upon the land. Mr. Trench, he said, admitted that this was done by the exertions of the tenants and not by the acts of the landlords, for the population had increased to 44,000 souls. This was a process which had been going on in every estate in Ireland. The example he had chosen was not a better landlord than a majority of Irish landlords. And yet, you see, said he, that during this period the rent-roll of this estate had been rolled up to this enormous amount entirely through the industry of these tenants.</p>
+         <p>In concluding his remarks, as he said, to give his honorable friend, Mr. Dillon, an opportunity of addressing the audience, Mr. Parnell used these words: "I can only, in conclusion, express my conviction that the time has come when victory is bound to crown the exertions of the Irish people in their great struggle for liberty. [Loud cheers.] The handwriting has appeared upon the wall. [Renewed cheers, and cries of "Hear! hear!"] Efforts have been made, time after time, to misdirect public opinion and bolster up an unjust system. I confidently look forward to the time when the tiller of the soil in Ireland, as in many other countries, shall reap the benefit of his toil, [cheers.] and hand that result down to his children. I look forward to the time when, instead of proscribing labor, instead of offering an inducement to the tiller of the land to allow it to remain idle and barren, the great exertions which our people have shown themselves capable of, when opportunity offered, and when they were allowed to work for themselves, and not be as slaves, will be spent upon their own farms. Then, I believe, that one great step toward the freedom of Ireland will have been accomplished. [Loud cheers.] Then we shall have put the last nail in the coffin of the system of English misrule in Ireland, [cheers,] and have removed one of the great impediments to the union of all classes and of all religions there, [renewed cheers,] and that we shall have the dreams of every Irish patriot in all ages realized, [cheers,] and that the orange and the green will be united, [enthusiastic cheers,] and the Protestant and the Catholic shall be enabled to work together for the good of their country, [tremendous cheers,] and that no codes will exist to prevent any of our countrymen from doing their duty upon the land which has given them birth. [Prolonged cheering.]</p>
+         <p></p>
+         <p></p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Galway Election, Speech by Mr. Parnell, The Daily News, Thursday 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Galway Election, Speech by Mr. Parnell</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="181031558" level="j">The Daily News</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00049, speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">      
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0000051/18860211/016/0003"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, speaking yesterday at Galway, said that had he known that Mr. Lynch was coming forward for the representation of Galway he should have cheerfully accepted him. (Cheers.) But he had it on the authority of Mr. T. P. O'Connor that the only local candidate, Mr. Lynch, would not offer himself - that he had expressly declined to come forward for the town of Galway, and that he did not desire and could not be induced under any circumstances to offer himself to the constituency. It therefore became necessary for him (Mr. Parnell) to look around for some outside person not connected with the town, and the best candidate they could find was Captain O'Shea. (Hear, hear.) He therefore took upon himself the responsibility of recommending Captain O'Shea to the constituency. (A voice: "You are welcome.") Unfortunately, owing to a misunderstanding, Mr. Lynch was induced to offer himself in opposition to Captain O'Shea. Mr. Lynch had now withdrawn, but it would still be necessary for every one to go to the poll because Mr. Lynch's name was still on the ballot paper, and the Tories and Orangemen of Galway would go and vote for Lynch to a man. Such a result would not be Mr. Lynch's fault because he had done everything that an honourable man could be called upon to do to withdraw from his candidature and advise his friends to vote for Captain O'Shea. He had declined to support Captain O'Shea for Clare or Galway until he had Captain O'Shea's promise that that fault should not be laid to his charge for the future. The only fault he had to find against Captain O'Shea in regard to his Parliamentary action during the last Parliament was that he constantly refused to sit on the same side of the House with the Irish party in opposition. Captain O'Shea had given him the promise, and he would guarantee that the promise would be kept, that for the future Captain O'Shea would sit in opposition with the Irish party. He (Mr. Parnell) had done his duty to the country and to the party in this matter. (Cheers.) He had never led this country astray, and he had always led the party right. In concluding, Mr. Parnell called for three cheers for Captain O'Shea, and the cheers were given in response. Cheers were also given for Mr. Parnell.</p>
+         <p>When Mr. Parnell returned to Galway City in the evening, he addressed a crowd from the steps of the Railway Hotel. His speech was similar to those delivered early in the day. He added that he thought the day was near at hand when they shall have gained for Ireland the right to make her own laws on Irish soil. When that day comes he shall regard his mission as fulfilled. He had not entered on this great struggle with any motive of personal ambition, but it was his duty to stand by the people until these measures are gained. Any appearance of division or weakening of his authority would have a fatal affect on the cause. Months hence they would look back with satisfaction to the results of this election, for they would prove that they had struck a great and successful blow for Ireland. (Cheers.)</p>
+      </body>
+  </text>
+</TEI>

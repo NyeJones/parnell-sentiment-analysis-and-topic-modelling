@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Autumn Campaign, Another Demonstration in Meath, Mr. Parnell, M. P., in Nobber, The Nation, Saturday 23 October 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Autumn Campaign</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315667409" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-10-23">23 October 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00025"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">          
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18751023 Nation Autumn Campaign 001.tif, 18751023 Nation Autumn Campaign 002.tif"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Another important demonstration in support of the National movement has been made in patriotic Meath. The following account of it is taken from the Freeman:-</p>
+         <p>Yesterday a great Home Rule meeting was held at Nobber, in Lower Meath. The object of the meeting was to afford an opportunity to Mr. C. S. Parnell, M.P., to address his constituents in Lower Meath, whom during his canvass for the county he had not time or opportunity to visit. The popular member was, as he stated, desirous to state to his constituents in that part of the county, as he had already to those of other parts of the county at Navan, some days ago, his opinions on the leading Irish questions, and the progress made by the Home Rule party during the past session in the House of Commons. The meeting was set for half-past three o'clock, but long before the appointed hour vast numbers of the surrounding population were crowding into the little village. When, shortly before three o'clock, Mr Parnell M.P., in company with Mr. C. J. Fay, M.P., arrived they met with a most enthusiastic reception. Cheers for Mr. Parnell, the county member, and for Mr. Fay resounded on every side. In a moment an excellent platform was extemporised and proceedings commenced. There were about three thousand persons present...</p>
+         <p>Mr. Parnell then came forward, amid enthusiastic cheering, to propose the following resolution:-</p>
+         <p>Resolved - That we declare our continued and unalterable adhesion to the cause of Home Rule as defined by the great National Conference, to the cause of religious education, fixity of tenure, with fair rents, and amnesty to the political prisoners; and our abhorrence of any attempt come from what quarter it may, to sow the seeds of dissension or division in the national ranks.</p>
+         <p>He said he was happy at having an opportunity of addressing the inhabitants of Lower Meath, whom during his canvas for the county he had not had an opportunity of visiting. This resolution divided itself into two parts. The first was the great question of Home Rule (applause and cheering), which not only their representatives, but the people of Ireland, should continue to struggle for till they finally succeeded in obtaining it. And next came those subjects of great importance to the country, which the Irish people might yet rest assured of wresting from an alien Parliament through the action of the Irish members alone, namely - fixity of tenure at fair rents, religious education, and amnesty for the political prisoners (immense cheering). They might think naturally that as they had seen the Home Rule party repulsed in the House of Commons night after night that they had been badly beaten, and had done nothing ("No, no"). He would assure them it was not so, and he told them that in all sincerity; and God forbid he should tell them a lie (great cheering, and cries, "You never told us a lie!"). In the House of Commons the Irish party were daily gaining ground (immense cheering). The Irish people had the power in their own hands to do what they wished not only in respect to themselves, but with regard to England also (hear, hear, and cheers). The power rested in their own hands, and they would shortly see the truth of this assertion (great cheering). What did the great American orator, Wendell Philips, who was chosen by the Irishmen of America to pronounce the eulogy on the memory of the immortal O'Connell (great cheering) - what did he say in that address, which put to shame the published address of that English pensioner who feared to appear before Irishmen to deliver it? (Groans for Lord O'Hagan.) Wendell Philips said Ireland has been raised within the past few years from the weak and powerless position she formerly occupied. She has been raised from that position to be the arbiter of England's destinies. But they said they did not want to interfere in the affairs of the English people - they only wanted to manage their own (hear, hear, and cheers). They would be satisfied with having the direction of their own business (hear, hear, and cheers). Well, then, would it not be better for England if she in time would enter into such a composition with the Irish people (hear, hear). She would thereby purchase comparative safety for the future, and forgiveness for her cruel and felonious conduct to Ireland in the past (enthusiastic cheering). What their representatives had to do was to attend to their own business, to watch by day and by night over their national interests, to fear nothing as long as they had the people of Ireland at their back (hear, hear, and cheers, and cries of "You will always have them at your back!"). What the people of Ireland had to do was to put down with a strong hand all would-be dividers, however insignificant they might be (hear, hear, and cries of "We will put them down, never fear!"); the unfortunate wretches who, because the whole attention of Ireland was occupied in almost worshipping O'Connell, thought that Ireland would not be quick to detect and put down those covert attempts at disunion. But how mistaken they had been! How baffled and utterly destroyed have all their attempts been, and how discomfited must they find themselves now with no political future before them (great cheering) - with the execrations of the Irish people piled upon their heads (immense cheering)! Was not that a lamentable position for the member of a great and neighbouring county to be in? (Groans for P. J. Smyth.) Then the Irish people should also watch the conduct of their representatives in the House of Commons. It was not everybody who could attend there all their time. He (Mr. Parnell) could, because his time was not so valuable. And if he were even to become deficient in that respect they ought to remind him of it (hear, hear, and "You don't want reminding!"). But there were many of their representatives who had sacrificed more than he had - men who went over and attended every division of importance, returning afterwards to attend to their own business. Those were the men they ought to be lenient towards and not to expect too much from (hear, hear). Much had been said of the difference between Home Rule and Repeal (hear, hear, and cheers, and cries of "Home Rule is our motto'!) Well, he could never see the difference. It was a fact that to obtain Home Rule they must first repeal the Union. Nobody doubted that (hear, hear). They had also heard must of the Constitution of 1782. Well, there were some very good points in that Constitution, but there were some very bad ones too. What would they say, for instance, to having the entire Catholic people excluded from taking part in that Constitution? What would they say to having the Catholics - the great majority of the population of Ireland - rendered ineligible to serve in Parliament, or to their not having the power to appoint responsible Ministers - Ministers responsible to the Irish people - for the Ministers of the old Irish Parliament were appointed by the English Government, and they would still continue the same system. Any difference which existed was between Home Rule and the Constitution of 1782, which latter was to be amended in whatever respects it disregarded the rights of the Irish people. As for any difference between Repeal and Home Rule, he had been looking through a mental microscope, but could find none between them. If any difference existed it was merely one in name and no more (hear, hear, and cheers). When they came to matters of details the Irish people would have ample opportunity for discussing and deciding upon them. Their representatives could not - dare not - go contrary to the wishes of their constituents. Mr. Parnell then referred to fixity of tenure at fair rents, and said that Mr. Butt had promised to bring in a bill next session embodying these, and that he did not doubt that the confidence of the Irish people in their leader would be justified, and that the interests of the tenants would be properly secured by the proposed legislation (great cheering for Mr. Butt). Having advocated religious education, Mr. Parnell proceed [sic] to refer to amnesty, and said that it was thought that he had spoken too strongly upon this matter recently at Wexford. But he had not said anything at Wexford which he should be afraid to say anywhere and everywhere (cries of "Bravo"); he should not be afraid to repeat it in the House of Commons (great cheering). They had all heard of the case of O'Brien, who, having been kept in penal servitude for nine years, had the pluck to cut his way through walls of brass. How many Englishmen and women shed tears over the similar efforts of Silvio Pellico to escape his dungeon. But O'Brien far from being pitied, excited the ingenuity of his jailers to pile on additional ill-treatment, and an attempt was made to extinguish the last sparks of courage, to break down his little remaining strength, by keeping him in chains like a wild beast for six months (loud groans). Mr. Parnell then concluded, amid loud cheers, by proposing the adoption of the resolution, which, having been seconded by the Rev. Mr. Ward, was passed by acclamation.</p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell at Liverpool, The Times, Wednesday 11 November 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell at Liverpool</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="184285835" level="j">The Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-11-11">11 November 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00078"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, who on rising was again greeted with prolonged cheers, said that now, when the goal seemed to be drawing near, and the hour of final conflict, and, as they believed, of decisive victory, appeared near at hand (cheers), he was glad to find his fellow countrymen in Liverpool extended to him such a greeting as he had experienced. (Cheers.) The Irish people constituted an important factor in each of the divisions of Liverpool, and he believed they would hold aloof from all English political parties, as Irish members in the House of Commons did, and give their votes, apart from local and personal considerations. (Cheers.) He was there to ask them to do this (a voice - "We will"), and to regard themselves solely as Irishmen upon whom a great trust and a solemn responsibility rested - a greater trust than had rested upon Irishmen at any time in her past history. He also believed that in recognizing that responsibility the Irish people of Liverpool would be equal to the emergency, and do their duty to Ireland. (Cheers.) In one of the divisions of Liverpool the Irish seemed, so far as had yet been gathered, to be in a position to return a candidate of their own. (Cheers.) Inquiries had not yet proceeded to a definite and conclusive point with regard to the relative strength of parties beyond the Scotland Division. In the case of the Scotland Division, they were convinced that they had ample strength to beat both the two great political parties, and it had been decided, with his approbation, to offer for their acceptance that night Mr. Thomas P. O'Connor as the candidate for the division. (Cheers, and a voice. - "What about Dandy Pat?" and disorder.) They were convinced that Mr. O'Connor, from his services and his signal ability, was well qualified and able to carry their flag to victory in the Scotland Division, and that he would poll every Irish elector who was able to vote. (Cheers.) In sending Mr. O'Connor from Ireland to Liverpool they regarded him as a loss; but they recognized that the Irish in England were under difficulties greater than those they had to gave in Ireland, and that consequently it was their duty to offer the ablest and best man for the special and important services he would undertake in standing for the Scotland Division. (Cheers.) There was for a short while before the public and before the Irish electors another candidate - namely, Mr. Patrick Byrne. (Hooting.) That gentleman had left the question of his candidature for the Scotland Division entirely in his hands, and had expressed his great unwillingness to be any party to divide the national flag. (Cheers, and a voice, "He's a hypocrite.") In the interests of the same unity he advised Mr. Byrne to withdraw his candidature in favour of Mr. O'Connor, and Mr. Byrne had commissioned him that night to say that he unreservedly withdrew his candidature. (Cheers.) With regard to the other divisions of Liverpool - Exchange, Abercromby, West Toxteth, and Kirkdale - the Irish vote was very strong, and he could not absolutely say for certain whether in any one of them they were sufficiently strong to beat both the other contending parties. But their inquiries were still proceeding, and they hoped to have figures which would be conclusive one way or the other before them in a few days. Until then they did not consider it desirable to replace the vacancy which had been created by Mr. Justin McCarthy's forced removal to fight the city of Derry. With regard to his withdrawal from the candidature for the Exchange Division of Liverpool, that was forced upon them by the necessities of the situation. They would all readily admit that the capture of Derry would be, if they succeeded in taking it, and he believed they would (cheers), one of the most glorious events in their history. It was thought that only two men of the Irish Parliamentary party could win Derry - one of them was Mr. Sexton (cheers), the other was Mr. Justin McCarthy. Mr. Sexton was asked to stand for the western division of Belfast, and it was represented to him that only Mr. Sexton could succeed there; so that they were in this predicament - that if they wanted to capture one of the divisions of Belfast - Orange Belfast - and to take Derry, they would have to do it with Sexton and Justin McCarthy. They, therefore, detailed Mr. Sexton for the duty in Belfast, and they were obliged very reluctantly to ask Mr. McCarthy to give his services in Derry; and in the same way he asked them that night to ratify Mr. McCarthy's withdrawal from Liverpool. They did not propose to nominate or suggest for nomination any candidate for the Exchange or any other division of this city until they saw exactly how they stood in each, and when they had the information before them, which would be materially strengthened by the School Board elections, they would be in a much better position to advise them as to what was best to be done. Passing to the general questions of the day, Mr. Parnell said that since he last had an opportunity of speaking upon the National question they had had two very important utterances from English Ministers regarding it. They had the utterances of Lord Hartington (hisses) a few days ago at Belfast and they had reported that day the great speech of Mr. Gladstone in Scotland on the same subject. He had already dealt elsewhere with the Marquis of Hartington's speech on Irish affairs, but he could not help contrasting the very great difference between the tone and the attitude of those two statesmen. The Marquis of Hartington appeared to him to approach the question with his mind embittered against Ireland, determined, if he possibly could, to prevent a settlement between the two nations. Mr. Gladstone, on the other hand, with that breadth of statesmanship for which his name was renowned, had approached the question of Irish government in an entirely different spirit. (Hear, hear.) Undoubtedly the speech of Mr. Gladstone, although in many respects vague and unsatisfactory, was the most important pronouncement upon the Irish national question which had ever been delivered by any English Minister. But, having said so much, he (Mr. Parnell) feared that he could not say anything more in terms of unqualified praise, because he thought the speech seemed to fall short of the exigencies of the position. (Hear, hear.) Mr. Gladstone commenced by impressing upon his hearers, with that extraordinary wealth of language of which he was possessed, the importance of the Irish question above all other questions, and in that perhaps he alone of all English politicians appeared to discern the truth. (Cheers.) The Irish question, undoubtedly, was the most important question for consideration at the present moment by English politicians. (Cheers.) Until the Irish question was disposed of it would be utterly impossible for any English questions to proceed. (Loud cheers.) Therefore Mr. Gladstone showed a true and a keen appreciation of the importance of the question when he impressed it upon his hearers. But he afterwards seemed to take up a rather inconsistent position, because he said the question was such an important one - having regard to the maintenance of the supremacy of the Crown and the authority of Parliament in all matters appertaining to that supremacy - that when the demands of Ireland were presented to a new Parliament it would be the duty of whatever Government was in power and of Parliament to give them the most serious consideration. In another word, Mr. Gladstone declined, or appeared to decline, to make any proposition of his own to the electors of the kingdom with regard to the settlement of this question. He (Mr. Parnell) was speaking entirely from a practical point of view when he said that it appeared to him that if they took Mr. Gladstone at his word, voted for his candidates, and gave him a large majority independent of the Irish party, which he claimed to be necessary for any English Ministry before it could consider the Irish national question, they would find themselves in this position - They would present their claims for consideration to Mr. Gladstone, and if he agreed with them he would probably bring in a Bill which, after passing the House of Commons, would go up to the Lords, who would say to Mr. Gladstone, "You never submitted the principles or the details of the Bill to the judgment of the electors at the general election, and we consider it is right, in a question of such enormous gravity as this, of the national relations between England and Ireland, that the electors of England and Scotland should have an opportunity of passing judgment upon it, and we will throw out this Bill and compel you to dissolve Parliament." (Hear, hear.) That would be a very abortive result of the general election, but under the circumstances it appeared to him that the House of Lords would only be carrying out their constitutional right by rejecting a Bill the details of which had not been before the country at the general election. (Cheers.) Mr. Gladstone could avoid all this trouble by simply bringing his great intellect to the promoting of a constitutional course. There was no living man better able to do it, and he (Mr. Parnell) invited him with all seriousness to lay his views as to the largest amount of self-government for Ireland - subject to the conditions and limitations which he had stipulated for regarding the supremacy of the Crown and the maintenance of the unity of the Empire - before the public in order that the electors of the three kingdoms might have an opportunity of judging of them and passing a decisive verdict at the general election. (Loud cheers.) He wished to notice a very infamous falsehood. He did not exactly like to call it a falsehood, but he would say a very glaring misstatement which appeared in The Times of that day. He should not have noticed the matter were it not that considerable injustice was inflicted by the statement, in the shape of a letter from Mr. Saunderson, a north of Ireland Orangeman (hisses) upon a gentleman whom he believed to be perfectly innocent of the offence for which he was now serving penal servitude. He referred to Mr. P. Nally, who some days ago at the Mayo convention was brought forward by a considerable section of the Nationalists of the county Mayo as a Parliamentary representative of one of the divisions of Mayo. In his position as chairman of the convention and also leader, he was obliged to refuse Mr. Nall's candidature, which he did with very great reluctance, because he believed him to be innocent, and also because his friends had a very strong conviction that if he were returned for Mayo it might have a beneficial effect in obtaining his release. He was obliged to reject his candidature, and his friends, after a good-humoured discussion, finally withdrew his name, and in referring to this at a public meeting afterwards he took occasion to say what he thought of Mr. Nally and of his conviction and imprisonment. The letter of Mr. Saunderson in The Times referred to his speech of another Nally, the celebrated, or rather the notorious, "scrab" Nally, quite a different man, and an entirely different character in every respect. They could see the abominable unfairness of writing to The Times and making a deliberate misstatement, for he would not call it a falsehood, because he did not know whether this Mr. Saunderson really knew that he was telling a lie and making a deliberate misstatement with regard to a person whose release they were attempting to obtain. Surely some caution might have been observed by the writer of the letter to ascertain whether Mr. Patrick Nally had ever made a speech like the one quoted. He knew that Mr. Patrick Nally never made anything but the most moderate speeches during the course of the Land League movement, and that no single passage of any of his speeches could be picked out which could by any possibility be interpreted or twisted into any incitement to crime or violence. The speech quoted in The Times, and commented on in a leader as an argument against the concession of the national rights of Ireland, was made by another Nally altogether. Surely where important issues, not only with regard to the fate of an individual, but the relations between two nations, are at stake public journals in the position of The Times should hesitate for a moment before inserting every lie as gospel which was sent to them. (Cheers.) At the commencement of his remarks, he said they were near victory, and he believed they could fulfil two conditions. The first was that they should keep their people at home and abroad united and free from quarrels and dissensions among themselves, that this united people should be true to the great traditions which they had inherited, and that as it rested in their power to strike to-day what they believed would be a successful and lasting blow for Ireland they would not shrink from striking hard and striking home. (Loud cheers.) The second condition was that those who were intrusted to bear their flag in the Parliament of Westminster should be men who would sink all personal considerations and maintain the same union in their ranks that the Parliamentary party of 1880 ever maintained during the last Parliament, that they should crush down with an iron hand all dissensions in their midst (cheers), and, above all, that they should believe in themselves and in the work they had in hand. If these two conditions were fulfilled, and they had a determined body of men who believed in the right of Ireland to obtain self-government, then the day would not be far off when they, the Irish people of Liverpool, living as they were in another country, would have the gratification of witnessing the assembling of an Irish Parliament on Irish Soil, with full power to guide the destinies of their nation. (Great cheering.)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

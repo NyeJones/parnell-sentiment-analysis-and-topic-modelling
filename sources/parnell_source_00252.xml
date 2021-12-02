@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Untitled, The Daily Express, Thursday 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Untitled</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="38159818557513810505" level="j">The Daily Express</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">4</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00049, speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0001384/18860211/048/0004"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr Parnell has administered a sharp lesson to Mr Healy and Mr Biggar which those gentlemen will not soon forget, but he has also learned something himself. He stood yesterday in the position of a conqueror who had narrowly escaped defeat, and found it necessary to make a defence. We do not pretend to be able to anticipate the reception which will be given to his explanation by the electors of Galway or the country at large. Its elaborate simplicity is marvellous, and presents Mr Parnell in an entirely new character. Latent virtues have been developed by the incident which even his most ardent admirers hardly imagined he possessed. Had he only known that Mr Lynch desired to represent his native borough, he would have selected him, or rather, as he modestly says, he would have "recommended" him. Nobody ventured to inquire why he took no trouble to ascertain whether Mr Lynch or anyone else in Galway desired to represent it, or whether Mr T P O'Connor was the very last of the natives who was worthy of being returned for it. He consulted that gentleman, he says, who, with an absorbing sense of his own merits, told him that as Mr Lynch would not think of standing there was no one else in the whole electoral district - which, by a happy arrangement of the boundaries, extends for miles - who would be fit to succeed himself. Being satisfied by the representations of Mr T P O'Connor - which he, perhaps, may some day account for - he thought it "his duty" to select a candidate, and, having selected Captain O'Shea, to stand to him to the bitter end. It never occurred to him that the people of Galway might think themselves as well entitled as those of any other place to have a convention and select their own candidate. Captain O'Shea was the "man for Galway," in his opinion, and for Galway he resolved to return him. His reasons for doing so reveal an estimable trait in Mr Parnell's character. He is grateful beyond ordinary mortals. Captain O'Shea voted for him on a critical occasion, and he could never forget so great a service. We do not know whether Mr Hugh O'Donnell, a former representative, was one of the 22 good men and true, who did the same service, but we believe he was, although upon Captain O'Shea he bestows the concentrated essence of his gratitude. Not that he is insensible to the Captain's faults. On the contrary, he has privately condemned and punished him for them, but we fear that, notwithstanding hiss promise to be a good boy in future, and sit wherever he is bid, the Captain will still prove incorrigible and the loving correction which he has received will be lost upon him. The Captain, however, must beware, for Mr Parnell has a rod in pickle for him, and if he offends again he must take the consequences. As for Mr Lynch, he must wait his chance and be thankful if he ever gets a seat on the Home Rule benches.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

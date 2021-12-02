@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Imperial Parliament, The Morning Post, Friday 9 April 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Imperial Parliament</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="295179190" level="j">The Morning Post</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-04-09">9 April 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00052"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, who was received with loud Home Rule cheers, said that he thought the right hon. gentleman (Mr. Trevelyan), in his attempted comparison between Lord Spencer's actions and his own, scarcely stood on firm or satisfactory ground. (Cheers.) Englishmen loved a man who "fought his own corner out" to the end, and Lord Spencer certainly did do that. He went over to Ireland to fight out a battle which was not his own. He fought the battle of the Irish landlords, and he stuck to his post. He faced every danger, every risk, both physical and otherwise. But the right hon. gentleman did what seemed to him very much like running away from his post - (Home Rule cheers and cries of No, no) - and although he attempted to explain to the House his reasons for leaving the Cabinet, he did not try to explain why he left his position as Chief Secretary. (Home Rule cheers, and cries of Oh, oh.) Did the right hon. gentleman now intend, if his plan were carried out, to bid for the office of Chief Secretary? If he did not, was it very chivalrous in him to open such a tempting door for future aspirants? The right hon. gentleman had no censure of the language used at a public meeting by the Attorney-General of the late Government, when he declared that the blood of Giffen was upon the head of Lord Spencer, although no words ever used by him (Mr. Parnell) or his friends ever exceeded in gravity the charge thus made by the law officer of the late Conservative Government. (Home Rule cheers.) He hoped that the heat, he would not say the ill-temper, which had been imported by the right hon. gentleman into the discussion would not be imitated by other speakers. With regard to Mr. Ford, all he could say about him was that he had constantly denounced both him (Mr. Parnell) and his policy during the last few years. So far from physical force, rebellion, and separation being likely to result from the passing of this bill, he thought that the guarantees of a peaceable solution of the Irish question would be enormously increased. The reason why there was trouble in Ireland now was that the people were desperate and had got nothing to lose. But give them a Constitution, and they would be proportionately careful not to lose it. (Home Rule cheers.) Every violent speech, every criminal action, would be so many nails driven into the coffin of that Constitution. At the same time, every guarantee that now existed would remain. As to the bill itself, he should like to reserve any too positive expression of opinion until he had seen the details of the measure. He thought it a happy and fortunate thing for both Ireland and England that there was one man living, one great statesman, with the immense power and the extraordinary ability of the present Prime Minister, to lend his voice to poor, helpless Ireland. (Home Rule cheers.) it seemed to many that the task of unravelling this question might prove too large, too terrible even for him. He believed it would not; but, whatever might be the fate of the measure, the cause of Irish autonomy would have gained enormously by the genius of the right hon. gentleman. (Home Rule cheers.) To Ireland, to none of the sons of Ireland had there ever been given the genius and talent of the right hon. gentleman, certainly nothing approaching it in these days. He thanked, therefore, the right hon. gentleman for the energy and time, he had devoted to this measure, and he believed sincerely that the result of it would be that the people of England no less than the people of Ireland would recognise as the result of what he had done that he had been to them a national benefactor. (Cheers.) But there were undoubtedly great faults and blots in the measure. The right hon. gentleman had had to meet very hostile criticism and a very extraordinary state of affairs. He had seen his officers drawing their swords upon him, as Mr. Trevelyan had done that night, and he had had to shape his measure to meet the tremendous opposition which had been invoked against him. But there were several points which it would be their duty in committee to oppose very strongly, and press for the serious modification and amendment of. The question of customs had been touched upon. In giving up the customs they would practically give up the control of three-fourths of the revenue of Ireland. The right hon. gentleman had explained to them that if they insisted on separate custom-houses England could deprive Ireland by collecting duties on whisky and tobacco here of £1,400,000 per annum. That was a very serious consideration and it might be fairly balanced against the concession of customs and excise. At the same time, if the Prime Minister was to claim credit for giving them the £1,400,000 as a consequence of the surrender of customs and excise, he was not entitled to claim credit for it a second time, and to make them pay out of the £1,400,000 £1,000,000 a year for the Irish constabulary, over whom they had no control whatever. There was also the very grave question of the contribution to the imperial expenditure. He could not admit either the justice or the liberality of the standard of comparison which the Prime Minister had taken. It appeared to him that the amount of property which came under assessment regarding the payment of legacies or succession duty was the most unfavourable standard which could be chosen. It must be remembered that Ireland was a very poor country, and with such a small balance of £400,000 a year in the Budget, it would be impossible for Ireland to have any credit in the direction of floating loans. At present they could borrow large sums from the Treasury. Irish landlords could borrow money for the improvement of their estates, Irish tenant farmers could borrow for the purpose of improving their farms, and local authorities could borrow for various purposes, but they would have to surrender all this under the scheme of the right hon. gentleman, and would be left with a budget which only exceeded the annual balance of £400,000 - a Budget arrived at on an estimate which necessitated that the consumption of spirits, not only in Ireland, but also in England, should continue at its present high rate. Probably one of the first things that would happen in Ireland would be a restriction on the sale of strong drink on Sundays and other days, and certainly they must anticipate, and he hoped the could anticipate, a considerable reduction of the amount of revenue derived from these duties. Therefore it was scarcely fair to press them too closely or to insist on driving too hard a bargain. If the sum were agreed on, of course Ireland must pay it, and she would pay it; but it would be most unfortunate if the result of the selection of such a standard of comparison should be the future poverty of the Irish Treasury. (Hear, hear.) He had every confidence that when they put their case in committee the conscience, not only of the House of Commons, but of the Prime Minister would be touched in this matter, and that he would see his zeal for making a good bargain for his own country on the questions of imperial contribution had misled him to do an unintentional injustice to Ireland. (Hear, hear.) He thought also the question of the Royal Irish Constabulary had been left in a most unsatisfactory position. It was most unfair to ask them to pay for a force over which they had no control, but this was a matter on which more light would be thrown when they had seen the bill. Then there was another important point - namely, that of voting by orders. As he understood the plan it would give the first order - the 28 peers and those elected by the fancy franchises - the power of hanging up any bill for three years, and so bringing the whole proceedings of the Legislature to a deadlock. So far as the right hon. gentleman proposed to resist revolutionary legislation, he heartily welcomed it; but so far as it could be made an obstruction to legislation on the part of a body of members who could scarcely be said to be representative, it ought to be seriously modified, so as to render such a thing impossible. (Hear, hear.) The Prime Minister had said that the measure ought not to be proceeded with unless it was cordially welcomed by the Irish people. He agreed with that, and was convinced that if their views were fairly met in committee in regard to the defects to which he alluded, its working would be an agreeable disappointment to the right hon. gentleman (Mr. Trevelyan) and all those who thought with him. It would be cheerfully accepted by the Irish people and their representatives as a solution of the long standing dispute between the two countries, and would lead to the prosperity and peace of Ireland and the satisfaction of England. (Home Rule cheers.)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

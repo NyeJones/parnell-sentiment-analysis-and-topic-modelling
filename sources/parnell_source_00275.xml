@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Gladstone's Plan, Boston Daily Advertiser, Friday 9 April 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Gladstone's Plan</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="154150147" level="j">Boston Daily Advertiser</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">5</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-04-09">9 April 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7013445">Boston, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00052"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>At the conclusion of Mr. Trevelyan's speech, Mr. Parnell arose and was received with cheers by the Irish members. He congratulated Mr. Trevelyan on having, like the French general who had unsuccessfully defended Paris, his own plan, a plan, however, which did not seem to awaken much enthusiasm in the house. Mr. Trevelyan, he said, had stated why he had left the government, but not why he had resigned his post as chief secretary. [Cheers from the Irish benches.] Mr. Parnell then went on to justify his past utterances and action, which had been impugned by Mr. Trevelyan. Speaking of America and the assassination literature which came from America, Mr. Parnell said that most of the literature was neither American nor Irish literature. "If Mr. Trevelyan," he continued, "were to study the literature of America at this moment, he would find that sympathy for the past, sympathy for the grievances of Ireland by the concession of a domestic legislature is shown by all classes, whether Irish or native born American, and more especially that native born Americans are welcoming the efforts of Mr. Gladstone, in the belief that they will bring peace between England and Ireland, and more especially between Irish Americans and England. It is a remarkable fact that the great meetings now being held in favor of an Irish legislature, by editors and conductors of Irish American newspapers. We regard the fact that, during the last five or six months, we have succeeded entirely in gaining the sympathy of the two great parties in America - the democrats and the republicans - as a good omen for the future. [Cheers.] As to the bill before the house, while reserving his full expression of opinion until he had seen the real foundation of the bill, was the fact that the prime minister had bargained with the separatist party to give them this measure, which, if carried, would be one of the most fatal measures that had ever been proposed in the interests of the empire. The bill, nevertheless, contained blots which the Irish representatives would do their best to remove. One of those was to be found in the financial proposals of the bill, which he regarded as very unfavorable to Ireland, especially in regard to the Irish tribute to the imperial exchequer. He also complained of the proposition relative to the two orders intended to constitute the Irish parliament on the ground that the first order, consisting of peers not subject to the influence of the popular vote, would have the power of hanging up measures demanded by the people and their representatives for two or three years. On the whole, however, apart from these defects, he believed the measure would be cheerfully accepted by the Irish people and their representatives as a satisfactory solution of the long standing dispute between the two countries, and as tending to prosperity and peace in Ireland and to satisfaction in England. [Cheers.]</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

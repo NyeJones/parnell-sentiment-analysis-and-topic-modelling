@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Amnesty Association and Mr. P. J. Smyth, M.P., The Freeman's Journal, Wednesday 11 August 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Amnesty Association and Mr. P. J. Smyth, M.P.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315698503" level="j">The Freeman's Journal</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-08-11">11 August 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00020"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://archive.irishnewsarchive.com/Olive/APA/INA.Edu/Default.aspx#panel=document"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>The Chairman said the council had been called together for a very unpleasant duty. It must always be unpleasant for a body of men to meet to deliberate as to the course which should be pursued with respect to one of their members. In this particular case they would all feel the responsibility that devolved on them, because Mr. Smyth had been a member of the association, and not only a member, but a trusted member for many years. Therefore it was necessary that they should consider his case with all deliberation, and with every desire to do justice as between man and man (hear, hear). They knew that Mr. Smyth had taken a very prominent part in Irish politics, and had always been well thought of by his countrymen, not only as a member of the association but as an Irishman, until within recent years, when he appeared to many to deviate from the proper course he should follow. Several, including himself (the Chairman), were inclined to make excuses for him - to believe that he felt in conscience it was his duty to take the course he did. Some time back he expressed this view to Mr. Smyth, but the course taken by Mr. Smyth during the last three weeks had completely changed his mind, for he saw that gentleman, with the eyes of the country upon him, join a clique (hear, hear). Now, he did not believe that Mr. Smyth had any political sympathy with the men whom he had joined (hear, hear); that he really belonged to that Whig faction that sought to get possession of the city of Dublin last week, and not only that, but to combine and turn the national feeling of Ireland to the use of an insignificant and, he might add, dead party in Ireland (applause). He requested his belief that that party was dead (hear, hear). It was crushed and ground down at the last election, but he thought it was killed outright now (laughter and applause). He was, perhaps, straying away from the matter in hand. He would ask everybody there to give his best intelligence and best judgement to the question at issue, and to decide fairly and faithfully whether Mr. Patrick J. Smyth was entitled to remain a member of the Amnesty Association, or whether, having heard the evidence presented to them, they would think he was not entitled to remain a member (hear, hear).</p>
+         <p>...</p>
+         <p>The Chairman said there had been a very full discussion of the matter. He repeated that the occasion was a most painful one - all his colleagues in Parliament concurred in that (hear, hear). No thing was left to him but to put the resolution. The chairman then submitted the resolution, and declared it carried unanimously.</p>
+         <p>Mr. Fay, was moved to the second chair, and a vote of thanks, passed by acclamation, to Mr. Parnell for his dignified and impartial conduct as president of the meeting, brought the proceedings to a close at eleven o'clock.</p>
+      </body>
+  </text>
+</TEI>

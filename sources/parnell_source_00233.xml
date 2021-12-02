@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Imperial Parliament., A Lively Scene at Midnight, The Daily News, Tuesday 30 May 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Imperial Parliament., A Lively Scene at Midnight</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="260414628" level="j">The Daily News</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">2</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-05-30">30 May 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00048"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>... Mr. Parnell then moved to report progress, it being twenty minutes past twelve. Mr. Cross pointed out that Clause 2 having been already fully debated, and there being no further amendments, it would be convenient to add it to the Bill and also Clause 3, which was not opposed. In this appeal the Home Secretary was publicly and by private solicitation backed up by Mr. Shaw Lefevre, Mr. Cowper-Temple, and other gentlemen who had taken part in the discussion. Mr. Parnell was, nevertheless, obdurate, but on being challenged a second time was not heard in reply. The motion accordingly fell to the ground; but on the question that the clause pass, Mr. Parnell again raised his voice in the negative, and Captain Nolan agreeing to tell with him, the Committee divided, when the motion received the support of nine votes against 252. On the figures being announced, Mr. Callan rose and said he, not by a side wind, but deliberately, impugned the decision of the Chairman on the occasion when Mr. Parnell had opposed the passing of the second clause. Mr. Parnell, he added, had challenged the ruling of the Chairman, that the ayes had it for the passing of the clause. Amid loud and prolonged cheering Mr. Cowen declared that if hon. members in that part of the House deliberately impugned the decision of the Chairman of Committees it was well that it should be known that gentlemen sitting in that part of the House did not agree with him. The fact that some gentlemen near him were under the impression that the business of the House should close at twelve o'clock, but it was better for them to say so openly. Mr. Parnell having repudiated Mr. Callan's statement about the misunderstanding with the Chairman, Mr. Callan amid loud laughter, said he had made the statement the Committee had heard on the authority of Mr. Parnell. At one o'clock this morning, Mr. Parnell, amid a scene of confusion, was addressing the Committee, and was followed by Mr. Macdonald... </p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell on Irish Nationalism, The Northern Whig, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell on Irish Nationalism</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="27159818562313810880" level="j">The Northern Whig</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">8</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22">22 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7012112">Belfast, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0000434/18850122/183/0008"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, in the course of his speech, said the electors, the old electors - the electors who would be swamped in the great mass of Irishmen now to be admitted to the rights of the constitution - so far as they existed in that country, were on the whole faithful to their trust. Indeed, it was not until they showed by a great many proofs that they could do without an enlargement of the franchise, and with the old restricted suffrage they could do all that was necessary in the way of Parliamentary elections, that the opposition to the admission of the masses of the Irish people to the franchise disappeared. He looked forward to the future with a light heart, and he was confident that the 500,000 Irishmen who would vote in a few years would be as true or truer to Ireland than those who had done so before, and that they might safely trust to them the exercise of the great and important privilege - unequalled in its greatness in the history of any country - which would shortly be placed upon them. They would struggle as they had been struggling for the great and important interests of the Irish tenant farmers, and they would ask that their industry should not be fettered with rent. (Cheers.) They would ask also from the tenant-farmers in return that they should do all they could to encourage the struggling manufactures of Ireland, and that they should not think it a great sacrifice to be called upon, when they had to purchase anything, to consider how they might get it of Irish material and manufacture, even if they had to pay a little more for it. He was sorry if they had shown themselves a little deficient in their duties in this respect but he felt confident that it was only necessary to bring the matter under their notice. (Hear, hear.) They would also endeavour to secure for the labourer some recognition and some right in the land of his own country. (Cheers.) They did not care whether it was the farmer or landlord that stood in his way. They considered that whatever class attempted to obstruct the labourer in the possession of those fair and just rights to which he was entitled, that class should be coerced into doing justice to the labourer. They had shown their desire to benefit the labourer by the passage of the Labourers Act, which, though maimed and mutilated in many of its provisions, would, however, secure for the labouring class a portion of what they strove to secure for them. He came back to the consideration of those questions, and every Irishman should be forcibly driven back to the question of the national self-government of Ireland. (Cheers.) He did not know how this question would be eventually settled. He did not know whether England would be wise in time and concede, in answer to arguments, the restitution of what was stolen from them towards the close of the last century. It was given to none of them to know the future; and, just as it was impossible for them to say in what way or by what means the national question might be settled - in what way full justice might be done to Ireland - so it was impossible for them to say to what extent that justice would be done. They could not ask for less than the restitution of Grattan's Parliament. (Cheers.) They could scarcely, under the constitution, as for more. But no man had a right to fix a boundary to the march of a nation. (Here the whole audience rose to their feet, and cheered for several minutes continuously.) No man had a right to say to his country, "Thus far shalt thou go, and no farther," and the Parliamentary party had never attempted to fix a ne plus ultra to the progress of Ireland's nationhood, and they never would do so. While they left those things to time and to circumstances of the future, each one of them should resolve in his own heart that he would at all times do everything that in him lay to obtain for Ireland the fullest measure of her rights. (Great applause.) In this way they would avoid differences and contentions amongst themselves, in this way they should not give up anything which the accidents or the chances of the future may afford in favour of their country; and, while they struggled to-day for that which it may seem possible for them to obtain, they might struggle for it with the proud consciousness that they were doing nothing to hinder or prevent better men who may come forward in the future from gaining better things than those for which they were now struggling. (Tremendous cheers.)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

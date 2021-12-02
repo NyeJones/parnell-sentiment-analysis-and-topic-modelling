@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell's Reception, New York Times, Saturday 3 January 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell's Reception</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="192149064" level="j">New York Times</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">8</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-01-03">3 January 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7007567">New York, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00079"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18800103 New York Times Mr Parnell's Reception.tiff"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Develin and Gentlemen: I regret that my power of language is not sufficient to convey to you the very great appreciation of the kindness and honor that you have done me in meeting me this morning, and I feel indebted to you, individually and collectively. It has always been a great pleasure to me to come to the United States of America. I could have wished that the circumstances attending our native land were of a more happy and prosperous character, but we must hope and believe that the time is approaching when we may be able to speak of Ireland as other men speak of their own country, and that we may be able to speak of her as really and truly among the nations of the earth. As you have very well expressed in your address, Mr. Develin, our task is of a double character. We have to war against the system which produces discontent and suffering in our country, and we have to endeavor to break down that system, and with God's help we are determined to break it down. We have also to see that the victims of this system are not suffered to perish in the meanwhile. We are to take care that the unity and strength of our people are not broken, and that now, when the opportunity has really come for the settlement of one of the leading questions in Ireland, that opportunity may not be lost. The physical sufferings and misery and starvation of large portions of our population in Ireland has not been exaggerated. We have been calling upon the Government for eight months to relieve that distress, but it has only been within the last few days that the English Government has agreed to admit that there is any distress. This was brought to their notice by a letter from the Duchess of Marlborough, the wife of the Lord Lieutenant, which stated that there was going to be a famine and dire distress during the coming Winter. It is what we have warned the Government and our people at home and abroad of for some time, and only now that it is too well spread for almost any effectual remedy do these rulers in England appear to understand at all their responsibility. We who have been working at this great land question, and have prematurely taken the responsibility off the shoulders of the Government, have not up to the present made any appeal to the Government for the relief of the destitution of Ireland. But we feel that we cannot longer shut out eyes to the terrible peril that is approaching, and we think that we ought to put the case before our own countrymen both at home and here in America, and endeavor to enlist their sympathy with our great efforts. We believe that in this country the sympathy accorded will be generous and noble, despite the efforts of the English press to depreciate the merits of the American nation. We know full well that our countrymen in America will do their duty, as they have in every clime, to their suffering brethren at home. In brief, I confidently anticipate the result of our mission. I believe that the result will be of such a nature as to give pleasure to us and also give help to our people at home. And I can only conclude by again asking you to believe that I thank you most heartily for your great kindness in meeting us on the threshold of America. Again I thank you.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

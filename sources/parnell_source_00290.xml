@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>[Bill 205.] Committee., Hansard's Parliamentary Debates, Friday 18 June 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">[Bill 205.] Committee.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-18">18 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00060"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">       
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/18/bill-205-committee#S3V0253P0_18800618_HOC_76"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, he hoped the Chief Secretary for Ireland would abandon his intention of proceeding with that stage of the Bill at present, because he thought the Irish Members should have an opportunity of considering the situation and line of action they proposed with regard to the Bill. It was important they should know the intention of. Government in the matter, both as regarded the interests of Ireland and the saving of the time of the House. If they were compelled to go into a premature discussion upon the Committee stage of that Bill at that moment, they might be obliged to give the debate an extent and a tendency which they might find themselves in a position to avoid hereafter. The course of the Government, in any case, was unusual. The second reading of the Bill was taken last night after full and fair time had been allowed for its consideration, and then the Committee stage was put down for to-day, without affording any time to Members to place Amendments upon the Notice Paper. He saw, however, that some Members, endowed with greater activity than the generality of Irish Members, did succeed, in the five minutes that had elapsed between the second reading and the rising of the House, in placing some Amendments upon the Notice Paper; but a very large number of Amendments which had been prepared by the Irish Members it was utterly impossible to place on the Paper. It had always been the custom of the House to take the Motion for going into Committee on a Bill at a time when it was possible that Amendments might appear on the Notice Paper; but by the present action of the Government they were entirely debarred from the advantages which the Rules of the House usually afforded to Members. He thought it would be a course that would be convenient to the House to postpone the Committee on the Bill, and he asked that that should be done in the interests of Ireland. It would be in the recollection of the House that on the second reading of the Land Act Bill introduced by his hon Friend the Member for Mayo (Mr. O'Connor Power), the Government received it in a friendly spirit, and there was nothing that took place at that time that could have led the House to suppose that the Government intended subsequently to oppose it; but, after a week or so, in obedience to a pressure of a section behind the Government, the Chief Secretary for Ireland announced, without waiting to hear the reasons that might be urged in debate, that the Government could not accede to the second reading of the Bill, and stated that it was intended to amend the present measure for the relief of the Irish distress by the introduction of a supplementary clause giving power to County Court Judges to award compensation for eviction. The Notice of the introduction of the clause involved a very important change in the policy of the Government as regarded the relief of the distress in Ireland. It was true that the distress in Ireland could not be satisfactorily relieved without some amendment of the law between landlord and tenant; but they found in the vacillation that had marked the Government in the conduct of this matter a want of firmness, a want of belief that they had any force behind them on which they could rely, because, in obedience to the Motion of the hon. Member for Mid Lincoln (Mr. Chaplin), the Government could change their policy, and abandon their intention of introducing the clause that had been announced. He found now that the subject intended to have been introduced in the Bill by the Government was to be brought forward in a fresh Bill, of which the right hon. Gentleman the Chief Secretary for Ireland had given Notice. All they knew was that he had given Notice of it, though no further guarantee in respect of it. They had no surety that in a few days the right hon. Gentleman would not come and announce that owing to the pressure of Public Business he felt unable to proceed with the Bill. If they allowed the present Bill to go through without some assurance that the other Bill would not be abandoned, they might be left entirely in the lurch. Under all these circumstances, in view of all these changes of front on the part of the Government, three in number during the last three or four days, he thought the Irish Members should be afforded an opportunity of meeting together and considering what policy they would adopt on the Committee stage of the Irish Belief Bill; whether they would permit it to go through on the vague assurance they had received from the Government of the introduction of another measure of the terms of which they knew nothing, or Whether they would adopt some special course. He had seen enough already to be able to indicate that it would be a saving of the time of the House to afford the Irish Members the opportunity they asked for. Even without the very exceptional circumstances he had mentioned, they were entitled by the ordinary practice of the House to more than 12 hours' Notice of the Committee stage of that important measure. The constituencies represented felt very deeply upon the matter, and would not be satisfied unless the course he proposed were adopted. He could understand the difficulties under which the Government laboured in dealing with any Irish question; he could understand that they had a majority that was not well acquainted with the condition of affairs in Ireland—not so well acquainted as even the Chief Secretary for Ireland himself—and that those difficulties only made it more difficult for the Chief Secretary to carry out his views as to what was right and proper for the government of Ireland. At the same time, the Irish Members had their difficulties; and they felt that they must stand firm in respect to this question, that they should lose no opportunity of pressing their views upon the House for endeavouring to revise the practice that formerly existed with respect to Irish affairs, and of trying to strengthen the Chief Secretary for Ireland in his good intentions with regard to the good government of the country he had adopted. He trusted, therefore, the right hon. Gentleman would consent to postpone the present stage of that important measure until they had a further opportunity of considering what course they should adopt. There was no particular hurry about the matter, because the money Parliament was asked to grant was not going to buy bread for a single person wanting it in Ireland, and, as regarded the fishery piers, any period of the season would do as well for the passing of the measure. Therefore, he would ask the Chief Secretary to postpone the Committee stage of the Bill until they had an opportunity of seeing the other Relief of Distress in Ireland Bill which it was proposed to introduce, and of ascertaining whether the Government really intended to press it forward. He moved, therefore, the adjournment of the debate.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, that, after the very satisfactory and kind statement of the Prime Minister, he would ask leave to withdraw his Motion for the adjournment of the debate.</p>
+         <p>...</p>
+         <p>MR. PARNELL thought that the Circulars gave power for additional loans to be obtained.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, the right hon. Gentleman appeared to complain of a breach of understanding, which he had described as having been entered into at the commencement of the day's proceedings. He correctly stated that, upon his undertaking that the clause of the Bill should not be proceeded with in Committee, he (Mr. Parnell) expressed his perfect satisfaction. The right hon. Gentleman had also said he (Mr. Parnell) expressed his willingness to withdraw his Motion for the adjournment of the debate. But the right hon. Gentleman treated him rather unfairly when he intimated to the House that the debate which ensued on the Motion for going into Committee was brought on by him (Mr. Parnell), or that it had been controlled by him. When he spoke, the right hon. Gentleman assumed that he was representing the views of those hon. Members who sat behind him. It should be borne in mind that the debate which ultimately ensued on the Bill was continued by hon. Members on the Ministerial side of the House, with whom he had, personally, no influence whatever. It was not until the Chief Secretary made a statement that he considered it necessary that some action should be taken. What was the statement of the Chief Secretary? The right hon. Gentleman pointed out that the result of carrying out the arrangement made between the Prime Minister and himself (Mr. Parnell) would be to put off the further stages of the Bill until a very late period of the Session, and that the people of Ireland would be deprived of the benefit of the Bill; and, amongst other things, they would be deprived of the grant for fishery piers, and that, consequently, the fishing industry on the North-West and West coasts of Ireland would be materially injured, and the starving population suffer during the ensuing season. What was this statement of the Chief Secretary but quibbling? He must, therefore, throw the blame of the subsequent discussion on the Chief Secretary. Why should they tacitly accept the blame which was due to the right hon. Gentleman? It was to point out some practical way to making progress that his hon. Friend the Member for Galway (Mr. T. P. O'Connor) rose and moved that the Bill be referred to a Select Committee, consisting of the Irish Members, which would naturally save the time of the House, and enable them to arrive at a satisfactory conclusion. That discussion had arisen because the Chief Secretary had cavilled at the arrangement which had been made, entered into two hours ago. It was not likely that the Irish Members would sit under the imputation which the Chief Secretary had thrown on them; they therefore threw back on him the odium of breaking the arrangement and impeding the progress of the measure.</p>
+      </body>
+  </text>
+</TEI>

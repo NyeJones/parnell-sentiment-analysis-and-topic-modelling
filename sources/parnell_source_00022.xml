@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Meath Election, Mr. Parnell's Candidature, The "Royal County" True to the Old Cause, Triumphant Return of the Home Ruler, The Declaration of the Poll, The Nation, Saturday, 24 April 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Meath Election, Mr. Parnell's Candidature, The "Royal County" True to the Old Cause, Triumphant Return of the Home Ruler, The Declaration of the Poll</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315643419" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">5</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-04-24">24 April 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00004"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18750424 Nation Meath Election 001.tif"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>The late election for the county of Meath has been one of the grandest demonstrations of the vitality and strength of the National principle which Ireland has witnessed for many a day. Although Mr Charles S. Parnell issued his address to the electors soon after the funeral of the lamented John Martin, although he visited the county, waited on some of the most influential electors, and spoke at a meeting in the town of Navan, yet it was not until after he had been selected as the popular candidate at the county meeting of priests and people on Monday week that his canvass was vigorously and in good earnest commenced. He had, however, visited the patriotic town of Kells, in company with some friends from Dublin, on the previous evening, and received there, quite unexpectedly on his part, a great ovation. After he had addressed the people from the windows of the town hall and the front of the hotel, he was taken perforce on the shoulders of the crowd, and carried round the town amidst a great scene of cheering, waving of hats, etc. The Kells brass band soon put in an appearance, and added immensely to the popular enthusiasm by their spirited performance of national airs. Mr Parnell and his friends then got on their car to drive off to another part of the county, but they had proceeded only a short distance from the hotel when the people took the horse from the vehicle and drew it themselves, while the vast crowd cheered heartily, and hundreds of them, in accompaniment to the music of the band, sang the national anthem, "God Save Ireland." This was the first great popular demonstration in favour of Mr. Parnell which took place in the county, and from that day up to the close of the contest his progress through Royal Meath was a series of triumphs. Kells lit the fire - the sacred fire of patriotic enthusiasm - and the whole county quickly caught the flame. Next day the great county meeting took place at Navan, representative electors from all parts of Meath were present, and a large number of the patriotic clergy, and amongst them all there was but one opinion - that the chosen of Meath should be no other than the gifted and patriotic young Irishman, Charles Stewart Parnell. The news of this selection spread quickly, and gave the greatest satisfaction in all parts of the county. The clergy at once applied themselves to the work of canvassing the electors for the National candidate, and found everywhere among the electors the heartiest good will in his regard.</p>
+         <p>Nearly every town and village in Meath was visited by Mr. Parnell and his friends, and meetings were held in most of them. At Longwood, Summerhill, Athboy, Dunshauglin, Rathcore, and numerous other places, addresses were delivered in the open air to assemblies which, considering the depopulated condition of the county, might be considered numerous; and in all cases the people appeared thoroughly to understand the nature of the contest and appreciate the interests at stake. That they did so was fully proved by the numbers who came to the poll on Saturday, and the splendid majority then secured for the Home Rule candidate, Mr Parnell. The votes were counted and the poll declared on Monday at Trim, when the numbers were found to be:-</p>
+         <p>Parnell ... ... ... 1,771</p>
+         <p>Naper   ... ... ... 902</p>
+         <p>Hinds   ... ... ... 138</p>
+         <p>This gives to Mr. Parnell the great majority of 869 over Mr. Naper, and 1,633 over Mr. Hinds. These facts are highly creditable to the intelligence of the people of Meath. Mr. Hinds had a good many friends among the Home Rulers of Meath, but when a Tory candidate came forward, the people saw at once that division in the popular ranks would be fatal, and in order to save the seat they rallied almost to a man to the side of Mr. Parnell. The Tory hoped to win by a division of the National strength, but the people of Meath, by their union, disappointed him, and achieved a magnificent victory for the cause of Ireland.</p>
+         <p>No sooner did the telegraph wires covey the news of the election to all parts of the county than the people turned out in great numbers in the roads and streets to give expression to their joy. In Navan they set to work at once fastening up sprigs of laurel and green boughs on the fronts of the houses. In Kells, Athboy, Slane, and other places, the bands came out and played through the streets, and bonfires were lit in many parts of the county. After the declaration a large crowd was addressed in front of Mr. Parnell's committee rooms by the new member, by the Rev. Father Cassidy, and other speakers, after which Mr. Parnell and a number of his friends drove off for Navan. Arriving there they were hospitably entertained by the Rev. Father Behan, Administrator, and local clergy in the parochial house. At a later hour in the evening they addressed an assembly of five of six thousand persons in the streets of the town, all of whom manifested the greatest joy at the glorious triumph which had been won for the cause of Home Rule. Returning again to the parochial house they found that on the large square in front of it the people had kindled an enormous bonfire, the flames of which rose many feet into the air. For several hours it was fed with tar barrels, casks, boxes, etc, the surrounding crowd cheering, joking, and enjoying themselves heartily. When Mr. Parnell was leaving for his hotel, he was again taken on the shoulders of the crowd, carried round the bonfire, and ultimately placed on the top of a cask, from which elevation he had to deliver a brief address to his enthusiastic admirers.</p>
+      </body>
+  </text>
+</TEI>

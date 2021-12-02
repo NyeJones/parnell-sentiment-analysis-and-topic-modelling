@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell at Galway, The Standard, Thursday, 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell at Galway</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="180159032787301182762" level="j">The Standard</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00049, speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>In pursuance of the arrangment effected yesterday by which Mr. M. A. Lynch was induced to retire from the candidature for the city of Galway, Mr. Parnell to-day personally canvassed several districts in the constituency in favour of the candidature of Captain O'Shea, whom he had nominated for the vacancy. On addressing a small gathering of the electors at Castlebar, Mr. Parnell explained the circumstances which led to the adoption of the candidature of Captain O'Shea, in ignorance of the fact that Mr. Lynch entertained any serious intention of coming forward, and stated that he would have been only too happy to have accepted the latter had he known sooner of his willingness to stand. He expressed the hope that he would be able to welcome Mr. Lynch as a colleague at a future and not remote period, and, in fact, he promised that he should have the next vacancy in the ranks of the Irish Parliamentary Party. Mr. Parnell dwelt upon the services of Captain O'Shea in supporting him at a time when the Irish leadership was in question, and urged that under the circumstances he could not throw him over when Mr. Lynch definitely came forward. Mr. Parnell's remarks were received with favour by his audience, and at Barna, a small hamlet on the shores of Galway bay, where he spoke to a small gathering of electors on the same subject, he was also well received. In the afternoon Mr. Parnell addressed a gathering of the electors in Eyre-square, opposite the Railway Hotel, from the steps of which he spoke...</p>
+         <p>Mr. Parnell, who was received with cheers, said - I feel very proud and very happy in being able to address so magnificent and vast a meeting of the people of Galway. But the circumstances under which this meeting has been called give me greater encouragement and greater hope than any that I have ever felt since I first entered into public life (cheers). The circumstances of the present contest have been well calculated to try your devotion and your spirit of union (hear, hear), and it is a remarkable fact that you should have stood the test. I do not care to go into what has taken place during the last few days in your town; but in view of the events which have happened, and of the speeches which have been made in this town during the last few days, it is the most remarkable fact in Irish history that the unity of our cause has been maintained (cheers). Now, I wish to say a word or two with regard to the candidature of Mr. Lynch, now withdrawn. I admire and appreciate the spirit with which he entered into this candidature, and I equally admire the spirit and the feelings and the temper he has exhibited in withdrawing his candidature. Had I known a few days sooner of Mr. Lynch's desire to represent this constituency, I would have cheerfully yielded to that desire. Had i not, on the contrary, been expressly informed that he would not on any account consent to come forward, Mr. Lynch would have been your chosen man, and to-morrow he would have been, as I hope that in the future he will be, my comrade (hear). But Mr. Lynch was not willing at that time to come forward and I was obliged to look forward to some person outside the people of Galway to whom to give my recommendation. In that search of all the names suggested to me, of all the names which occurred to my own mind, I came to the conclusion carefully, and, after full consideration, that the name of Captain O'Shea (cheers, mingled with a few groans) was the proper name to suggest for your consideration (hear, hear). after that conclusion was formed, and after my recommendation had been made, my conclusion was fixed. Mr. Lynch has now retired, and the history of this contest is a closed book to my mind. Let me now say a word as to the merits of your candidate - of the man who will be your member to-morrow night. I wish to speak also of his demerits, and the fault I have had to find with him. I shall be perfectly open in dealing with this question to you. Mr. O'Shea was returned for the county of Clare in 1880, not as a member of my Party - he was returned unpledged to me - but, so far as I know, he has fully kept the pledges which he gave the people of Clare in 1880. Immediately after his return a meeting was held in the City Hall in Dublin of the newly-elected Irish members, for the purpose of choosing a Chairman. I was nominated, and I was proposed as Chairman and Leader of the Party. Mr. Wm. Shaw was also proposed. Twenty members of the Party voted for Mr. Wm. Shaw, and 22 members voted for me. Mr. O'Shea was one of the 22 members who voted for me against Mr. Shaw (hear, hear). If Mr. O'Shea and some other member had voted for Mr. Shaw, and not for me, I should never have been the Leader of the Irish Party, and many proud things which have been done for Ireland could not have been accomplished. I am examining Mr. O'Shea's public conduct and public records step by step, and so far as I have gone I ask, would it not have been very unfair to him if I had left Captain O'Shea out of the Party since he voted for me then (hear)? But such an isolated act as that would not in itself have been sufficient to give him a claim on me apart from any other consideration. As far as I know his votes have been irreproachable. I have been obliged to condemn him publicly, because during the last Parliament he refused to sit in opposition with the members of the Irish Party. That is the only fault that I have been able to find with his public conduct. He refused to sit in opposition; I considered that was a fatal fault, a fatal blemish, and I repeatedly told him in the last Parliament that, unless he could see his way to sit on our side of the House, I should not recommend him to the constituency of Clare. That was the reason why I refused to recommend him to Clare, and he was not returned to Parliament, although I supported him in Liverpool for a seat which we could not carry ourselves, and to which I considered he had the first claim. But since this election commenced Mr. O'Shea has given me a promise that he will sit on our side of the House, and therefore my last objection to him has disappeared (cheers). Under these circumstances, should I allow him to be persecuted and kept out of Parliament. I know his return cannot be any injury to the National cause and the Irish Party. He was the best man that I knew of at the time that I recommended him. Having recommended him, I was in my position bound not to recede one hair's breadth, not one jot (hear), but to carry through the recommendation to the bitter end, and to test whether the people of Galway and the people of Ireland had the confidence in me which I believe they have, and which I believe the results of to-day's election will show. During the eleven years since my entering into public life I have never led the Irish people astray, never led them into any crooked path. When courage was required and was necessary for the interests of the Irish nation, I have shown it (hear, hear), and when moderation and temperate judgment for the nation was necessary I have had the courage to show it; and I shall never lead the Party or the nation astray until we have gained for you the right to lead and govern yourselves (cheers). You must not think that because Mr. Lynch has retired it is not necessary for you to go to the poll to-morrow. All of you who have votes must go and vote for Mr. O'Shea, for otherwise the Tories might take advantage of the situation, and might go and poll for Mr. Lynch in order, if possible, to run him close to the poll for Mr. O'Shea. This is not Mr. Lynch's fault. Mr. Lynch has acted honourably towards me and towards the Party. His name cannot now be withdrawn; it must be on the ballot paper, and therefore the Tories have the opportunity of trying to play this "dirty trick;" but you will give your vote, not for Lynch, but for O'Shea, for the purpose of showing that you have voted for me and for Ireland (cheers). I should have desired to have addressed you also apart from this election, upon the great question of the day; but I think that, in view of the fact that Father Sheehy is here and will address you, I shall not longer detain you. I will only add, in conclusion, my conviction that the day is very near at hand when we shall have gained for Ireland the right to make her own laws on Irish soil. When that day comes I shall regard my mission as fulfilled. I have not entered on this great struggle with any motives of personal ambition; but it is my duty to stand by you till these measures are gained for you. I have come down to Galway to stand by you in your cause, for any appearance of division in our Party, in the weakening of my authority, would have been fatal to the cause. That is the reason why I am here, and I confidently leave the result in your hands. After many a month you will look back to the proceedings of this day with satisfaction, for the results will have proved that you have to-day struck a great and successful blow for Ireland (applause).</p>
+      </body>
+  </text>
+</TEI>

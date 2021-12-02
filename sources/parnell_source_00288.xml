@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>M. Challemel Lacour, The French Ambassador., Hansard's Parliamentary Debates, Monday 14 June 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">M. Challemel Lacour, The French Ambassador.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-14">14 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00058"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/14/m-challemel-lacour-the-french-ambassador#S3V0252P0_18800614_HOC_99"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL I wish, Sir, first of all, to say that I have not the slightest sympathy with the Question of my hon. Friend the Member for Dungarvan. At the same time, the Rules of this House—I do not express an opinion or venture to argue whether it is right or wrong—permit Members of this House who are disatisfied with the answer to a Question they have received from Ministers to refer to the Question and express their dissatisfaction, and, in order to put themselves in Order, they may conclude with a Motion. The hon. Member for Dungarvan has adopted that course; and I submit to you, Sir, and to this House, that in adopting that course which may be, and undoubtedly is an inconvenient one, he was only doing that which a Select Committee of this House on Public Business, appointed to consider how the Public Business of this House might be best conducted, distinctly refused to interfere with, and you, Sir, in your evidence before that Committee refused to recommend an interference with it, I think that, under all those circumstances, the same privilege should be accorded to the hon. Member for Dungarvan as has always been accorded to Members of this House on every occasion—to the meanest Members of this House. I think it is the first time that a Minister of the Crown—the Prime Minister—the highest Minister of the Crown—has set the evil and dangerous example of endeavouring, by a Resolution given without Notice, in an attempt to ward off by a Party and ill-advised step what, no doubt, may seem to the Prime Minister to be a great evil—I say that it is the first time that a Minister of the Crown has attempted to silence a Member of this House in this way. Now, Sir, I have expressed my disagreement with the Question of the hon. Member for Dungarvan. I deeply regret that he should have put it. I think it was an ill-advised and ill-judged Question. But you, Sir, when you were appealed to on the point of Order, stated that you could not interfere, and that you must leave the responsibility with the hon. Member for Dungarvan. Belonging, as I do, to a minority of Members in this House, who must always remain a minority—belonging to a minority which has not the ordinary advantages which other Members of this House have, of being able to appeal to the public opinion of the country in which this House conducts its deliberations—I see the enormous importance and the danger of the innovation which is now sought to be made; and, in behalf of freedom of speech, I would entreat this House not to take any hasty step or action in this matter, but to consent to the adjournment of the debate in order to see whether, on the one hand, reflection will not induce the hon. Member for Dungarvan to withdraw his Question from the Notice Paper; and, on the other hand, whether the Prime Minister may not consider that he is founding a dangerous precedent, and one which at some time or other may be fatal to freedom of speech in this House. I beg, Mr. Speaker, to move the adjournment of the debate.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, the Prime Minister's Motion had been directed against the right to discuss a question on a sudden Motion for the adjournment of the House. ["No!"] He was forced to the conviction that the Prime Minister's chief objection to the Motion of the hon. Member for Dungarvan was that the hon. Gentleman had raised a debate without giving notice to the person whose conduct was impugned. The right hon. Gentleman said that the love of fair play should have prevented the hon. Member for Dungarvan from attacking an absent man without Notice, and, at the same time, the Prime Minister expressed his willingness to discuss the very delicate question with regard to this Ambassador if the hon. Member for Dungarvan would bring it forward in the usual way by giving a Notice of Motion.</p>
+         <p>...</p>
+         <p>MR. PARNELL The Chief Secretary for Ireland said they were anxious to debate the question, if Notice were given of it. How then could it be said that the action of the Government to-night was taken in order to prevent a grave public disadvantage? It was taken for the same reasons which prompted the action of the late Government when the Member for Mayo (Mr. O'Connor Power) was bringing forward a Motion relating to the distress in Ireland. The Speaker then expressed disapproval of the course which was being adopted in almost the identical terms in which he had to-night disapproved of the course pursued by the hon. Member for Dungarvan. The then Chancellor of the Exchequer rose in his place, but did not move the Motion which the Prime Minister had made this evening; indeed, the late Chancellor of the Exchequer rather bungled the matter. The right hon. Gentleman raised a point of Order, and it was subsequently found that the only Member who was not out of Order was the hon. Member for Mayo. If the late Chancellor of the Exchequer had moved the Resolution which the Prime Minister submitted that night, the House of Commons would have endorsed it by a far larger majority than would vote against the Motion now under consideration. This must show hon. Members the necessity of carefully guarding their proceedings against the imputation of undue haste. If they placed the proprieties of the House absolutely in the hands of the Prime Minister they would be giving him, whatever might be his temper and character, a power that might be turned to very undesirable account. He himself disliked the Question of the hon. Member for Dungarvan; but he did not think the Chief Secretary and Home Secretary should have sought to enlist the passions of the House against the hon. Gentleman. He could not agree to the doctrine laid before them by the Home Secretary that there were questions of which the House of Commons could forbid the discussion, because he failed to see the principles which supported this conclusion. Undoubtedly the present Prime Minister could be trusted with a great deal of power; but even he should not be intrusted with more power than could be taken away from him. In the circumstances he would ask the Prime Minister whether much might not be gained by adjourning this discussion to a time when they would all be in good humour? When a minority of the House was driven to put its back against the wall, it did not usually happen that the House of Commons emerged from the trial with added laurels; and he would ask the Prime Minister whether it would not be better, without prejudging the question, to agree to an adjournment of the House?</p>
+      </body>
+  </text>
+</TEI>

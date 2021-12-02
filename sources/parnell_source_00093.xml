@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Home Rule in Wexford, Monster Meeting at Enniscorthy!!, The People, Saturday 9 October 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Home Rule in Wexford</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="136159818561913810099" level="j">The People</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-10-09">9 October 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7003494">Wexford, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00023"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://archive.irishnewsarchive.com/Olive/APA/INA.Edu/Default.aspx#panel=document"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>The Chairman, in introducing Mr. Parnell, said the name Parnell had a patriotic ring about it. The should remember that his grandfather refused the offer of the peerage as a bribe for the Union.</p>
+         <p>Charles S. Parnell, Esq., M.P., on coming forward was received with loud and prolonged cheering. He thanked them for the kind and warm-hearted reception which they had given him, a comparative stranger amongst them (no, no). He was convinced they would all stand united together, and remember they were the descendants of the noble men who fought on the hill under which he stood (cheers). If there were room in his heart to improve his efforts in aid of the national cause, the thousands who stood around with determination imprinted on their faces was sufficient to bring about that improvement. He read in their faces the determination to succeed. He would stand to the national cause, above all to bring about the liberation of their fellow-countrymen who were dying a living death in English prisons (cheers). He would ask them to never rest until they were liberated. If they were determined and persevered they must get what they sought. Whether it be Home Rule, Denomination Education, Fixity of Tenure at fair rents, or Amnesty for their countrymen who were incarcerated in English prisons or in penal colonies, if they were determined, and convinced England that they were, they should succeed (cheers). Wendal [sic] Philips, when he worked for the American centenial [sic], wrote an eulogistic account of the Liberator's life, and said that England's policy was governed by Ireland. He (Mr Parnell) believed that Ireland could direct the future of England. In conclusion, Mr Parnell said - And surely, surely, when I look around me I may say with the pale-faced martyr Emmet, in the dock, that if it is permitted to the spirits of the departed just to behold and mingle in what passes here below, there are looking down upon this scene with blessings from the realms above the spirits of the brave and true who died for Ireland on yonder hill, not to forget the men who were still suffering imprisonment for political offence. He urgently asked the men of Wexford not to rest until every man of the fifty men in chains should be liberated (immense cheering). Whether for Education, Home Rule, or Amnesty, England must yield if Irishmen are determined upon it (renewed cheering).</p>
+      </body>
+  </text>
+</TEI>

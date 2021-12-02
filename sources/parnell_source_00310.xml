@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell at Cork, The Morning Post, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell at Cork</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="295179190" level="j">The Morning Post</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">3</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22">22 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">      
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, after an absence of 18 months, received an enthusiastic reception on his arrival in Cork last evening. He was met by the Mayor and the Nationalist members of the corporation, and Mr. Deasy, M.P., and Mr John O'Connor, M.P., a large number of delegates from county branches of the National League, a crowd numbering several thousands, and a large number of bands. On being conducted to his carriage the horses were removed and the vehicle was drawn by the populace through the principal streets, the reception accorded Mr. Parnell throughout being of a very warm character. Last night he addressed his constituents at the theatre. To defray the expenses of a charge, varying from 6d. to £1, was made, but notwithstanding this the house was filled in all parts. Mr. Parnell, who received an ovation, said he intended claiming their indulgence and making his observations shorter than he intended, as he had come on a long journey, and had left a sick bed to do so. It was just five years since the constituency of Cork honoured him by making him their representative. His victory was a very remarkable one. Coming as he did amongst them and representing the principles which he did it was extraordinary that in the limited constituency which then existed they should have selected such a politician as he. (Cheers and laughter.) Their late respected member, Mr. Joseph Ronayne, often told him Cork could not possibly return two Nationalists, and his return was the first occasion upon which two members of his way of thinking sat for and represented Cork. But great as was the advance marked by his return by a very narrow majority it was as nothing to the change which had since taken place, for they had since shown in the election of his friend, Mr. Deasy, that it was no trouble to them to elect any number of Nationalists. He did not suppose that the constituency of Cork would ever again be contested by the oligarchy in this city. (Cheers.) At the election in 1880 he laid certain principles before them, and they accepted them. He pledged himself to form one of an independent Irish party to act in opposition to every English Government which refused to concede the just rights of Ireland - (cheers) - and the longer the time which had gone by since them [sic], the more he was convinced that that was the true policy so far as a parliamentary policy was concerned, and that it would be impossible for either or both the English parties to contend for any long time against a determined band of Irishmen acting honestly on those principles and back by the Irish people. (Cheers.) They had been encouraged to organise themselves, and depend upon the rectitude of their course for their justification, and to depend upon the determination which had helped Irishmen through many centuries to retain the name of the nationhood of Ireland. (Cheers.) The Irish people, he believed, would prove to be in the near future invincible and unconquerable. (Prolonged cheers.) The electors, who would be swamped by the great mass of Irishmen now admitted to the franchise and the rights of the Constitution, so far as they exist in Ireland, were on the whole faithful to their trust. He looked forward to the future with a light heart, for he was convinced that the 500,000 Irishmen who within a year must vote for the men of their choice, would be as true to Ireland, even truer to Ireland, than those who had gone before them - (cheers) - and that they might safely trust to them the exercise of the great and important privilege, unequalled in its greatness and magnitude in the history of any nation, which will shortly be placed upon them. (Renewed cheers.) Every Irish politician must be forcibly driven to the consideration of the great question of the national self-government of Ireland. (Cheers.) He did not know how this great question would be eventually settled. He did not know whether England would be wise in time, and concede to constitutional arguments and methods the restoration of that which was stolen from them. The could not ask for less than the restoration of Grattan's Parliament - (cheers) - and its important privileges. They could not under the British Constitution ask for more than this, but no man had the right to fix the boundary of the march of a nation. (Prolonged cheering, the audience rising en masse [italics] and waving hats, handkerchiefs, [et]c.) No man had the right to say to a country, "Thus far shalt thou go and no farther," and they had never attempted to fix the ne plus ultra [italics] of the progress of Ireland's nationhood - (renewed cheers) - but while they left these things to time, circumstances, and the future, they should each one of them resolve in their own hearts that they would at all times do whatever within them lies to obtain for Ireland the fullest measure of her rights. (Cheers.) While they struggled to obtain that which may seem possible for them to their limited sight and small vision to obtain to-day, they could struggle for it with the bright consciousness that at least they were doing nothing to prevent better men who might come after them for gaining better things than those which they now sought. (Loud and prolonged cheering, during which Mr. Parnell resumed his seat.)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

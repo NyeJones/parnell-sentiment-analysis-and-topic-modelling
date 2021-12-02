@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr Parnell at Cork, Speech on Home Rule Prospects, The Aberdeen Journal, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr Parnell at Cork</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="" level="j">The Aberdeen Journal</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">8</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22"></date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7009782">Aberdeen, United Kingdom</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, who received a great ovation, said he intended claiming their indulgence, and making his observations much shorter than he intended, as he had come on a long journey, and left a sick bed to do so. It was just five years since the constituency of Cork honoured him by making him their representative. His victory was a very remarkable one. Coming as he did amongst them, and representing the principles which he did, it was extraordinary that in the limited constituency which then existed they should have selected such a politician as he. (Cheers and laughter.) Their late respected member, Joseph Ronayne, often told him Cork would not possibly return two Nationalists, and his return was the first occasion upon which two members of his way of thinking sat for and represented Cork. But great as was the advance marked by his return by a very narrow majority, it was nothing to the change which had since taken place, for they had since shown, in the election of his friend Mr Deasy, that it was not trouble to them to elect any number of Nationalists. He did not suppose that the constituency of Cork would ever again be contested by the oligarchy in this city. (Cheers.) At the election in 1880 he laid certain principles before them, and they accepted them. He pledged himself to form one of an independent Irish party to act in opposition to every English Government which refused to concede the just rights of Ireland. (Cheers.) And the longer the time which had gone by since then the more he was convinced that that was the true policy so far as a Parliamentary policy was concerned, and that it would be impossible for either or both the English parties to contend for any long time against a determined band of Irishmen, acting honestly on these principles, and backed by the English people. (Cheers.) But they had not alone had that object in view. They had always been very careful not to fetter or control the people at home in any way, nor to prevent them from doing anything by means of their own strength which they could possibly do. Sometimes, perhaps, in their anxiety they asked them to go beyond their strength, but it was better they should fail in the attempt than that they should become subservient and unreliant. (Cheers.) They had been encouraged to organise themselves and depend upon the rectitude of their course for their justification, and to depend upon that determination which had helped Irishmen through many centuries to retain the name and the nationhood of Ireland. (Cheers.) Nobody could point to any single action of the Irish Parliamentary party, in or out of the House of Commons, which was not based upon the knowledge that behind them exists a strong and brave people. (Cheers.) Without the help of the people their exertions would be as nothing, but with that help they would be, as he believed they would prove to be in the near future, invincible and unconquerable. (Prolonged cheers.) The electors who would be swamped by the great mass of Irishmen now admitted to the franchise and the rights of the Constitution, so far as they exist in Ireland, were, on the whole, faithful to their trust. It was, however, only when they showed by a good many proofs what they could do without an enlargement of the franchise, and that with the old restricted suffrage they could do all that was necessary in the way of Parliamentary operations, that the opposition to the masses of the Irish people getting an extension of the franchise disappeared. (Cheers.) But he looked forward to the future with a light heart, for he was convinced that the 500,000 Irishmen who within a year must vote for the men of their choice, would be as true to Ireland, even truer to Ireland, than those who had gone before them - (cheers) - and that they might safely trust to them to exercise the great and important privilege, unequalled in its greatness and magnitude in the history of any nation, which will shortly be placed upon them. (Renewed cheers.) He was convinced that when the reckoning came after the general election in 186 they in Ireland would have cause to congratulate themselves upon the position of a strong party which would break down all opposition, and which sought, by the organisation of the country behind them, to gain for their country these rights which had been stolen from them. (Cheers.) They would struggle as they had been struggling for the great and important interests of the Irish tenant farmer, and they would ask that his industry should not be fettered by rent. (Loud cheers.) They would ask also from the farmers in return that they shall encourage the struggling manufacturers of Ireland. (Cheers.) They would also endeavour to secure for the labourer some recognition and right in the land of his own country - (cheers) - and they did not care whether it was the prejudice of the farmer or the landlord that stood in the way. They considered that whatever class obstructed the labourers in obtaining their just rights, that that class should be put down - coerced, if they wished - into doing justice to the labourer. (Cheers.) They had shown that desire to benefit the labourer by the passage of the Labourers Act, and, though far from perfect, it was based upon correct lines, and had undoubtedly gained much good for the labouring class. He now went back from the consideration of the land labourers and manufacturing questions - and every Irish politician must be forcibly driven back - to the consideration of the great question of the national self-government of Ireland. (Cheers.) He did not know whether this great question would be eventually settled. He did not know whether England would be wise in time, and concede to constitutional arguments and methods the restoration of that which was stolen from them towards the close of the last century. It was given to none of them to forecast the future. And just as it was impossible for them to see in what way and by what means the national question would be settled, or in what way full justice may be done to Ireland, so it was impossible for them to say to what extent that justice would be done. They could not ask for less than the restoration of Parliament with its important privileges. They could not, under the British Constitution, ask for more than this, but no man had the right to fix the boundary to the march of a nation. (Prolonged cheering, the audience rising en masse and waving hats, handkerchiefs, [et]c). No man had the right to say to a country thus far shalt thou go, and no farther; and they had never attempted to fix the ne plus ultra of the progress of Ireland's nationhood. (Renewed cheers.) But while they left these things to time, circumstances, and the future, they should each one of them resolve in their own hearts that they would at all times do whatever within them lies to obtain for Ireland the fullest measure of her rights. (Cheers.) In that way they would avoid difficulties and contentions amongst each other. In that way they would not give up anything which accident or chance of the future may put in favour of their country. But while they struggled to do that which may seem possible for them with their limited sight and small vision to obtain to-day, they could struggle for it with the bright consciousness that at least they were doing nothing to prevent better men who may come after them from gaining better things than those which they now sought. (Loud and prolonged cheering, during which Mr Parnell resumed his seat.)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

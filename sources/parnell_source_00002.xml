@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Home Rule League, The Freeman's Journal, Monday 13 July 1874</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Home Rule League</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315698503" level="j">The Freeman's Journal</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1874-07-13">13 July 1874</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00001"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile>  
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>The Home Rule League</p>
+         <p>On Saturday evening a public meeting of this body was held in the Round Room of the Rotundo, which was densely thronged both in gallery and body. The Platform was also well filled, and the appearance on it, in succession, of Mr. Butt, M.P.; Mr. O'Sullivan, M.P.; Mr. Meldon, M.P.; Mr Fay, M.P.; and Dr. O'Leary, M.P., was hailed with enthusiastic cheers. Besides the gentlemen named, there were present:- Messrs. C.S. Parnell, High Sheriff, county Wicklow; Alfred Webb, Hon. Judge Little, George Delany, C.V. Macartney, C.E.; T.L. Stirling, Tullamore; Thomas E. Hearn, J.J. Burke, R.B. Butt, Captain Kirwan, Joseph Begg, J.J. Dodd, James Burke, solicitor; A.J. Kettle, Malahide; P. Egan, J.G. Swift MacNeill, A. Crilly, Liverpool; J.J. Kennedy, J. Clancy, J.L. Scallan, solicitor; Thomas Ryan, Patk. Crowley, J.R. McCludkey, M.D., Derry; John Burns, John Stewart, Kilrush; John Reville, New York Herald; L.P. Hayden, Roscommon; - Conway, Patrick Carey, - Scallan, [indecipherable]; N.B. West, J.F. Shackleton, [etc].</p>
+         <p>At half-past eight o'clock on the motion of Mr Alfred Webb, the chair was taken amidst loud cheers by</p>
+         <p>Mr C.S. Parnell</p>
+         <p>The Chairman, in opening the proceedings, said in view of the course taken by their opponents, and notably those at the press, in seeking to mislead public opinion and to throw discredit upon their great movement, this was a most proper and important moment to hold a meeting to demonstrate the real significance of the recent division in the House of Commons, and to show the world that, though beaten, they were not vanquished.</p>
+         <p>A Voice - And never will.</p>
+         <p>The Chairman - How often had Grattan been compelled to seek a division with a minority compared to which that of Thursday night week was a positive triumph (hear, hear). Though the Constitution of 1782 was obtained, it was reserved for O'Connell half a century later to win the next great step - Catholic Emancipation (cheers), which had been vainly contended for by Grattan himself at the commencement of that long interval (hear, hear). All he would say was - Let the 11th of July see the beginning of gigantic exertions for Home Rule by every Irishman who respected himself and loved his country (applause).</p>
+      </body>
+  </text>
+</TEI>

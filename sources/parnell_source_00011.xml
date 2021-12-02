@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Representation of Meath, The Freeman's Journal, Tuesday 13 April 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Representation of Meath</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315698503" level="j">The Freeman's Journal</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">7</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-04-13">13 April 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00004"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile>  
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr Parnell, who, on coming forward, was received with immense cheering, expressed his thanks for the hearty welcome which he had received throughout the county, but especially in Navan. He said it might be thought that because he was a landlord he had no interest in the tenant, or might try to prevent the tenant having his interest in the land recognised by the State. If it were the wish of any landlord to come forward and say that his tenant has not as just and as good an interest in his farm as the landlord, such a possibility was rendered impracticable, and had been, in fact, removed, by Mr Gladstone's Act of 1870. He was not going to praise Mr Gladstone's Act, for it had proved to be miserably inadequate (applause), and had, in some respects, done harm to the tenants, having converted some good landlords into bad ones, and because it had not given the slightest protection to the tenantry over three-quarters of Ireland. He, however, as a landlord, maintained that the tenant has property in the land as well as the landlord; and they should hold fast to that principle, and endeavour to pass a bill which would define what the interest of the tenant is, and which would protect that interest (applause). Without fixity of tenure and fair rents the tenants would never be happy, nor would the country be prosperous. Therefore, he said he was sure they would believe him that he would, in and out of Parliament, support "fixity of tenure and fair rents." With reference to the question of Home Rule, Mr Parnell said that since he first could think he had the principles of that movement ever fixed in his heart, for he always believed the day would come when the voice of the people in this country would rule her affairs and make her laws, and that was what he understood by Home Rule (applause). The government of a people according to the will of the people was what they advocated, and he did not think the English people would ever pass just or fair laws for this country (applause). However men might wish to do what was right, there was always a rampant and bigoted majority to shout down the man who speaks for Ireland (applause). England should remember the example set by her American colonies, and bear in mind that if she refuse to Ireland what her people demand as a right, the day would come when Ireland would have her opportunity in England's weakness (applause). Speaking of education, he advocated the justice of the demand for education on the basis of religious instruction, and expressed his conviction that, for their own sakes, and for the sake of their children and their children's children, the education of the country ought to be under the proper control of the clergy. The speaker earnestly advocated the release of the political prisoners, and concluded by promising, should he be returned to Parliament, to use all his energies in promoting the best interests of the people (applause).</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

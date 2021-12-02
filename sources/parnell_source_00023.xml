@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>To the Electors of the County of Meath, The Nation, Saturday 17 April 1875</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key="29556513">Parnell, Charles Stewart</author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">To the Electors of the County of Meath</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315643419" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">12</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1875-04-17">17 April 1875</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00004"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>election address</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">       
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18750424 Nation To the People of Meath.tif"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Gentlemen-</p>
+         <p>The untimely death of the single-minded and noble Irishman who so well and faithfully served you in Parliament has caused a vacancy in the representation of your County.</p>
+         <p>I offer myself for your adoption as a Candidate.</p>
+        <p>Upon the great question of Home Rule, I will by all means seek the restoration to Ireland of our Domestic Parliament upon the basis of the resolutions passed at the National Conference, and the principles of the Irish Home Rule League of whose Council I am an active member.</p>
+         <p>If elected to Parliament I will give my cordial adherence to the resolutions adopted at the Conference of Irish members, and will act independently alike of all English parties.</p>
+         <p>The wishes and feelings of the Irish nation are in favour of Religious Education. In these feelings I concur, and I will earnestly endeavour to obtain for Ireland a system of Education in all its branches - Primary, Intermediate, and University - which will deal impartially with all Religious Denominations, by affording to every parent the opportunity of obtaining for his child an Education combined with that religious teaching of which his conscience approves.</p>
+         <p>I believe security for his tenure and the fruits of his industry to be equally necessary to do justice to the tenant, and to promote the prosperity of the whole community. I will, therefore, support such an extension of the ancient and historic Tenant Right of Ulster, in all its integrity, to the other parts of Ireland, as will secure to the tenants continuous occupation, at fair rents, and upon this subject I adopt the declarations of the Tenant Right Conferences held in Dublin and Belfast.</p>
+         <p>I think the time has long since come when a complete and unconditional Amnesty ought to be extended to all the prisoners, without distinction, who are suffering for taking part in transactions arising out of political movements in Ireland.</p>
+         <p>I am in favour of the Revision and Amendment of the Grand Jury Laws.</p>
+         <p>I do not appear before you as an untried man. In March, 1874, I contested the county Dublin against Colonel Taylor, the Government candidate, at the request of the Irish Home Rule League. Neither are my name and family unknown in the history of Irish politics. My ancestor, Sir John Parnell, in the old Irish Parliament, was the active and energetic advocate of the removal of disabilities which affected his Catholic fellow-countrymen. In the evil days of corruption, which destroyed the Independence of Ireland, he lost a great office, and refused a Peerage to oppose the fatal measure of Union. His successor, Sir Henry Parnell, rendered in the British Parliament services to the cause of Catholic Emancipation and of Ireland which the Irish people have not forgotten.</p>
+         <p>If you adopt me, I will endeavour, and I think I can promise, that no act of mine will ever discredit the name which has been associated with these recollections.</p>
+         <p>I am, Gentlemen,</p>
+         <p>Your faithful servant,</p>
+         <p>Charles Stewart Parnell</p>
+         <p>Avondale, 2nd April, 1875</p>
+      </body>
+  </text>
+</TEI>

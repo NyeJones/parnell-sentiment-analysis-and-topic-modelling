@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Home Rule League, Great Meeting in the Rotundo, The Nation, Saturday 18 July 1874</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+           <!--       <author key=""></author>-->
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Home Rule League, Great Meeting in the Rotundo, Great Speech of Mr Butt</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="38159818560013810417" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">6</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1874-07-18">18 July 1874</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00001"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile>  
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>The Home Rule League</p>
+         <p>Great Meeting in the Rotundo</p>
+         <p>Great Speech of Mr Butt</p>
+         <p>On Saturday a meeting of the Home Rule League was held in the Round Room of the Rotundo. There was an immense attendance - the platform, the gallery (for admission to which a charge was mad), and body of the hall having been literally thronged with a most respectable and enthusiastic audience. Mr Charles Stewart Parnell, High Sheriff of Wicklow, occupied the chair, and amongst those on the platform were - Mr Butt, M.P.; Mr Meldon, M.P.; Mr A. M. Sullivan, M.P.; Mr Fay, M.P.; Dr. O'Leary, M.P., and the Hon. Judge Little, all of whom were enthusiastically received. The following report of the proceedings is taken, somewhat abridged, from the Freeman:-</p>
+         <p>At half-past eight o'clock, on the motion of Mr Alfred Webb, the chair was taken amidst loud cheers by</p>
+         <p>Mr. C.S. Parnell</p>
+         <p>The Chairman, who was received with loud and prolonged applause, said - Ladies and gentlemen, I thank you for the kind manner in which you have voted me to the chair. In view of the unwise course adopted by our opponents and notably by the English press, in persistently misrepresenting the bearings of the great question recently discussed in the House of Commons, in avoiding the real issue of a subject of such vast importance to our country, and in seeking to mislead public opinion by means of the influence that English journals undoubtedly and rightly possess - considering these facts, I think, gentlemen, that this meeting has been called at a most opportune and important juncture. To demonstrate the true significance of the division the other might, and the value to Ireland of the wide dissemination by the debate of her moderate and just demands, will be the part of abler speakers, but I will [indecipherable] that all in this room by coming here to-night are doing their duty in showing our enemies that, though beaten, we are not vanquished, and that we have confidence in the life that justice gives our cause, a life that can never die (cheers). Let me remind you that all great reforms in the history of our country have been heralded by seemingly crushing defeats, and have only been obtained after years of weary and continuous struggling-</p>
+         <p>"For freedom's battle once begun,</p>
+         <p>Bequeathed by bleeding sire to son,</p>
+         <p>Though baffled oft, is ever won."</p>
+         <p>(cheers). How many times was Grattan compelled to seek the division lobby with minorities compared with which that of Thursday night would have been considered a triumph; and when at length he obtained his Constitution of 1782, it was reserved to O'Connell, after an interval of half a century, to win the next great step of Catholic Emancipation, from an English House, which had been vainly contended for by Grattan himself at the commencement of that interval. Our own times have also afforded us remarkable and similar instances. Remembering that nothing worth having comes quickly, let us follow the example of our fathers, and let the 11th of July, 1874, mark the commencement of gigantic exertions for Home Rule by every Irishman who respects himself and loves his country (cheers).</p>
+      </body>
+  </text>
+</TEI>
+

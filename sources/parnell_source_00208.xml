@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Amnesty Petition., Another Refusal, The Nation, Saturday 23 May 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Amnesty Petition</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="315667409" level="j">The Nation</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">4</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-05-23">23 May 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00047"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://archive-irishnewsarchive-com.ezp.lib.cam.ac.uk/Olive/APA/INA.Edu/Default.aspx#panel=document"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell - The right hon. gentleman has spoken of two men who were said to have been guilty of murder. He has also spoken of soldiers subject to imprisonment in Western Australia. He has also spoken of those military prisoners who are in prison in England, and whose military crime he is disposed to consider a greater one than that of those in Western Australia. I am speaking of Davitt and Wilson, found guilty of selling arms. With regard to the Manchester affair, I hold in my hand a book called "The Rules for American Citizens," which can be seen by any member. It was ordered by the United States Congress as a return. It gives a report of the trial of Condon and Meleady at Manchester. If any hon. member will take the trouble to read the evidence - if the right hon. gentleman himself will take the trouble to read the book he will see that the evidence against Condon is given in full, and he will find that there is not a particle of evidence to connect him with that murder (hear, hear). At the very outside his name is mentioned by three or four witnesses as having been in the crowd around the van. He is not mentioned as being near the van except by one man who said a stone fell on Condon's head from the van, but he was attended by a surgeon who said the wound was not caused by a stone, but more likely by a policeman's bludgeon. As regards Meleady, he was a prisoner taken up afterwards in London. He was taken on the statement of a workman. He was a young man of 17, and there are many men who know that Meleady was no more at Manchester on the day of that business than I was (a laugh). He was put on his trial and found guilty of murder, and setenced to be hanged, but the sentence was afterwards commuted to penal servitude for life. There are many men who believe in their own hearts that neither Condon nor Meleady was guilty of that affair. I am sorry that the junior member for Tipperary is not in his place tonight to stand up and say he believes that Condon is perfectly innocent of the crime of killing Sergeant Brett at Manchester. With regard to the military prisoners who are confined in Australia, I think the right hon. gentleman is under a misapprehension when he represents to this House that they are in a better position in Australia than they would be in this country. I remember that the late Mr. Ronayne, before he left London to go to Cork - and he was a man with special information on this subject - told me it was supposed that the convict establishments in Western Australia were about to be given up, and, as a consequence, the prisoners, if not released, would be sent to penal servitude in England; so that it will be additionally hard to these men, who have been enjoying some absence from penal restraints, should they be brought back and put in such convict prisons as Chatham or Dartmoor, and subjected to the rigour of English penal servitude. I throw out these hints in order that the right hon. gentleman may inquire into the matter. With regard to the three prisoners who are now in prison in England, McCarthy is a brave soldier, who had fought well, for England in many parts of the world. Is it far, after this man has had ten years in penal servitude - ten years of discipline which is given in order to effect reformation in the minds of thieves, murderers, and the worst of criminals - is it fair to keep the man in imprisonment any longer? With regard to Davitt, who was sentenced to fifteen years' penal servitude by a judge, I may say that the man who only got seven years was an Englishman; and I do not know how much effect Davitt's being an Irishman may have had with the judge on all occasions; and I have little doubt that when this man was sentenced to fifteen years' penal servitude, the fact of his being an Irishman, and the fact of this occurring just after the Clerkenwell explosion, and after the murder of Sergeant Brett, which created a great deal of feeling in the minds of the middle and upper classes of this country, I have no doubt that had an effect.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

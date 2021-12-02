@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>[Bill 135.] Second Reading, Hansard's Parliamentary Debates, Wednesday 7 July 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">[Bill 135.] Second Reading</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-07-07">7 July 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00066"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jul/07/bill-135-second-reading#S3V0253P0_18800707_HOC_27"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said the hon. Member for Liskeard (Mr. Courtney) had made a charge against the Irish fishermen. That charge had not been made for the first time against Irishmen engaged in different pursuits. He had heard it said often in connection with the manufacturing industry, or want of such industry in Ireland, that they could not succeed because they were deficient in the characteristics which Englishmen and Scotchmen possessed. But it was a very remarkable fact that this "deficiency in moral character" did not pursue the Irish people out of their own country; for in Canada, Australia, the United States, and other countries to which they emigrated, they were succeeding in a very striking manner, considering the difficulties with which they had to contend in all the pursuits in which they were engaged. That was an indisputable fact. The House had to consider how it was that Irishmen who succeeded in other parts of the world were unable to succeed in their own country. The hon. Member for Liskeard had pointed out that in Cromwell's days the Cornish fishermen went to fish at Waterford, and that ever since the Cornishmen had shown themselves better adapted to fish than Irishmen. But what was the reason? In the days of Cromwell fishermen of Cornwall presented a Petition to Cromwell stating that, by reason of the great competition from Irish fishermen, Cornish fishermen were not able to compete successfully with fishermen on the Irish Coast; and they begged that Irishmen might not be allowed to fish in Irish waters. In accordance with their prayer, Cromwell issued orders forbidding Irishmen to fish in Irish waters. But that was not all. Such as were caught doing so, after the issuing of the edict, were made slaves, and sent to the West Indies. That was the history of the competition of Cornishmen with Irish fishermen, and that was the foundation of the superiority which the hon. Member for Liskeard claimed for Cornish over Irish fishermen. Cornishmen got the start, and they were able to keep it ever since, owing to legislation of that kind. The Irish Fisheries had been depressed, from time to time, by English legislation. And if Parliament was asked to put aside a little the principles of political economy now, it was because they had much more rudely put aside the principles of political economy in their dealings with Irishmen in times past. He admitted that State loans to fishermen were objectionable as a permanent means of supporting their industry; but Irishmen had been crippled by several famines—by the notable Famine of 1846— just when Irish Fisheries were beginning to flourish; and, again, another calamity had come which bad thrown Irish fishermen back in the competition with other fishermen. He thought, if a moderate loan could be made by the State to fishermen in Ireland, the result would be the establishment of a larger class of boats, which would enable them to compete with Cornish and Scotch fishermen, who were evidently alarmed at the prospect of competition from Irish fishermen, from the way in which they had set the hon. Member for Liskeard against the Bill. Advances previously made had done a great deal of good, considering the limited extent to which they were made, and had been punctually repaid. The moderate loans now asked for would, of course, be on good security. With regard to harbours, he would ask the Chief Secretary whether a limited grant could not be made out of the Church Surplus Fund, in addition to that made by the Treasury, for the purpose of giving harbours on the West Coast, which would be of great utility? The Board of Works had already sufficient information to justify the expenditure of £100,000 or £120,000 with great advantage; and there would be no possible risk of the money being wasted. He trusted, therefore, that they should have the support of Members representing English and Scotch fishing constituencies in the matter. He might mention there were no harbours, as yet, on the Western Coast of Ireland, with the exception of the Harbour of Kinsale. The Coast of Ireland consisted of over 2,500 miles, and only about 350 miles were at present fished by the Cornish and English fishermen, simply for the want of harbours. If, then, they could expend £120,000 or £130,000, so as to extend the fisheries, the food production would be materially increased. Had Irishmen a Parliament of their own, they would be able to provide these things for themselves; therefore, the Government should go a little in the direction in which the Irish Members asked them to go. If the Government could not see their way to a second reading of the Bill, he hoped they would entertain an application for an additional grant of £60,000 out of the Irish Church Surplus for the purpose of small fishery harbours and piers on the Western Coast of Ireland. That would enable Irish fishermen to struggle on until the time came when the right hon. Gentleman would be able to consider this question in all its bearings, and bring forward some comprehensive policy with regard to the subject.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell and his Constituents, St. James's Gazette, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell and his Constituents</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="83159818563713810450" level="j">St. James's Gazette</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">11</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22">22 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0001485/18850122/068/0011"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, addressing his constituents at Cork last night, referred to the progress made by the Nationalist movement in Ireland, and said that it was now no trouble for them to elect any number of Nationalists. AT the election of 1880 he laid certain principles before them, and they accepted them. He said then, and pledged himself that he would form one of an independent Irish party to act in opposition to every English Government which refused to concede the just rights of Ireland; and the longer the time which had gone since then, the more he was convinced that that was a true policy, and that it would be impossible for either or both of the English parties to contend for any long time against a determined band of Irishmen, acting honestly on those principles and back up by the Irish people.</p>
+         <p>He looked forward to the future with a light heart, and he was confident that when the reckoning up after the general election of 1886 came around, they in Ireland would have cause to congratulate themselves on the possession of a strong party. It would bear down all opposition, and, aided by the organization of the country behind, they would be enabled to gain for their country those rights which were stolen from her. They would struggle, as they had been struggling, for the great and important interests of the Irish tenant-farmers, and they would ask that their industries should not be fettered with rent. They would ask also from the tenant-farmers in return that they should do all they could to encourage the struggling manufacturers of Ireland, and that they should not think it a great sacrifice to be called upon when they wanted Irish material and manufacture, even if they had to pay a little more for it. He was sorry if the agriculturists had shown themselves a little deficient in their duties in this respect, but he felt confident that it was only necessary to bring the matter under their notice. They would also endeavour to secure for the labourer some recognition and some right in the land of his own country. They did not care whether it was the farmer or landlord that stood in his way. They considered that whatever class attempted to obstruct the labourer in the possession of those fair and just rights to which he was entitled, that class should be coerced into doing justice to the labourer. Every Irishman should be forcibly driven back to the question of the national self-government of Ireland. He did not know how this question would be eventually settled. He did not know whether England would be wise in time, and concede to arguments the restitution of what was stolen from them towards the close of the last century. It was to none of them to know the future. They could not ask for less than the restitution of Grattan's Parliament. They could scarcely under the Constitution ask for more. But no man had a right to fix a boundary to the march of a nation; and while they struggled to-day for that which it may seem possible for them to obtain, they might struggle for it with the proud consciousness that they were doing nothing to hinder or prevent better men who may come forward in the future from gaining better things than those for which they were now struggling.</p>
+      </body>
+  </text>
+</TEI>

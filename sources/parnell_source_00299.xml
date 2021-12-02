@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Class III. - Law and Justice, Hansard's Parliamentary Debates, Friday 27 Auguest 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Class III. - Law and Justice</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-08-27">27 August 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00069"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/aug/27/class-iii-law-and-justice#S3V0256P0_18800827_HOC_186"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, there were some important matters connected with this Vote which he thought it would be well to mention. He would refer first to the actions that were brought last year by the late Government against Messrs. Daly, Miller, [and] Brennan. This was a proper opportunity for asking Her Majesty's Government what they proposed to do with reference to these proceedings which were still pending, as far as he had been able to gather. The late Government brought these gentlemen before the magistrates at Sligo, and they were committed for trial at the Sligo Assizes. The Crown then applied to have the cases removed by writ of certiorari to Dublin; and consequently, when the time for the trials came on, no further proceedings appeared to have been taken by the Crown. He thought it very desirable that it should now be known whether it was intended to proceed further in the matter or not. If the Crown intended to proceed, then the proceedings should be undertaken within some reasonable time, so that these charges should not be kept hanging over the heads of the gentlemen implicated by them. He, therefore, ventured to ask the Law Officers of the Crown whether it was intended to proceed further with the actions which had already been commenced or not.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he understood that the members of the Constabulary referred to were employed to attend certain public meetings for the purpose of informing themselves as to what took place at them. No question was now raised as to the policy of the Vote. The hon. and learned Member for Meath (Mr. A. M. Sullivan) only asked for information as to the principle on which the expenses were paid. Perhaps the right hon. and learned Attorney General for Ireland would not be so well able to explain the matter as the late Attorney General for Ireland, as it was the late Government that introduced the practice of employing the police in this capacity.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, there was a matter connected with this business to which he wished to call the attention of the right hon. Gentleman the Chief Secretary to the Lord Lieutenant of Ireland. He did not deny that the Government were entitled to have correct information as to what took place at the land meetings; but there was another practice of a very objectionable character which prevailed throughout the country —namely, the practice of directing sergeants of police and other police constables to take rough notes in a notebook of statements made by public speakers and otherwise. That was a much more objectionable practice, from all points of view, than the employment of special reporters by the police. In the first place, a policeman, under such circumstances, could not take a note that would be of any value or importance. He took out a note-book and scribbled down a few words in it, very often hastily, in the dark, and the note simply represented his idea of the nature of the observations made. Now, he did not think that that was the kind of reporting which the Government ought to encourage if their object was to obtain correct information as to what might be said at a public meeting. If the Government desired to have reports, he thought they ought to employ skilled shorthand writers, as undoubtedly they had done in many cases. The practice, however, had repeatedly been to send a sergeant of police who stood in the crowd and scribbled down a few words under the most unfavourable circumstances, just as he happened, in the most fragmentary way, to catch them. This was an objectionable practice from more points of view than one. In the first place, when the people saw a sergeant of police or a constable produce his notebook for the purpose of taking notes, they were apt to look upon him as a sort of spy; and if he was standing in a crowd, unsupported by his friends, there was, to some extent, a temptation to molest the officer in the execution of his duty, although it appeared to him (Mr. Parnell) that it was a duty which was entirely unnecessary. He had often himself, in travelling about the country, had to say a few words to the people, and he had soon the police enter the crowd, take out a note-book and commence to jot down what he was saying. Someone in the crowd was immediately tempted to jog his elbow, and a dispute and a disturbance might, under such circumstances, very easily arise. If the Government wanted reporters, there was no reason why they should not have them; but the reports should be taken by regular shorthand writers. He was strongly of opinion that the system adopted of placing note-books in the hands of the police, under these circumstances, was wrong and ought to be discontinued.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he wished to ask whether it was not the fact that there was no single item similar to the one for the defence of magistrates and others in the English or Scotch Estimates; and he also wished to know whether English and Scotch magistrates against whom actions were brought had not to pay the costs themselves?</p>
+         <p>...</p>
+         <p>MR. PARNELL said, that if they wished to test the principle, would it not be better for his hon. and learned Friend to move to omit sub-head H?</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he had intended to direct the attention of the Committee to the conduct of the stipendiary magistrate who was supposed to have given the order to fire on the Catholic procession at Dungannon; but, on consideration, he had thought that his speech would, perhaps, come better into the discussion on the Constabulary Vote. Therefore, he proposed to make a suggestion to the Government which might, perhaps, avoid a lengthened discussion hereafter. There was a good deal of feeling with reference to that matter. Certain Catholic processionists were celebrating the day at Dungannon when they were attacked by Orangemen. The police appear to have fired on the processionists, although it had been stated that no stones were thrown by the processionists after the attack. It seemed remarkable that when the procession had been broken up by the mob, the policemen, whose duty it was to protect the processionists as long as they behaved themselves, should have killed a number of people who sympathized with the procession, while he believed none of the attacking party was injured. He would suggest to the Government that they would issue a Commission of Inquiry into the circumstances, which appeared to be exceedingly serious. He could not help thinking that, after the way in which the attention of the right hon. Gentleman had been called to that case and the hint thrown out, he would not fail to take action as regarded inquiry into the matter. At any rate, he certainly thought it most desirable that the Government should see who was responsible for the order to fire.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, there were one or two questions he wished to ask. In the Report of the Royal Commission it was recommended that an independent inspection should be provided for convict prisons, and a number of gentlemen of high position and character had been appointed to that office for England and Scotland. He wished to ask the Chief Secretary for Ireland, whether similar steps were being taken in Ireland; and, if not, whether he intended to take the matter into consideration? He should be glad to see gentlemen selected who would take an interest in the subject, and who were able to afford the time for proper inspection.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, that he had omitted to ask a question. He ought to have given Notice of it; but he only asked it in order that the matter might be considered before the next time it came up. Under the Irish Prison Law, flogging was not permitted, while it was permitted in England. They found that they were able to get on very well, and enforce the discipline of gaols without that punishment. But in military prisons in Ireland the prisoners could be flogged for breaches of prison discipline. An inspecting officer could give the order for a prisoner to be flogged, while a civilian could not be. He wished to ask whether the Government would consider the desirability of extending the exemption to the military prisons which prevailed in the civil prisons? Possibly the fact of the abolition of that punishment in the Army and Navy would have some effect in the prisons also. He believed there was a pretty general feeling against the maintenance of that punishment; and he, therefore, did trust that the Government would consider whether they could not abolish it from the military gaols of Ireland.</p>
+      </body>
+  </text>
+</TEI>

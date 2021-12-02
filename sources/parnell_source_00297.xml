@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Committee., Hansard's Parliamentary Debates, Thursday 8 July 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Committee.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-07-08">8 July 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00067"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jul/08/committee#S3V0253P0_18800708_HOC_183"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, that the hon. Member for South Northumberland was not the first member of the ancient house of Grey who had done good service to the enemies of popular rights and progress by attacking from the Liberal ranks measures designed for the advancement of the Liberal cause. He regretted that the hon. Member, on almost his first appearance, should have undertaken to defend a system which all careful, observers admitted to have been the proximate cause of Irish famines ever since they had a land system. He did not, however, propose to follow the hon. Member in his able arguments against the Bill, because he thought that on this occasion he had been flogging a dead horse, and that the task he had undertaken, in view of what had happened since yesterday morning, was a work of supererogation. Up to yesterday morning he (Mr. Parnell) intended to vote for the Motion that the Speaker leave the Chair on the Committee stage of the Bill; but an Amendment on the Paper yesterday, under the name of the Attorney General for Ireland, had entirely changed his mind, and he could not now take the responsibility of voting or wasting the time of the House upon consideration of a measure which, if the intentions of the Government were carried out, as, of course, they would be supported with their large majority, would simply result in the passing of a useless measure. He would have voted for the Bill as it was printed. He understood the Bill to be an attempt to prevent the spirit of the Land Act (1870) from being infringed in the exceptional circumstances prevailing in Ireland. It was proposed to do that by carrying out the spirit of the 9th section of the Act of 1870 as it left that House and went up to the House of Lords. The Chief Secretary, and also the Prime Minister, had shown their desire to prevent the landlords from inflicting a wrong upon their tenants. The Bill was, indeed, inadequate; but still he should have supported it. But the Attorney General's Amendment had entirely changed the character of the Bill, and it was no longer an attempt to carry out the principle of the 9th section of the Land Act, but to amend the 13th section in such a way as to defeat in some cases the tenant's claim to compensation. In his opinion, this Bill would be utterly useless to effect the object which the Government, when they introduced it, said they had in view. It was now proposed to change the entire scope of the Bill by the Amendment of the Attorney General for Ireland. He asked the House whether it was worth while—worth all the time spent on the Bill, and all the fuss that had been made about it—to arrive at such an impotent conclusion? If the wish of the Government was not that which they expressed—namely, to protect the tenants who were unable to pay rent—but to get rid of this exception to the right of sale, he submitted it would have been better to have introduced a Bill for that purpose, and not to have introduced a Bill for an entirely different purpose. As the Bill was now proposed to be altered, the Bill did not protect the tenant. It gave the landlord the right to evict, and the tenant the right of sale. They knew that these small tenants had no saleable interest. How could they expect anyone to buy a small farm which was screwed down by a rack rent? From the nature of the case the tenant would have no interest to sell, on account of his having to pay a crushing rent. If they brought forward, on the other hand, a Bill to extend the Ulster Custom to the whole of Ireland as a permanent enactment, he would admit that that would be a measure worthy of consideration, and he should vote for it; but he should not accept it as a final settlement, nor as a settlement in part, of the vast questions connected with Irish land. The Amendment of the Attorney General for Ireland would benefit a large class of large tenants who were in a different position altogether from the small farmers—tenants whom the landlords did not desire to lose—it would give this class the right, and the valuable right, of sale in their holdings. If the rent of such holdings was low and the landlord was a good landlord, then the tenant would have something valuable to sell; but if the rent was high and the landlord a bad landlord, this right of sale would be worth nothing at all. He wished to point out the direction in which they were drifting owing to the impressionable nature of the Government. He did not know whether it was by the pressure from behind or before, whether it was by pressure from above or "another place," that this extraordinary change of flank was brought about; but, whatever the motive, he would remind the Chief Secretary of the old maxim—"Unstable as water, thou shalt not excel." It would have been better for the Chief Secretary to have waited for a while before making any definite announcement. The Bill of the hon. Member for Mayo (Mr. O'Connor Power) was introduced, and the Chief Secretary seemed to be favourably impressed; but a demonstration a tergo, and he dropped it like a hot potato. Now they found that another change of front had been executed, and the Government was going to enact something entirely different from its original idea, and which something would not have the slightest effect for the protection of small tenants in the West of Ireland. It followed, of course, on this Amendment that the whole of the Land Question would have to be discussed. The partial failure of the Ulster Custom would render it necessary to introduce Amendments. They knew that bad landlords in Ulster made the custom there of no use; and, only recently, the hon. Member for Tyrone (Mr. Macartney) proposed a Bill on the subject. The Government said they could not go into that question at present, and he agreed with them; but now the Government, by this Amendment, had raised the whole question, and it would be absolutely necessary, if this Bill reached Committee, to move Amendments in the direction of the Bill of the hon. Member for Tyrone. He maintained that this Bill as now altered would result in either filling the poor-house or the emigrant ship. He could not imagine any more disastrous step than that which the Government had taken. They were extending the principle of free sale, and putting it on its trial for a purpose for which it was never intended and for which it was entirely useless. They were told there had been no anti-rent disturbances in Ulster, and that that was due to the Ulster Custom. But the Ulster Custom had done its work gradually, and, owing to its operation, it had become a recognized principle that the landlord should not raise his rent beyond a certain point, and that a certain saleable interest should be left to the tenant. He regretted exceedingly that the Government did not stand to their colours. Perhaps they were afraid that the Bill would be thrown out in "another place." Well, he was perfectly willing to face that contingency. No great cause was ever won without suffering, and the Irish people, if they were determined to obtain a satisfactory solution of the Land Question, must be ready to suffer. They had suffered in the past, and they would have to suffer still. If the House of Lords, in 1870, had not mutilated that 9th section, he believed that the present pressure in Ireland would never have arisen. A sort of custom would have grown up by which the landlords would have been restrained by the Courts from raising rents to an undue height. But the House of Lords deliberately cut the section out and altered the Act; and the consequence had been that the people had been driven from the Courts and had to rely on organization and agitation. The right hon. Gentleman the Chief Secretary had now been urged by some Members on the Conservative side to sit on the safety-valve, and he had done it. If the result should be that the engineer was hoist by his own petard, the weakness and vacillation he had shown would not entitle him to any sympathy.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, he did not say he should oppose the Bill. What he said was, that he should consider it perfectly useless unless with the Amendment of the Attorney General for Ireland.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, that he wished to announce very briefly the reasons which would induce him, and a number of other Irish Members, to leave the House without taking any part in the division on the Motion that Mr. Speaker leave the Chair. They felt that the Bill had assumed an entirely new phase and aspect, and it would be quite impossible for them to sanction the Motion for going into Committee on the Bill as it had now been interpreted by the Government, and as it had been further interpreted by the Amendment which the right hon. and learned Gentleman the Attorney General for Ireland (Mr. Law) had placed upon the Paper. They believed that the Bill, according to the construction now placed upon it by the Government, would not be a Bill for establishing the principles of free sale in Ireland, but for establishing the principle of forced sale, and that at a most disadvantageous time for the tenant. Advocate as he was of the principle of free sale, he could not consent to have the term used for a purpose, and in a way, which none of its advocates ever intended it should be used. Therefore, they felt that while they could not undertake the responsibility of voting against the Motion for going into Committee, neither could they undertake the responsibility of voting for the Motion. ["Hear, hear!"] The right hon. Gentleman the Prime Minister cried "Hear, hear!" He (Mr. Parnell) could assure the right hon. Gentleman he had felt very strongly impelled to vote against the Motion "That Mr. Speaker do now leave the Chair," and certainly if the Amendment of the right hon. and learned Gentleman the Attorney General for Ireland were inserted in the Bill, he should join the Tory Party in doing his best to throw it out on the third reading. He, however, believed that the Conservative Party, when that Amendment had been inserted, would not be so anxious as they now were to prevent the further progress of the measure. In that shape, he felt confident that the Bill would produce more extermination and eviction in Ireland, more outrage and crime, than anything that had been done for 60 years.</p>
+      </body>
+  </text>
+</TEI>

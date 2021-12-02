@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Banquet at the Sagamore - A Noteworthy Gathering, The Boston Globe, Friday January 16 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Banquet at the Sagamore - A Noteworthy Gathering</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="22146331937518692150" level="j">The Boston Globe</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-01-16">16 January 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7013445">Boston, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00087, speech_00088"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18800116 Boston Globe Banquet at Sagamore 002.tiff"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>...</p>
+         <p>Mr. Parnell was Heartily Received,</p>
+         <p>and expressed his thanks for the kind expressions and warm reception he had received at the hands of the citizens of Lynn. He apologized for not speaking at any great length, but would be pleased to offer a few practical remarks. He said that the present famine in Ireland was not so serious as in 1848, but from the best information he could gather he was of the opinion that there would be starvation in some of the western counties before many weeks, unless assistance was forthcoming. The small farmers and laborers in old Ireland are distressed; they will not have enough to eat, but they will have sufficient to enable them to support life until spring sets in. In two or three weeks 250,000 people will be without food, and our duty is to send money where it is actually needed, and allow those who can sustain life to shift for themselves. The amount from America, although large, must be for temporary relief, and we can send it forward in weekly instalments. Mr. Parnell then explained the land question, and at the conclusion of his speech was heartily applauded.</p>
+         <p>...</p>
+         <p>The Great Leader's Speech.</p>
+         <p>Mr. Parnell spoke as follows:</p>
+         <p>I feel exceedingly indebted for your kind reception, and of course I understand and recognize it as due to the cause I represent, and not to any personal merits of my own. The land question is an old one, dating from the conquest. When Ireland was conquered England brought her church and her land system. He was glad to say that he had not to speak at the present time of the religious aspect. There is now no religious inequality. The feudal system was planted in an uncongenial soil of our country. Perhaps it would be well to describe very shortly what was the old system in Ireland. It was the tribal system which gave the soil to the people, when that system was replaced the land was transferred to the conqueror as the spoil of conquest. The feudal system was established so that property may be entailed upon unborn children to enable a privileged class to possess power. The quantity of land in England and Ireland is limited and the land-owners have shaped the laws so that they may keep the property from generation to generation and hold it as a monopoly. There are in Ireland 600,000 farmers who cultivate the soil, and 8000 men who own it. Nine out of ten of those landlords live out of the country. The rents leaving Ireland amount to about £10,000,000, paid by a small country whose wealth per capita is less than that of any other country. If the cultivators of the soil in America were to pay out $600,000,000 a year they would very soon find a way to remedy it. This drainage, however, is only</p>
+         <p>A VERY SMALL PORTION OF THE GRIEVANCE.</p>
+         <p>The climate is so good and the people so industrious that they would willingly pay it, but they have a further trouble - the system of tenure which prevents the people from making any outlay on their lands. Their charges against the landlords are that they have worked the system so badly that if the tenant wishes to improve his soil the landlord sees in that act an inducement to increase the rent to a point from which there is very little profit left to the tenant. The system deals with a commodity of enormous value. If the lands were held on proper conditions it would produce three times the amount of food it now produces; it would produce three times the amount, and Professor Baldwin, an eminent authority on agriculture supports this view. We are now endeavoring to improve the land system, and the landlords do not like it. The value of property in Ireland has considerably decreased, and this is done by American beef, and other commodities sent to Ireland and England. We charge the Irish landlords with maladministration. The landlords of England have worked the system differently. Without waiting for agitation the English landlords decreased their rents. We attempt to improve the condition of affairs, and are called communists and lad robbers. In France the revolution swept away the landlords without a penny's compensation. Perhaps if the Irish landlords do not heed the lessons another revolution may sweep them away. In Ireland the tenants propose to pay the government valuation and no more, and taking that as a basis in twenty years they propose to pay twenty years' purchase in annual instalments, extending over thirty-five years. This is what the Bright clauses contained. Mr. Parnell then described the Bright clauses as at other meetings, and read the edict of the king of Prussia supporting such </p>
+         <p>A SETTLEMENT OF THE LAND QUESTION</p>
+         <p>in that country. The British legislature should now admit that the land system in Ireland was a complete failure, and should be compelled to see that the tenants become owners of the soil. They have been told it would take 230,000,000 to by the lands of Ireland. The lands have been considerably reduced, and 130,000,000 would now purchase them. If the government cannot give the money, let them give their obligations or console. Revolutions are often very costly remedies, and a peaceful solution of the question would be better for landlord and tenant. A peaceful solution should be offered. They would have that independence which every man should have and then they could look forward as Irishmen should. If the land system is not improved the landlords will sooner or later feel it. They are a defenceless people in Ireland. The right to carry arms is denied, and that birthright of every freeman is punished in Ireland with imprisonment for two years. A large body of constabulary is employed with 30,000 soldiers, and the time may come when Ireland will have a chance. She is at war and beaten to her knees, the idea of the Irish Nationalists may be realized. In seven counties of the west there are thousands of men, women and children who do not know if they will get a meal. There is great destitution, but it is not likely to reach the point of famine outside of these seven counties. The funds started in Ireland by the Duchess of Marlboro will be administered for political purposes and beware how you send any money to any fund in Dublin unless you know all about it. If the Irish people are not broken down by physical suffering the victory will be theirs, and they hope that they will live to remember that they helped their countrymen at home.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

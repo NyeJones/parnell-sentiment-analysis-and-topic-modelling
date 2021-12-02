@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Evening Bulletin - Providence, Monday 19 January 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Irish Agitation</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="" level="j">The Evening Bulletin - Providence</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-01-19">19 January 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7013952">Providence, United States</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00089"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">     
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="18800119 Providence Evening Bulletin Irish Agitation 001.tiff"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell began by recalling a telegram from Mr. Sullivan, editor of the Nation, of Dublin. The dispatch ran as follows:</p>
+         <p>"Destitution intensifies. Several deaths yesterday from starvation. No public employment given yet. Crowds with black [] parade the several towns. Money received by Land League from America is being promptly and judiciously distributed." (Applause.)</p>
+         <p>He was glad to be able to say, he remarked, that the [] money from America spent in Ireland is saving the people from starvation has been that which had been sent through the instrumentality of himself and [] League.</p>
+         <p>It might almost be thought enough, he cautioned, to judge the Irish land system by its results: that a system which produced famine so frequently, a system which caused the forced emigration of large numbers of the population, would be condemned without even a trial other than the very long trial we had unfortunately had of it already. But still some of the landlords were […] a word for themselves and for their own existence, and they had enlisted in their service a very competent agency, namely, a section of the American press. (Hisses.)</p>
+         <p>Mr. Parnell then went on to speak more particularly of the defence given to the landlords by the New York Herald [italics], and the audience hissed the Herald [italics] […]. He read and [commented] at some length upon a recent Ireland letter in that paper, ridiculing some passages in it, and denouncing it as calculated to deceive certain others. The explanation offered by the Herald [italics] correspondent for the distress in Ireland, he said, seemed to be that the country was over populated; that the people drank too much tea, and that the women wore hats. (Laughter.)</p>
+         <p>Now, as a matter of fact, the speaker said, the population of Ireland was about 5,798,000 or five millions and three quarters in round numbers, and the area of land was about 20,000,000 acres. Of these acres about 5,250,000 were arable, six millions and a quarter pasture lands, 500,000 improvable, but just at the present lying waste. The number of inhabitants to a square mile was about two hundred. In Belgium, where there was a different land tenure and where the tenantry were exceedingly prosperous, there were 11,400 square miles, with a population of only 4,750,00. Holland, or the Netherlands, had an area of 13,647 square miles, with a population of 3,962,000. Now both of those two countries together had a fourth less area than Ireland, and yet they had a population nearly one third greater. The soil of Belgium was not equal to that of Ireland. The soil of Holland, a considerable portion of it was about the poorest in the world. It was so [..] that nothing but constant industry of the occupiers entailed them to cultivate it. But because they had a better land system there, they were able to support themselves without emigration in the greatest prosperity with an area one and one quarter less than the area of Ireland, and a population one-third greater. These were remarkable facts, showing the […] of emigration. On many of the Irish farms the people were too crowded. They occupied farms which  were too small to enable them to live, and so poor that if they paid no rent at all they could scarcely live. That was particularly the case in the famine district in the west of Ireland. The famine existed among the small holders who were driven off the Irish land after the famine, and had to settle down on this poor land, because nobody cared about it at that time. They had cultivated and reclaimed it, they built their homes on it, and as soon as they did so the landlords put them under rent. These rents had been raised during the last ten years, and now they found it impossible to meet their landlords' demands. But this only refers to the poor land. On the rich grazing land of Meath, you might drive ten miles without seeing a human being. The county had 180,000 population before the famine. It had just now [?]0,000, and was one of the largest counties. There was nothing to this section of the United States to equal the enormous fertility of the plains of Meath. (Applause.) Well, the people had been driven off their land into the poor land, and the next emigration ought to take place from the poor hillsides of Mayo to the rich and fertile hillsides of Meath, from the west to the east. Instead of from the east to the west. We had in this county of remarkable fertility, the extraordinary fact that this very fertility proved the destruction of the inhabitants of that county and tempted the […] of the landlords to reduce their number to 90,000 as had been described.</p>
+         <p>Now there were natural causes operating at present very much in favor of a redistribution of land. As long as the grass land of Meath was free from American competition, it would do to keep it from cultivation, but now that quick communication and scientific discovery had brought the vast plain of the West, practically, so to speak, to the door of Liverpool, it is no longer profitable to allow these lands to be in grass. In fact, if you put Meath in competition with Illinois or Texas, it would be unnecessary to adopt a system of cultivation for the purpose of producing the more valuable articles of consumption - crops which required great attention and necessarily small holdings. In consequence of American competition, Ireland would be driven to adopt that system. There were natural causes operating which would enable us to bring back our people from the mountains, where they were now, into the fertile plains, but […] we must keep them from starvation. It would not do for us to allow the cold-blooded policy of the British government to be successful. (Applause.) they would like to exterminate a million and a half by famine, and compel another million and a half to emigrate to America. By your assistance to help us to bridge over the six weeks interval before the meeting of Parliament, we think we ought to be able to bring such pressure to bear upon the British government that it will be shamed into a sense of its duty. (Applause.)</p>
+         <p>There were already indications that the government at home felt the pressure of public opinion in this country, because they had announced that they were going to do a variety of things. These announcements were simply shame, because they knew perfectly well that the proposition of relief would not be accepted. Loans were offered for the improvement of waste land, but to whom were the effects made. Not to tenants but to landlords. And the landlords would not accept them.</p>
+         <p>The speaker referred to the proposed meetings of the baronial sessions, and claimed that no relief would come form that source. On the contrary, the baronial sessions simply meant that the government had authorized the landed classes in the various local districts through the country to meet together and levy taxes in excess of their legal powers upon the very people who were starving. (Oh! oh! and hisses.)</p>
+         <p>The speaker went on to read from the New York Herald [italics] an account of a recent scene in Connemara connected with attempted evictions of the peasantry.</p>
+         <p>The people were bayonetted right and left by the […], and women figured in the struggle. IN conclusion he made a stirring appeal on behalf of his suffering countrymen. No grander undertaking could be entered into, he said, than that of relieving the misery of the people in Ireland. They had carried on a noble struggle against terrible odds, and had always shown themselves unmindful of personal suffering so long as they were able to do anything to advance their cause. And if they succeeded in breaking down this wretched landlord system, not a long time would elapse before the first step would be taken for securing the national independence of Ireland. (Applause.)</p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

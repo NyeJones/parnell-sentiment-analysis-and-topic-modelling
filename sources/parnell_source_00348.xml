@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Mr. Parnell at Kildare, The Weekly Freeman's Journal, Saturday 17 October 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Mr. Parnell at Kildare</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="176484528" level="j">The Weekly Freeman's Journal</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">11</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-10-17">17 October 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00093"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>police report; newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="NAI/CSO/INL 7"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, who was received with prolonged cheering, said in reply:- The four patriotic members of the Hierarchy who are now your guests, the numerous array of the clergy of your county whom I see around me, afford indubitable tokens that the union of priests and people has been cemented (cheers), has been cemented afresh in Kildare, never to be broken (cheers). I could dwell for long upon that illustrious character, the illustrious position of the dignitaries who are now present in your town (hear, hear). I could remined you of the thrill of joy with which the appointmet [sic] of his Grace of Dublin was received by Irishmen all the world over (cheers). I could allude to his great learning and to the profound ability with which he has dealt with the political and the religious questions of the day. I welcome him (loud cheers) as one of the strongest supporters that Providence has ever vouchsafed to your cause (cheers). I could remind you of the long services to Ireland, undertaken in times of great risk and peril - and especially of grave risk and peril so high an ecclesiastic - by his grace the great Archbishop of the South, the Archbishop of Cashel (cheers). In him the Land League has its strongest and most stalwart defender (cheers). [Underlined] And when, after the suppression of the Land League to take up its work, and more than its work [Underlined] (cries of "Bravo"), that great man was the first to come forward and give his adhesion to the movement to, defend its constitutional character from its detractors, and to prove that the people of Ireland, banded together in this great organisation, were banded together peaceably and constitutionally, and not for the purpose of crime, outrage, and disrespect of the law.</p>
+         <p>A Voice - Three cheers for Parnell, and success to Davitt (cheers). </p>
+         <p>Mr. Parnell - These four years have achieved many things. You triumphed over and broke down coercion (cheers). You have snaffled landlordism (cheers). We will put the curb in their mouths by-and-by (cheers). The labourers, in the labourers' enactment, have received the first earnest of the intention of the Legislature to recognise some portion of their birthright in the soil.</p>
+         <p>A Voice - It is time.</p>
+         <p>Mr. Parnell - Your Parliamentary representatives have turned what had been before our time a mockery and a dishonest delusion into a reality, and by good and honest services they have attracted to themselves the confidence, the sympathy, and the respect of every Irishman from the highest to the lowest - from the Archbishop to the humblest peasant in his cabin (cheers). I am entitled to say, then, that never within the same short period has any nation, by constitutional action only - by peaceable means - made such enormous and gigantic strides (cheers). You have achieved as much in that time as many other nations have only gained after a long and bloodthirsty struggle. But it is rather concerning the future that I have come to speak to you to-day (cheers). The great and all-absorbing topic in Ireland, agricultural country as she is, and depending upon the soil for her very existence, is the land question. The land question is at the root of all other questions (hear, hear). The land is the only dependence of the people. And what is the present position of the land question? In my judgment the landlords are standing on the brink of a precipice, and they are doing their best to get themselves pushed over it. They are engaged at present in their congenial and accustomed operation of endeavouring to draw blood out of a stone (laughter and groans). The land during the last year or two has not earned any rent. I doubt very much whether during the last year it has earned anything at all. It certainly has not earned the judicial rents. So far as we can see, the Irish landlords are about to enter into a conspiracy to extract the present rents out of the tenants whether they can pay them or not. We saw the other day that the Cork landlords had met and come to a resolution that they regarded the judicial rents as the rents which they were going to extract if they could. [Underlined] Well, I do not regard the judicial rents as being any more sacred than any other rent (cheers). We never compromised our position by accepting either the Land Act of 1881 (cheers) or the judicial rents (cheers); and we are in this position, that we are able to say that nobody can point to any word of ours which gave away the right of the Irish people to turn upon the judicial rents if their rents proved to be such that they were unable to pay them in the future. That is one portion of the conspiracy [Underlined] -- the conspiracy to exact which have not been made; and there is another conspiracy, or rather another part of the same conspiracy - they are using the Land Purchase Act in many cases through the country to intimidate their tenants who are in arrear to buy their farms at a price which it will be impossible for them to maintain hereafter - that is to say, they are endeavouring to make a dishonest bargain with the tenants to give them (the landlords) more than the land is worth, in order that they may get out of their position and substitute the State and the English taxpayer as the landlord, and leave the new landlord to bear the loss which otherwise should fall to the lot of the old one. I said a while ago that the landlords were standing at the brink of a precipice. [Underlined]  There can be no shadow of doubt that the Land Act will be amended in the very near future, either by an English or an Irish Parliament (cheers) so as to bring about a further reduction of the judicial rents of at least 30 or 40 per cent (cheers). [Underliend] There can be no shadow of doubt about that. The English Parliament would do it, let alone an Irish Parliament. The new Democratic Parliament won't be at all so tender of the rights of landlords as the last one was, even supposing the settlement of the question is to be left to them - which I do not think it will be (cheers). And I don't suppose that the new Democratic Parliament, elected by household suffrage in England, will continue to go on paying twelve thousand policemen - Irish policemen. For what? Not to preserve the peace, not to arrest stray donkeys that may be trespassing on the roadside (laughter), not even to bring an odd young man who may have taken perhaps a sup too much after a fair - not even to bring such an odd young man to the barracks. No. they are paying all these men for the purpose of extracting rackrents for Irish landlords. But it is not that alone. They have to keep thirty thousand soldiers in the country as well, and at the time of the Land League they had to keep forty thousand (cheers). So that, practically speaking, you have an expenditure of five or six millions of pounds sterling a year - nearly all of it paid by the English taxpayers, and all for the purpose of screwing rackrents out of Irish tenants. I am very sure that that sort of thing will not be allowed to go on. Would not it be a very wise thing for the Irish landlords to recognise the situation in time, to see that if they don't be reasonable they will be chucked overboard altogether (cheers). The best advice that I could give to them would be this. I would say to them - Use this Irish Land Purchase Act that has been passed in a just and equitable spirit towards your tenants. Sell to them as far as the six millions of money will go at a fair value. [Underlined] Don't be standing out for a high price, because you won't get it, and perhaps the day will come when you will get nothing at all (laughter) [Underlined]. Refrain from using this act as an engine of intimidation. Take it as it was offered to you, as we offered it to you when we helped in its passage. Take it as a golden bridge to escape from an untenable position (hear, hear, and cheers), and be thankful to the tenants. I would say, on the other hand, that where a fair offer is made to them by a landlord to sell, there is nothing to be got either for themselves or for the country by refusing or holding out against it. We have had some definitions of what is or what would be a fair price for the tenants to give. There have been different opinions given as to the number of years' purchase which a tenant ought to give and which he ought not to exceed. I should not like, owing to the very varying circumstances affecting land in Ireland, to lay down any hard and fast rule as to the number of years' purchase to be given by a tenant at the present judicial rents but I would say this to you, that where an estate is for sale the tenants of that estate should meet together and make up their minds what rent they can afford to pay for the future from year to year - what rent they would be able to pay their landlords if their present landlords continued in this position - what rent they would be able to pay while fulfilling their obligations to their family and the community at large, and I would say that in my judgment the judicial rent […] much exceeds that rent. When you have decided upon this you should deduct from that fair rent the various charges - annual charges - which the landlord has to pay now, and which you will have to pay if you become your own landlord. For instance, you should deduct half the poor rate; you should deduct half the county cess in those cases where the landlord at present allows half the county cess; you should deduct the income tax, which the landlord now has to pay, and which you would have to pay if you took his place; you should deduct the tithe rent charge; and you should deduct the agent's fees and costs of collection (laughter); you should deduct an allowance for bad debts, for even Irish landlords very seldom in these years get the whole of a rackrent; and you should further deduct an allowance for the additional taxation, which will certainly in the near future be placed on the land for the purpose of developing the education of the country (cheers). You should add these deductions together and deduct the total of that from the fair rent, and when you have made these deductions you will arrive at the net amount which the landlord is in the habit of getting, and probably very much more than the net amount which he will be in the habit of getting if he continues to be a landlord. You will then be able to give him a liberal number of years purchase on the net amount that he is likely to get. I wish to say a few words with regard to the position of the present Government. The present Government are, at all events, entitled to this consideration from you - that they have resolved during the interval between the old Parliament and the new to rely on the capacity for Self-Government of the Irish people to restrain the minority amongst them from the commission of offences against the law, from crime or outrage of any description. They deliberately refrained from renewing the Coercion Act, and the fact that they have taken up this position - I don't say that they could have done anything else (laughter) - the fact that they have taken up this position is being used as an engine against them - I consider most meanly - by the English Radical and Liberal Party (cries of "Chamberlain"). I think, men of Kildare, you should bear that in mind, and you should resolve that, as far as in you lies, nothing that you do or advise should be such as to make the present Government regret the position they have taken (cheers). I was pleased to see that agrarian offences in Ireland, in the month after the lapse of the Crimes Act, showed a considerable diminution upon the month prior to the lapse of the Crimes Act. Is not that a token of the power in the Irish people when they resolve that there shall be no crime in their midst? (cheers). [Underlined] And I hope that next month will show a still further diminution [Underlined]. There was a great conspiracy - another conspiracy - raised amongst the English newspapers to exaggerate the amount of crime in this country. They failed in proving that there was any increase in outrages, agrarian offences, although they unblushingly asserted that that there was. Their assertion that there is has been naied [sic] as a lie by Lord Salisbury in his recent speech (cheers), and they now fall back upon talk about boycotting. They say there is a boycotting conspiracy in this country, and that it is impossible for any honest man to live there. by the honest man they mean the rack-renting landlord (laughter). Now in former times I remember the late Chief Secretary (cries of "Buckshot"), my late lamented friend Mr. Forster, used when he was talking about boycotting, to say that he would not mind the boycotting, but that it was the sanction of the boycotting that he objected to - that without the sanction of this boycotting the boycotting itself would fail in its effect. And the sanctions of the boycotting, according to him, were the outrages, very lamentable and very deplorable outrages, which I am glad to say have disappeared from out midst - moonlighting and maiming of cattle in some instances, and the shooting of obnoxious individuals in others. I hope they will never return to us (cries of "never"). According to Mr. Forster it was these deplorable occurrences that made the sanction of boycotting. But in the present case I call the world to witness that the public opinion of the people amongst whom wrong-doers exist, the public opinion of the honest people of every locality, has asserted itself. That has on the one hand kept down outrages, and on the other hand it has kept down that worst form of felony, the stealing of one man's land by his neighbours (cheers), so that they are obliged to admit that public opinion has been sufficient to deter the evil-doer on the one hand and on the other. And now I wish to say Kildare claims this much from the present Government, and I claim no more. I claim that where a combination - and I have not advised such a combination. I have in no case during the last few years advised any combination amongst tenants against even rackrents - any combination that may exist in the country is a combination of an isolated character - it is confined to the tenants of individual estates who of their own accord, without any incitement from us, on the contrary, kept back by us, without any urging on our part, without any advice on our part, but stung by necessity and the terrible realities of their position, may have formed some combination amongst themselves to secure such a reduction of rent as will enable them to live in their own home (cheers). Now I claim from the Government that if such a combination exists, they should treat it as they would treat a combination in England amongst workmen against an unjust employer of labour, or an unjust capitalist; and if they put their weight into the scales against the Irish people, if they unjustly come to the assistance of the oppressor, then all I can say is that I believe that the strength of determination of our people will survive this further unjust conspiracy between the Government of England and the rackrenting landlords of Ireland, and that at the close of our struggle our people will not be the defeated one (loud and prolonged cheering).</p>
+      </body>
+  </text>
+</TEI>

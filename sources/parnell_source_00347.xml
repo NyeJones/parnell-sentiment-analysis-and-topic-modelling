@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>The Wicklow Convention, The Weekly Freeman's Journal, Saturday 10 October 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">The Wicklow Convention</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="176484528" level="j">The Weekly Freeman's</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">2</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-10-10">10 October 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7001306">Dublin, Ireland</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00092"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>police report; newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">  
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="NAI/CSO/INL 7"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>The Wicklow Convention, Weekly Freeman, 10 October 1885
+            Mr. Parnell, in replying, said - I am glad to have an opportunity at this impromptu meeting of expressing my thanks to the National League of this town for the very kind address which they have presented to me, and I shall also express to you the great satisfaction and the great encouragement which the proceedings at the Convention to-day afforded to my colleagues and to myself. At a Convention of this country, attended by 40 of the clergy of the county, and 80 elected delegates from all parts of the county, the candidature of Mr. Corbet, your tried representative (cheers), and of Mr. Garrett Byrne (cheers), who won his spurs in the service of the great neighbouring county of Wexford, the candidature of these two gentlemen was unanimously adopted without a single note of dissension or disunion. Therefore I think I am entitled to congratulate you and myself upon the proceedings of our Convention, and to trust that they will serve as a model to the rest of Ireland (cheers) in the very important series of meetings which will shortly be held for the purpose of fulfilling a similar duty to that which has been so satisfactorily and so patriotically discharged to-day by your delegates (cheers). Of the merits of your candidates it is unnecessary for me to speak. You have known Mr. Corbet for so many years; you have known him as your representative, and you join with us in declaring that no more trusted, no abler, no more satisfactory member ever entered the halls of the British House of Commons to represent an Irish constituency (cheers). We, his colleagues, can testify to his merits - merits which have been demonstrated to us over and over again upon many trying occasions. Whenever we have called upon him we have never found him wanting, and we have been taught by the experience of the last five years to look upon Mr. Corbet as a man who will be always at his post when duty requires his presence (cheers), as a man who will be always be foremost in maintaining the union and the integrity of the party and the voice of its majority; and we have every confidence that in the future, in the new Parliament that is to come, in the great crisis which we feel confident will result in the obtaining of our liberties, he will continue to add to these constant proofs of his merits and his fidelity which he has already placed before us (hear, hear). For Mr. Garrett Byrne, your second selected candidate, I have also to say that during three years of great trial, until his health broke down, we found him at his post constantly by day and night, faithful amongst the most faithful (cheers). When renegades left us (groans), influenced by intimidation and by self-seeking, Garrett Byrne stood firm, and he showed that he had in him the material of which his great ancestor - the Garrett Byrne of Ballymanus - was possessed (loud cheers). We shall then welcome him back again to our ranks with love and with confidence that in him we shall again find a suitable upholder of the honour of our country, of Wicklow, and of Ireland (cheers). And now, gentlemen, having dealt with the proceedings of the Convention to-day, I may perhaps be permitted to touch upon one or two matters of great public and general interest and importance at the present moment (hear, hear). When I last spoke in public in Ireland I expressed my conviction that in the new Parliament we should be able to form our platform of a single plank, and that plank the plank of legislative independence (cheers), and that we should carry that plank to a successful issue in the same way as during the last Parliament we have carried other subordinate planks, such as the extension of the franchise and so-forth (cheers). [Underlined] My declaration has been received by the English Press and by some, although not by all, the English leaders with a storm of disapproval, and they have told us that the yielding of an independent Parliament to Ireland is a matter of impossibility. But nothing that has been said in this interval has in the slightest degree diminished my confidence in the near success of our efforts [Underlined] (loud cheers). On the contrary, very much that has been said by our enemies in reference to this claim of ours has very much increased my confidence (cheers). They practically admit that things cannot be allowed to go on as they are; that it is impossible to keep an unwilling people and unwilling representatives in forced legislative connection with the other two kingdoms (hear, hear). They admit that there must be some change; but the two conditions that they put forward in regard to this change, and as a condition of this change, are - firstly, that the separation of Ireland from England shall not be a consequence of the grant of legislative independence to Ireland; and, in the second place, they claim that we shall not be allowed to protect our manufactures at the cost of those of England. Now I shall deal very briefly with both of these points. We have had Mr. Gladstone, the greatest of living English statesmen, in the remarkable manifesto issued by him a week or two since, declaring that he is willing to consider our demands provided the granting of them does not involve the first of these considerations - namely, the separation of Ireland from England. And we have had Mr. Chamberlain on the other hand, although not so distinguished a statesman as Mr. Gladstone, although not so able a man, yet undoubtedly a very great force in the English Liberal Party, declaring that he is willing to give us a legislative body of some kind provided it has not power to protect our manufactures against those of England. To take the last point first, and to deal with the question of the protection of Irish manufactures, I have claimed for Ireland a Parliament that shall have power to protect these Irish manufactures (cheers), if it be the will of the Parliament and of the Irish people that they should be protected (cheers). But it is not for me to say beforehand what the action of such a freely-elected Irish assembly would be. I may have my own opinion as to the best course for that assembly to take, but I have claimed that no Parliamentary assembly will work satisfactorily which has not free power over Irish affairs (applause); which has not free power to raise a revenue for the purpose of Government in Ireland as shall seem fit and best to that assembly (applause). I am of the opinion - an opinion that I had expressed before now - that it would be wise to protect certain Irish industries at all events for a time (hear, hear); that it is impossible for us to make up for the loss of the start in the manufacturing race, which we have experienced owing to adverse legislation in times past against Irish industries by England, unless we do protect these industries, not many in number, which are capable of thriving in Ireland (applause). I am not of the opinion that it would be necessary for us to protect these industries very long, possibly protection continued for two or three years would give us that start which we have lost, owing to the nefarious legislative action of England in times past (hear, hear). I think also that Ireland could never be a manufacturing nation of such importance as to compete to any great extent with England. I believe there are several industries which would thrive, and could be made to thrive, in Ireland. But I think that, as regards many other branches of manufacture, of which we have now to seek our supply from the English markets, we should still have to go to their markets for supply on account of natural reasons which I have not time to enter into at the present moment. But I claim this for Ireland, that if the Irish Parliament of the future considers that there are certain industries in Ireland which could be benefited by protection, and which could be placed in such a position as to enable them to compete with similar industries in other countries by a course of protection extending over a few years, the Parliament ought to have power to carry out that policy (cheers). It is not for me to predict the extent to which that power should be used; but I tell English Radicals and English Liberals that it is useless for them to talk of their desire to do justice to Ireland when, from motives of selfishness, they refused to repair that most manifest injustice of all - namely, the destruction of our manufactures by England in times past, when they refused to repair that injustice by giving us the power which we think would be sufficient to enable us to build up these comparatively few industries which Ireland is adapted by her circumstances to excel in (applause). I will proceed a little further, and I will deal with the claim that has been put forward, that some guarantee should be given that the granting of legislative powers to Ireland should not lead to the separation of Ireland from England. This claim is one which at first sight may seem a fair one. It may appear preposterous, to ask England to concede to us an engine which we announced our intention of using to bring about either separation of the two countries, or which we accepted silently with the intention of so using it; but there is a great difference between having such an intention, or announcing such an intention, and giving counter guarantees against such an intention. It is not possible for human intelligence to forecast the future in these matters; but we can point to this - we can point to the fact that under 85 years of Parliamentary connection with England, Ireland has become intensely disloyal and intensely disaffected (applause); that notwithstanding the Whig policy of so-called conciliation, alternate conciliation and coercion, and ameliorative measures, that disaffection has broadened, deepened, and intensified from day to day (cheers). Am I not, then, entitled to assume that one of the roots of this disaffection and feeling of disloyalty is the assumption by England of the management of our affairs (cheers). It is admitted that the present system can't go on, and what are you going to put in its place? (Cries of "Home Rule.") My advice to English statesmen considering this question would be this - Trust the Irish people altogether, or trust them not at all (cheers). Give with a full and open hand - give our people the power to legislate upon all their domestic concerns, and you may depend upon one thing, that the desire for separation, the means of winning separation at least, will not be increased or intensified (cheers). Whatever chance the English rulers may have of drawing to themselves the affection of the Irish people lies in destroying the abominable system of legislative union between the two countries by conceding fully and freely to Ireland the right to manage her own affairs. It is impossible for us to give guarantees, but we can point to the past; we can show that the record of English rule is a constant series of steps from bad to worse (cheers), that the condition of English power is more insecure and more unstable at the present moment than it has ever been (applause). We can point to the example of other countries; of Austria and of Hungary - to the fact that Hungary having been conceded Self-Government became one of the strongest actors in the Austrian Empire. We can show the powers that have been freely conceded to the Colonies - to the greater Colonies - including this very power to protect their own industries against and at the expense of those of England. We can show that disaffection has disappeared in al the greater English Colonies; that while the Irishman who foes to the United States of America carries with him a burning hatred of English rule (cheers); that while that burning hatred constantly lives in his heart, never leaves him, and is bequeathed to his children, the Irishman coming from the same village, from the same parish, and from the same townland, equally maltreated, cast out on the road by the relentless landlord, who goes to one of the colonies of Canada or one of the colonies of Australia, and finds there another and a different system of English rule to that which he has been accustomed to at home, becomes to a great extent a loyal citizen and a strength and prop to the community amongst whom his lot has been cast; that he forgets the little memories of his experience of England at home, and that he no longer continues to look upon the name of England as a symbol of oppression, and the badge of the misfortunes of his country (cheers). I say that it is possible, and that is the duty of English statesmen at the present day to inquire and examine into those facts for themselves with their eyes open, and to cease the impossible, of going forward in the continued misgovernment of Ireland and persisting in the government our people by a people outside herself who know not her real wants (cheers); and if these lessons be learned, I am convinced that the English statesman who is great enough, and who is powerful enough to carry out these teachings, to enforce them on the acceptance of his countrymen, to give to Ireland full legislative independence, full power to manage her own domestic concerns, will be regarded in the future as one who has removed the greatest peril to the English Empire (hear, hear) - a peril, I firmly believe, which if not removed will find some day, perhaps not in our time - some year, perhaps not for many years to come, but will certainly find sooner or later, and it may be sooner than later, an opportunity of revenging itself - (loud cheers) - [Underlined] to the destruction of the British Empire for the misfortunes, the oppressions, and the misgovernment of our country [Underlined] (loud cheers).
+         </p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

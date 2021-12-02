@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Imperial Parliament, The Standard, Tuessday 23 May 1876</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Imperial Parliament</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="182249744" level="j">The Standard</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">2</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1876-05-23">23 May 1876</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00047"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">        
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url=""></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell, who seconded the motion for the adjournment of the house, said the Prime Minister had spoken of two of the prisoners as being murderers, meaning those who had been convicted at Manchester. The right hon. gentleman had also spoken of the soldiers who had been found guilty of breaking their oaths of allegiance. With regard to the next class of prisoners, he (Mr. Parnell) held in his hand a book called "The Rights of American Citizens." It was an order by the United States Congress of the proceedings during the Fenian troubles in connection with her citizens. It gave a full report of the proceedings at the trial of Condon and Malloney, at Manchester. In this book the evidence against Condon is given in full, and if the right hon. gentleman would look at it he would find that there was not a particle of evidence to connect Condon with the murder, and all that was proved was that he was seen by three of four witnesses in the crowd which surrounded the van. As regarded Malloney, he was apprehended in London after the three men in Manchester were hanged. He was convicted upon his own statement to a fellow-workman that he had been present at the attack on the van; but there were many men who knew that he was not in Manchester at that time. He (Mr. Parnell) regretted that the junior member for Tipperary was not in his place, because he would be prepared to say that in his opinion Condon was really innocent of the murder of Brett. With regard to the prisoners in Western Australia the right hon. gentleman stated that they were in a better position there than they would be in this country. He (Mr. Parnell), however, had been told by the late Mr. Ronayne that the convict establishments in Western Australia were about to be given up, and that the prisoners who were no released would be sent home to this country to be kept in penal servitude. He hoped that this was a matter on which the government would obtain information. With regard to the military prisoners, McCarthy was a brave soldier, who had fought in many parts of the world for England. Was it fair that this man, who had now endured ten years of penal servitude - a punishment which was intended for the discipline and reformation of thieves and murderers - should be kept in prison any longer? In reference to Devitt, he got fifteen years' penal servitude, and the Englishman Wilson, who was associated with him, only got seven. He did not know how much the fact of his being an Irishman might have influenced the judge (cries of "Oh, oh"). Prejudices were difficult to overcome, and the fact of his being an Irishman may have insensibly influenced the judge.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

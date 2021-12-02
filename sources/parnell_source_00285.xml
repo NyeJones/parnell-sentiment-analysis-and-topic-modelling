@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Office of Chief Secretary for Ireland. - Resolution, Hansard's Parliamentary Debates, Tuesday 8 June 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Office of Chief Secretary for Ireland. - Resolution, Hansard's Parliamentary Debates, Tuesday 8 June 1880</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-08">8 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00055"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/08/office-of-chief-secretary-for-ireland#S3V0252P0_18800608_HOC_95"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, he did not intend to make more than a few observations on this question. It was, he believed, a very important subject as regarded the means of allaying one of the mischiefs attendant on the present connection between the two countries rather than as indicating any new remedies for the evils which undoubtedly existed. The hon. Member for Dungarvan (Mr. O'Donnell) had rather misunderstood a suggestion made by his hon. and learned Friend when he said that he advocated the presence of the Law Officers of the Crown in that House. He did not go so far with his hon. and learned Friend as to advocate their presence there; but merely to say that as they were there, and as they did not seem to have any ostensible employment, it might be just as well to give them something to do by handing over to them one or more of the Irish offices. He recollected that two or three years ago the Chief Secretary made a very able speech, which produced a very great impression in that House, utterly demolishing a Motion moved by the hon. Member for County Cork (Mr. Shaw), calling attention to the desirability of the restoration of the Irish Parliament, and asking for an inquiry into that subject. At that time the right hon. Gentleman did not probably know as much about Irish affairs as he now knew; but he effectually disposed of that Motion very much to his own satisfaction, at any rate, by pointing out that the consequence of that Motion would involve a change in the Constitution of this country. He thought that the right hon. Gentleman would find that a persistence in the present attempt to govern Ireland by a centralization system through Dublin Castle would involve a very much greater change in the Constitution of the United Kingdom of Great Britain and Ireland than the proposition then made by the hon. Member for Cork; and he would find also that it would be impossible, even with all the attempts at patchwork from time to time for the purpose of propping up this system of government, to persist in it for many years to come. Now they had at last a statesman as Chief Secretary for Ireland; and he was sure that the conviction would force itself upon him more and more every day that the task which he had undertaken was an impossible one, and that he would have a greater satisfaction than he had ever obtained from the administration of his Office when he handed it over to some Secretary of State chosen by the people who should sit in their own Parliament in Dublin.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Address of Mr. Parnell to his Constituents, The Leeds Mercury, Thursday 22 January 1885</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Address of Mr. Parnell to his Constituents</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="304080394" level="j">The Leeds Mercury</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">8</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1885-01-22">22 January 1885</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7010442">Leeds, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00073"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0000076/18850122/039/0008"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>Mr. Parnell rose to address the meeting. He said that the previous speaker had reminded the meeting and him that it now wanted one month of being five years since the city of Cork honoured him by making him their representative. His victory there was a very remarkable one. Coming as he did amongst them, and representing the principles which he did represent, it was extraordinary, with the limited constituency of the city at that time, and with the idea which prevailed then in the constituency, that they should have elected such a politician as he (Mr. Parnell). Their late respected Member, Mr. Joseph Romayne [sic] - (cheers) - had even told him (Mr. Parnell) that it would be impossible for Cork to return two Nationalists, and his return was the first occasion on which two Members of his way of thinking sat for and represented their city. But great as was the advance marked by his return by a very narrow majority, it was nothing to the change that had since taken place. Leaving aside altogether the great addition to the constituency which the Franchise Act had made, they had since shown, in the election of his able colleague, Mr. Deasy - (cheers) - that it was now no trouble for them to elect any number of Nationalists, and that the present constituency of Cork would leave them in a position free from care, so far as the choice of their representation went. He did not suppose that the representation of Cork would ever be contested again by the oligarchy of the city. At the election of 1880 he laid certain principles before them, and they accepted them. He said then, and pledged himself, that he would form one of an independent Irish party to act in opposition to every English Government which refused to concede the just rights of Ireland - (cheers) - and the longer the time which had gone since then, the more he was convinced that that was a true party, so far as Parliament was concerned - (cheers) - and that it would be impossible either or both of the English parties to contend for any long time against a determined band of Irishmen, acting honestly on those principles, and backed up by the Irish people. But they had not alone had that object in view. They had always been careful not to fetter or control the people at home in any way; not to prevent them from doing anything by their own strength which it was possible for them to do. Sometimes, perhaps, in their anxiety in this direction they had asked them to do what was beyond their strength; but he held that it was better to ask them to do what was beyond their strength, even though it should be impossible, than to teach them to be subservient. They had been encouraged to organise themselves, to depend upon the rectitude of their acts for their justification, and to depend upon their determination to obtain the nationality of Ireland. Nobody could point to a single action of theirs in the House of Commons, or out of it, which was not based upon the knowledge that behind existed a strong and brave people; that without the help of that people their exertions would be as nothing; and that with that help, and with that confidence, they should be, as he believed they would prove, themselves to be invincible and unconquerable. The electors, the old electors, the electors who would be swamped in the great mass of Irishmen now to be admitted to the rights of the Constitution, so far as they existed in that country, were on the whole faithful to their trust; indeed, it was not until they showed by a great many proofs that they could do without an enlargement of the franchise - and with the old restricted suffrage they could do all that was necessary in the way of Parliamentary elections - that the opposition to the admission of the masses of the Irish people to the franchise disappeared. But he looked forward to the future with a light heart, and he was confident that the 500,000 Irishmen who would vote in a few years would be as true, or truer to Ireland than those who had gone before; and that they might safely trust them to the exercise of the great and important privilege, unequalled in its greatness in the history of any country, which would shortly be placed upon them. He was confident that when the reckoning up, after the general election of 1886 came, that they in Ireland would have cause to congratulate themselves in the possession of a strong party. It would bear down all opposition, and, aided by the organisation of the country behind, they would be enabled to gain for their country those rights which were stolen from her. (Cheers.) They would struggle, as they had been struggling, for the great and important interests of the Irish tenant-farmers, and they would ask that their industry should not be fettered with rent. (Cheers.) They would ask also from the tenant-farmers in return that they should do all they could to encourage the struggling manufactures of Ireland, and he should not think it a great sacrifice to be called upon when he wanted to anything, when he had to purchase anything, to consider how he might get it of Irish material and manufacture, even if he had to pay a little more for it. He was sorry if the agriculturists had shown themselves a little deficient in their duties, in this respect; but he felt confident that it was only necessary to bring the matter under their notice. (Hear, hear.) They would also endeavour to secure for the labourers some recognition and some right in the land of their own country. (Cheers.) They did not care whether it was farmer or landlord that stood in his way, they considered that; whatever class attempted to obstruct the labourer in the possession of those fair and just rights to which he was entitled, that class should be coerced into doing justice to the labourer. They should show their desire to benefit the labourer by the passage of the Labourers Act, which, though maimed and mutilated in many of its provisions, would, however, secure for the labouring class a portion of what they strove to secure for them. He came back from the consideration of these questions, and every Irishman should be forcibly driven back to the question of the national self-government of Ireland. (Cheers.) He did not know this question would be eventually settled. He did not know whether England would be wise in time, and concede to arguments the restitution of what was stolen from them towards the close of the last century. It was given to none of them to know the future, and just as it was impossible for them to say in what way, or by what means, the national question might be settled, in what way full justice might be done to Ireland, so it was impossible for them to say to what extent that justice would be done. They could not ask for less than the restitution of Grattan's Parliament. (Cheers.) They could scarcely under the Constitution ask for more, but no man had a right to fix a boundary to the march of a nation. (Here the whole audience rose to their feet and cheered for several minutes continuously.) No man had a right to say to his country, "Thus far shalt thou go, and no farther;" and the Parliamentary party had never attempted to fix a ne plus ultra [italics] to the progress of Ireland's nationhood, and they never would do so. While they left those things to time and the circumstances of the future, each, one of them should resolve in their own hearts that they would at all times do everything which within them lay to obtain for Ireland the fullest measure of her right. (Great applause.) In this way they would avoid differences and contentions amongst themselves; in this way they should not give up anything which the accidents or the chances of the future may afford, in favour of their country; and while they struggled to-day for that which it may seem possible for them to obtain, they might struggle for it with the [indecipherably] consciousness that they were doing nothing to hinder or prevent better men who may come forward in the future, from gaining better things than those for which they were now struggling. (Tremendous cheers.)</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

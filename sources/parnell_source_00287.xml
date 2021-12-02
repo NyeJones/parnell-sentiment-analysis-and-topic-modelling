@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title></title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Registration of Voters (Ireland) Bill. - [Bill 150.], Hansard's Parliamentary Debates, Friday 11 June 1880</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-11">11 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00056"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/11/registration-of-voters-ireland-bill-bill#S3V0252P0_18800611_HOC_180"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, he was sorry to see that the first act of the new Solicitor General for Ireland (Mr. W. M. Johnson) was to make an obstructive Motion to the progress of an Irish measure of assimilation. If there was one principle to which the present Government were pledged it was that of assimilating the Irish and English law. The Bill of the hon. Member for Kildare had been brought forward to redress an admitted inequality in the English and Irish law of registration. Under the old law the County Court Judges were not compelled to hold Revision Courts, except in a certain number of places; it was found that these places were not convenient, and that the number of Courts were far too few for the purpose of affording facilities to those persons entitled by law to obtain the franchise, and the Lord Lieutenant was empowered to direct that extraordinary Revision Sessions should be held. But in practice the Lord Lieutenant did not make these provisions, although his hon. Friend hoped that the present Lord Lieutenant would be better in that re-respect than his Predecessor. Formerly, under the old law, the onus was thrown upon the Lord Lieutenant of providing additional facilities; but it was asked under the present Bill that the onus might be thrown upon the Lord Lieutenant of preventing additional facilities being granted, and he and his hon. Friends could not but consider the request a very reasonable one. He was surprised that the Solicitor General for Ireland had objected to that very reasonable request. If the hon. and learned Gentleman would allow him to correct his statement, he would say that, although he had mentioned the number of polling places in county Cork as amounting to 22, he (Mr. Parnell) had had the very best opportunities for knowing that they numbered 50. He would ask the Solicitor General for Ireland, whether, under all the circumstances of the case, he ought to oppose a clause of this kind? No Notice of objection had been given, and they had not been informed of the reasons of the Government or the Solicitor General for Ireland. He was sure the hon. and learned Gentleman would see, on consideration, that opposition to the clause was unnecessary.</p>
+         <p>...</p>
+         <p>MR. PARNELL said, that perhaps the proper way to settle this question would be to follow precedent. Everyone must wish to avoid inflicting unnecessary expense upon the ratepayers of Ireland. Every Irishman went to chapel once a-year, and probably a great majority once a week; but very few Irishmen probably went to the police barrack at all during that time. If they wished to publish the information in the lists in the most efficient way, it seemed to him it would be by affixing these notices on the churches and chapels. He should be in favour of adopting a compromise in this matter by striking out the police barracks and market places and leaving the churches and chapels. He did not think that that could be done then, for the Question put from the Chair would probably be that the clause stand part of the Bill.</p>
+      </body>
+  </text>
+</TEI>

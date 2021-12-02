@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Parliamentary Affirmation. Resolution., Hansard's Parliamentary Debates, Thursday 1 July 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Parliamentary Affirmation. Resolution.</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-07-01">1 July 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00063"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04"> 
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jul/01/parliamentary-affirmation-resolution#S3V0253P0_18800701_HOC_157"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL said, it was with the utmost reluctance that, as an Irish Protestant, a member of the Synod of the Protestant Church of Ireland, and the parochial nominator of his parish, chosen by the votes of his fellow-Protestants to that office, he wished to explain his reasons for the vote which he intended to give for the Resolution of the Prime Minister. He could not recollect any time when he had felt greater timidity, less confidence in the result of the action which he was about to take, or less confident in the belief that the mass of the Irish people were behind him than upon the present occasion. In his past political life he had always felt that his action would be understood and appreciated by his constituents; but, upon the present occasion, he was bound to believe there was, at all events, very great risk of its being misunderstood. His religion, however, taught him to be just and fear not; and although a man might be placed under a temporary cloud or a temporary disqualification, he thought and felt convinced that, in the long run, if he acted according to the just dictates of his own conscience, every right-thinking man at home in Ireland would ultimately come to his support. Now, why did he intend to vote for the Resolution of the Prime Minister? Because he believed that the law entitled Mr. Bradlaugh to take his seat in that House, and he objected to that method of making law by Parliamentary Resolution. If those Gentlemen on the Opposition side of the House desired to keep Mr. Bradlaugh out of the House—and who said they desired to do so, because the law was against his views—if they desired what they said, why did they not legally test the question? But what had they done? They had prevented any legal test from being taken; they had deliberately prevented the action of the ordinary law of the land; and they had deliberately prevented an important constituency like Northampton from having its right of representation in the House of Commons. Now, a cry had been raised against him (Mr. Parnell) in Ireland that he was an Atheist, because he voted for the admission of Mr. Bradlaugh. He wished to say that Mr. Bradlaugh's religious tenets and his doctrines with reference to over-population were abominable; but because he (Mr. Parnell) objected to 1305that Gentleman's doctrines on those questions was not a sufficient reason why he should go contrary to the law. Catholic Members for Ireland had felt very strongly on the question—very strongly, indeed—and they had been told that they ought to recollect that it was once sought to keep them out, just as it was now sought to keep Mr. Bradlaugh out. But he would ask the Catholic Members what did they fear? Did they fear that their religion would be injured by Mr. Bradlaugh's introduction to the House? ["No, no!"] If they did not, then upon what principle did they proceed? He had listened carefully to many of the speeches of his Catholic Friends from Ireland, and it had appeared to him that they had argued that it was their duty as Catholics to keep Mr. Bradlaugh out of the House lest their religion should be injured by his introduction. ["No, no!"] Then, for what other reason did they object to his coming there? An appeal had been made to Catholic Ireland. They had been told that that little Island was the last country that had resisted the inroads of Continental infidelity, and that unless they desired that that odious thing should creep into Ireland, they must keep Mr. Bradlaugh out of the House. Well, that surely seemed to indicate a fear on the part of Irish Catholics that their religion might be injured by Mr. Bradlaugh's introduction into the House; but were they entitled really to look at it from that point of view? Were they, as Catholics, entitled to say—"Because we are Catholics, we object to Mr. Bradlaugh?" For they must recollect exactly the same argument was used against their own admission. Why were Catholics deprived of their civil rights for centuries? Why were they prevented from coming into that House? It was because Protestants feared that the admission of Catholics would injure the Protestant religion, and it was because the majority of Protestants began to see that even if they had that fear, it was an unworthy fear, and a fear that they ought not to allow to influence them in considering the civil rights of their fellowmen, that Catholics were at last admitted to the same civil and religious rights as Protestants. They must never forget that, in dealing with this subject, if they once admitted the principle that they were entitled to ob- 1306ject to a man because his doctrines were likely to injure their religion, they struck at the very root of civil and religious liberty, and that was why he felt it his duty to do that which was personally odious to him. It was a personally odious task for him to undertake to vote for the admission of the hon. Member for Northampton (Mr. Bradlaugh) to that House; but if he had to walk through that Lobby by himself, he should feel himself a coward if he refused to do so.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

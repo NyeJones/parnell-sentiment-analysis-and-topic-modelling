@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Ways and Means. - Report, Hansard's Parliamentary Debates, Friday 11 June 1880</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Ways and means. - Report</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="81159818807513812830" level="m">Hansard's Parliamentary Debates</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page"></biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1880-06-11">11 June 1880</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7011781">London, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00056"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>hansard report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">   
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://api.parliament.uk/historic-hansard/commons/1880/jun/11/ways-and-means-report#S3V0252P0_18800611_HOC_102"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>MR. PARNELL , inasmuch as he felt sure the right hon. Gentleman the Chief Secretary was anxious to proceed with the Belief of Distress (Ireland) Act (1880) Amendment Bill, did not wish to intrude at any length. He merely wished to say that the invitation of the hon. Member for Glasgow (Mr. Anderson) would certainly be accepted so far as he was concerned. He thought Irish Members had made a mistake in not approaching the unequal incidence of the taxation in England and in Ireland with a definite intention. In the late Parliament, the hon. Members for Galway (Mr. Mitchell Henry) and Youghal (Sir Joseph M'Kenna) occasionally directed attention in their usual able way to this unequal incidence. In his (Mr. Parnell's) opinion, those hon. Gentlemen committed a mistake in that they brought forward abstract Motions, for experience showed that it took a very long time for abstract Motions to ripen a question sufficiently for decision. How often did the hon. Member for Leicester (Mr. P. A. Taylor) take up the subject of flogging in this way; and it was not until the case was taken up in a more practical way by the examination of details of Government Bills, and by serving Amendments to those Bills, that the question was solved successfully. If Irish Members would follow that example, and, joined by the Scotch Members, would press their grievances in the form of Amendments to the Budget Bill in its various stages, then they would probably receive more attention from the responsible Minister of the Crown than those grave grievances received when advanced under the form of an abstract Motion. It had been proved over and over again that foreign alcohol was taxed at the rate of 6d. only for 20 degrees of strength, while native alcohol paid 2s. for the same strength. It was sometimes said this was done to induce the working man to drink claret in preference to stronger drinks; but he did not believe that. The object really was to obtain from France more favourable terms for the admission of our manufactured articles. This was a course that worked a special injustice. In Ireland there were no important manufactures, and so it amounted to this, that rich, prosperous England was benefited at the expense of impoverished Ireland. It worked in this way, although the relative wealth of Ireland, as represented by her income tax-paying population, in proportion to that of England, was as 1 to 27, Ireland paid in contributions to the Imperial Exchequer a proportion of 1 in 8. This was manifestly unjust, and it was no answer to say that the article of whisky was taxed the same in all parts of the United Kingdom, for it was not fair to throw the incidence of taxation on a particular article which was produced in two small portions of the United Kingdom and not in the larger portions of the United Kingdom. According to the duties levied at present, the rich Englishman who drank his champagne paid only 2d. a bottle in the shape of duty, while the poor Scotchman or Irishman-—not that the latter were in the position to do so now-a-days—who drank whisky paid duty at the rate of 2d. per glass instead of the bottle.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>

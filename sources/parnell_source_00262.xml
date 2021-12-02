@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- put file title here e.g.  Mr Parnell's Speech at Clara, The Times, Wednesday 23 February 1881-->
+            <title>Untitled, The Manchester Evening News, Thursday 11 February 1886</title>
+         </titleStmt>
+         <publicationStmt>          
+            <publisher>Parnell's Speeches</publisher>
+            <pubPlace>Cambridge</pubPlace>            
+            <availability xml:id="metadataRights" status="restricted">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">This metadata is licensed under a Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <!--put source author name with VIAF ID if applicable e.g. <author key="98043225">Smith, John</author>-->
+                  <author key=""></author>
+                  <!--put exact source title here e.g. Mr Parnell's Speech at Clara, level as appropriate-->
+                  <title level="a">Untitled</title>
+               </analytic>
+               <monogr>
+                  <!--put publication title here with VIAF ID and level <title key="184285835" level="j">The Times</title>-->
+                  <title key="160725623" level="j">The Manchester Evening News</title>
+                  <imprint>
+                     <!--put pagination here <biblScope unit="page">10</biblScope>-->
+                     <biblScope unit="page">2</biblScope>
+                     <!--put source date here numeric and text <date when="1881-02-23">February 23, 1881</date>-->
+                     <date when="1886-02-11">11 February 1886</date>
+                     <!--put publication place of source with Getty Thesaurus ID e.g. <pubPlace key="7011781">London</pubPlace> -->                    
+                     <pubPlace key="7010477">Manchester, England</pubPlace>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy xml:id="VIAF">
+              <bibl>
+                 <ref target="https://viaf.org/">Virtual International Authority File</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="TGN">
+              <bibl>
+                 <ref target="http://www.getty.edu/research/tools/vocabularies/tgn/">Getty Thesaurus of Geographic Names</ref>
+              </bibl>
+           </taxonomy>
+           <taxonomy xml:id="SPEECHES">
+              <bibl>Register of Parnell's speeches</bibl>
+           </taxonomy>
+           <taxonomy xml:id="ARTICLE_TYPES">
+              <bibl>Typology of articles</bibl>
+           </taxonomy>          
+        </classDecl>
+     </encodingDesc>
+     <profileDesc>
+        <textClass>
+           <keywords scheme="#SPEECHES">
+              <list>
+                 <!--put speech ID(s) here e.g. <item><term key="speech_00001"/></item>-->
+                 <item>
+                    <term key="speech_00050"/>
+                 </item>
+              </list>
+           </keywords>
+           <keywords scheme="#SOURCE_TYPES">
+              <list>
+                 <!--put typology of article here e.g. <item><term>newspaper report</term></item>-->
+                 <item>
+                    <term>newspaper report</term>
+                 </item>
+              </list>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change when="2020-11-04">    
+           Record created by Hugh Hanley
+        </change>        
+     </revisionDesc>
+  </teiHeader>
+  <facsimile>
+     <!--<graphic url="image100.tif"></graphic>-->
+     <graphic url="https://www.britishnewspaperarchive.co.uk/viewer/bl/0000272/18860211/003/0002"></graphic>
+  </facsimile> 
+  <text>
+      <body>
+         <!--put exact source text here in new <p></p> tags for each paragraph e.g. <p>Mr Parnell addresed the crowd [etc]</p>-->
+         <p>A few notes and comments may be profitably added to the remarks we made yesterday upon the "split" in the Home Rule party in Galway. For the moment the breach which threatened to be so disastrous not only to Mr. Parnell, but the popular cause, is closed. This result has caused Mr. Parnell immense anxiety, and, as we learn to-day, no less personal labour. He has had to go down into the streets and meet the electors far to face; we might almost say man by man. From his hitherto high and safe eminence as the "uncrowned King," he has had to humble himself to the work of canvassing. This necessity has been forced upon him by an awkward circumstance. Prompt and vigorous as was his action when he saw the mischief which his indiscreet lieutenants were creating, he was too late to prevent the nomination of Mr. Lynch. Hence Mr. Lynch's name appears upon the ballot papers, as well as that of Captain O'Shea. Reliable information leads to the belief that not a few votes will be given to the former. The Conservatives will support him - probably, too, those still unconvinced, and unsatisfied Nationalists who are sufficiently independent to exercise a will of their own in defiance of their leader. A Galway correspondent, writing last night, said: "Even by Mr. Parnell's personal canvass to-day it has not been possible to convince the country people living in remote "liberties" of the city of the necessity for obedience to Mr. Parnell's wishes by voting against the popular candidate." Mr. Parnell anticipated this, and did his best to meet it. In a speech which he delivered to a crowd in the open air yesterday afternoon he warned his party against a misconception of the case which might have dangerous results. You must not think, he said, that because Mr. Lynch has retired it is not necessary to go to the poll and vote. Every man who has a vote must go and record it in favour of Mr. O'Shea. The Tories are capable of playing a "dirty trick." They may take advantage of the situation and poll for Mr. Lynch if with no hope of carrying him, with the hope that they may run Mr. O'Shea very close. Mr. Parnell, therefore, implored the electors to defeat this "dirty trick." but, as we reminded our readers yesterday, the most important fact in the business is the appearance of Mr. Parnell in self-defence in a constituency which has always been regarded as loyal to him to the backbone. The "split" has been like the sudden discovery of dynamite beneath his own hearthstone; his foes have truly been they of his own household, and his anxieties have been proportionately intense. Whether they are dissipated remains to be seen. For the moment the quarrel has ended, the wound is plastered over if not healed. Mr. Healy might, however, have remained in Galway to stand side by side with Mr. Parnell before the electors yesterday to show, in the most patent manner, that there was no longer the slightest ill-feeling, or even any further misunderstanding. But he quitted the place, and left his chief to deal with the revolt single-handed. Mr Parnell was equal to the occasion, and yet it cannot be said that his hitherto unchallenged authority has not received an ugly blow. It is significant that he has had to explain and even apologise. This is evident from his own narrative of Captain O'Shea's life and adventures as a doubtful bird who has for years been hovering about the Nationalist aviary, but never entered it. The story is an interesting one and will probably repay perusal in some leisure hour; for the present it is only valuable as throwing light upon Mr. Parnell's personal position and policy, and as illustrating afresh his absolute dictatorship. There is one passage in it which shows that Mr. Parnell is not ungrateful. We refer to that which narrates the choice of Mr. Parnell as leader of the Irish party in 1880. "I was nominated," said Mr. Parnell, "as chairman and leader of the party, Mr. William Shaw was also proposed. Twenty members of the party voted for Mr. Shaw and twenty-two members voted for me. Mr. O'Shea was one of the twenty-two members who voted for me against Mr. Shaw. If Mr. O'Shea and one other member had voted for Mr. Shaw, and not for me, I should never have been the leader of the Irish party, and many proud things which have been done for Ireland could not have been accomplished." With these memories so grateful to himself, Mr. Parnell confesses that he could not leave Mr. O'Shea out of the party. But there was a trouble with him nevertheless. Mr. O'Shea refused to sit on the same bench with the Parnellites in the House of Commons. Although this was the "only fault" which the Dictator could find with Mr. O'Shea's public conduct, it was a "fatal fault," a "fatal blemish" indeed. Mr. Parnell himself told him so. That was the reason why Mr. O'Shea was not recommended to the electors of Clare. But Mr. O'Shea has mended his ways. He has promised to behave as a good Parnellite should. If returned to Parliament he will sit with his own people and be a good boy. Under these circumstances could Mr. Parnell allow him to be persecuted? Certainly not. Therefore the Galway Nationalists must elect him. And Mr. Lynch what is to be his reward? Mr. Parnell is gracious; Mr. Lynch shall have the next vacancy that occurs. Indeed, had he but made known his willingness to stand for Galway in time - that is before it was Mr. Parnell's duty to consider and decide upon a candidate - he would have been the "chosen man." The whole affair was due to an unavoidable accident; and so, says Mr. Parnell, it soon ends and there will be harmony and good feeling all round. We much regret that party exigencies debarred Mr. Parnell from speaking of the great subject which absorbs public attention. He expressed a similar regret yesterday. The day is very near at hand, he believes, when Ireland will have secured the right to make her own laws on her own soil. For himself, he seeks no more. He has no personal ambition to serve. When a national Irish Parliament shall be established his mission will be fulfilled. Till then he will stand by the cause which he has espoused and the people who have trusted him.</p>
+         <p></p>
+      </body>
+  </text>
+</TEI>
