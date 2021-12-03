@@ -12,8 +12,8 @@ pd.options.mode.chained_assignment = None
 filenames = [
             "outputs/parnell_vader_neutral_speech_sentiment_analysis_scores.csv", 
             "outputs/parnell_vader_pos_neg_speech_sentiment_analysis_scores.csv",
-            "outputs/parnell_vader_strong_non_compound_scores_sentiment_high.csv",
-            "outputs/parnell_vader_strong_non_compound_scores_sentiment_low.csv"
+            "outputs/parnell_vader_strong_non_compound_scores_sentiment_low.csv",
+            "outputs/parnell_vader_strong_non_compound_scores_sentiment_high.csv"
             ]            
 
 #create dataframe from sentiment analysis csv data
@@ -149,3 +149,6 @@ for sent_df, file_base in zip(sentiment_dfs, file_bases):
         plt.savefig(f"outputs/top_mod/images/{name}_{file_base}_highest_scoring_topics.png")
         plt.close()
         
+        #output top 50 to csv
+        comb_df_head.insert(1, "date", name)
+        comb_df_head.to_csv(f"outputs/top_mod/df_heads/{name}_{file_base}_combined_score_df_head.csv")
