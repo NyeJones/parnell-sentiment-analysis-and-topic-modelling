@@ -6,8 +6,9 @@ The project uses the Python programming language for two separate scripts:
 
 * parnell_sentiment_analysis.py
 * parnell_topic_model.py
+* parnell_topic_model_unique_high_low_sentiment.py
 
-The sentiment analysis script should be run before the topic modelling script.
+The scripts should be run in the order given above.
 
 ## Libraries
 
@@ -39,11 +40,6 @@ The topic modelling script takes the CSV outputs created above and uses a Term F
 
 Each sentence is cleaned of anomalies that might disrupt the topic modelling process and duplicate sentences from different sources are removed from the corpus. These sentences are then tokenized before being fed into the sklearn vectorizer to get a TFIDF score for each word. The words under consideration are limited to the top 200 words across the corpus by the vectorizer.
 
-The results for each term are grouped by source year and then the scores for each term within that year are added together to give a combined term score. There are four CSV outputs for each year:
+The results for each term are grouped by source year and then the scores for each term within that year are added together to give a combined term score. There are eight CSV outputs for each year. These grouped results are used to create four visualisations of the top combined sentiment terms for each year as additional outputs, with a limitation of the top 50 terms for each visualisation. The combined results give us a clearer idea of which terms are most prominent across each year.
 
-* [year] parnell_vader_neutral_speech_sentiment_analysis_scores
-* [year] parnell_vader_pos_neg_speech_sentiment_analysis_scores
-* [year] parnell_vader_strong_non_compound_scores_sentiment_high
-* [year] parnell_vader_strong_non_compound_scores_sentiment_low
-
-These grouped results are used to create four visualisations of the top high sentiment terms for each year as additional outputs, with a limitation of the top 50 terms for each visualisation.
+The topic model script also outputs four CSV files for each year containing the max top 50 scores for each combined sentiment CSV. These files are used by the parnell_topic_model_unique_high_low_sentiment.py script to find the unique top high and neutral sentiment terms for each year from the combined results for each year.
