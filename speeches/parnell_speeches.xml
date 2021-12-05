@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speeches>
+    <speech>
+        <speech_id>speech_00001</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="concert hall">The Rotunda</venue>
+        <date when="1874-07-11">11 July 1874</date>
+        <summary>Parnell discussed a recent debate in the House of Commons and made historical allusions to Grattan and O'Connell</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00002</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="concert hall">The Rotunda</venue>
+        <date when="1875-01-21">21 January 1875</date>
+        <summary>Parnell seconded a motion stating that the Land Act 1870 was insufficient</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00003</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="concert hall">The Rotunda</venue>
+        <date when="1875-01-22">22 January 1875</date>
+        <summary>Parnell spoke at a meeting of the Irish Home Rule League, seconding a motion to admit new members</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00004</speech_id>
+        <place key="1042570">Navan, Ireland</place>
+        <venue type="open air">Fair Green</venue>
+        <date when="1875-04-12">12 April 1875</date>
+        <summary>Parnell discussed Home Rule, political prisoners, and the 1870 Land Act</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00005</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-04-26">26 April 1875</date>
+        <summary>Parnell spoke against the Peace Preservation (Ireland) Bill</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00006</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-04-30">30 April 1875</date>
+        <summary>Parnell made a short statement during a Committee meeting opposing an amendment to the Peace Preservation (Ireland) Bill</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00007</speech_id>
+        <place key="7898208">Avondale, Wicklow, Ireland</place>
+        <venue type="Avondale">Avondale Estate</venue>
+        <date when="1875-05-15">15 May 1875</date>
+        <summary>Upon returning home from London, Parnell addressed a crowd</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00008</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-05-04"></date>
+        <summary>Parnell made a short intervention in the Committee debate on the Coercion Bill</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00009</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-05-06">6 May 1875</date>
+        <summary>Parnell denied the existence of 'Ribbonism' in Westmeath</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00010</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-06-10">10 June 1875</date>
+        <summary>Parnell asked a question relating to a constituency matter</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00011</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-10-18">18 June 1875</date>
+        <summary>Parnell asked a question relating to a constituency matter</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00012</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of common">House of Commons</venue>
+        <date when="1875-06-15">15 June 1875</date>
+        <summary>Parnell asked a question relating to a constituency matter</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00013</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="concert hall">St James Hall</venue>
+        <date when="1875-06-16">16 June 1875</date>
+        <summary>Parnell seconded a motion at a Home Rule meeting</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00014</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-07-08">8 July 1875</date>
+        <summary>Parnell spoke about the treatment of Irish political prisoners</summary>
+    </speech> 
+    <speech>
+        <speech_id>spech_00015</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-07-27">27 July 1875</date>
+        <summary>Parnell spoke against the Government's attempt to alter the order of business</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00016</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-07-31">31 July 1875</date>
+        <summary>Parnell spoke about the Irish education system</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00017</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="open air">Hyde Park</venue>
+        <date when="1875-08-01">1 August 1875</date>
+        <summary>Parnell addressed a meeting in Hyde Park about the treatment of political prisoners</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00018</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-08-02">2 August 1875</date>
+        <summary>Parnell asked a question about a constituency matter</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00019</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-08-02">2 August 1875</date>
+        <summary>Parnell asked a question relating to the sentencing of John O'Brien</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00020</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="conference room">Mechanic's Institute</venue>
+        <date when="1875-08-10">10 August 1875</date>
+        <summary>Parnell chaired a meeting of the Amnesty Association</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00021</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1875-08-11">11 August 1875</date>
+        <summary>Parnell spoke on the matter of the supply of vestments in Irish jails and workhousees</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00022</speech_id>
+        <place key="7003494">Wexford, Ireland</place>
+        <venue type="town hall">Assembly Rooms</venue>
+        <date when="1875-10-04">4 October 1875</date>
+        <summary>Parnell responded to the toast</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00023</speech_id>
+        <place key="7003494">Wexford, Ireland</place>
+        <venue type="open air">Enniscorthy, near Vinegar Hill</venue>
+        <date when="1875-10-03">3 October 1875</date>
+        <summary>Parnell addressed a Home Rule demonstration and spoke about Home Rule, political prisoners, and the 1798 rebellion</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00024</speech_id>
+        <place key="1042570">Navan, Ireland</place>
+        <venue type="hall">Young Men's Association</venue>
+        <date when="1875-10-06">6 October 1875</date>
+        <summary>Parnell addressed his constituents, speaking about Home Rule and denominational education</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00025</speech_id>
+        <place key="7891225">Nobber, Ireland</place>
+        <venue type="open air">Outside Martin's Hotel</venue>
+        <date when="1875-10-17">17 October 1875</date>
+        <summary>Parnell spoke about Home Rule, religious education, and political prisoners</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00026</speech_id>
+        <place key="7003479">Galway, Ireland</place>
+        <venue type="hall">Assembly Rooms, Black's Royal Hotel</venue>
+        <date when="1875-10-23">23 October 1875</date>
+        <summary>Parnell made a short speech encouraging his audience to show resolve</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00027</speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when="1875-11-09">9 November 1875</date>
+        <summary>Parnell spoke about Home Rule and the activities of the Irish party at Westminster at a meeting of the Ancient Order of Foresters</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00028</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="mansion house">Mansion House</venue>
+        <date when="1875-11-23"></date>
+        <summary>Parnell participated in a heated debate during a meeting of the O'Connell Centenary Committee</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00029</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="concert hall">The Rotunda</venue>
+        <date when="1875-11-30">30 November 1875</date>
+        <summary>Parnell spoke at a weekly meeting of the Home Rule League</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00030</speech_id>
+        <place key="7010597">Liverpool, England</place>
+        <venue type="town hall">League Hall</venue>
+        <date when="1875-12-31">31 December 1875</date>
+        <summary>Parnell spoke alongside Isaac Butt at a meeting of the Home Rule Confederation of Great Britain</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00031</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="concert hall">Exhibition Room, Rotunda</venue>
+        <date when="1876-01-18">18 January 1876</date>
+        <summary>Parnell spoke about the importance of Home Rule</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00032</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-02-08">8 February 1876</date>
+        <summary>Parnell spoke about Irish political prisoners</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00033</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-02-14">14 February 1876</date>
+        <summary>Parnell asked the First Lord of the Admiralty a question about the HMS Vanguard</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00034</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-02-17">17 February 1876</date>
+        <summary>Parnell gave notice of a forthcoming question</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00035</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-02-21">21 February 1876</date>
+        <summary>Parnell asked the Chief Secretary for Ireland a question</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00036</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-02-22">22 February 1876</date>
+        <summary>Parnell asked the Under Secretary of State for India a question relating to the dismissal of a soldier from the Bombay Native Army</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00037</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-02-25">25 February 1876</date>
+        <summary>Parnell asked the Secretary of State for War a question concerning the Militia</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00038</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-02-28">28 February 1876</date>
+        <summary>Parnell asked two questions concerning the case of Edward O'Meagher Condon</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00039</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-03-06">6 March 1876</date>
+        <summary>Parnell gave notice that he intended to move for leave to introduce a bill dealing with tenants' rights</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00040</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-03-15">15 March 1876</date>
+        <summary>According to several newspapers, Parnell gave notice that he intended to ask a question relating to crime in Ireland; however, the Irish Times insisted that this was a misattribution</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00041</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-03-21">21 March 1876</date>
+        <summary>Parnell attempted to make a speech but the House would not listen to him and he pushed for an adjournment to the debate</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00042</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-03-27">27 March 1876</date>
+        <summary>Parnell asked a question about a constitutency matter</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00043</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-03-29">29 March 1876</date>
+        <summary>Parnell presented a number of petitions to the House</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00044</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-04-04">4 April 1876</date>
+        <summary>Parnell asked two questions concerning the blending of Irish and Scotch whiskies</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00045</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-04-03">3 April 1876</date>
+        <summary>Parnell rebuked Lord Elcho for his statements on the Irish Land Bill</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00046</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-05-04">4 May 1876</date>
+        <summary>Parnell condemned the sale of food that was not fit for consumption to merchant ships</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00047</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-05-22">22 May 1876</date>
+        <summary>Parnell made a speech about the release of Irish political prisoners</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00048</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1876-05-29">29 May 1876</date>
+        <summary>Parnell made several short interventions relating to Parliamentary procedure and also condemned M.P.s who did not attend debates but turned up to vote anyway</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00049</speech_id>
+        <place key="7007082">Galway, Ireland</place>
+        <venue type=""></venue>
+        <date when="1886-02-10">10 February 1886</date>
+        <summary>Parnell made a speech asking the Galway electorate to vote for Captain O'Shea, explaining why he recommended O'Shea and the misunderstanding regarding Lynch's candidacy</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00050</speech_id>
+        <place key="7007082">Galway, Ireland</place>
+        <venue type="open air">Railway Hotel</venue>
+        <date when="1886-02-10">10 February 1886</date>
+        <summary>Parnell made another a speech asking the Galway electorate to vote for Captain O'Shea, explaining why he recommended O'Shea and the misunderstanding regarding Lynch's candidacy</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00051</speech_id>
+        <place key="7007082">Galway, Ireland</place>
+        <venue type="hall">Young Ireland Society hall</venue>
+        <date when="1886-02-10">10 February 1886</date>
+        <summary>Parnell seconded a motion of thanks and referred to Lynch as a symbol of unity</summary>
+    </speech> 
+    <speech>
+        <speech_id>speech_00052</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1886-04-08">8 April 1886</date>
+        <summary>Parnell made a speech on the first Home Rule bill</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00053</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1886-06-07">7 June 1886</date>
+        <summary>Parnell made a controversial speech on the second reading of the Home Rule bill, touching on the question of the Protestant minority</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00054</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-04">4 June 1880</date>
+        <summary>Parnell demanded time to debate the amendment to the Landlord and Tenant (Ireland) Act</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00055</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-08">8 June 1880</date>
+        <summary>Parnell spoke on the selection of a new Chief Secretary for Ireland</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00056</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-11">11 June 1880</date>
+        <summary>Parnell commented on discrepancies between the duties levied on whiskey and champagne</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00057</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-11">11 June 1880</date>
+        <summary>Parnell objected to an amendment to the Registration of Voters (Ireland) Bill</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00058</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-14">14 June 1880</date>
+        <summary>Parnell protested against an attempt to silence F. H. O'Donnell</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00059</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-17">17 June 1880</date>
+        <summary>Parnell made a long speech on the Relief of Distress (Ireland) Bill, arguing that land tenure was the principal cause of distress</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00060</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-18">18 June 1880</date>
+        <summary>Parnell demanded that more time be given for Irish members to consider the Relief of Distress (Ireland) Bill</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00061</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-24">24 June 1880</date>
+        <summary>Parnell moved the second reading of the Relief of Distress (Ireland) Bill</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00062</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-06-30">30 June 1880</date>
+        <summary>Parnell challenged the government's claim that the new land bill represented a final settlement to the issue</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00063</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-07-01">1 July 1880</date>
+        <summary>Parnell explained his reasons for voting to admit the atheist MP Charles Bradlaugh to Parliament</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00064</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-07-01">1 July 1880</date>
+        <summary>Parnell argued for the government giving a grant to the Irish Poor Law Boards</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00065</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-07-03">3 July 1880</date>
+        <summary>Parnell proposed an amendment to the Relief of Distress Act 1880</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00066</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-07-07">7 July 1880</date>
+        <summary>Parnell reacted strongly against the charge that Irishmen, specifically fishermen in this case, demonstrated a "deficiency in moral character"</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00067</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-07-08">8 July 1880</date>
+        <summary>Parnell accused the Liberal government of 'weakness and vacillation' over its approach to the Land Question</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00068</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-08-26">26 August 1880</date>
+        <summary>Parnell made several speeches including one in which he denied that he and his party were engaged in obstruction</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00069</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-08-27">27 August 1880</date>
+        <summary>Parnell made several interventions including asking the Chief Secretary about the presence of the police note-takers at political meetings in Ireland</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00070</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-08-30">30 August 1880</date>
+        <summary>Parnell made a lengthy speech about the behaviour of Irish landlords in which he also complained at how the newspapers portrayed an intervention he made several days earlier</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00071</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1880-09-01">1 September 1880</date>
+        <summary>Parnell made a speech dealing with aspects of parliamentary procedure</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00072</speech_id>
+        <place key="7013604">Cincinnati, United States</place>
+        <venue type="concert hall">Cincinnati Music Hall</venue>
+        <date when="1880-02-20">20 February 1880</date>
+        <summary>Parnell gave the infamous speech in which he reportedly claimed to want to break the 'last link' between Ireland and Great Britain</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00073</speech_id>
+        <place key="7007168">Cork, Ireland</place>
+        <venue type="concert hall">Theatre Royal, Cork</venue>
+        <date when="1885-01-22">22 January 1885</date>
+        <summary>Parnell made his famous speech about how no one had the right to fix the boundary of the march of a nation</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00074</speech_id>
+        <place key="7010597">Liverpool, England</place>
+        <venue type="concert hall">St. George's Hall</venue>
+        <date when="1885-11-22">22 November 1885</date>
+        <summary>Parnell made a speech to the Irish electors of Liverpool announcing his candidature for the Exchange Division of the city</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00075</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="house of commons">House of Commons</venue>
+        <date when="1886-01-21">21 January 1886</date>
+        <summary>Parnell spoke in answer to the Queen's speech to Parliament</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00076</speech_id>
+        <place key="7011301">Plymouth, England</place>
+        <venue type="drill hall">Drill Hall, Plymouth</venue>
+        <date when="1886-06-27">27 June 1886</date>
+        <summary>Parnell spoke to a large audience which included members of the Royal Irish Regiment to explain the importance of passing the Home Rule Bill</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00077</speech_id>
+        <place key="7011393">Portsmouth, England</place>
+        <venue type="drill hall">Drill Hall, Portsmouth</venue>
+        <date when="1886-06-25">25 June 1886</date>
+        <summary>Parnell addressed an audience of nearly 10,000, discussing Home Rule and the Protestant minority</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00078</speech_id>
+        <place key="7010597">Liverpool, England</place>
+        <venue type="town hall">League Hall</venue>
+        <date when="1885-11-10">10 November 1885</date>
+        <summary>Parnell spoke to the Irish electors of Liverpool asking them to elect T. P. O'Connor</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00079</speech_id>
+        <place key="7007567">New York, United States</place>
+        <venue type="ship">Scythia</venue>
+        <date when="1880-01-02">2 January 1880</date>
+        <summary>Parnell made a short speech upon his arrival in America, denouncing the Irish land system and appealing for help to relieve distress in Ireland</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00080</speech_id>
+        <place key="7007567">New York, United States</place>
+        <venue type="hotel">Fifth Avenue Hotel</venue>
+        <date when="1880-01-03">3 January 1880</date>
+        <summary>Parnell spoke in response to an address from Meath men who lived in America</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00081</speech_id>
+        <place key="7007567">New York, United States</place>
+        <venue type="hall">Madison Square Garden</venue>
+        <date when="1880-01-04">4 January 1880</date>
+        <summary>Parnell made a long speech about the Irish land system</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00082</speech_id>
+        <place key="7007567">New York, United States</place>
+        <venue type="concert hall">Brooklyn Academy of Music</venue>
+        <date when="1880-01-09">9 January 1880</date>
+        <summary>Parnell spoke about how the land movement would force the British government to make changes to the land system</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00083</speech_id>
+        <place key="7007567">New York, United States</place>
+        <venue type="stock exchange">New York Stock Exchange</venue>
+        <date when="1880-01-09">9 January 1880</date>
+        <summary>Parnell made a non-political speech asking for aid to prevent famine in Ireland</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00084</speech_id>
+        <place key="7013445">Boston, United States</place>
+        <venue type="concert hall">Boston Music Hall</venue>
+        <date when="1880-01-12">12 January 1880</date>
+        <summary>Parnell spoke at length about the Irish land question, suggesting Prussia as an model for its settlement</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00085</speech_id>
+        <place key="7013975">Lowell, United States</place>
+        <venue type="hall">Huntington Hall</venue>
+        <date when="1880-01-13">13 January 1880</date>
+        <summary>Parnell made his stock appeal to US public opinion, criticizing the Irish land system</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00086</speech_id>
+        <place key="7014164">Fall River, United States</place>
+        <venue type="theatre">The Academy</venue>
+        <date when="1880-01-14">14 January 1880</date>
+        <summary>Parnell spoke about the Irish land system and noted that the British government only acted to solve Irish problems when they were forcibly thrust into the centre of English attention through violent acts. However, he emphasised that he did not support violence as a means of achieving his aims. On the other hand, he suggested that if the land question was not resolved then in future some might try to get justice through violent means.</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00087</speech_id>
+        <place key="2050042">Lynn, United States</place>
+        <venue type="hotel">Sagamore Hotel</venue>
+        <date when="1880-01-15">15 January 1880</date>
+        <summary>Parnell spoke to a small audience, thanking them for his reception and explaining the severity of the famine in Ireland.</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00088</speech_id>
+        <place key="2050042">Lynn, United States</place>
+        <venue type="church">First Methodist Church</venue>
+        <date when="1880-01-15">15 January 1880</date>
+        <summary>Parnell spoke about the land system in Ireland and remarked that the Irish were 'defenceless', as the right to bear arms was denied to them</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00089</speech_id>
+        <place key="7013952">Providence, United States</place>
+        <venue type="concert hall">Music Hall</venue>
+        <date when="1880-01-17">17 January 1880</date>
+        <summary>Parnell discussed the fallacy that Ireland was overcrowded, comparing the country to The Netherlands and Belgium</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00090</speech_id>
+        <place key="7007168">Cork, Ireland</place>
+        <venue type="conference room">South Mall Assembly Rooms</venue>
+        <date when="1885-01-23">23 January 1885</date>
+        <summary>Parnell delivered a lecture on the history of parliament in Ireland</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00091</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="town hall">Mansion House</venue>
+        <date when="1885-09-01">1 September 1885</date>
+        <summary>Parnell spoke at a banquet held in his honour, discussing Ireland's right to nationhood and criticising how the British government had managed Irish affairs since the Union</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00092</speech_id>
+        <place key="1043057">Wicklow, Ireland</place>
+        <venue type="town hall">Town Hall</venue>
+        <date when="1885-10-05">5 October 1885</date>
+        <summary>Parnell spoke at the Wicklow Convention of the Irish party, speaking about the right of an Irish parliament to protect Irish industries and arguing that granting Home Rule would remove 'the greatest peril to the English Empire'</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00093</speech_id>
+        <place key="7006909">Kildare, Ireland</place>
+        <venue type="open air">Outside St. Brigid's Church</venue>
+        <date when="1885-10-11">11 October 1885</date>
+        <summary>Parnell made an impromtu speech in which he attacked rack-renting and landlords' attempts to circumvent the Land Acts</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00094</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="town hall">Westminster Town Hall</venue>
+        <date when="1885-03-17">17 March 1885</date>
+        <summary>Parnell proposed a toast to 'Ireland a nation', expressing confidence that Home Rule was imminent and warning people against emigration so that 'the Irish race' might be protected</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00095</speech_id>
+        <place key="1042978">Charleville, Ireland</place>
+        <venue type="train station">Charleville station</venue>
+        <date when="1885-01-24">24 January 1885</date>
+        <summary>Parnell made a brief speech recollecting the people of Charleville's activity during the land war and declaring that major reforms such as admission to the franchise would be nothing compared to the progress 'the Irish race' would make in the coming years</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00096</speech_id>
+        <place key="7891663">Patrickswell, Ireland</place>
+        <venue type=""></venue>
+        <date when="1885-01-24">24 January 1885</date>
+        <summary>Parnell thanks the local Naltional League branch for its welcome and claimed that their local concerns were of great importance to Irish leaders</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00097</speech_id>
+        <place key="1042793">Ennis, Ireland</place>
+        <venue type="open air">O'Connell Monument</venue>
+        <date when="1885-01-24">24 January 1885</date>
+        <summary>Parnell thanked the people of Ennis for their support over the years, declaring that their support for his chosen candidate in 1879 was a 'turning point' in his history and the history of Ireland</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00098</speech_id>
+        <place key="1042928">Milltown Malbay</place>
+        <venue type="open air">platform in a field</venue>
+        <date when="1885-01-26">26 January 1885</date>
+        <summary>After the ceremonial turning of the first sod on the West Clare Railway, Parnell hoped that the coming of the railway would bring prosperity to the region</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00099</speech_id>
+        <place key="1042928">Milltown Malbay</place>
+        <venue type="open air">platform in a field</venue>
+        <date when="1885-01-26">26 January 1885</date>
+        <summary>Parnell invoked the memory of the Land War, laying out the positive results that resulted from that movement, and rebuked the people for not financially supporting those who lost their homes from their involvement with the Land League</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00100</speech_id>
+        <place key="7011781">London, England</place>
+        <venue type="hotel">Cafe Royal</venue>
+        <date when="1885-07-22">22 July 1885</date>
+        <summary>Parnell welcomed the president of the Land League of America to London, extolling his virtue as a leading Irish-American and urging supporters to be moderate in their efforts to secure Home Rule</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00101</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="hotel">Imperial Hotel</venue>
+        <date when="1885-08-24">24 August 1885</date>
+        <summary>Parnell spoke about the Irish party's record during the previous Parliament and looked forward to the election, arguing that the parliamentary party should have a say in the selection of candidates throughout the constituencies</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00102</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="meeting room">Irish National League Rooms</venue>
+        <date when="1885-08-24">24 August 1885</date>
+        <summary>Parnell chaired a meeting of the National League, setting out his ambition for the coming election and stressing that moderation would be vital to the early success of the Home Rule movement</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00103</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="concert hall">The Rotunda</venue>
+        <date when="1883-12-11">11 December 1883</date>
+        <summary>Parnell denounced British rule in Ireland as a 'gigantic system of robbery and fraud' and declared that it would almost be better to deal with the Tories than the Liberals, as the Liberals were 'wolves in sheep's clothing'</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00104</speech_id>
+        <place key="7006967">Drogheda, Ireland</place>
+        <venue type="town hall">Mayoralty Rooms</venue>
+        <date when="1884-04-14">14 April 1884</date>
+        <summary>Parnell spoke out against the nationalisation of land, arguing that this had never been the objective of the Land League and never should be in future</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00105</speech_id>
+        <place key="7001306">Dublin, Ireland</place>
+        <venue type="meeting room">Irish National League Rooms</venue>
+        <date when="1884-09-08">8 September 1884</date>
+        <summary>Parnell made a short speech from the window of the National League Rooms welcoming Thomas Sexton, M.P., back from the United States</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00106</speech_id>
+        <place key="7890744">Irishtown, Ireland</place>
+        <venue type="open air">platform in a field</venue>
+        <date when="1880-05-02">2 May 1880</date>
+        <summary>Parnell addressed a large meeting held to celebrate a year of the land agitation and he called on the people to renew their efforts</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00107</speech_id>
+        <place key="7899803">Beautfort, Ireland</place>
+        <venue type="open air">platform in a field</venue>
+        <date when="1880-05-16">16 May 1880</date>
+        <summary>Parnell spoke about the objectives of the land movement and predicted that it would not be long before the Irish people would realise the 'dreams of Grattan, of Emmett, of Fitzgerald, and of every patriotic Irishman' and bring an end to 'British misrule'</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00108</speech_id>
+        <place key="1042793">Ennis, Ireland</place>
+        <venue type="open air">O'Connell Square</venue>
+        <date when="1880-09-19">19 September 1880</date>
+        <summary>Parnell said that farmers would not do the cause any good by giving evidence before the Land Commission and encouraged the people to treat 'landgrabbers' like lepers</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00109</speech_id>
+        <place key="1042951">New Ross, Ireland</place>
+        <venue type="open air">Fair Green</venue>
+        <date when="1880-09-26">26 September 1880</date>
+        <summary>Parnell claimed that the only way to force the British government to act was to organise and declared had it not been for the land movement the Irish people would have been 'exterminated'</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00110</speech_id>
+        <place key="7007184">Kilkenny, Ireland</place>
+        <venue type="open air">platform outside the Athenæum</venue>
+        <date when="1880-10-02">2 October 1880</date>
+        <summary>Parnell called for the present land system to be swept away and asked the audience to fight for their right to own the land they till</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00111</speech_id>
+        <place key="7007168">Cork, Ireland</place>
+        <venue type="open air">Park road</venue>
+        <date when="1880-10-03">3 October 1880</date>
+        <summary>Parnell spoke about problems with the idea of fixity of tenure and demanded that the Irish people take control of the power to legislate for Ireland</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00112</speech_id>
+        <place key="7007082">Galway, Ireland</place>
+        <venue type="open air">Eyre Square</venue>
+        <date when="1880-10-24">24 October 1880</date>
+        <summary>Parnell made his famous speech in which he declared taht he would not have taken his coat off to help tenant farmers if he did not think it would have led to legislative independence</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00113</speech_id>
+        <place key="1042708">Clara, Ireland</place>
+        <venue type="open air">platform</venue>
+        <date when="1881-02-20">20 February 1881</date>
+        <summary>Parnell spoke about the land movement and its support in America, Australia, and France</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00114</speech_id>
+        <place key="7007168">Cork, Ireland</place>
+        <venue type="town hall">Cork Exchange</venue>
+        <date when="1879-10-05">5 October 1879</date>
+        <summary>Parnell made a speech about how best to amend the Land Act to suit Irish tenants, referenced the famine, and ended with a demand that Ireland be allowed to govern itself</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00115</speech_id>
+        <place key="1042570">Navan, Ireland</place>
+        <venue type="open air">Market Square</venue>
+        <date when="1879-10-12">12 October 1879</date>
+        <summary>Parnell spoke about the land question and asked his constituents to re-elect him when the time came</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00116</speech_id>
+        <place key="1042594">Balla, Ireland</place>
+        <venue type="open air">Dempsey's Farm</venue>
+        <date when="1879-11-23">23 November 1879</date>
+        <summary>Parnell encouraged his audience to continue protesting within the bounds of the law and stated that the British government was determined to crush the Irish as they had 'the disunited Afghans' and 'after having conquered the naked Zulus' and rebuked it for having the 'temerity to come to Ireland and place us on a level with these savages'</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00117</speech_id>
+        <place key="1042908">Longford, Ireland</place>
+        <venue type=""></venue>
+        <date when="1880-10-17">17 October 1880</date>
+        <summary>Parnell spoke ending the landlord system, suggested that the only way to solve the matter to the satisfaction of the farmer and the labourer was a 'programme of free land'</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00118</speech_id>
+        <place key="1043054">Wexford, Ireland</place>
+        <venue type="market">Bull Ring</venue>
+        <date when="1881-10-09">9 October 1881</date>
+        <summary>Parnell encouraged people to continue the land agitation and told them to be wary of Gladstone, calling him the 'most unrivalled slanderer of the Irish nation that ever undertook the task'</summary>
+    </speech>
+    <speech>
+        <speech_id>speech_00119</speech_id>
+        <place key="1042778">Dungarvan, Ireland</place>
+        <venue type="open air">Devonshire [Grattan] Square</venue>
+        <date when="1881-10-05">5 October 1881</date>
+        <summary>Parnell praised his audience for their devotion to the Land League and urged them not to trust English legislation, such as the Land Act</summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+    <speech>
+        <speech_id></speech_id>
+        <place key=""></place>
+        <venue type=""></venue>
+        <date when=""></date>
+        <summary></summary>
+    </speech>
+</speeches>
